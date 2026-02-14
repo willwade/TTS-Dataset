@@ -33,12 +33,15 @@ jobs:
       - name: Install system dependencies (Linux)
         if: runner.os == 'Linux'
         run: |
-          apt-get update
-          apt-get install -y portaudio19-dev espeak-ng
+          sudo apt-get update
+          sudo apt-get install -y portaudio19-dev espeak-ng
 
       - name: Install system dependencies (macOS)
         if: runner.os == 'macOS'
         run: brew install portaudio espeak-ng
+
+      - name: Install project
+        run: uv sync
 
       - name: Collect voices
         run: uv run python scripts/collect_voices.py
