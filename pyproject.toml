@@ -5,21 +5,13 @@ description = "Monthly TTS voice catalog dataset pipeline using py3-tts-wrapper"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "py3-tts-wrapper[sapi]",
     "sqlite-utils",
     "langcodes",
+    "py3-tts-wrapper[google,microsoft,sapi,sherpaonnx,googletrans,witai,uwp,openai,playht,polly,avsynth]"
 ]
 
 [project.optional-dependencies]
-# All online TTS engines (optional - only needed if collecting from those services)
-google = ["py3-tts-wrapper[google]"]
-azure = ["py3-tts-wrapper[microsoft]"]
-aws-polly = ["py3-tts-wrapper[polly]"]
-elevenlabs = ["py3-tts-wrapper[elevenlabs]"]
-watson = ["py3-tts-wrapper[watson]"]
-witai = ["py3-tts-wrapper[witai]"]
-sherpaonnx = ["py3-tts-wrapper[sherpaonnx]"]
-# Development dependencies
+# Development dependencies only
 dev = [
     "pytest",
     "ruff",
@@ -48,9 +40,13 @@ known-first-party = ["py3_tts_wrapper", "sqlite_utils", "langcodes"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-python_files = ["scripts/*.py"]
+python_files = ["test_*.py"]
 addopts = "-ra -q"
 filterwarnings = [
     "ignore::DeprecationWarning",
     "ignore::PendingDeprecationWarning",
+]
+markers = [
+    "unit: Unit tests for individual components",
+    "integration: Integration tests for full pipeline",
 ]

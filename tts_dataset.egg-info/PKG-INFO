@@ -4,23 +4,9 @@ Version: 0.1.0
 Summary: Monthly TTS voice catalog dataset pipeline using py3-tts-wrapper
 Requires-Python: >=3.10
 Description-Content-Type: text/markdown
-Requires-Dist: py3-tts-wrapper[sapi]
 Requires-Dist: sqlite-utils
 Requires-Dist: langcodes
-Provides-Extra: google
-Requires-Dist: py3-tts-wrapper[google]; extra == "google"
-Provides-Extra: azure
-Requires-Dist: py3-tts-wrapper[microsoft]; extra == "azure"
-Provides-Extra: aws-polly
-Requires-Dist: py3-tts-wrapper[polly]; extra == "aws-polly"
-Provides-Extra: elevenlabs
-Requires-Dist: py3-tts-wrapper[elevenlabs]; extra == "elevenlabs"
-Provides-Extra: watson
-Requires-Dist: py3-tts-wrapper[watson]; extra == "watson"
-Provides-Extra: witai
-Requires-Dist: py3-tts-wrapper[witai]; extra == "witai"
-Provides-Extra: sherpaonnx
-Requires-Dist: py3-tts-wrapper[sherpaonnx]; extra == "sherpaonnx"
+Requires-Dist: py3-tts-wrapper[avsynth,google,googletrans,microsoft,openai,playht,polly,sapi,sherpaonnx,uwp,witai]
 Provides-Extra: dev
 Requires-Dist: pytest; extra == "dev"
 Requires-Dist: ruff; extra == "dev"
