@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+tests/test_scripts.py
+tts_dataset.egg-info/PKG-INFO
+tts_dataset.egg-info/SOURCES.txt
+tts_dataset.egg-info/dependency_links.txt
+tts_dataset.egg-info/requires.txt
+tts_dataset.egg-info/top_level.txt

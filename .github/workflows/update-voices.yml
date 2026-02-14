@@ -29,10 +29,10 @@ jobs:
         run: pip install uv
 
       - name: Install dependencies
-        run: uv pip install py3-tts-wrapper[sapi]
+        run: uv pip install -e .
 
       - name: Collect voices
-        run: python scripts/collect_voices.py
+        run: uv run python scripts/collect_voices.py
 
       - name: Upload raw data artifact
         uses: actions/upload-artifact@v4
@@ -58,8 +58,7 @@ jobs:
         run: pip install uv
 
       - name: Install dependencies
-        run: |
-          uv pip install sqlite-utils langcodes
+        run: uv pip install -e .
 
       - name: Download all voice artifacts
         uses: actions/download-artifact@v4
@@ -71,7 +70,7 @@ jobs:
         run: ls -la data/raw
 
       - name: Build SQLite database
-        run: python scripts/harmonize.py
+        run: uv run python scripts/harmonize.py
 
       - name: Upload database artifact
         uses: actions/upload-artifact@v4
@@ -83,18 +82,7 @@ jobs:
       - name: Database statistics
         run: |
           echo "### Database Statistics" >> $GITHUB_STEP_SUMMARY
-          python -c '
-          import sqlite3
-          conn = sqlite3.connect("data/voices.db")
-          cur = conn.cursor()
-          cur.execute("SELECT COUNT(*) FROM voices")
-          total = cur.fetchone()[0]
-          cur.execute("SELECT COUNT(DISTINCT platform) FROM voices")
-          platforms = cur.fetchone()[0]
-          cur.execute("SELECT COUNT(DISTINCT engine) FROM voices")
-          engines = cur.fetchone()[0]
-          print(f"{total} voices from {platforms} platforms, {engines} engines")
-          ' | tee -a $GITHUB_STEP_SUMMARY
+          uv run scripts/db_stats.py | tee -a $GITHUB_STEP_SUMMARY
 
   deploy:
     name: Deploy to Datasette

@@ -26,56 +26,25 @@ dev = [
     "pytest-cov",
 ]
 
-[project.scripts]
-collect = "scripts/collect_voices.py"
-harmonize = "scripts/harmonize.py"
-lint = "ruff check scripts/"
-test = "pytest tests/"
-lint-fix = "ruff check --fix scripts/"
-test-cov = "pytest tests/ --cov=scripts --cov-report=term-missing"
-
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[tool.hatchling.build]
-include = [
-    "scripts/*.py",
-]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 
 [tool.ruff]
-# Enable all rules by default, then disable specific ones
-select = ["ALL"]
-ignore = [
-    ".git",
-    ".venv",
-    "__pycache__",
-    ".uv-cache",
-]
-# Target Python 3.10+
 target-version = "py310"
-# Line length to match Black
 line-length = 100
 indent-width = 4
-# Enable import sorting
-isort.known-first-party = ["py3_tts_wrapper", "sqlite_utils", "langcodes"]
-isort.required-imports = ["from __future__"]
 
 [tool.ruff.lint]
-# Enable pycodestyle error codes
-select = ["E", "F"]
+select = ["E", "F", "B"]
 ignore = [
     "E501",  # Line too long (handled by formatter)
     "S101",  # Use of assert (disabled for data scripts)
-]
-# Enable flake8-bugbear
-select = ["B"]
-ignore = [
     "B008",  # Do not perform function calls in default arguments
 ]
-extend-select = [
-    "B904",  # Raise from __init__ with no arguments (too strict for scripts)
-]
+
+[tool.ruff.lint.isort]
+known-first-party = ["py3_tts_wrapper", "sqlite_utils", "langcodes"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
