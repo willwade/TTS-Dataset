@@ -83,18 +83,18 @@ jobs:
       - name: Database statistics
         run: |
           echo "### Database Statistics" >> $GITHUB_STEP_SUMMARY
-          python -c "
-import sqlite3
-conn = sqlite3.connect('data/voices.db')
-cur = conn.cursor()
-cur.execute('SELECT COUNT(*) FROM voices')
-total = cur.fetchone()[0]
-cur.execute('SELECT COUNT(DISTINCT platform) FROM voices')
-platforms = cur.fetchone()[0]
-cur.execute('SELECT COUNT(DISTINCT engine) FROM voices')
-engines = cur.fetchone()[0]
-print(f'{total} voices from {platforms} platforms, {engines} engines')
-" | tee -a $GITHUB_STEP_SUMMARY
+          python -c '
+          import sqlite3
+          conn = sqlite3.connect("data/voices.db")
+          cur = conn.cursor()
+          cur.execute("SELECT COUNT(*) FROM voices")
+          total = cur.fetchone()[0]
+          cur.execute("SELECT COUNT(DISTINCT platform) FROM voices")
+          platforms = cur.fetchone()[0]
+          cur.execute("SELECT COUNT(DISTINCT engine) FROM voices")
+          engines = cur.fetchone()[0]
+          print(f"{total} voices from {platforms} platforms, {engines} engines")
+          ' | tee -a $GITHUB_STEP_SUMMARY
 
   deploy:
     name: Deploy to Datasette
