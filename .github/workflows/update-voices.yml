@@ -1,0 +1,142 @@
+name: Update TTS Voices Monthly
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    name: Collect voices on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install UV
+        run: pip install uv
+
+      - name: Install dependencies
+        run: uv pip install py3-tts-wrapper[sapi]
+
+      - name: Collect voices
+        run: python scripts/collect_voices.py
+
+      - name: Upload raw data artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: voices-${{ matrix.os }}
+          path: data/raw/*.json
+          retention-days: 30
+
+  harmonize:
+    name: Build database
+    needs: collect
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install UV
+        run: pip install uv
+
+      - name: Install dependencies
+        run: |
+          uv pip install sqlite-utils langcodes
+
+      - name: Download all voice artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: data/raw
+          pattern: voices-*
+
+      - name: List downloaded files
+        run: ls -la data/raw
+
+      - name: Build SQLite database
+        run: python scripts/harmonize.py
+
+      - name: Upload database artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: voices-db
+          path: data/voices.db
+          retention-days: 90
+
+      - name: Database statistics
+        run: |
+          echo "### Database Statistics" >> $GITHUB_STEP_SUMMARY
+          python -c "
+import sqlite3
+conn = sqlite3.connect('data/voices.db')
+cur = conn.cursor()
+cur.execute('SELECT COUNT(*) FROM voices')
+total = cur.fetchone()[0]
+cur.execute('SELECT COUNT(DISTINCT platform) FROM voices')
+platforms = cur.fetchone()[0]
+cur.execute('SELECT COUNT(DISTINCT engine) FROM voices')
+engines = cur.fetchone()[0]
+print(f'{total} voices from {platforms} platforms, {engines} engines')
+" | tee -a $GITHUB_STEP_SUMMARY
+
+  deploy:
+    name: Deploy to Datasette
+    needs: [harmonize]
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: datasette-production
+      url: ${{ steps.deploy.outputs.url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deployment dependencies
+        run: |
+          pip install datasette datasette-publish-vercel datasette-vega
+
+      - name: Download database
+        uses: actions/download-artifact@v4
+        with:
+          name: voices-db
+          path: data
+
+      - name: Deploy to Vercel
+        id: deploy
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          datasette publish vercel data/voices.db \
+            --token $VERCEL_TOKEN \
+            --project tts-voice-catalog \
+            --install datasette-vega \
+            --title "Global TTS Voice Catalog" \
+            --license "CC0-1.0" \
+            --license_url "https://creativecommons.org/publicdomain/zero/1.0/"
+
+      - name: Create deployment summary
+        run: |
+          echo "### Datasette Deployment" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Deployment URL: ${{ steps.deploy.outputs.url }}" >> $GITHUB_STEP_SUMMARY

@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Ignore .env.local which contains real API keys
+.env.local export-subst
+.env.local linguist-generated=false
