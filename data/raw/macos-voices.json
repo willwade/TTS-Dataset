@@ -5,10 +5,12 @@
     "language_codes": [
       "ar-001"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996428+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.bg-BG.Daria",
@@ -16,10 +18,12 @@
     "language_codes": [
       "bg-BG"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996476+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.ca-ES.Montserrat",
@@ -27,10 +31,12 @@
     "language_codes": [
       "ca-ES"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996480+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.cs-CZ.Zuzana",
@@ -38,10 +44,12 @@
     "language_codes": [
       "cs-CZ"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996481+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.da-DK.Sara",
@@ -49,10 +57,12 @@
     "language_codes": [
       "da-DK"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996483+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.de-DE.Sandy",
@@ -60,10 +70,25 @@
     "language_codes": [
       "de-DE"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996484+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "com.apple.ttsbundle.siri_helena_de-DE_compact",
+    "name": "Helena",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "female",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T05:15:08.996486+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.de-DE.Shelley",
@@ -71,21 +96,12 @@
     "language_codes": [
       "de-DE"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.ttsbundle.siri_Helena_de-DE_compact",
-    "name": "Helena",
-    "language_codes": [
-      "de-DE"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996488+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.de-DE.Grandma",
@@ -93,10 +109,12 @@
     "language_codes": [
       "de-DE"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996489+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.de-DE.Grandpa",
@@ -104,10 +122,12 @@
     "language_codes": [
       "de-DE"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996491+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.de-DE.Eddy",
@@ -115,10 +135,12 @@
     "language_codes": [
       "de-DE"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996492+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.de-DE.Reed",
@@ -126,10 +148,12 @@
     "language_codes": [
       "de-DE"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996493+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.de-DE.Anna",
@@ -137,21 +161,25 @@
     "language_codes": [
       "de-DE"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996495+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "com.apple.ttsbundle.siri_Martin_de-DE_compact",
+    "id": "com.apple.ttsbundle.siri_martin_de-DE_compact",
     "name": "Martin",
     "language_codes": [
       "de-DE"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996496+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.de-DE.Rocko",
@@ -159,10 +187,12 @@
     "language_codes": [
       "de-DE"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996497+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.de-DE.Flo",
@@ -170,10 +200,12 @@
     "language_codes": [
       "de-DE"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996499+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.el-GR.Melina",
@@ -181,21 +213,25 @@
     "language_codes": [
       "el-GR"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996500+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "com.apple.ttsbundle.siri_Gordon_en-AU_compact",
+    "id": "com.apple.ttsbundle.siri_gordon_en-AU_compact",
     "name": "Gordon",
     "language_codes": [
       "en-AU"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996502+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.en-AU.Karen",
@@ -203,21 +239,25 @@
     "language_codes": [
       "en-AU"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996503+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "com.apple.ttsbundle.siri_Catherine_en-AU_compact",
+    "id": "com.apple.ttsbundle.siri_catherine_en-AU_compact",
     "name": "Catherine",
     "language_codes": [
       "en-AU"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996505+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-GB.Rocko",
@@ -225,10 +265,12 @@
     "language_codes": [
       "en-GB"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996506+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-GB.Shelley",
@@ -236,10 +278,25 @@
     "language_codes": [
       "en-GB"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996508+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "com.apple.ttsbundle.siri_martha_en-GB_compact",
+    "name": "Martha",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "female",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T05:15:08.996509+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.en-GB.Daniel",
@@ -247,21 +304,12 @@
     "language_codes": [
       "en-GB"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.ttsbundle.siri_Martha_en-GB_compact",
-    "name": "Martha",
-    "language_codes": [
-      "en-GB"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996510+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-GB.Grandma",
@@ -269,10 +317,12 @@
     "language_codes": [
       "en-GB"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996512+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-GB.Grandpa",
@@ -280,10 +330,12 @@
     "language_codes": [
       "en-GB"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996513+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-GB.Flo",
@@ -291,10 +343,12 @@
     "language_codes": [
       "en-GB"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996515+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-GB.Eddy",
@@ -302,10 +356,12 @@
     "language_codes": [
       "en-GB"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996516+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-GB.Reed",
@@ -313,10 +369,12 @@
     "language_codes": [
       "en-GB"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996517+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-GB.Sandy",
@@ -324,21 +382,25 @@
     "language_codes": [
       "en-GB"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996518+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "com.apple.ttsbundle.siri_Arthur_en-GB_compact",
+    "id": "com.apple.ttsbundle.siri_arthur_en-GB_compact",
     "name": "Arthur",
     "language_codes": [
       "en-GB"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996520+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.en-IE.Moira",
@@ -346,10 +408,12 @@
     "language_codes": [
       "en-IE"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996521+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.en-IN.Rishi",
@@ -357,10 +421,12 @@
     "language_codes": [
       "en-IN"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996522+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-US.Flo",
@@ -368,10 +434,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996524+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Bahh",
@@ -379,10 +447,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996525+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Albert",
@@ -390,10 +460,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996528+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Fred",
@@ -401,10 +473,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996529+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Hysterical",
@@ -412,10 +486,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996530+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Organ",
@@ -423,10 +499,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996531+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Cellos",
@@ -434,10 +512,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996533+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Zarvox",
@@ -445,10 +525,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996534+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-US.Rocko",
@@ -456,10 +538,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996535+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-US.Shelley",
@@ -467,10 +551,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996537+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Princess",
@@ -478,10 +564,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996538+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-US.Grandma",
@@ -489,10 +577,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996539+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-US.Eddy",
@@ -500,10 +590,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996540+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Bells",
@@ -511,10 +603,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996542+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-US.Grandpa",
@@ -522,10 +616,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996543+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Trinoids",
@@ -533,10 +629,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996544+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Kathy",
@@ -544,10 +642,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996545+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-US.Reed",
@@ -555,10 +655,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996547+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Boing",
@@ -566,10 +668,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996548+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Whisper",
@@ -577,10 +681,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996549+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.GoodNews",
@@ -588,10 +694,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996551+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Deranged",
@@ -599,21 +707,25 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996552+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "com.apple.ttsbundle.siri_Nicky_en-US_compact",
+    "id": "com.apple.ttsbundle.siri_nicky_en-US_compact",
     "name": "Nicky",
     "language_codes": [
       "en-US"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996553+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.BadNews",
@@ -621,21 +733,25 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996554+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "com.apple.ttsbundle.siri_Aaron_en-US_compact",
+    "id": "com.apple.ttsbundle.siri_aaron_en-US_compact",
     "name": "Aaron",
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996555+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Bubbles",
@@ -643,10 +759,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996557+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.en-US.Samantha",
@@ -654,10 +772,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996558+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.en-US.Sandy",
@@ -665,10 +785,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996559+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Junior",
@@ -676,10 +798,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996560+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.speech.synthesis.voice.Ralph",
@@ -687,10 +811,12 @@
     "language_codes": [
       "en-US"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996562+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.en-ZA.Tessa",
@@ -698,10 +824,12 @@
     "language_codes": [
       "en-ZA"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996563+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-ES.Shelley",
@@ -709,10 +837,12 @@
     "language_codes": [
       "es-ES"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996564+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-ES.Grandma",
@@ -720,10 +850,12 @@
     "language_codes": [
       "es-ES"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996567+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-ES.Rocko",
@@ -731,10 +863,12 @@
     "language_codes": [
       "es-ES"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996568+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-ES.Grandpa",
@@ -742,10 +876,12 @@
     "language_codes": [
       "es-ES"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996569+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-ES.Flo",
@@ -753,10 +889,12 @@
     "language_codes": [
       "es-ES"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996570+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-ES.Sandy",
@@ -764,10 +902,12 @@
     "language_codes": [
       "es-ES"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996572+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.es-ES.Monica",
@@ -775,10 +915,12 @@
     "language_codes": [
       "es-ES"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996573+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-ES.Eddy",
@@ -786,10 +928,12 @@
     "language_codes": [
       "es-ES"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996574+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-ES.Reed",
@@ -797,10 +941,12 @@
     "language_codes": [
       "es-ES"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996575+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-MX.Rocko",
@@ -808,10 +954,12 @@
     "language_codes": [
       "es-MX"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996577+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.es-MX.Paulina",
@@ -819,10 +967,12 @@
     "language_codes": [
       "es-MX"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996578+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-MX.Flo",
@@ -830,10 +980,12 @@
     "language_codes": [
       "es-MX"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996579+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-MX.Sandy",
@@ -841,10 +993,12 @@
     "language_codes": [
       "es-MX"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996580+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-MX.Eddy",
@@ -852,10 +1006,12 @@
     "language_codes": [
       "es-MX"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996583+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-MX.Shelley",
@@ -863,10 +1019,12 @@
     "language_codes": [
       "es-MX"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996584+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-MX.Grandma",
@@ -874,10 +1032,12 @@
     "language_codes": [
       "es-MX"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996585+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-MX.Reed",
@@ -885,10 +1045,12 @@
     "language_codes": [
       "es-MX"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996587+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.es-MX.Grandpa",
@@ -896,10 +1058,12 @@
     "language_codes": [
       "es-MX"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996588+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fi-FI.Shelley",
@@ -907,10 +1071,12 @@
     "language_codes": [
       "fi-FI"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996589+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fi-FI.Grandma",
@@ -918,10 +1084,12 @@
     "language_codes": [
       "fi-FI"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996591+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fi-FI.Grandpa",
@@ -929,10 +1097,12 @@
     "language_codes": [
       "fi-FI"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996592+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fi-FI.Sandy",
@@ -940,10 +1110,12 @@
     "language_codes": [
       "fi-FI"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996593+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.fi-FI.Satu",
@@ -951,10 +1123,12 @@
     "language_codes": [
       "fi-FI"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996595+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fi-FI.Eddy",
@@ -962,10 +1136,12 @@
     "language_codes": [
       "fi-FI"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996596+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fi-FI.Rocko",
@@ -973,10 +1149,12 @@
     "language_codes": [
       "fi-FI"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996597+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fi-FI.Reed",
@@ -984,10 +1162,12 @@
     "language_codes": [
       "fi-FI"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996599+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fi-FI.Flo",
@@ -995,10 +1175,12 @@
     "language_codes": [
       "fi-FI"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996600+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-CA.Shelley",
@@ -1006,10 +1188,12 @@
     "language_codes": [
       "fr-CA"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996601+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-CA.Grandma",
@@ -1017,10 +1201,12 @@
     "language_codes": [
       "fr-CA"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996603+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-CA.Grandpa",
@@ -1028,10 +1214,12 @@
     "language_codes": [
       "fr-CA"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996604+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-CA.Rocko",
@@ -1039,10 +1227,12 @@
     "language_codes": [
       "fr-CA"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996606+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-CA.Eddy",
@@ -1050,10 +1240,12 @@
     "language_codes": [
       "fr-CA"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996608+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-CA.Reed",
@@ -1061,10 +1253,12 @@
     "language_codes": [
       "fr-CA"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996609+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.fr-CA.Amelie",
@@ -1072,10 +1266,12 @@
     "language_codes": [
       "fr-CA"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996611+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-CA.Flo",
@@ -1083,10 +1279,12 @@
     "language_codes": [
       "fr-CA"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996612+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-CA.Sandy",
@@ -1094,10 +1292,12 @@
     "language_codes": [
       "fr-CA"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996613+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-FR.Grandma",
@@ -1105,10 +1305,12 @@
     "language_codes": [
       "fr-FR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996615+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-FR.Flo",
@@ -1116,10 +1318,12 @@
     "language_codes": [
       "fr-FR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996616+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-FR.Rocko",
@@ -1127,10 +1331,12 @@
     "language_codes": [
       "fr-FR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996617+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-FR.Grandpa",
@@ -1138,10 +1344,12 @@
     "language_codes": [
       "fr-FR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996619+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-FR.Sandy",
@@ -1149,10 +1357,12 @@
     "language_codes": [
       "fr-FR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996620+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-FR.Eddy",
@@ -1160,10 +1370,25 @@
     "language_codes": [
       "fr-FR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996621+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "com.apple.ttsbundle.siri_dan_fr-FR_compact",
+    "name": "Daniel",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "male",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T05:15:08.996624+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.fr-FR.Thomas",
@@ -1171,21 +1396,12 @@
     "language_codes": [
       "fr-FR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.ttsbundle.siri_Dan_fr-FR_compact",
-    "name": "Daniel",
-    "language_codes": [
-      "fr-FR"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996626+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-FR.Jacques",
@@ -1193,21 +1409,25 @@
     "language_codes": [
       "fr-FR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996627+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "com.apple.ttsbundle.siri_Marie_fr-FR_compact",
+    "id": "com.apple.ttsbundle.siri_marie_fr-FR_compact",
     "name": "Marie",
     "language_codes": [
       "fr-FR"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996629+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.fr-FR.Shelley",
@@ -1215,10 +1435,12 @@
     "language_codes": [
       "fr-FR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996630+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.he-IL.Carmit",
@@ -1226,10 +1448,12 @@
     "language_codes": [
       "he-IL"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996632+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.hi-IN.Lekha",
@@ -1237,10 +1461,12 @@
     "language_codes": [
       "hi-IN"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996633+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.hr-HR.Lana",
@@ -1248,10 +1474,12 @@
     "language_codes": [
       "hr-HR"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996636+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.hu-HU.Mariska",
@@ -1259,10 +1487,12 @@
     "language_codes": [
       "hu-HU"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996637+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.id-ID.Damayanti",
@@ -1270,10 +1500,12 @@
     "language_codes": [
       "id-ID"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996638+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.it-IT.Eddy",
@@ -1281,10 +1513,12 @@
     "language_codes": [
       "it-IT"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996640+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.it-IT.Sandy",
@@ -1292,10 +1526,12 @@
     "language_codes": [
       "it-IT"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996641+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.it-IT.Reed",
@@ -1303,10 +1539,12 @@
     "language_codes": [
       "it-IT"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996642+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.it-IT.Shelley",
@@ -1314,10 +1552,12 @@
     "language_codes": [
       "it-IT"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996644+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.it-IT.Grandma",
@@ -1325,10 +1565,12 @@
     "language_codes": [
       "it-IT"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996645+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.it-IT.Grandpa",
@@ -1336,10 +1578,12 @@
     "language_codes": [
       "it-IT"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996647+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.it-IT.Flo",
@@ -1347,10 +1591,12 @@
     "language_codes": [
       "it-IT"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996648+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.it-IT.Rocko",
@@ -1358,10 +1604,12 @@
     "language_codes": [
       "it-IT"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996649+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.it-IT.Alice",
@@ -1369,10 +1617,12 @@
     "language_codes": [
       "it-IT"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996650+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ja-JP.Eddy",
@@ -1380,10 +1630,12 @@
     "language_codes": [
       "ja-JP"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996652+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ja-JP.Reed",
@@ -1391,10 +1643,25 @@
     "language_codes": [
       "ja-JP"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996653+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "com.apple.ttsbundle.siri_hattori_ja-JP_compact",
+    "name": "Hattori",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "male",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T05:15:08.996656+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ja-JP.Shelley",
@@ -1402,10 +1669,12 @@
     "language_codes": [
       "ja-JP"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996657+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.ja-JP.Kyoko",
@@ -1413,10 +1682,12 @@
     "language_codes": [
       "ja-JP"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996658+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ja-JP.Grandma",
@@ -1424,10 +1695,12 @@
     "language_codes": [
       "ja-JP"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996660+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ja-JP.Rocko",
@@ -1435,10 +1708,12 @@
     "language_codes": [
       "ja-JP"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996661+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ja-JP.Grandpa",
@@ -1446,21 +1721,25 @@
     "language_codes": [
       "ja-JP"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996663+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "com.apple.ttsbundle.siri_Hattori_ja-JP_compact",
-    "name": "Hattori",
+    "id": "com.apple.ttsbundle.siri_oren_ja-JP_compact",
+    "name": "O-Ren",
     "language_codes": [
       "ja-JP"
     ],
-    "gender": "Male",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996664+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ja-JP.Sandy",
@@ -1468,21 +1747,12 @@
     "language_codes": [
       "ja-JP"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.ttsbundle.siri_O-Ren_ja-JP_compact",
-    "name": "O-Ren",
-    "language_codes": [
-      "ja-JP"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996665+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ja-JP.Flo",
@@ -1490,10 +1760,12 @@
     "language_codes": [
       "ja-JP"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996667+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ko-KR.Rocko",
@@ -1501,10 +1773,12 @@
     "language_codes": [
       "ko-KR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996668+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ko-KR.Grandma",
@@ -1512,10 +1786,12 @@
     "language_codes": [
       "ko-KR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996669+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ko-KR.Grandpa",
@@ -1523,10 +1799,12 @@
     "language_codes": [
       "ko-KR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996671+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ko-KR.Eddy",
@@ -1534,10 +1812,12 @@
     "language_codes": [
       "ko-KR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996672+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ko-KR.Sandy",
@@ -1545,10 +1825,12 @@
     "language_codes": [
       "ko-KR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996673+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.ko-KR.Yuna",
@@ -1556,10 +1838,12 @@
     "language_codes": [
       "ko-KR"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996674+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ko-KR.Reed",
@@ -1567,10 +1851,12 @@
     "language_codes": [
       "ko-KR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996676+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ko-KR.Flo",
@@ -1578,10 +1864,12 @@
     "language_codes": [
       "ko-KR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996677+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.ko-KR.Shelley",
@@ -1589,10 +1877,12 @@
     "language_codes": [
       "ko-KR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996678+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.ms-MY.Amira",
@@ -1600,10 +1890,12 @@
     "language_codes": [
       "ms-MY"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996680+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.nb-NO.Nora",
@@ -1611,10 +1903,12 @@
     "language_codes": [
       "nb-NO"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996681+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.nl-BE.Ellen",
@@ -1622,10 +1916,12 @@
     "language_codes": [
       "nl-BE"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996682+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.nl-NL.Xander",
@@ -1633,10 +1929,12 @@
     "language_codes": [
       "nl-NL"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996683+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.pl-PL.Zosia",
@@ -1644,10 +1942,12 @@
     "language_codes": [
       "pl-PL"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996685+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.pt-BR.Reed",
@@ -1655,10 +1955,12 @@
     "language_codes": [
       "pt-BR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996686+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.pt-BR.Luciana",
@@ -1666,10 +1968,12 @@
     "language_codes": [
       "pt-BR"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996687+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.pt-BR.Shelley",
@@ -1677,10 +1981,12 @@
     "language_codes": [
       "pt-BR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996689+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.pt-BR.Grandma",
@@ -1688,10 +1994,12 @@
     "language_codes": [
       "pt-BR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996690+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.pt-BR.Grandpa",
@@ -1699,10 +2007,12 @@
     "language_codes": [
       "pt-BR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996691+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.pt-BR.Rocko",
@@ -1710,10 +2020,12 @@
     "language_codes": [
       "pt-BR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996693+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.pt-BR.Flo",
@@ -1721,10 +2033,12 @@
     "language_codes": [
       "pt-BR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996695+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.pt-BR.Sandy",
@@ -1732,10 +2046,12 @@
     "language_codes": [
       "pt-BR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996696+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.eloquence.pt-BR.Eddy",
@@ -1743,10 +2059,12 @@
     "language_codes": [
       "pt-BR"
     ],
-    "gender": "Male",
+    "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996698+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.pt-PT.Joana",
@@ -1754,10 +2072,12 @@
     "language_codes": [
       "pt-PT"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996699+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.ro-RO.Ioana",
@@ -1765,10 +2085,12 @@
     "language_codes": [
       "ro-RO"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996700+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.ru-RU.Milena",
@@ -1776,10 +2098,12 @@
     "language_codes": [
       "ru-RU"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+    "collected_at": "2026-02-15T05:15:08.996702+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "com.apple.voice.compact.sk-SK.Laura",
@@ -1787,400 +2111,10 @@
     "language_codes": [
       "sk-SK"
     ],
-    "gender": "Female",
+    "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.voice.compact.sl-SI.Tina",
-    "name": "Tina",
-    "language_codes": [
-      "sl-SI"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.voice.compact.sv-SE.Alva",
-    "name": "Alva",
-    "language_codes": [
-      "sv-SE"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.voice.compact.th-TH.Kanya",
-    "name": "Kanya",
-    "language_codes": [
-      "th-TH"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.voice.compact.tr-TR.Yelda",
-    "name": "Yelda",
-    "language_codes": [
-      "tr-TR"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.voice.compact.uk-UA.Lesya",
-    "name": "Lesya",
-    "language_codes": [
-      "uk-UA"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.voice.compact.vi-VN.Linh",
-    "name": "Linh",
-    "language_codes": [
-      "vi-VN"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-CN.Eddy",
-    "name": "Eddy",
-    "language_codes": [
-      "zh-CN"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-CN.Shelley",
-    "name": "Shelley",
-    "language_codes": [
-      "zh-CN"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.ttsbundle.siri_Yu-Shu_zh-CN_compact",
-    "name": "Yu-shu",
-    "language_codes": [
-      "zh-CN"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-CN.Grandma",
-    "name": "Grandma",
-    "language_codes": [
-      "zh-CN"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-CN.Reed",
-    "name": "Reed",
-    "language_codes": [
-      "zh-CN"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-CN.Grandpa",
-    "name": "Grandpa",
-    "language_codes": [
-      "zh-CN"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-CN.Rocko",
-    "name": "Rocko",
-    "language_codes": [
-      "zh-CN"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.ttsbundle.siri_Li-Mu_zh-CN_compact",
-    "name": "Li-Mu",
-    "language_codes": [
-      "zh-CN"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-CN.Flo",
-    "name": "Flo",
-    "language_codes": [
-      "zh-CN"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.voice.compact.zh-CN.Tingting",
-    "name": "Tingting",
-    "language_codes": [
-      "zh-CN"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-CN.Sandy",
-    "name": "Sandy",
-    "language_codes": [
-      "zh-CN"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.voice.compact.zh-HK.Sinji",
-    "name": "Sinji",
-    "language_codes": [
-      "zh-HK"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Shelley",
-    "name": "Shelley",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Grandma",
-    "name": "Grandma",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Grandpa",
-    "name": "Grandpa",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Sandy",
-    "name": "Sandy",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Flo",
-    "name": "Flo",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Eddy",
-    "name": "Eddy",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Reed",
-    "name": "Reed",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.voice.compact.zh-TW.Meijia",
-    "name": "Meijia",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Rocko",
-    "name": "Rocko",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  }
-]5503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Grandma",
-    "name": "Grandma",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Grandpa",
-    "name": "Grandpa",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Sandy",
-    "name": "Sandy",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Flo",
-    "name": "Flo",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Eddy",
-    "name": "Eddy",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Reed",
-    "name": "Reed",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.voice.compact.zh-TW.Meijia",
-    "name": "Meijia",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Female",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  },
-  {
-    "id": "com.apple.eloquence.zh-TW.Rocko",
-    "name": "Rocko",
-    "language_codes": [
-      "zh-TW"
-    ],
-    "gender": "Male",
-    "engine": "AVSynth",
-    "platform": "macos",
-    "collected_at": "2026-02-15T03:37:53.375503+00:00"
-  }
-] "macos",
-    "collected_at": "2026-02-15T04:50:53.508644+00:00",
+    "collected_at": "2026-02-15T05:15:08.996703+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2193,7 +2127,7 @@
     "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508646+00:00",
+    "collected_at": "2026-02-15T05:15:08.996704+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2206,7 +2140,7 @@
     "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508647+00:00",
+    "collected_at": "2026-02-15T05:15:08.996706+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2219,7 +2153,7 @@
     "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508649+00:00",
+    "collected_at": "2026-02-15T05:15:08.996707+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2232,7 +2166,7 @@
     "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508650+00:00",
+    "collected_at": "2026-02-15T05:15:08.996708+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2245,7 +2179,7 @@
     "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508651+00:00",
+    "collected_at": "2026-02-15T05:15:08.996710+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2258,7 +2192,7 @@
     "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508653+00:00",
+    "collected_at": "2026-02-15T05:15:08.996711+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2271,7 +2205,7 @@
     "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508654+00:00",
+    "collected_at": "2026-02-15T05:15:08.996712+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2284,7 +2218,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508655+00:00",
+    "collected_at": "2026-02-15T05:15:08.996713+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2297,7 +2231,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508657+00:00",
+    "collected_at": "2026-02-15T05:15:08.996715+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2310,7 +2244,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508658+00:00",
+    "collected_at": "2026-02-15T05:15:08.996716+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2323,7 +2257,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508660+00:00",
+    "collected_at": "2026-02-15T05:15:08.996718+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2336,7 +2270,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508661+00:00",
+    "collected_at": "2026-02-15T05:15:08.996719+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2349,7 +2283,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508663+00:00",
+    "collected_at": "2026-02-15T05:15:08.996721+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2362,7 +2296,7 @@
     "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508664+00:00",
+    "collected_at": "2026-02-15T05:15:08.996722+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2375,7 +2309,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508665+00:00",
+    "collected_at": "2026-02-15T05:15:08.996723+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2388,7 +2322,7 @@
     "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508667+00:00",
+    "collected_at": "2026-02-15T05:15:08.996724+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2401,7 +2335,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508668+00:00",
+    "collected_at": "2026-02-15T05:15:08.996726+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2414,7 +2348,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508669+00:00",
+    "collected_at": "2026-02-15T05:15:08.996727+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2427,7 +2361,7 @@
     "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508671+00:00",
+    "collected_at": "2026-02-15T05:15:08.996728+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2440,7 +2374,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508672+00:00",
+    "collected_at": "2026-02-15T05:15:08.996730+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2453,7 +2387,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508673+00:00",
+    "collected_at": "2026-02-15T05:15:08.996731+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2466,7 +2400,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508675+00:00",
+    "collected_at": "2026-02-15T05:15:08.996733+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2479,7 +2413,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508676+00:00",
+    "collected_at": "2026-02-15T05:15:08.996734+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2492,7 +2426,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508677+00:00",
+    "collected_at": "2026-02-15T05:15:08.996735+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2505,7 +2439,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508679+00:00",
+    "collected_at": "2026-02-15T05:15:08.996737+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2518,7 +2452,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508680+00:00",
+    "collected_at": "2026-02-15T05:15:08.996738+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2531,7 +2465,7 @@
     "gender": "female",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508682+00:00",
+    "collected_at": "2026-02-15T05:15:08.996739+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2544,7 +2478,7 @@
     "gender": "male",
     "engine": "AVSynth",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.508683+00:00",
+    "collected_at": "2026-02-15T05:15:08.996740+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -2557,7 +2491,7 @@
     "gender": "Male",
     "engine": "eSpeak",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.509242+00:00",
+    "collected_at": "2026-02-15T05:15:08.997189+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper",
     "age": 0
@@ -2571,7 +2505,7 @@
     "gender": "Male",
     "engine": "eSpeak",
     "platform": "macos",
-    "collected_at": "2026-02-15T04:50:53.509247+00:00",
+    "collected_at": "2026-02-15T05:15:08.997195+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper",
     "age": 0
