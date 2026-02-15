@@ -72,6 +72,9 @@ uv run python scripts/fetch_voice_previews.py
 # Import WorldAlphabets multi-preview audio index
 uv run python scripts/import_worldalphabets_audio.py --source C:/github/WorldAlphabets/data
 
+# Export static site payload
+uv run python scripts/export_site_data.py
+
 # Serve locally with Datasette
 pip install datasette
 datasette serve data/voices.db
@@ -192,3 +195,65 @@ The workflow runs monthly on first day of each month:
 4. **Deploy**: Publish to Datasette on Vercel
 
 Manual trigger available via Actions tab.
+
+## Using Datasette
+
+Live catalog: https://tts-voice-catalog.vercel.app/
+
+Common paths:
+
+- Table browser: `https://tts-voice-catalog.vercel.app/voices`
+- JSON export (objects): `https://tts-voice-catalog.vercel.app/voices.json?_shape=objects`
+- Built-in SQL editor: `https://tts-voice-catalog.vercel.app/-/query`
+
+Example filters:
+
+- Online voices only: `https://tts-voice-catalog.vercel.app/voices.json?_shape=objects&_where=platform='online'`
+- Microsoft Azure voices: `https://tts-voice-catalog.vercel.app/voices.json?_shape=objects&_where=engine='Microsoft Azure'`
+- Arabic-script voices: `https://tts-voice-catalog.vercel.app/voices.json?_shape=objects&_where=script='Arab'`
+
+Example SQL:
+
+```sql
+select engine, count(*) as voices
+from voices
+group by engine
+order by voices desc;
+```
+
+```sql
+select country_code, count(*) as voices
+from voices
+where platform = 'online'
+group by country_code
+order by voices desc
+limit 50;
+```
+
+## Static Site (GitHub Pages)
+
+A separate frontend app lives in `site/` and renders a world voice atlas:
+
+- Bubble world map sized by voice availability
+- Search by voice id, language, country
+- Filter by mode (`online` / `offline`), gender, engine, platform
+
+### Local frontend development
+
+```bash
+# from repo root
+uv run python scripts/export_site_data.py
+
+cd site
+npm install
+npm run sync-data
+npm run dev
+```
+
+### GitHub Pages deployment
+
+Workflow: `.github/workflows/deploy-site-pages.yml`
+
+- Builds `site/`
+- syncs `data/static/voices-site.json` into `site/public/data/`
+- deploys `site/dist` to GitHub Pages
