@@ -213,7 +213,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          build_dir="$(mktemp -d)"
+          build_root="$(mktemp -d)"
+          build_dir="${build_root}/datasette-app"
 
           # Generate Datasette deployment files without calling Vercel.
           datasette publish vercel data/voices.db \
