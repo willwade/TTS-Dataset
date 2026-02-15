@@ -1,0 +1,1333 @@
+[
+  {
+    "id": "jalal-standard",
+    "name": "Jalal",
+    "language_codes": [
+      "ac-ac"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "leila-standard",
+    "name": "Leila",
+    "language_codes": [
+      "ac-ac"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "medhi-standard",
+    "name": "Medhi",
+    "language_codes": [
+      "ac-ac"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "nizar-standard",
+    "name": "Nizar",
+    "language_codes": [
+      "ac-ac"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "salma-standard",
+    "name": "Salma",
+    "language_codes": [
+      "ac-ac"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "laia-standard",
+    "name": "Laia",
+    "language_codes": [
+      "es-ct"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "lulu-standard",
+    "name": "Lulu",
+    "language_codes": [
+      "cn"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "eliska-standard",
+    "name": "Eliska",
+    "language_codes": [
+      "cz"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "mette-standard",
+    "name": "Mette",
+    "language_codes": [
+      "dk"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "rasmus-standard",
+    "name": "Rasmus",
+    "language_codes": [
+      "dk"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "christina-premium",
+    "name": "Christina",
+    "language_codes": [
+      "be"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "jeroen-standard",
+    "name": "Jeroen",
+    "language_codes": [
+      "be"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "sofie-standard",
+    "name": "Sofie",
+    "language_codes": [
+      "be"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "zoe-standard",
+    "name": "Zoe",
+    "language_codes": [
+      "be"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "daan-standard",
+    "name": "Daan",
+    "language_codes": [
+      "nl"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "femke-standard",
+    "name": "Femke",
+    "language_codes": [
+      "nl"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "jasmijn-standard",
+    "name": "Jasmijn",
+    "language_codes": [
+      "nl"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "max-standard",
+    "name": "Max",
+    "language_codes": [
+      "nl"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "merel-premium",
+    "name": "Merel",
+    "language_codes": [
+      "nl"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "tessa-premium",
+    "name": "Tessa",
+    "language_codes": [
+      "nl"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "thijs-premium",
+    "name": "Thijs",
+    "language_codes": [
+      "nl"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "nizar-standard",
+    "name": "Nizar",
+    "language_codes": [
+      "ac-ac"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "liam-premium",
+    "name": "Liam",
+    "language_codes": [
+      "au"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "lisa-standard",
+    "name": "Lisa",
+    "language_codes": [
+      "au"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "olivia-premium",
+    "name": "Olivia",
+    "language_codes": [
+      "au"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "tyler-standard",
+    "name": "Tyler",
+    "language_codes": [
+      "au"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "julian-premium",
+    "name": "Julian",
+    "language_codes": [
+      "en-ca"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "victoria-premium",
+    "name": "Victoria",
+    "language_codes": [
+      "en-ca"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "deepa-standard",
+    "name": "Deepa",
+    "language_codes": [
+      "in"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "rhona-standard",
+    "name": "Rhona",
+    "language_codes": [
+      "gb-sct"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "harry-premium",
+    "name": "Harry",
+    "language_codes": [
+      "gb"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "lucy-standard",
+    "name": "Lucy",
+    "language_codes": [
+      "gb"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "peter-standard",
+    "name": "Peter",
+    "language_codes": [
+      "gb"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "rachel-standard",
+    "name": "Rachel",
+    "language_codes": [
+      "gb"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "rosie-premium",
+    "name": "Rosie",
+    "language_codes": [
+      "gb"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "sophia-premium",
+    "name": "Sophia",
+    "language_codes": [
+      "gb"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "darius-standard",
+    "name": "Darius",
+    "language_codes": [
+      "us"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "emilioenglish-premium",
+    "name": "EmilioEnglish",
+    "language_codes": [
+      "us"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "lily-premium",
+    "name": "Lily",
+    "language_codes": [
+      "us"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "tamira-standard",
+    "name": "Tamira",
+    "language_codes": [
+      "us"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "taylor-premium",
+    "name": "Taylor",
+    "language_codes": [
+      "us"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "will-standard",
+    "name": "Will",
+    "language_codes": [
+      "us"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "hanna-standard",
+    "name": "Hanna",
+    "language_codes": [
+      "fo"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "hanus-standard",
+    "name": "Hanus",
+    "language_codes": [
+      "fo"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "sanna-standard",
+    "name": "Sanna",
+    "language_codes": [
+      "fi"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "anais-standard",
+    "name": "Anais",
+    "language_codes": [
+      "fr"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "antoine-standard",
+    "name": "Antoine",
+    "language_codes": [
+      "fr"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "bruno-standard",
+    "name": "Bruno",
+    "language_codes": [
+      "fr"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "claire-standard",
+    "name": "Claire",
+    "language_codes": [
+      "fr"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "manon-standard",
+    "name": "Manon",
+    "language_codes": [
+      "fr"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "valentin-premium",
+    "name": "Valentin",
+    "language_codes": [
+      "fr"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "louise-standard",
+    "name": "Louise",
+    "language_codes": [
+      "ac-qc"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "anthony-standard",
+    "name": "Anthony",
+    "language_codes": [
+      "ac-qc"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "victoire-premium",
+    "name": "Victoire",
+    "language_codes": [
+      "ac-qc"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "julien-premium",
+    "name": "Julien",
+    "language_codes": [
+      "ac-qc"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "andreas-standard",
+    "name": "Andreas",
+    "language_codes": [
+      "de"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "anke-premium",
+    "name": "Anke",
+    "language_codes": [
+      "de"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "claudia-standard",
+    "name": "Claudia",
+    "language_codes": [
+      "de"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "jonas-premium",
+    "name": "Jonas",
+    "language_codes": [
+      "de"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "julia-standard",
+    "name": "Julia",
+    "language_codes": [
+      "de"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "klaus-standard",
+    "name": "Klaus",
+    "language_codes": [
+      "de"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "lea-premium",
+    "name": "Lea",
+    "language_codes": [
+      "de"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "sarah-standard",
+    "name": "Sarah",
+    "language_codes": [
+      "de"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "dimitris-standard",
+    "name": "Dimitris",
+    "language_codes": [
+      "gr"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "vidhi-standard",
+    "name": "Vidhi",
+    "language_codes": [
+      "hi"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "alessio-premium",
+    "name": "Alessio",
+    "language_codes": [
+      "it"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "aurora-premium",
+    "name": "Aurora",
+    "language_codes": [
+      "it"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "barbara-standard",
+    "name": "Barbara",
+    "language_codes": [
+      "it"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "chiara-standard",
+    "name": "Chiara",
+    "language_codes": [
+      "it"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "fabiana-standard",
+    "name": "Fabiana",
+    "language_codes": [
+      "it"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "vittorio-standard",
+    "name": "Vittorio",
+    "language_codes": [
+      "it"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "sakura-standard",
+    "name": "Sakura",
+    "language_codes": [
+      "jp"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "minji-standard",
+    "name": "Minji",
+    "language_codes": [
+      "kr"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "bente-standard",
+    "name": "Bente",
+    "language_codes": [
+      "no"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "elias-premium",
+    "name": "Elias",
+    "language_codes": [
+      "no"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "emilie-premium",
+    "name": "Emilie",
+    "language_codes": [
+      "no"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "ida-premium",
+    "name": "Ida",
+    "language_codes": [
+      "no"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "kari-standard",
+    "name": "Kari",
+    "language_codes": [
+      "no"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "olav-standard",
+    "name": "Olav",
+    "language_codes": [
+      "no"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "ania-standard",
+    "name": "Ania",
+    "language_codes": [
+      "pl"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "gosia-standard",
+    "name": "Gosia",
+    "language_codes": [
+      "pl"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "piotr-standard",
+    "name": "Piotr",
+    "language_codes": [
+      "pl"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "antek-neural",
+    "name": "Antek",
+    "language_codes": [
+      "pl"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "hania-neural",
+    "name": "Hania",
+    "language_codes": [
+      "pl"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "julka-neural",
+    "name": "Julka",
+    "language_codes": [
+      "pl"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "kuba-neural",
+    "name": "Kuba",
+    "language_codes": [
+      "pl"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "celia-standard",
+    "name": "Celia",
+    "language_codes": [
+      "pt"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "isabel-standard",
+    "name": "Isabel",
+    "language_codes": [
+      "pt"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "gabriela-premium",
+    "name": "Gabriela",
+    "language_codes": [
+      "br"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "marcia-standard",
+    "name": "Marcia",
+    "language_codes": [
+      "br"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "sergio-standard",
+    "name": "Sergio",
+    "language_codes": [
+      "br"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "alyona-standard",
+    "name": "Alyona",
+    "language_codes": [
+      "ru"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "lena-premium",
+    "name": "Lena",
+    "language_codes": [
+      "ru"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "biera-standard",
+    "name": "Biera",
+    "language_codes": [
+      "se-NO"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "elle-standard",
+    "name": "Elle",
+    "language_codes": [
+      "se-NO"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "ana-premium",
+    "name": "Ana",
+    "language_codes": [
+      "es"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "antonio-standard",
+    "name": "Antonio",
+    "language_codes": [
+      "es"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "elena-premium",
+    "name": "Elena",
+    "language_codes": [
+      "es"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "ines-standard",
+    "name": "Ines",
+    "language_codes": [
+      "es"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "maria-standard",
+    "name": "Maria",
+    "language_codes": [
+      "es"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "emilio-premium",
+    "name": "Emilio",
+    "language_codes": [
+      "us"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "rodrigo-standard",
+    "name": "Rodrigo",
+    "language_codes": [
+      "us"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "rosa-standard",
+    "name": "Rosa",
+    "language_codes": [
+      "us"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "valeria-premium",
+    "name": "Valeria",
+    "language_codes": [
+      "us"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "elin-standard",
+    "name": "Elin",
+    "language_codes": [
+      "se"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "emil-standard",
+    "name": "Emil",
+    "language_codes": [
+      "se"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "emma-standard",
+    "name": "Emma",
+    "language_codes": [
+      "se"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "erik-standard",
+    "name": "Erik",
+    "language_codes": [
+      "se"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "filip-premium",
+    "name": "Filip",
+    "language_codes": [
+      "se"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "freja-premium",
+    "name": "Freja",
+    "language_codes": [
+      "se"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "kal-(göteburg)-standard",
+    "name": "Kal (Göteburg)",
+    "language_codes": [
+      "se"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "mia-(scania)-standard",
+    "name": "Mia (Scania)",
+    "language_codes": [
+      "se"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "samuel-standard",
+    "name": "Samuel",
+    "language_codes": [
+      "fi"
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "ipek-standard",
+    "name": "Ipek",
+    "language_codes": [
+      "tr"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "zeynep-standard",
+    "name": "Zeynep",
+    "language_codes": [
+      "tr"
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "bente-standard",
+    "name": "Bente",
+    "language_codes": [
+      ""
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "elias-premium",
+    "name": "Elias",
+    "language_codes": [
+      ""
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "emilie-premium",
+    "name": "Emilie",
+    "language_codes": [
+      ""
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "ida-premium",
+    "name": "Ida",
+    "language_codes": [
+      ""
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "kari-standard",
+    "name": "Kari",
+    "language_codes": [
+      ""
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  },
+  {
+    "id": "olav-standard",
+    "name": "Olav",
+    "language_codes": [
+      ""
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.373847+00:00"
+  }
+]

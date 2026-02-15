@@ -236,6 +236,22 @@ def save_voices(voices: List[Dict[str, Any]], platform: str, output_dir: Path) -
     output_dir.mkdir(parents=True, exist_ok=True)
     output_file = output_dir / f"{platform}-voices.json"
 
+    existing_count = -1
+    if output_file.exists():
+        try:
+            existing = json.loads(output_file.read_text(encoding="utf-8"))
+            if isinstance(existing, list):
+                existing_count = len(existing)
+        except Exception:
+            existing_count = -1
+
+    if existing_count >= 0 and len(voices) < existing_count:
+        print(
+            f"Keeping existing {output_file.name}: "
+            f"{existing_count} voices > new {len(voices)}"
+        )
+        return existing_count
+
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(voices, f, indent=2, ensure_ascii=False)
 
@@ -243,13 +259,28 @@ def save_voices(voices: List[Dict[str, Any]], platform: str, output_dir: Path) -
     return len(voices)
 
 
-def save_engine_voices(
-    voices: List[Dict[str, Any]], platform: str, engine_name: str, output_dir: Path
-) -> int:
+def save_engine_voices(voices: List[Dict[str, Any]], engine_name: str, output_dir: Path) -> int:
     """Save voices for a specific engine to a dedicated JSON file."""
     output_dir.mkdir(parents=True, exist_ok=True)
     slug = _slugify_engine_name(engine_name)
-    output_file = output_dir / f"{platform}-{slug}-voices.json"
+    output_file = output_dir / f"{slug}-voices.json"
+
+    existing_count = -1
+    if output_file.exists():
+        try:
+            existing = json.loads(output_file.read_text(encoding="utf-8"))
+            if isinstance(existing, list):
+                existing_count = len(existing)
+        except Exception:
+            existing_count = -1
+
+    if existing_count >= 0 and len(voices) < existing_count:
+        print(
+            f"Keeping existing {output_file.name}: "
+            f"{existing_count} voices > new {len(voices)}"
+        )
+        return existing_count
+
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(voices, f, indent=2, ensure_ascii=False)
     print(f"Saved {len(voices)} voices to {output_file}")
@@ -324,7 +355,7 @@ def main():
         by_engine = collect_online_voices()
         total = 0
         for engine_name, engine_voices in by_engine.items():
-            total += save_engine_voices(engine_voices, detect_platform(), engine_name, output_dir)
+            total += save_engine_voices(engine_voices, engine_name, output_dir)
 
         if total == 0:
             print("No online voices collected.")

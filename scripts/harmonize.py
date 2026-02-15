@@ -229,6 +229,7 @@ def create_database(db_path: Path, voices: List[Dict[str, Any]]):
     """)
 
     # Populate FTS table
+    cursor.execute("DELETE FROM voices_fts")
     cursor.execute("""
         INSERT INTO voices_fts(rowid, name, language_name, language_display, engine, platform)
         SELECT rowid, name, language_name, language_display, engine, platform

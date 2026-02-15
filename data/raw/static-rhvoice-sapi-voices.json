@@ -1,0 +1,167 @@
+[
+  {
+    "id": "azamat",
+    "name": "Azamat",
+    "language_codes": [
+      "ky-KG"
+    ],
+    "gender": "Male",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "nazgul",
+    "name": "Nazgul",
+    "language_codes": [
+      "ky-KG"
+    ],
+    "gender": "Female",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "kiko",
+    "name": "Kiko",
+    "language_codes": [
+      "mk-MK"
+    ],
+    "gender": "Male",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "suze",
+    "name": "Suze",
+    "language_codes": [
+      "mk-MK"
+    ],
+    "gender": "Female",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "aleksandr",
+    "name": "Aleksandr",
+    "language_codes": [
+      "ru-RU"
+    ],
+    "gender": "Male",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "anna",
+    "name": "Anna",
+    "language_codes": [
+      "ru-RU"
+    ],
+    "gender": "Female",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "elena",
+    "name": "Elena",
+    "language_codes": [
+      "ru-RU"
+    ],
+    "gender": "Female",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "irina",
+    "name": "Irina",
+    "language_codes": [
+      "ru-RU"
+    ],
+    "gender": "Female",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "dragana",
+    "name": "Dragana",
+    "language_codes": [
+      "sr-RS"
+    ],
+    "gender": "Female",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "talgat",
+    "name": "Talgat",
+    "language_codes": [
+      "tt-RU"
+    ],
+    "gender": "Male",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "anatol",
+    "name": "Anatol",
+    "language_codes": [
+      "uk-UA"
+    ],
+    "gender": "Male",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "natalia",
+    "name": "Natalia",
+    "language_codes": [
+      "uk-UA"
+    ],
+    "gender": "Female",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "sevinch",
+    "name": "Sevinch",
+    "language_codes": [
+      "uz-UZ"
+    ],
+    "gender": "Female",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "islom",
+    "name": "Islom",
+    "language_codes": [
+      "uz-UZ"
+    ],
+    "gender": "Male",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  },
+  {
+    "id": "dil’navoz",
+    "name": "Dil’navoz",
+    "language_codes": [
+      "uz-UZ"
+    ],
+    "gender": "Female",
+    "engine": "Rhvoice SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "snezana-act",
+    "name": "Snezana Act",
+    "language_codes": [
+      "sr-RS"
+    ],
+    "gender": "Male",
+    "engine": "Anreader",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.374759+00:00"
+  },
+  {
+    "id": "snezana-idxeg-hasp",
+    "name": "Snezana IDXEG Hasp",
+    "language_codes": [
+      "sr-RS"
+    ],
+    "gender": "Male",
+    "engine": "Anreader",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.374759+00:00"
+  },
+  {
+    "id": "snezana-kaymk-hasp",
+    "name": "Snezana KAYMK Hasp",
+    "language_codes": [
+      "sr-RS"
+    ],
+    "gender": "Male",
+    "engine": "Anreader",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.374759+00:00"
+  },
+  {
+    "id": "marica-act",
+    "name": "Marica Act",
+    "language_codes": [
+      "hr-HR"
+    ],
+    "gender": "Male",
+    "engine": "Anreader",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.374759+00:00"
+  },
+  {
+    "id": "marica-idxeg-hasp",
+    "name": "Marica IDXEG Hasp",
+    "language_codes": [
+      "hr-HR"
+    ],
+    "gender": "Male",
+    "engine": "Anreader",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.374759+00:00"
+  },
+  {
+    "id": "marica-kaymk-hasp",
+    "name": "Marica KAYMK Hasp",
+    "language_codes": [
+      "hr-HR"
+    ],
+    "gender": "Male",
+    "engine": "Anreader",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.374759+00:00"
+  }
+]

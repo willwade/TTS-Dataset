@@ -1,0 +1,1641 @@
+[
+  {
+    "id": "mariam",
+    "name": "Mariam",
+    "language_codes": [
+      "arb-146"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "laila",
+    "name": "Laila",
+    "language_codes": [
+      "ar-WW"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "maged-ml",
+    "name": "Maged-ml",
+    "language_codes": [
+      "ar-WW"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "maged",
+    "name": "Maged",
+    "language_codes": [
+      "ar-WW"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "tarik",
+    "name": "Tarik",
+    "language_codes": [
+      "ar-WW"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "miren",
+    "name": "Miren",
+    "language_codes": [
+      "eu-ES"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "paya",
+    "name": "Paya",
+    "language_codes": [
+      "bn-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "daria",
+    "name": "Daria",
+    "language_codes": [
+      "bg-BG"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "jaya",
+    "name": "Jaya",
+    "language_codes": [
+      "bho-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "jordi",
+    "name": "Jordi",
+    "language_codes": [
+      "ca-ES"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "montserrat",
+    "name": "Montserrat",
+    "language_codes": [
+      "ca-ES"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "sinji-ml",
+    "name": "Sinji-ml",
+    "language_codes": [
+      "zh-HK"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "iveta",
+    "name": "Iveta",
+    "language_codes": [
+      "cs-CZ"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "zuzana-ml",
+    "name": "Zuzana-ml",
+    "language_codes": [
+      "cs-CZ"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "magnus",
+    "name": "Magnus",
+    "language_codes": [
+      "da-DK"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "sara",
+    "name": "Sara",
+    "language_codes": [
+      "da-DK"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "ellen",
+    "name": "Ellen",
+    "language_codes": [
+      "nl-BE"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "claire-ml",
+    "name": "Claire-ml",
+    "language_codes": [
+      "nl-NL",
+      "en-GB",
+      "fr-FR",
+      "de-DE",
+      "it-IT",
+      "es-AR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "xander",
+    "name": "Xander",
+    "language_codes": [
+      "nl-NL"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "karen",
+    "name": "Karen",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "lee",
+    "name": "Lee",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "lee",
+    "name": "Lee",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "moira",
+    "name": "Moira",
+    "language_codes": [
+      "en-IE"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "daniel",
+    "name": "Daniel",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "kate",
+    "name": "Kate",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "malcolm",
+    "name": "Malcolm",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "malcolm",
+    "name": "Malcolm",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "oliver",
+    "name": "Oliver",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "serena",
+    "name": "Serena",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "serena",
+    "name": "Serena",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "stephanie",
+    "name": "Stephanie",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "isha-ml",
+    "name": "Isha-ml",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "rishi-ml",
+    "name": "Rishi-ml",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "sangeeta",
+    "name": "Sangeeta",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "veena",
+    "name": "Veena",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "fiona",
+    "name": "Fiona",
+    "language_codes": [
+      "en-GB-SCT"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "allison",
+    "name": "Allison",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "ava-ml",
+    "name": "Ava-ml",
+    "language_codes": [
+      "en-US",
+      "es-MX",
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "ava--ml",
+    "name": "Ava -ml",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "evan",
+    "name": "Evan",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "evan",
+    "name": "Evan",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "nathan",
+    "name": "Nathan",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "nathan",
+    "name": "Nathan",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "samantha",
+    "name": "Samantha",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "susan",
+    "name": "Susan",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "tom",
+    "name": "Tom",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "zoe-ml",
+    "name": "Zoe-ml",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "zoe-ml",
+    "name": "Zoe-ml",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "tessa",
+    "name": "Tessa",
+    "language_codes": [
+      "en-ZA"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "dariush",
+    "name": "Dariush",
+    "language_codes": [
+      "fa-IR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "onni",
+    "name": "Onni",
+    "language_codes": [
+      "fi-FI"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "satu",
+    "name": "Satu",
+    "language_codes": [
+      "fi-FI"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "aude",
+    "name": "Aude",
+    "language_codes": [
+      "fr-BE"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "amelie-ml",
+    "name": "Amelie-ml",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "amelie-ml",
+    "name": "Amelie-ml",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "chantal",
+    "name": "Chantal",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "nicolas",
+    "name": "Nicolas",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "audrey-ml",
+    "name": "Audrey-ml",
+    "language_codes": [
+      "fr-FR",
+      "en-GB",
+      "de-DE",
+      "it-IT",
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "audrey-ml",
+    "name": "Audrey-ml",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "aurelie",
+    "name": "Aurelie",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "thomas",
+    "name": "Thomas",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "anna-ml",
+    "name": "Anna-ml",
+    "language_codes": [
+      "de-DE",
+      "en-GB",
+      "fr-FR",
+      "es-AR",
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "anna-ml",
+    "name": "Anna-ml",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "markus",
+    "name": "Markus",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "petra-ml",
+    "name": "Petra-ml",
+    "language_codes": [
+      "de-DE",
+      "en-GB",
+      "fr-FR",
+      "es-AR",
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "petra-ml",
+    "name": "Petra-ml",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "viktor",
+    "name": "Viktor",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "yannick",
+    "name": "Yannick",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "carmela",
+    "name": "Carmela",
+    "language_codes": [
+      "gl-ES"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "melina",
+    "name": "Melina",
+    "language_codes": [
+      "el-GR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "nikos",
+    "name": "Nikos",
+    "language_codes": [
+      "el-GR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "carmit",
+    "name": "Carmit",
+    "language_codes": [
+      "he-IS"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "kiyara-ml",
+    "name": "Kiyara-ml",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "lekha",
+    "name": "Lekha",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "neel-ml",
+    "name": "Neel-ml",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "lana",
+    "name": "Lana",
+    "language_codes": [
+      "hr-HR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "mariska",
+    "name": "Mariska",
+    "language_codes": [
+      "hu-HU"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "damayanti",
+    "name": "Damayanti",
+    "language_codes": [
+      "id-ID"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "alice-ml",
+    "name": "Alice-ml",
+    "language_codes": [
+      "it-IT",
+      "en-GB",
+      "de-DE",
+      "fr-FR",
+      "es-AR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "federica-ml",
+    "name": "Federica-ml",
+    "language_codes": [
+      "it-IT",
+      "en-GB",
+      "de-DE",
+      "fr-FR",
+      "es-AR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "luca",
+    "name": "Luca",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "paola",
+    "name": "Paola",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "ayane",
+    "name": "Ayane",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "daisuke",
+    "name": "Daisuke",
+    "language_codes": [
+      "pt-PT"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "ichiro",
+    "name": "Ichiro",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "mizuki",
+    "name": "Mizuki",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "sakura",
+    "name": "Sakura",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "alpana",
+    "name": "Alpana",
+    "language_codes": [
+      "kn-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "yuna-ml",
+    "name": "Yuna-ml",
+    "language_codes": [
+      "ko-KR",
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "yuna",
+    "name": "Yuna",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "ananya",
+    "name": "Ananya",
+    "language_codes": [
+      "mr-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "amira",
+    "name": "Amira",
+    "language_codes": [
+      "ms-MY"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "binbin-ml",
+    "name": "Binbin-ml",
+    "language_codes": [
+      "zh-CN",
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "lili-ml",
+    "name": "Lili-ml",
+    "language_codes": [
+      "zh-CN",
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "lili-ml-high",
+    "name": "Lili-ml",
+    "language_codes": [
+      "zh-CN",
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "lisheng-ml",
+    "name": "Lisheng-ml",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "tiantian-ml",
+    "name": "Tiantian-ml",
+    "language_codes": [
+      "zh-CN",
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "tingting-ml",
+    "name": "Tingting-ml",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "meijia-ml",
+    "name": "Meijia-ml",
+    "language_codes": [
+      "zh-TW",
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "amira",
+    "name": "Amira",
+    "language_codes": [
+      "ms-MY"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "henrik",
+    "name": "Henrik",
+    "language_codes": [
+      "no-NO"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "nora",
+    "name": "Nora",
+    "language_codes": [
+      "no-NO"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "ewa",
+    "name": "Ewa",
+    "language_codes": [
+      "pl-PL"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "krzysztof",
+    "name": "Krzysztof",
+    "language_codes": [
+      "pl-PL"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "zosia",
+    "name": "Zosia",
+    "language_codes": [
+      "pl-PL"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "felipe",
+    "name": "Felipe",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "fernanda",
+    "name": "Fernanda",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "luciana",
+    "name": "Luciana",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "luciana",
+    "name": "Luciana",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "catarina",
+    "name": "Catarina",
+    "language_codes": [
+      "pt-PT"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "joana",
+    "name": "Joana",
+    "language_codes": [
+      "pt-PT"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "joaquim",
+    "name": "Joaquim",
+    "language_codes": [
+      "pt-PT"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "ioana",
+    "name": "Ioana",
+    "language_codes": [
+      "ro-RO"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "katya-ml",
+    "name": "Katya-ml",
+    "language_codes": [
+      "ru-RU",
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "milena",
+    "name": "Milena",
+    "language_codes": [
+      "ru-RU"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "yuri",
+    "name": "Yuri",
+    "language_codes": [
+      "ru-RU"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "laura",
+    "name": "Laura",
+    "language_codes": [
+      "sk-SK"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "diego",
+    "name": "Diego",
+    "language_codes": [
+      "es-AR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "isabela",
+    "name": "Isabela",
+    "language_codes": [
+      "es-AR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "carlos",
+    "name": "Carlos",
+    "language_codes": [
+      "es-CO"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "soledad",
+    "name": "Soledad",
+    "language_codes": [
+      "es-CO"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "ximena",
+    "name": "Ximena",
+    "language_codes": [
+      "es-CO"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "jorge",
+    "name": "Jorge",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "marisol-ml",
+    "name": "Marisol-ml",
+    "language_codes": [
+      "es-ES",
+      "en-GB",
+      "de-DE",
+      "fr-FR",
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "marisol-ml-high",
+    "name": "Marisol-ml",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "monica-ml",
+    "name": "Monica-ml",
+    "language_codes": [
+      "es-ES",
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "francisca",
+    "name": "Francisca",
+    "language_codes": [
+      "es-CL"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "angelica",
+    "name": "Angelica",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "javier",
+    "name": "Javier",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "juan",
+    "name": "Juan",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "paulina-ml",
+    "name": "Paulina-ml",
+    "language_codes": [
+      "es-MX",
+      "en-US",
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "paulina-ml-high",
+    "name": "Paulina-ml",
+    "language_codes": [
+      "es-MX",
+      "en-US",
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "alva",
+    "name": "Alva",
+    "language_codes": [
+      "sv-SE"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "klara",
+    "name": "Klara",
+    "language_codes": [
+      "sv-SE"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "oskar",
+    "name": "Oskar",
+    "language_codes": [
+      "sv-SE"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "vani",
+    "name": "Vani",
+    "language_codes": [
+      "ta-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "geeta",
+    "name": "Geeta",
+    "language_codes": [
+      "te-IN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "kanya",
+    "name": "Kanya",
+    "language_codes": [
+      "th-TH"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "narisa",
+    "name": "Narisa",
+    "language_codes": [
+      "th-TH"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "cem-ml",
+    "name": "Cem-ml",
+    "language_codes": [
+      "tr-TR",
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "yelda",
+    "name": "Yelda",
+    "language_codes": [
+      "tr-TR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "lesya",
+    "name": "Lesya",
+    "language_codes": [
+      "uk-UA"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "empar",
+    "name": "Empar",
+    "language_codes": [
+      "ca-ES-valencia"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  },
+  {
+    "id": "linh",
+    "name": "Linh",
+    "language_codes": [
+      "vi-VN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+  }
+]
