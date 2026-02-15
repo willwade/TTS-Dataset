@@ -122,9 +122,6 @@ jobs:
           pattern: voices-*
           merge-multiple: true
 
-      - name: Re-import static legacy datasets
-        run: uv run python scripts/import_legacy_temp_data.py
-
       - name: List downloaded files
         run: find data/raw -maxdepth 3 -type f -print
 
@@ -224,7 +221,7 @@ jobs:
             --install datasette-vega \
             --title "Global TTS Voice Catalog" \
             --license "CC0-1.0" \
-            --license_url "https://creativecommons.org/publicdomain/zero/1.0/" | tee "$log_file"
+            --license_url "https://creativecommons.org/publicdomain/zero/1.0/" 2>&1 | tee "$log_file"
 
           deploy_url="$(grep -Eo 'https://[a-zA-Z0-9.-]+\.vercel\.app' "$log_file" | tail -n 1 || true)"
           if [[ -n "${deploy_url}" ]]; then

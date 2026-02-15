@@ -203,22 +203,48 @@ def load_json_files(raw_dir: Path) -> list[dict[str, Any]]:
 
     for json_file in json_files:
         print(f"Loading {json_file.name}...")
+        text = json_file.read_text(encoding="utf-8")
         try:
-            data = json.loads(json_file.read_text(encoding="utf-8"))
-            if isinstance(data, list):
-                for item in data:
-                    if not isinstance(item, dict):
-                        continue
-                    normalized = item.copy()
-                    normalized["platform"] = canonical_platform(
-                        str(item.get("platform", "")),
-                        str(item.get("engine", "")),
-                    )
-                    all_voices.append(normalized)
-            else:
-                print(f"Warning: {json_file.name} does not contain a list, skipping")
+            payloads = [json.loads(text)]
         except json.JSONDecodeError as e:
-            print(f"Error parsing {json_file.name}: {e}")
+            # Fallback for accidental concatenated JSON payloads.
+            decoder = json.JSONDecoder()
+            payloads = []
+            idx = 0
+            length = len(text)
+            while idx < length:
+                while idx < length and text[idx].isspace():
+                    idx += 1
+                if idx >= length:
+                    break
+                try:
+                    obj, next_idx = decoder.raw_decode(text, idx)
+                except json.JSONDecodeError:
+                    payloads = []
+                    break
+                payloads.append(obj)
+                idx = next_idx
+            if not payloads:
+                print(f"Error parsing {json_file.name}: {e}")
+                continue
+            print(
+                f"Warning: {json_file.name} had concatenated JSON payloads; "
+                f"recovered {len(payloads)} block(s)"
+            )
+
+        for data in payloads:
+            if not isinstance(data, list):
+                print(f"Warning: {json_file.name} contains a non-list payload, skipping payload")
+                continue
+            for item in data:
+                if not isinstance(item, dict):
+                    continue
+                normalized = item.copy()
+                normalized["platform"] = canonical_platform(
+                    str(item.get("platform", "")),
+                    str(item.get("engine", "")),
+                )
+                all_voices.append(normalized)
     return all_voices
 
 
