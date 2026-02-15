@@ -7,7 +7,9 @@ requires-python = ">=3.10"
 dependencies = [
     "sqlite-utils",
     "langcodes",
-    "py3-tts-wrapper[google,microsoft,sapi,sherpaonnx,googletrans,witai,uwp,openai,playht,polly,avsynth]"
+    "py3-tts-wrapper[google,microsoft,sherpaonnx,googletrans,witai,openai,playht,polly]>=0.10.23",
+    "py3-tts-wrapper[sapi,uwp]>=0.10.23; sys_platform == 'win32'",
+    "py3-tts-wrapper[avsynth]>=0.10.23; sys_platform == 'darwin'",
 ]
 
 [project.optional-dependencies]

@@ -6,7 +6,9 @@ Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 Requires-Dist: sqlite-utils
 Requires-Dist: langcodes
-Requires-Dist: py3-tts-wrapper[avsynth,google,googletrans,microsoft,openai,playht,polly,sapi,sherpaonnx,uwp,witai]
+Requires-Dist: py3-tts-wrapper[google,googletrans,microsoft,openai,playht,polly,sherpaonnx,witai]>=0.10.23
+Requires-Dist: py3-tts-wrapper[sapi,uwp]>=0.10.23; sys_platform == "win32"
+Requires-Dist: py3-tts-wrapper[avsynth]>=0.10.23; sys_platform == "darwin"
 Provides-Extra: dev
 Requires-Dist: pytest; extra == "dev"
 Requires-Dist: ruff; extra == "dev"
@@ -18,13 +20,11 @@ A monthly-updated dataset of Text-to-Speech voices collected from multiple sourc
 
 ## Overview
 
-This project automatically collects TTS voice information from three sources:
+This project automatically collects platform TTS voice information:
 
 | Category | Sources | Voices Source |
 |----------|---------|---------------|
-| **Platform Engines** | Windows SAPI5, macOS NSSS, Linux eSpeak | Native system TTS APIs |
-| **Online Engines** | Google, Azure, AWS Polly, ElevenLabs, Watson | Cloud TTS services |
-| **Local Models** | Sherpa-ONNX (MMS, Piper) | Offline ONNX models |
+| **Platform Engines** | Windows SAPI5 (+ UWP best-effort), macOS AVSynth + eSpeak, Linux eSpeak | Native/system TTS APIs |
 
 ## Data Pipeline
 
@@ -57,15 +57,7 @@ git clone https://github.com/yourusername/TTS-Dataset.git
 cd TTS-Dataset
 
 # Install dependencies with UV
-uv pip install py3-tts-wrapper[sapi] sqlite-utils langcodes
-
-# Optional: Install specific online engine dependencies
-uv pip install -e ".[google]" py3-tts-wrapper[google]      # Google Cloud TTS
-uv pip install -e ".[azure]" py3-tts-wrapper[microsoft]    # Microsoft Azure
-uv pip install -e ".[aws-polly]" py3-tts-wrapper[polly]      # AWS Polly
-uv pip install -e ".[elevenlabs]" py3-tts-wrapper[elevenlabs]  # ElevenLabs
-uv pip install -e ".[watson]" py3-tts-wrapper[watson]      # IBM Watson
-uv pip install -e ".[witai]" py3-tts-wrapper[witai]      # Wit.AI
+uv sync
 ```
 
 ### Local Usage
@@ -74,11 +66,11 @@ uv pip install -e ".[witai]" py3-tts-wrapper[witai]      # Wit.AI
 # Auto-detect platform and collect voices
 uv run python scripts/collect_voices.py
 
-# Collect from all available sources
-uv run python scripts/collect_voices.py --all
+# List available local engines
+uv run python scripts/collect_voices.py --list
 
-# Collect from specific sources
-python scripts/collect_voices.py sapi google azure sherpa
+# List all client engines exposed by py3-tts-wrapper
+uv run python scripts/collect_voices.py --list-all
 
 # Merge and enrich data, build SQLite database
 uv run python scripts/harmonize.py
@@ -105,6 +97,8 @@ Create `.env` from `.env.example` and configure:
 | `ELEVENLABS_API_KEY` | ElevenLabs |
 | `WATSON_API_KEY`, `WATSON_REGION` | IBM Watson |
 | `WITAI_TOKEN` | Wit.AI |
+
+Note: the current automated workflow only collects platform engines. UWP is attempted on Windows when available.
 
 ### Legacy (optional)
 | Variable | Description |

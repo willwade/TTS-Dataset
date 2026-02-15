@@ -20,12 +20,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
       - uses: astral-sh/setup-uv@v1
         with:
           enable-cache: true
-
-      - name: Set up Python
-        run: uv python install
 
       - name: Install project
         run: uv sync
@@ -40,8 +41,9 @@ jobs:
         if: runner.os == 'macOS'
         run: brew install portaudio espeak-ng
 
-      - name: Install project
-        run: uv sync
+      - name: Install system dependencies (Windows)
+        if: runner.os == 'Windows'
+        run: echo "No system dependencies needed for Windows"
 
       - name: Collect voices
         run: uv run python scripts/collect_voices.py
@@ -61,12 +63,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
       - uses: astral-sh/setup-uv@v1
         with:
           enable-cache: true
-
-      - name: Set up Python
-        run: uv python install
 
       - name: Install project
         run: uv sync

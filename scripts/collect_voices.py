@@ -4,28 +4,21 @@ Simple TTS voice collection using py3-tts-wrapper.
 
 Collects voices from:
 - Windows: SAPI5
-- macOS: Native Speech (AVSynth or NSSS)
+- macOS: AVSynth and eSpeak
 - Linux: eSpeak
 
 Output: data/raw/{platform}-voices.json
 """
 
 import json
+import inspect
 import platform
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Callable, Dict, List
 
-# Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
-
-try:
-    from tts_wrapper import SAPIClient, SAPITTS
-except ImportError:
-    print("Error: py3-tts-wrapper not installed.")
-    print("Install with: pip install py3-tts-wrapper[sapi]")
-    sys.exit(1)
 
 
 def detect_platform() -> str:
@@ -41,54 +34,86 @@ def detect_platform() -> str:
         return "unknown"
 
 
+def get_platform_engines() -> List[tuple[str, Callable[[], Any]]]:
+    """Return engine factories for the current platform."""
+    platform_name = detect_platform()
+
+    if platform_name == "windows":
+        from tts_wrapper import SAPIClient, UWPClient
+
+        return [
+            ("SAPI5", SAPIClient),
+            ("UWP", UWPClient),
+        ]
+    if platform_name == "macos":
+        from tts_wrapper import eSpeakClient
+
+        engines: List[tuple[str, Callable[[], Any]]] = [("eSpeak", eSpeakClient)]
+        try:
+            from tts_wrapper import AVSynthClient
+
+            engines.insert(0, ("AVSynth", AVSynthClient))
+        except ImportError:
+            pass
+        return engines
+    if platform_name == "linux":
+        from tts_wrapper import eSpeakClient
+
+        return [("eSpeak", eSpeakClient)]
+
+    return []
+
+
+def _normalize_voices(
+    voices: List[Dict[str, Any]], engine_name: str, platform_name: str
+) -> List[Dict[str, Any]]:
+    normalized: List[Dict[str, Any]] = []
+    for voice in voices:
+        normalized.append(
+            {
+                "id": voice.get("id", ""),
+                "name": voice.get("name", "Unknown"),
+                "language_codes": voice.get("language_codes", []),
+                "gender": voice.get("gender", "Unknown"),
+                "engine": engine_name,
+                "platform": platform_name,
+                "collected_at": datetime.now(timezone.utc).isoformat(),
+            }
+        )
+    return normalized
+
+
 def collect_platform_voices() -> List[Dict[str, Any]]:
     """
     Collect voices from the current platform using py3-tts-wrapper.
 
     Returns a list of voice dictionaries with standard schema.
     """
-    platform = detect_platform()
-
-    if platform == "windows":
-        engine_name = "SAPI5"
-    elif platform == "macos":
-        engine_name = "NSSS"  # or 'AVSynth'
-    elif platform == "linux":
-        engine_name = "eSpeak"
-    else:
-        print(f"Unsupported platform: {platform}")
-        return []
-
-    if not SAPIClient:
-        print(f"{engine_name} client not available. Install: pip install py3-tts-wrapper[sapi]")
-        return []
-
+    platform_name = detect_platform()
     try:
-        client = SAPIClient(engine_name)
-        tts = SAPITTS(client)
-        voices = tts.get_voices()
-
-        # Normalize to standard schema
-        normalized = []
-        for voice in voices:
-            normalized.append(
-                {
-                    "id": voice.get("id", ""),
-                    "name": voice.get("name", "Unknown"),
-                    "language_codes": voice.get("language_codes", []),
-                    "gender": voice.get("gender", "Unknown"),
-                    "engine": engine_name,
-                    "platform": platform,
-                    "collected_at": datetime.now(timezone.utc).isoformat(),
-                }
-            )
-
-        print(f"Collected {len(normalized)} voices from {platform}")
-        return normalized
-
-    except Exception as e:
-        print(f"Error collecting {engine_name} voices: {e}")
+        engines = get_platform_engines()
+    except ImportError:
+        print("Error: py3-tts-wrapper not installed.")
+        print("Install with: pip install py3-tts-wrapper")
         return []
+
+    if not engines:
+        print(f"Unsupported platform: {platform_name}")
+        return []
+
+    all_voices: List[Dict[str, Any]] = []
+    for engine_name, engine_ctor in engines:
+        try:
+            client = engine_ctor()
+            voices = client.get_voices()
+            normalized = _normalize_voices(voices, engine_name, platform_name)
+            all_voices.extend(normalized)
+            print(f"Collected {len(normalized)} voices from {engine_name}")
+        except Exception as e:
+            print(f"Skipping {engine_name}: {type(e).__name__}: {e}")
+
+    print(f"Collected total {len(all_voices)} voices from {platform_name}")
+    return all_voices
 
 
 def save_voices(voices: List[Dict[str, Any]], platform: str, output_dir: Path) -> int:
@@ -111,24 +136,52 @@ def main():
     parser.add_argument(
         "--list", action="store_true", help="List available engines in py3-tts-wrapper"
     )
+    parser.add_argument(
+        "--list-all",
+        action="store_true",
+        help="List all client engines exposed by py3-tts-wrapper",
+    )
 
     args = parser.parse_args()
 
-    if args.list:
-        # List what's available in py3-tts-wrapper
+    if args.list_all:
         try:
-            from tts_wrapper import SAPIClient
+            import tts_wrapper as t
+        except ImportError:
+            print("py3-tts-wrapper not installed")
+            return
 
-            print("Available engines in py3-tts-wrapper:")
-            for engine in ["sapi", "nsss", "espeak"]:
+        print("All exposed client engines:")
+        clients = []
+        for name in dir(t):
+            if name.endswith("Client"):
+                obj = getattr(t, name)
+                if inspect.isclass(obj):
+                    clients.append((name, obj))
+
+        for name, obj in sorted(clients):
+            has_get_voices = hasattr(obj, "get_voices")
+            try:
+                signature = str(inspect.signature(obj))
+            except Exception:
+                signature = "(?)"
+            print(f"  {name:18s} get_voices={has_get_voices:<5} sig={signature}")
+        return
+
+    if args.list:
+        print("Available platform engines:")
+        try:
+            engines = get_platform_engines()
+            if not engines:
+                print(f"  No engine mapping for platform: {detect_platform()}")
+                return
+
+            for engine_name, engine_ctor in engines:
                 try:
-                    client = SAPIClient(engine)
-                    print(f"  {engine:5s}: Available")
-                    tts = SAPITTS(client)
-                    voices = tts.get_voices()
-                    print(f"    Voices: {len(voices)}")
-                except Exception:
-                    pass
+                    voices = engine_ctor().get_voices()
+                    print(f"  {engine_name:7s}: Available ({len(voices)} voices)")
+                except Exception as e:
+                    print(f"  {engine_name:7s}: Unavailable ({type(e).__name__}: {e})")
         except ImportError:
             print("py3-tts-wrapper not installed")
         return
