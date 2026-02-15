@@ -11,10 +11,32 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
+    "id": "ine/sq",
+    "name": "Albanian",
+    "language_codes": [
+      "sq"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
     "id": "sem/am",
     "name": "Amharic",
     "language_codes": [
       "am"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "sem/ar",
+    "name": "Arabic",
+    "language_codes": [
+      "ar"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -33,10 +55,21 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "sem/ar",
-    "name": "Arabic",
+    "id": "ine/hy",
+    "name": "Armenian (East Armenia)",
     "language_codes": [
-      "ar"
+      "hy"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "ine/hyw",
+    "name": "Armenian (West Armenia)",
+    "language_codes": [
+      "hyw"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -77,10 +110,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "zle/be",
-    "name": "Belarusian",
+    "id": "eu",
+    "name": "Basque",
     "language_codes": [
-      "be"
+      "eu"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -88,10 +121,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "zls/bg",
-    "name": "Bulgarian",
+    "id": "zle/be",
+    "name": "Belarusian",
     "language_codes": [
-      "bg"
+      "be"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -132,6 +165,17 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
+    "id": "zls/bg",
+    "name": "Bulgarian",
+    "language_codes": [
+      "bg"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
     "id": "roa/ca",
     "name": "Catalan",
     "language_codes": [
@@ -147,6 +191,28 @@
     "name": "Cherokee ",
     "language_codes": [
       "chr-US-Qaaa-x-west"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "sit/yue",
+    "name": "Chinese (Cantonese)",
+    "language_codes": [
+      "yue"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "sit/yue-Latn-jyutping",
+    "name": "Chinese (Cantonese, latin as Jyutping)",
+    "language_codes": [
+      "yue"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -176,17 +242,6 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "zlw/cs",
-    "name": "Czech",
-    "language_codes": [
-      "cs"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
     "id": "trk/cv",
     "name": "Chuvash",
     "language_codes": [
@@ -198,10 +253,21 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "cel/cy",
-    "name": "Welsh",
+    "id": "zls/hr",
+    "name": "Croatian",
     "language_codes": [
-      "cy"
+      "hr"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "zlw/cs",
+    "name": "Czech",
+    "language_codes": [
+      "cs"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -220,87 +286,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "gmw/de",
-    "name": "German",
+    "id": "gmw/nl",
+    "name": "Dutch",
     "language_codes": [
-      "de"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "grk/el",
-    "name": "Greek",
-    "language_codes": [
-      "el"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "gmw/en-029",
-    "name": "English (Caribbean)",
-    "language_codes": [
-      "en-029"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "gmw/en",
-    "name": "English (Great Britain)",
-    "language_codes": [
-      "\u0002en-gb"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "gmw/en-GB-scotland",
-    "name": "English (Scotland)",
-    "language_codes": [
-      "en-gb-scotland"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "gmw/en-GB-x-gbclan",
-    "name": "English (Lancaster)",
-    "language_codes": [
-      "en-gb-x-gbclan"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "gmw/en-GB-x-gbcwmd",
-    "name": "English (West Midlands)",
-    "language_codes": [
-      "en-gb-x-gbcwmd"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "gmw/en-GB-x-rp",
-    "name": "English (Received Pronunciation)",
-    "language_codes": [
-      "en-gb-x-rp"
+      "nl"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -330,6 +319,72 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
+    "id": "gmw/en-029",
+    "name": "English (Caribbean)",
+    "language_codes": [
+      "en-029"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "gmw/en",
+    "name": "English (Great Britain)",
+    "language_codes": [
+      "\u0002en-gb"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "gmw/en-GB-x-gbclan",
+    "name": "English (Lancaster)",
+    "language_codes": [
+      "en-gb-x-gbclan"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "gmw/en-GB-x-rp",
+    "name": "English (Received Pronunciation)",
+    "language_codes": [
+      "en-gb-x-rp"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "gmw/en-GB-scotland",
+    "name": "English (Scotland)",
+    "language_codes": [
+      "en-gb-scotland"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "gmw/en-GB-x-gbcwmd",
+    "name": "English (West Midlands)",
+    "language_codes": [
+      "en-gb-x-gbcwmd"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
     "id": "art/eo",
     "name": "Esperanto",
     "language_codes": [
@@ -341,65 +396,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "roa/es",
-    "name": "Spanish (Spain)",
-    "language_codes": [
-      "es"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "roa/es-419",
-    "name": "Spanish (Latin America)",
-    "language_codes": [
-      "es-419"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
     "id": "urj/et",
     "name": "Estonian",
     "language_codes": [
       "et"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "eu",
-    "name": "Basque",
-    "language_codes": [
-      "eu"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "ira/fa",
-    "name": "Persian",
-    "language_codes": [
-      "fa"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "ira/fa-Latn",
-    "name": "Persian (Pinglish)",
-    "language_codes": [
-      "fa-latn"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -429,10 +429,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "roa/fr-CH",
-    "name": "French (Switzerland)",
+    "id": "roa/fr",
+    "name": "French (France)",
     "language_codes": [
-      "fr-ch"
+      "fr-fr"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -440,10 +440,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "roa/fr",
-    "name": "French (France)",
+    "id": "roa/fr-CH",
+    "name": "French (Switzerland)",
     "language_codes": [
-      "fr-fr"
+      "fr-ch"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -473,10 +473,32 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "sai/gn",
-    "name": "Guarani",
+    "id": "ccs/ka",
+    "name": "Georgian",
     "language_codes": [
-      "gn"
+      "ka"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "gmw/de",
+    "name": "German",
+    "language_codes": [
+      "de"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "grk/el",
+    "name": "Greek",
+    "language_codes": [
+      "el"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -495,10 +517,43 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
+    "id": "esx/kl",
+    "name": "Greenlandic",
+    "language_codes": [
+      "kl"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "sai/gn",
+    "name": "Guarani",
+    "language_codes": [
+      "gn"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
     "id": "inc/gu",
     "name": "Gujarati",
     "language_codes": [
       "gu"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "roa/ht",
+    "name": "Haitian Creole",
+    "language_codes": [
+      "ht"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -550,28 +605,6 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "zls/hr",
-    "name": "Croatian",
-    "language_codes": [
-      "hr"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "roa/ht",
-    "name": "Haitian Creole",
-    "language_codes": [
-      "ht"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
     "id": "urj/hu",
     "name": "Hungarian",
     "language_codes": [
@@ -583,43 +616,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "ine/hy",
-    "name": "Armenian (East Armenia)",
+    "id": "gmq/is",
+    "name": "Icelandic",
     "language_codes": [
-      "hy"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "ine/hyw",
-    "name": "Armenian (West Armenia)",
-    "language_codes": [
-      "hyw"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "art/ia",
-    "name": "Interlingua",
-    "language_codes": [
-      "ia"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "poz/id",
-    "name": "Indonesian",
-    "language_codes": [
-      "id"
+      "is"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -638,10 +638,21 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "gmq/is",
-    "name": "Icelandic",
+    "id": "poz/id",
+    "name": "Indonesian",
     "language_codes": [
-      "is"
+      "id"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "art/ia",
+    "name": "Interlingua",
+    "language_codes": [
+      "ia"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -671,43 +682,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "art/jbo",
-    "name": "Lojban",
+    "id": "myn/quc",
+    "name": "K'iche'",
     "language_codes": [
-      "jbo"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "ccs/ka",
-    "name": "Georgian",
-    "language_codes": [
-      "ka"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "trk/kk",
-    "name": "Kazakh",
-    "language_codes": [
-      "kk"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "esx/kl",
-    "name": "Greenlandic",
-    "language_codes": [
-      "kl"
+      "quc"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -726,10 +704,21 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "ko",
-    "name": "Korean",
+    "id": "trk/kk",
+    "name": "Kazakh",
     "language_codes": [
-      "ko"
+      "kk"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "art/piqd",
+    "name": "Klingon",
+    "language_codes": [
+      "piqd"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -741,6 +730,17 @@
     "name": "Konkani",
     "language_codes": [
       "kok"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "ko",
+    "name": "Korean",
+    "language_codes": [
+      "ko"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -770,6 +770,28 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
+    "id": "art/qdb",
+    "name": "Lang Belta",
+    "language_codes": [
+      "qdb"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "bat/ltg",
+    "name": "Latgalian",
+    "language_codes": [
+      "ltg"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
     "id": "itc/la",
     "name": "Latin",
     "language_codes": [
@@ -781,10 +803,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "gmw/lb",
-    "name": "Luxembourgish",
+    "id": "bat/lv",
+    "name": "Latvian",
     "language_codes": [
-      "lb"
+      "lv"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -814,10 +836,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "bat/ltg",
-    "name": "Latgalian",
+    "id": "art/jbo",
+    "name": "Lojban",
     "language_codes": [
-      "ltg"
+      "jbo"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -825,10 +847,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "bat/lv",
-    "name": "Latvian",
+    "id": "urj/smj",
+    "name": "Lule Saami",
     "language_codes": [
-      "lv"
+      "smj"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -836,10 +858,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "poz/mi",
-    "name": "Māori",
+    "id": "gmw/lb",
+    "name": "Luxembourgish",
     "language_codes": [
-      "mi"
+      "lb"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -858,32 +880,21 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "dra/ml",
-    "name": "Malayalam",
-    "language_codes": [
-      "ml"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "inc/mr",
-    "name": "Marathi",
-    "language_codes": [
-      "mr"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
     "id": "poz/ms",
     "name": "Malay",
     "language_codes": [
       "ms"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "dra/ml",
+    "name": "Malayalam",
+    "language_codes": [
+      "ml"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -902,10 +913,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "miz/mto",
-    "name": "Totontepec Mixe",
+    "id": "inc/mr",
+    "name": "Marathi",
     "language_codes": [
-      "mto"
+      "mr"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -924,10 +935,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "gmq/nb",
-    "name": "Norwegian Bokmål",
+    "id": "poz/mi",
+    "name": "Māori",
     "language_codes": [
-      "nb"
+      "mi"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -957,17 +968,6 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "gmw/nl",
-    "name": "Dutch",
-    "language_codes": [
-      "nl"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
     "id": "trk/nog",
     "name": "Nogai",
     "language_codes": [
@@ -979,10 +979,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "cus/om",
-    "name": "Oromo",
+    "id": "gmq/nb",
+    "name": "Norwegian Bokmål",
     "language_codes": [
-      "om"
+      "nb"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1001,10 +1001,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "inc/pa",
-    "name": "Punjabi",
+    "id": "cus/om",
+    "name": "Oromo",
     "language_codes": [
-      "pa"
+      "om"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1023,10 +1023,21 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "art/piqd",
-    "name": "Klingon",
+    "id": "ira/fa",
+    "name": "Persian",
     "language_codes": [
-      "piqd"
+      "fa"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "ira/fa-Latn",
+    "name": "Persian (Pinglish)",
+    "language_codes": [
+      "fa-latn"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1045,6 +1056,17 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
+    "id": "roa/pt-BR",
+    "name": "Portuguese (Brazil)",
+    "language_codes": [
+      "pt-br"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
     "id": "roa/pt",
     "name": "Portuguese (Portugal)",
     "language_codes": [
@@ -1056,10 +1078,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "roa/pt-BR",
-    "name": "Portuguese (Brazil)",
+    "id": "inc/pa",
+    "name": "Punjabi",
     "language_codes": [
-      "pt-br"
+      "pa"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1078,32 +1100,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "art/qdb",
-    "name": "Lang Belta",
-    "language_codes": [
-      "qdb"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
     "id": "qu",
     "name": "Quechua",
     "language_codes": [
       "qu"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "myn/quc",
-    "name": "K'iche'",
-    "language_codes": [
-      "quc"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1166,10 +1166,21 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "inc/sd",
-    "name": "Sindhi",
+    "id": "zls/sr",
+    "name": "Serbian",
     "language_codes": [
-      "sd"
+      "sr"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "bnt/tn",
+    "name": "Setswana",
+    "language_codes": [
+      "tn"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1188,10 +1199,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "inc/si",
-    "name": "Sinhala",
+    "id": "art/sjn",
+    "name": "Sindarin",
     "language_codes": [
-      "si"
+      "sjn"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1199,10 +1210,21 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "art/sjn",
-    "name": "Sindarin",
+    "id": "inc/sd",
+    "name": "Sindhi",
     "language_codes": [
-      "sjn"
+      "sd"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "inc/si",
+    "name": "Sinhala",
+    "language_codes": [
+      "si"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1232,10 +1254,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "urj/smj",
-    "name": "Lule Saami",
+    "id": "roa/es-419",
+    "name": "Spanish (Latin America)",
     "language_codes": [
-      "smj"
+      "es-419"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1243,32 +1265,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "ine/sq",
-    "name": "Albanian",
+    "id": "roa/es",
+    "name": "Spanish (Spain)",
     "language_codes": [
-      "sq"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "zls/sr",
-    "name": "Serbian",
-    "language_codes": [
-      "sr"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "gmq/sv",
-    "name": "Swedish",
-    "language_codes": [
-      "sv"
+      "es"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1287,10 +1287,32 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
+    "id": "gmq/sv",
+    "name": "Swedish",
+    "language_codes": [
+      "sv"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
     "id": "dra/ta",
     "name": "Tamil",
     "language_codes": [
       "ta"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
+    "id": "trk/tt",
+    "name": "Tatar",
+    "language_codes": [
+      "tt"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1320,21 +1342,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "trk/tk",
-    "name": "Turkmen",
+    "id": "miz/mto",
+    "name": "Totontepec Mixe",
     "language_codes": [
-      "tk"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "bnt/tn",
-    "name": "Setswana",
-    "language_codes": [
-      "tn"
+      "mto"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1353,21 +1364,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "trk/tt",
-    "name": "Tatar",
+    "id": "trk/tk",
+    "name": "Turkmen",
     "language_codes": [
-      "tt"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "trk/ug",
-    "name": "Uyghur",
-    "language_codes": [
-      "ug"
+      "tk"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1397,6 +1397,17 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
+    "id": "trk/ug",
+    "name": "Uyghur",
+    "language_codes": [
+      "ug"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:37:53.377738+00:00"
+  },
+  {
     "id": "trk/uz",
     "name": "Uzbek",
     "language_codes": [
@@ -1408,62 +1419,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "aav/vi",
-    "name": "Vietnamese (Northern)",
-    "language_codes": [
-      "vi"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
     "id": "aav/vi-VN-x-central",
     "name": "Vietnamese (Central)",
     "language_codes": [
       "vi-vn-x-central"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "aav/vi-VN-x-south",
-    "name": "Vietnamese (Southern)",
-    "language_codes": [
-      "vi-vn-x-south"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "sit/yue",
-    "name": "Chinese (Cantonese)",
-    "language_codes": [
-      "yue"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "sit/yue-Latn-jyutping",
-    "name": "Chinese (Cantonese, latin as Jyutping)",
-    "language_codes": [
-      "yue"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  }
-][
-      "uz"
     ],
     "gender": "Male",
     "engine": "eSpeak",
@@ -1482,17 +1441,6 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "aav/vi-VN-x-central",
-    "name": "Vietnamese (Central)",
-    "language_codes": [
-      "vi-vn-x-central"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
     "id": "aav/vi-VN-x-south",
     "name": "Vietnamese (Southern)",
     "language_codes": [
@@ -1504,21 +1452,10 @@
     "collected_at": "2026-02-15T03:37:53.377738+00:00"
   },
   {
-    "id": "sit/yue",
-    "name": "Chinese (Cantonese)",
+    "id": "cel/cy",
+    "name": "Welsh",
     "language_codes": [
-      "yue"
-    ],
-    "gender": "Male",
-    "engine": "eSpeak",
-    "platform": "linux",
-    "collected_at": "2026-02-15T03:37:53.377738+00:00"
-  },
-  {
-    "id": "sit/yue-Latn-jyutping",
-    "name": "Chinese (Cantonese, latin as Jyutping)",
-    "language_codes": [
-      "yue"
+      "cy"
     ],
     "gender": "Male",
     "engine": "eSpeak",
