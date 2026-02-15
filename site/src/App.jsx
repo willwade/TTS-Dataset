@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from "react";
 import { CircleMarker, MapContainer, Popup, TileLayer } from "react-leaflet";
 
 const MAX_RESULTS = 250;
-const WORLD_COUNTRY_COUNT = 249;
 
 function bubbleRadius(value, max) {
   if (max <= 0) {
@@ -20,6 +19,31 @@ function pct(value, total) {
     return "0%";
   }
   return `${((value / total) * 100).toFixed(1)}%`;
+}
+
+function pctOrNA(value, total) {
+  if (!total) {
+    return "n/a";
+  }
+  return pct(value, total);
+}
+
+function formatTimestamp(value) {
+  if (!value) {
+    return "Unknown";
+  }
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return String(value);
+  }
+  return new Intl.DateTimeFormat(undefined, {
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZoneName: "short",
+  }).format(date);
 }
 
 function isArabicScriptMatch(query, voice) {
@@ -72,14 +96,27 @@ export default function App() {
   }, []);
 
   const voices = payload?.voices || [];
-  const knownCountriesTotal = useMemo(() => {
-    const codes = new Set(
-      voices
-        .map((v) => (v.country_code || "ZZ").toUpperCase())
-        .filter((code) => code !== "ZZ"),
-    );
-    return codes.size;
-  }, [voices]);
+  const summary = payload?.summary || {};
+  const generatedAt = payload?.generated_at || "";
+  const languageSpeakersTotal = Number(summary.language_speakers_total || 0);
+  const languageSpeakersCovered = Number(summary.language_speakers_covered || 0);
+  const languageSpeakersOnline = Number(summary.language_speakers_online_covered || 0);
+  const languageSpeakersOffline = Number(summary.language_speakers_offline_covered || 0);
+  const referenceLanguagesTotal = Number(summary.reference_languages_total || 0);
+  const referenceLanguagesCovered = Number(summary.reference_languages_covered || 0);
+  const referenceLanguagesOfflineCovered = Number(summary.reference_languages_offline_covered || 0);
+  const referenceLanguagesNoTTS = Math.max(
+    0,
+    Number.isFinite(Number(summary.reference_languages_no_tts))
+      ? Number(summary.reference_languages_no_tts)
+      : referenceLanguagesTotal - referenceLanguagesCovered,
+  );
+  const referenceLanguagesNoOfflineTTS = Math.max(
+    0,
+    Number.isFinite(Number(summary.reference_languages_no_offline_tts))
+      ? Number(summary.reference_languages_no_offline_tts)
+      : referenceLanguagesTotal - referenceLanguagesOfflineCovered,
+  );
 
   const engineOptions = useMemo(() => {
     return ["all", ...Object.keys(payload?.facets?.engines || {}).sort((a, b) => a.localeCompare(b))];
@@ -138,24 +175,10 @@ export default function App() {
   const filteredStats = useMemo(() => {
     const online = filteredVoices.filter((v) => v.mode === "online").length;
     const offline = filteredVoices.length - online;
-    const onlineCountries = new Set(
-      filteredVoices
-        .filter((v) => v.mode === "online")
-        .map((v) => (v.country_code || "ZZ").toUpperCase())
-        .filter((code) => code !== "ZZ"),
-    );
-    const offlineCountries = new Set(
-      filteredVoices
-        .filter((v) => v.mode === "offline")
-        .map((v) => (v.country_code || "ZZ").toUpperCase())
-        .filter((code) => code !== "ZZ"),
-    );
     return {
       voices: filteredVoices.length,
       online,
       offline,
-      onlineCountries: onlineCountries.size,
-      offlineCountries: offlineCountries.size,
     };
   }, [filteredVoices]);
 
@@ -237,24 +260,18 @@ export default function App() {
         <p className="lede">
           Explore voices by geography, voice id, language, country, mode, and engine.
         </p>
+        <p className="coverage-inline">
+          Updated {formatTimestamp(generatedAt)}. Speaker coverage: online {pctOrNA(languageSpeakersOnline, languageSpeakersTotal)},
+          offline {pctOrNA(languageSpeakersOffline, languageSpeakersTotal)}, total {pctOrNA(languageSpeakersCovered, languageSpeakersTotal)}
+          . Languages with no TTS: {referenceLanguagesNoTTS}/{referenceLanguagesTotal} ({pctOrNA(referenceLanguagesNoTTS, referenceLanguagesTotal)}).
+          Languages with no offline TTS: {referenceLanguagesNoOfflineTTS}/{referenceLanguagesTotal} ({pctOrNA(referenceLanguagesNoOfflineTTS, referenceLanguagesTotal)}).
+        </p>
       </header>
 
       <section className="stats stats-headline">
         <article><span>{filteredStats.voices.toLocaleString()}</span><p>Filtered voices</p></article>
         <article><span>{filteredStats.online.toLocaleString()}</span><p>Online voices</p></article>
         <article><span>{filteredStats.offline.toLocaleString()}</span><p>Offline voices</p></article>
-        <article>
-          <span>{pct(filteredStats.onlineCountries, WORLD_COUNTRY_COUNT)}</span>
-          <p>Country coverage online ({filteredStats.onlineCountries}/{WORLD_COUNTRY_COUNT})</p>
-        </article>
-        <article>
-          <span>{pct(filteredStats.offlineCountries, WORLD_COUNTRY_COUNT)}</span>
-          <p>Country coverage offline ({filteredStats.offlineCountries}/{WORLD_COUNTRY_COUNT})</p>
-        </article>
-        <article>
-          <span>{pct(knownCountriesTotal, WORLD_COUNTRY_COUNT)}</span>
-          <p>Dataset country coverage ({knownCountriesTotal}/{WORLD_COUNTRY_COUNT})</p>
-        </article>
       </section>
 
       <section className="controls">
@@ -380,7 +397,8 @@ export default function App() {
           .
         </p>
         <p>
-          Coverage percentages shown above are country-based coverage, not world population-weighted coverage.
+          Coverage percentages are weighted by language speaker estimates (mapped from language codes), so they are
+          a proxy index and not exact unique-person reach.
         </p>
       </footer>
     </main>

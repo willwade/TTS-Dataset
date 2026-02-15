@@ -44,6 +44,12 @@ body {
   margin-top: 0.6rem;
   max-width: 70ch;
 }
+.coverage-inline {
+  margin: 0.45rem 0 0;
+  max-width: 90ch;
+  font-size: 0.9rem;
+  color: #34474f;
+}
 
 .stats {
   display: grid;
@@ -53,7 +59,7 @@ body {
 }
 
 .stats-headline {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .stats article {

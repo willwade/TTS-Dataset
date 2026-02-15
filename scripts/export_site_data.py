@@ -63,7 +63,114 @@ def platform_display(platform: str, engine: str) -> str:
     return platform
 
 
+def load_country_population(reference_path: Path) -> dict[str, int]:
+    if not reference_path.exists():
+        return {}
+    try:
+        payload = json.loads(reference_path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    countries = payload.get("countries", {})
+    if not isinstance(countries, dict):
+        return {}
+    out: dict[str, int] = {}
+    for code, value in countries.items():
+        c = str(code or "").upper().strip()
+        if len(c) != 2:
+            continue
+        try:
+            pop = int(value)
+        except Exception:
+            continue
+        if pop > 0:
+            out[c] = pop
+    return out
+
+
+def load_language_speakers(
+    reference_path: Path,
+) -> tuple[dict[str, dict[str, Any]], int]:
+    if not reference_path.exists():
+        return {}, 0
+    try:
+        payload = json.loads(reference_path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}, 0
+
+    languages = payload.get("languages", [])
+    if not isinstance(languages, list):
+        return {}, 0
+
+    by_qid: dict[str, dict[str, Any]] = {}
+    for item in languages:
+        if not isinstance(item, dict):
+            continue
+        qid = str(item.get("qid") or "").strip()
+        if not qid:
+            continue
+        try:
+            speakers = int(item.get("speakers") or 0)
+        except Exception:
+            continue
+        if speakers <= 0:
+            continue
+        iso1 = {
+            str(code).lower().strip()
+            for code in item.get("iso639_1", [])
+            if isinstance(code, str) and len(code.strip()) == 2
+        }
+        iso3 = {
+            str(code).lower().strip()
+            for code in item.get("iso639_3", [])
+            if isinstance(code, str) and len(code.strip()) == 3
+        }
+        by_qid[qid] = {
+            "qid": qid,
+            "name": item.get("name"),
+            "speakers": speakers,
+            "iso1": iso1,
+            "iso3": iso3,
+        }
+
+    return by_qid, sum(int(v["speakers"]) for v in by_qid.values())
+
+
+def normalize_primary_language_tag(code: str) -> str:
+    value = str(code or "").strip().lower().replace("_", "-")
+    if not value:
+        return ""
+    primary = value.split("-", 1)[0]
+    # Historical / non-standard aliases commonly seen in voice catalogs.
+    alias = {
+        "iw": "he",
+        "in": "id",
+        "ji": "yi",
+        "jw": "jv",
+    }
+    return alias.get(primary, primary)
+
+
 def build_payload(db_path: Path) -> dict[str, Any]:
+    population_by_country = load_country_population(
+        db_path.parent / "reference" / "country-population.json"
+    )
+    total_world_population = sum(population_by_country.values())
+    language_speakers_by_qid, total_language_speakers = load_language_speakers(
+        db_path.parent / "reference" / "language-speakers.json"
+    )
+    language_by_iso1: dict[str, tuple[str, int]] = {}
+    language_by_iso3: dict[str, tuple[str, int]] = {}
+    for qid, item in language_speakers_by_qid.items():
+        speakers = int(item["speakers"])
+        for code in item["iso1"]:
+            prev = language_by_iso1.get(code)
+            if prev is None or speakers > prev[1]:
+                language_by_iso1[code] = (qid, speakers)
+        for code in item["iso3"]:
+            prev = language_by_iso3.get(code)
+            if prev is None or speakers > prev[1]:
+                language_by_iso3[code] = (qid, speakers)
+
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     rows = conn.execute(
@@ -164,6 +271,51 @@ def build_payload(db_path: Path) -> dict[str, Any]:
             item["latitude"] = country_lat_sum[code] / country_points[code]
             item["longitude"] = country_lon_sum[code] / country_points[code]
 
+    covered_country_codes = {
+        (v.get("country_code") or "ZZ").upper()
+        for v in voices
+        if (v.get("country_code") or "ZZ").upper() in population_by_country
+    }
+    covered_online_codes = {
+        (v.get("country_code") or "ZZ").upper()
+        for v in voices
+        if v.get("mode") == "online"
+        and (v.get("country_code") or "ZZ").upper() in population_by_country
+    }
+    covered_offline_codes = {
+        (v.get("country_code") or "ZZ").upper()
+        for v in voices
+        if v.get("mode") == "offline"
+        and (v.get("country_code") or "ZZ").upper() in population_by_country
+    }
+    covered_language_qids: set[str] = set()
+    online_language_qids: set[str] = set()
+    offline_language_qids: set[str] = set()
+    for v in voices:
+        lang_codes = v.get("language_codes") or []
+        if not isinstance(lang_codes, list):
+            continue
+        for raw_code in lang_codes:
+            primary = normalize_primary_language_tag(str(raw_code or ""))
+            if not primary:
+                continue
+            qid = None
+            if len(primary) == 2 and primary in language_by_iso1:
+                qid = language_by_iso1[primary][0]
+            elif len(primary) == 3 and primary in language_by_iso3:
+                qid = language_by_iso3[primary][0]
+            if not qid:
+                continue
+            covered_language_qids.add(qid)
+            if v.get("mode") == "online":
+                online_language_qids.add(qid)
+            else:
+                offline_language_qids.add(qid)
+    reference_languages_total = len(language_speakers_by_qid)
+    reference_languages_covered = len(covered_language_qids)
+    reference_languages_online_covered = len(online_language_qids)
+    reference_languages_offline_covered = len(offline_language_qids)
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "summary": {
@@ -173,12 +325,52 @@ def build_payload(db_path: Path) -> dict[str, Any]:
             "countries": len(countries),
             "online": sum(1 for v in voices if v["mode"] == "online"),
             "offline": sum(1 for v in voices if v["mode"] == "offline"),
+            "world_population_total": total_world_population,
+            "world_population_covered": sum(
+                population_by_country[c] for c in covered_country_codes
+            ),
+            "world_population_online_covered": sum(
+                population_by_country[c] for c in covered_online_codes
+            ),
+            "world_population_offline_covered": sum(
+                population_by_country[c] for c in covered_offline_codes
+            ),
+            "language_speakers_total": total_language_speakers,
+            "language_speakers_covered": sum(
+                int(language_speakers_by_qid[q]["speakers"])
+                for q in covered_language_qids
+                if q in language_speakers_by_qid
+            ),
+            "language_speakers_online_covered": sum(
+                int(language_speakers_by_qid[q]["speakers"])
+                for q in online_language_qids
+                if q in language_speakers_by_qid
+            ),
+            "language_speakers_offline_covered": sum(
+                int(language_speakers_by_qid[q]["speakers"])
+                for q in offline_language_qids
+                if q in language_speakers_by_qid
+            ),
+            "reference_languages_total": reference_languages_total,
+            "reference_languages_covered": reference_languages_covered,
+            "reference_languages_online_covered": reference_languages_online_covered,
+            "reference_languages_offline_covered": reference_languages_offline_covered,
+            "reference_languages_no_tts": max(
+                0, reference_languages_total - reference_languages_covered
+            ),
+            "reference_languages_no_online_tts": max(
+                0, reference_languages_total - reference_languages_online_covered
+            ),
+            "reference_languages_no_offline_tts": max(
+                0, reference_languages_total - reference_languages_offline_covered
+            ),
         },
         "facets": {
             "platforms": dict(platforms),
             "engines": dict(engines),
             "genders": dict(genders),
         },
+        "population_by_country": population_by_country,
         "countries": sorted(countries.values(), key=lambda x: x["count"], reverse=True),
         "voices": voices,
     }
