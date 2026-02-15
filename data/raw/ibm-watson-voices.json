@@ -1,105 +1,14 @@
 [
   {
-    "id": "en-US_LisaExpressive",
-    "name": "LisaExpressive",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243182+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_EmmaExpressive",
-    "name": "EmmaExpressive",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243199+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "de-DE_DieterVoice",
-    "name": "DieterVoice",
-    "language_codes": [
-      "de-DE"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243203+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "es-LA_DanielaExpressive",
-    "name": "DanielaExpressive",
-    "language_codes": [
-      "es-LA"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243206+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-GB_GeorgeExpressive",
-    "name": "GeorgeExpressive",
+    "id": "en-GB_KateVoice",
+    "name": "KateVoice",
     "language_codes": [
       "en-GB"
     ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243209+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_MichaelVoice",
-    "name": "MichaelVoice",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243212+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-AU_HeidiExpressive",
-    "name": "HeidiExpressive",
-    "language_codes": [
-      "en-AU"
-    ],
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243214+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_AllisonVoice",
-    "name": "AllisonVoice",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243217+00:00",
+    "collected_at": "2026-02-15T05:25:59.386445+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -112,7 +21,7 @@
     "gender": "male",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243219+00:00",
+    "collected_at": "2026-02-15T05:25:59.386462+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -125,20 +34,7 @@
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243222+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "de-DE_BirgitVoice",
-    "name": "BirgitVoice",
-    "language_codes": [
-      "de-DE"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243224+00:00",
+    "collected_at": "2026-02-15T05:25:59.386465+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -151,7 +47,72 @@
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243226+00:00",
+    "collected_at": "2026-02-15T05:25:59.386468+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_AllisonVoice",
+    "name": "AllisonVoice",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386471+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB_GeorgeExpressive",
+    "name": "GeorgeExpressive",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386473+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_MichaelVoice",
+    "name": "MichaelVoice",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386476+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE_BirgitVoice",
+    "name": "BirgitVoice",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386478+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_EmmaExpressive",
+    "name": "EmmaExpressive",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386480+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -164,7 +125,33 @@
     "gender": "male",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243229+00:00",
+    "collected_at": "2026-02-15T05:25:59.386483+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU_HeidiExpressive",
+    "name": "HeidiExpressive",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386485+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE_DieterVoice",
+    "name": "DieterVoice",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386488+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -177,20 +164,33 @@
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243231+00:00",
+    "collected_at": "2026-02-15T05:25:59.386490+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "en-GB_KateVoice",
-    "name": "KateVoice",
+    "id": "es-LA_DanielaExpressive",
+    "name": "DanielaExpressive",
     "language_codes": [
-      "en-GB"
+      "es-LA"
     ],
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243234+00:00",
+    "collected_at": "2026-02-15T05:25:59.386492+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_LisaExpressive",
+    "name": "LisaExpressive",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386495+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -203,527 +203,7 @@
     "gender": "male",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243236+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "nl-NL_MerelV3Voice",
-    "name": "Merel",
-    "language_codes": [
-      "nl-NL"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243239+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "es-US_SofiaV3Voice",
-    "name": "Sofia",
-    "language_codes": [
-      "es-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243241+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "de-DE_ErikaV3Voice",
-    "name": "Erika",
-    "language_codes": [
-      "de-DE"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243244+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_EmilyV3Voice",
-    "name": "Emily",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243246+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "es-LA_AlejandroNatural",
-    "name": "AlejandroNatural",
-    "language_codes": [
-      "es-LA"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243248+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "pt-BR_CamilaNatural",
-    "name": "CamilaNatural",
-    "language_codes": [
-      "pt-BR"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243251+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_EllieNatural",
-    "name": "EllieNatural",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243253+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_OliviaV3Voice",
-    "name": "Olivia",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243255+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_LisaVoice",
-    "name": "LisaVoice",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243258+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "de-DE_DieterV2Voice",
-    "name": "DieterV2Voice",
-    "language_codes": [
-      "de-DE"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243260+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_AllisonV3Voice",
-    "name": "Allison",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243263+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_HenryV3Voice",
-    "name": "Henry",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243265+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "fr-FR_ReneeV3Voice",
-    "name": "Renee",
-    "language_codes": [
-      "fr-FR"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243267+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "ja-JP_EmiVoice",
-    "name": "EmiVoice",
-    "language_codes": [
-      "ja-JP"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243270+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_JacksonNatural",
-    "name": "JacksonNatural",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243272+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "es-LA_DanielaNatural",
-    "name": "DanielaNatural",
-    "language_codes": [
-      "es-LA"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243274+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "es-ES_EnriqueV3Voice",
-    "name": "Enrique",
-    "language_codes": [
-      "es-ES"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243277+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "de-DE_DieterV3Voice",
-    "name": "Dieter",
-    "language_codes": [
-      "de-DE"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243279+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "fr-CA_LouiseV3Voice",
-    "name": "Louise",
-    "language_codes": [
-      "fr-CA"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243282+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-CA_HannahNatural",
-    "name": "HannahNatural",
-    "language_codes": [
-      "en-CA"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243284+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-AU_HeidiNatural",
-    "name": "HeidiNatural",
-    "language_codes": [
-      "en-AU"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243286+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "pt-BR_LucasNatural",
-    "name": "LucasNatural",
-    "language_codes": [
-      "pt-BR"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243289+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "es-US_SofiaVoice",
-    "name": "SofiaVoice",
-    "language_codes": [
-      "es-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243291+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "es-ES_EnriqueVoice",
-    "name": "EnriqueVoice",
-    "language_codes": [
-      "es-ES"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243294+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "de-DE_BirgitV3Voice",
-    "name": "Birgit",
-    "language_codes": [
-      "de-DE"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243296+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_LisaV3Voice",
-    "name": "Lisa",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243298+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-GB_GeorgeNatural",
-    "name": "GeorgeNatural",
-    "language_codes": [
-      "en-GB"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243301+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "es-ES_LauraVoice",
-    "name": "LauraVoice",
-    "language_codes": [
-      "es-ES"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243303+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_KevinV3Voice",
-    "name": "Kevin",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243306+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_EthanNatural",
-    "name": "EthanNatural",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243308+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "es-LA_SofiaV3Voice",
-    "name": "Sofia",
-    "language_codes": [
-      "es-LA"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243310+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_AllisonV2Voice",
-    "name": "AllisonV2Voice",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243313+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "it-IT_FrancescaVoice",
-    "name": "FrancescaVoice",
-    "language_codes": [
-      "it-IT"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243315+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-GB_CharlotteV3Voice",
-    "name": "Charlotte",
-    "language_codes": [
-      "en-GB"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243317+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-AU_JackNatural",
-    "name": "JackNatural",
-    "language_codes": [
-      "en-AU"
-    ],
-    "gender": "male",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243320+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-GB_ChloeNatural",
-    "name": "ChloeNatural",
-    "language_codes": [
-      "en-GB"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243322+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "de-DE_BirgitV2Voice",
-    "name": "BirgitV2Voice",
-    "language_codes": [
-      "de-DE"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243325+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "it-IT_FrancescaV2Voice",
-    "name": "FrancescaV2Voice",
-    "language_codes": [
-      "it-IT"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243327+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_LisaV2Voice",
-    "name": "LisaV2Voice",
-    "language_codes": [
-      "en-US"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243329+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "es-ES_LauraV3Voice",
-    "name": "Laura",
-    "language_codes": [
-      "es-ES"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243332+00:00",
+    "collected_at": "2026-02-15T05:25:59.386497+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -736,59 +216,163 @@
     "gender": "male",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243334+00:00",
+    "collected_at": "2026-02-15T05:25:59.386500+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "en-US_VictoriaNatural",
-    "name": "VictoriaNatural",
+    "id": "en-CA_HannahNatural",
+    "name": "HannahNatural",
+    "language_codes": [
+      "en-CA"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386502+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU_HeidiNatural",
+    "name": "HeidiNatural",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386504+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE_BirgitV3Voice",
+    "name": "Birgit",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386507+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_KevinV3Voice",
+    "name": "Kevin",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386509+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR_CamilaNatural",
+    "name": "CamilaNatural",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386511+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_HenryV3Voice",
+    "name": "Henry",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386514+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE_ErikaV3Voice",
+    "name": "Erika",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386516+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_LisaV3Voice",
+    "name": "Lisa",
     "language_codes": [
       "en-US"
     ],
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243336+00:00",
+    "collected_at": "2026-02-15T05:25:59.386519+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "it-IT_FrancescaV3Voice",
-    "name": "Francesca",
+    "id": "es-US_SofiaVoice",
+    "name": "SofiaVoice",
+    "language_codes": [
+      "es-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386521+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT_FrancescaVoice",
+    "name": "FrancescaVoice",
     "language_codes": [
       "it-IT"
     ],
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243339+00:00",
+    "collected_at": "2026-02-15T05:25:59.386524+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "ja-JP_EmiV3Voice",
-    "name": "Emi",
+    "id": "en-US_EmilyV3Voice",
+    "name": "Emily",
     "language_codes": [
-      "ja-JP"
+      "en-US"
     ],
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243341+00:00",
+    "collected_at": "2026-02-15T05:25:59.386526+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "es-LA_SofiaVoice",
-    "name": "SofiaVoice",
+    "id": "fr-CA_LouiseV3Voice",
+    "name": "Louise",
     "language_codes": [
-      "es-LA"
+      "fr-CA"
     ],
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243343+00:00",
+    "collected_at": "2026-02-15T05:25:59.386528+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -801,20 +385,46 @@
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243346+00:00",
+    "collected_at": "2026-02-15T05:25:59.386531+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "pt-BR_IsabelaVoice",
-    "name": "IsabelaVoice",
+    "id": "en-AU_JackNatural",
+    "name": "JackNatural",
     "language_codes": [
-      "pt-BR"
+      "en-AU"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386533+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ja-JP_EmiV3Voice",
+    "name": "Emi",
+    "language_codes": [
+      "ja-JP"
     ],
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243348+00:00",
+    "collected_at": "2026-02-15T05:25:59.386535+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR_LucasNatural",
+    "name": "LucasNatural",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386538+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -827,33 +437,215 @@
     "gender": "male",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243350+00:00",
+    "collected_at": "2026-02-15T05:25:59.386540+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
   {
-    "id": "en-GB_KateV3Voice",
-    "name": "Kate",
-    "language_codes": [
-      "en-GB"
-    ],
-    "gender": "female",
-    "engine": "IBM Watson",
-    "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243353+00:00",
-    "source_type": "runtime",
-    "source_name": "py3-tts-wrapper"
-  },
-  {
-    "id": "en-US_MichaelV3Voice",
-    "name": "Michael",
+    "id": "en-US_JacksonNatural",
+    "name": "JacksonNatural",
     "language_codes": [
       "en-US"
     ],
     "gender": "male",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243355+00:00",
+    "collected_at": "2026-02-15T05:25:59.386543+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_AllisonV2Voice",
+    "name": "AllisonV2Voice",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386545+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_LisaVoice",
+    "name": "LisaVoice",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386548+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT_FrancescaV2Voice",
+    "name": "FrancescaV2Voice",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386550+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_EthanNatural",
+    "name": "EthanNatural",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386552+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE_DieterV3Voice",
+    "name": "Dieter",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386555+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR_ReneeV3Voice",
+    "name": "Renee",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386557+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE_DieterV2Voice",
+    "name": "DieterV2Voice",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386560+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ja-JP_EmiVoice",
+    "name": "EmiVoice",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386562+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES_LauraV3Voice",
+    "name": "Laura",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386564+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES_EnriqueV3Voice",
+    "name": "Enrique",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386567+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-LA_SofiaV3Voice",
+    "name": "Sofia",
+    "language_codes": [
+      "es-LA"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386569+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE_BirgitV2Voice",
+    "name": "BirgitV2Voice",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386572+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_LisaV2Voice",
+    "name": "LisaV2Voice",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386574+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-LA_SofiaVoice",
+    "name": "SofiaVoice",
+    "language_codes": [
+      "es-LA"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386576+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB_GeorgeNatural",
+    "name": "GeorgeNatural",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386579+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   },
@@ -866,7 +658,215 @@
     "gender": "female",
     "engine": "IBM Watson",
     "platform": "online",
-    "collected_at": "2026-02-15T05:14:47.243357+00:00",
+    "collected_at": "2026-02-15T05:25:59.386581+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_AllisonV3Voice",
+    "name": "Allison",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386583+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES_LauraVoice",
+    "name": "LauraVoice",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386586+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB_ChloeNatural",
+    "name": "ChloeNatural",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386588+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT_FrancescaV3Voice",
+    "name": "Francesca",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386590+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES_EnriqueVoice",
+    "name": "EnriqueVoice",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386593+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "nl-NL_MerelV3Voice",
+    "name": "Merel",
+    "language_codes": [
+      "nl-NL"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386595+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_EllieNatural",
+    "name": "EllieNatural",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386597+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB_KateV3Voice",
+    "name": "Kate",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386600+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_OliviaV3Voice",
+    "name": "Olivia",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386602+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB_CharlotteV3Voice",
+    "name": "Charlotte",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386605+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_VictoriaNatural",
+    "name": "VictoriaNatural",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386607+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-LA_DanielaNatural",
+    "name": "DanielaNatural",
+    "language_codes": [
+      "es-LA"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386610+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US_MichaelV3Voice",
+    "name": "Michael",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386612+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-US_SofiaV3Voice",
+    "name": "Sofia",
+    "language_codes": [
+      "es-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386614+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-LA_AlejandroNatural",
+    "name": "AlejandroNatural",
+    "language_codes": [
+      "es-LA"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386617+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR_IsabelaVoice",
+    "name": "IsabelaVoice",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:59.386632+00:00",
     "source_type": "runtime",
     "source_name": "py3-tts-wrapper"
   }

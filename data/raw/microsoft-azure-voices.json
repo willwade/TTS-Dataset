@@ -1,0 +1,7204 @@
+[
+  {
+    "id": "af-ZA-AdriNeural",
+    "name": "Adri",
+    "language_codes": [
+      "af-ZA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581569+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "af-ZA-WillemNeural",
+    "name": "Willem",
+    "language_codes": [
+      "af-ZA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581588+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "am-ET-MekdesNeural",
+    "name": "መቅደስ",
+    "language_codes": [
+      "am-ET"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581592+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "am-ET-AmehaNeural",
+    "name": "አምሀ",
+    "language_codes": [
+      "am-ET"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581595+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-AE-FatimaNeural",
+    "name": "فاطمة",
+    "language_codes": [
+      "ar-AE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581598+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-AE-HamdanNeural",
+    "name": "حمدان",
+    "language_codes": [
+      "ar-AE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581601+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-BH-LailaNeural",
+    "name": "ليلى",
+    "language_codes": [
+      "ar-BH"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581603+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-BH-AliNeural",
+    "name": "علي",
+    "language_codes": [
+      "ar-BH"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581606+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-DZ-AminaNeural",
+    "name": "أمينة",
+    "language_codes": [
+      "ar-DZ"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581608+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-DZ-IsmaelNeural",
+    "name": "إسماعيل",
+    "language_codes": [
+      "ar-DZ"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581611+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-EG-SalmaNeural",
+    "name": "سلمى",
+    "language_codes": [
+      "ar-EG"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581613+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-EG-ShakirNeural",
+    "name": "شاكر",
+    "language_codes": [
+      "ar-EG"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581616+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-IQ-RanaNeural",
+    "name": "رنا",
+    "language_codes": [
+      "ar-IQ"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581631+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-IQ-BasselNeural",
+    "name": "باسل",
+    "language_codes": [
+      "ar-IQ"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581634+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-JO-SanaNeural",
+    "name": "سناء",
+    "language_codes": [
+      "ar-JO"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581636+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-JO-TaimNeural",
+    "name": "تيم",
+    "language_codes": [
+      "ar-JO"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581639+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-KW-NouraNeural",
+    "name": "نورا",
+    "language_codes": [
+      "ar-KW"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581641+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-KW-FahedNeural",
+    "name": "فهد",
+    "language_codes": [
+      "ar-KW"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581644+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-LB-LaylaNeural",
+    "name": "ليلى",
+    "language_codes": [
+      "ar-LB"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581646+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-LB-RamiNeural",
+    "name": "رامي",
+    "language_codes": [
+      "ar-LB"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581648+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-LY-ImanNeural",
+    "name": "إيمان",
+    "language_codes": [
+      "ar-LY"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581651+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-LY-OmarNeural",
+    "name": "أحمد",
+    "language_codes": [
+      "ar-LY"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581653+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-MA-MounaNeural",
+    "name": "منى",
+    "language_codes": [
+      "ar-MA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581655+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-MA-JamalNeural",
+    "name": "جمال",
+    "language_codes": [
+      "ar-MA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581658+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-OM-AyshaNeural",
+    "name": "عائشة",
+    "language_codes": [
+      "ar-OM"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581660+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-OM-AbdullahNeural",
+    "name": "عبدالله",
+    "language_codes": [
+      "ar-OM"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581663+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-QA-AmalNeural",
+    "name": "أمل",
+    "language_codes": [
+      "ar-QA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581665+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-QA-MoazNeural",
+    "name": "معاذ",
+    "language_codes": [
+      "ar-QA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581667+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-SA-ZariyahNeural",
+    "name": "زارية",
+    "language_codes": [
+      "ar-SA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581670+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-SA-HamedNeural",
+    "name": "حامد",
+    "language_codes": [
+      "ar-SA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581672+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-SY-AmanyNeural",
+    "name": "أماني",
+    "language_codes": [
+      "ar-SY"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581674+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-SY-LaithNeural",
+    "name": "ليث",
+    "language_codes": [
+      "ar-SY"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581677+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-TN-ReemNeural",
+    "name": "ريم",
+    "language_codes": [
+      "ar-TN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581679+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-TN-HediNeural",
+    "name": "هادي",
+    "language_codes": [
+      "ar-TN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581681+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-YE-MaryamNeural",
+    "name": "مريم",
+    "language_codes": [
+      "ar-YE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581684+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ar-YE-SalehNeural",
+    "name": "صالح",
+    "language_codes": [
+      "ar-YE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581686+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "as-IN-YashicaNeural",
+    "name": "যাশিকা",
+    "language_codes": [
+      "as-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581689+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "as-IN-PriyomNeural",
+    "name": "প্ৰিয়ম",
+    "language_codes": [
+      "as-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581691+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "az-AZ-BanuNeural",
+    "name": "Banu",
+    "language_codes": [
+      "az-AZ"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581693+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "az-AZ-BabekNeural",
+    "name": "Babək",
+    "language_codes": [
+      "az-AZ"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581696+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "bg-BG-KalinaNeural",
+    "name": "Калина",
+    "language_codes": [
+      "bg-BG"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581698+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "bg-BG-BorislavNeural",
+    "name": "Борислав",
+    "language_codes": [
+      "bg-BG"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581700+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "bn-BD-NabanitaNeural",
+    "name": "নবনীতা",
+    "language_codes": [
+      "bn-BD"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581703+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "bn-BD-PradeepNeural",
+    "name": "প্রদ্বীপ",
+    "language_codes": [
+      "bn-BD"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581705+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "bn-IN-TanishaaNeural",
+    "name": "তানিশা",
+    "language_codes": [
+      "bn-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581707+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "bn-IN-BashkarNeural",
+    "name": "ভাস্কর",
+    "language_codes": [
+      "bn-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581709+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "bs-BA-VesnaNeural",
+    "name": "Vesna",
+    "language_codes": [
+      "bs-BA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581712+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "bs-BA-GoranNeural",
+    "name": "Goran",
+    "language_codes": [
+      "bs-BA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581714+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ca-ES-JoanaNeural",
+    "name": "Joana",
+    "language_codes": [
+      "ca-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581717+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ca-ES-EnricNeural",
+    "name": "Enric",
+    "language_codes": [
+      "ca-ES"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581719+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ca-ES-AlbaNeural",
+    "name": "Alba",
+    "language_codes": [
+      "ca-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581721+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "cs-CZ-VlastaNeural",
+    "name": "Vlasta",
+    "language_codes": [
+      "cs-CZ"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581724+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "cs-CZ-AntoninNeural",
+    "name": "Antonín",
+    "language_codes": [
+      "cs-CZ"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581726+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "cy-GB-NiaNeural",
+    "name": "Nia",
+    "language_codes": [
+      "cy-GB"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581728+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "cy-GB-AledNeural",
+    "name": "Aled",
+    "language_codes": [
+      "cy-GB"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581731+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "da-DK-ChristelNeural",
+    "name": "Christel",
+    "language_codes": [
+      "da-DK"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581733+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "da-DK-JeppeNeural",
+    "name": "Jeppe",
+    "language_codes": [
+      "da-DK"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581736+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-AT-IngridNeural",
+    "name": "Ingrid",
+    "language_codes": [
+      "de-AT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581738+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-AT-JonasNeural",
+    "name": "Jonas",
+    "language_codes": [
+      "de-AT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581740+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-CH-LeniNeural",
+    "name": "Leni",
+    "language_codes": [
+      "de-CH"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581743+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-CH-JanNeural",
+    "name": "Jan",
+    "language_codes": [
+      "de-CH"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581745+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-SeraphinaMultilingualNeural",
+    "name": "Seraphina Mehrsprachig",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581747+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-FlorianMultilingualNeural",
+    "name": "Florian Mehrsprachig",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581750+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-KatjaNeural",
+    "name": "Katja",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581752+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-ConradNeural",
+    "name": "Conrad",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581754+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-AmalaNeural",
+    "name": "Amala",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581757+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-BerndNeural",
+    "name": "Bernd",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581759+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-ChristophNeural",
+    "name": "Christoph",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581762+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-ElkeNeural",
+    "name": "Elke",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581764+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-GiselaNeural",
+    "name": "Gisela",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581766+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-KasperNeural",
+    "name": "Kasper",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581769+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-KillianNeural",
+    "name": "Killian",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581771+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-KlarissaNeural",
+    "name": "Klarissa",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581773+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-KlausNeural",
+    "name": "Klaus",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581776+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-LouisaNeural",
+    "name": "Louisa",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581778+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-MajaNeural",
+    "name": "Maja",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581780+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-RalfNeural",
+    "name": "Ralf",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581783+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "de-DE-TanjaNeural",
+    "name": "Tanja",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581786+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "el-GR-AthinaNeural",
+    "name": "Αθηνά",
+    "language_codes": [
+      "el-GR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581788+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "el-GR-NestorasNeural",
+    "name": "Νέστορας",
+    "language_codes": [
+      "el-GR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581790+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-WilliamMultilingualNeural",
+    "name": "William Multilingual",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581793+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-NatashaNeural",
+    "name": "Natasha",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581795+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-WilliamNeural",
+    "name": "William",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581797+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-AnnetteNeural",
+    "name": "Annette",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581800+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-CarlyNeural",
+    "name": "Carly",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581802+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-DarrenNeural",
+    "name": "Darren",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581805+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-DuncanNeural",
+    "name": "Duncan",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581807+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-ElsieNeural",
+    "name": "Elsie",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581810+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-FreyaNeural",
+    "name": "Freya",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581812+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-JoanneNeural",
+    "name": "Joanne",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581814+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-KenNeural",
+    "name": "Ken",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581817+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-KimNeural",
+    "name": "Kim",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581819+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-NeilNeural",
+    "name": "Neil",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581822+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-TimNeural",
+    "name": "Tim",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581824+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-AU-TinaNeural",
+    "name": "Tina",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581827+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-CA-ClaraNeural",
+    "name": "Clara",
+    "language_codes": [
+      "en-CA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581829+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-CA-LiamNeural",
+    "name": "Liam",
+    "language_codes": [
+      "en-CA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581832+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-AdaMultilingualNeural",
+    "name": "Ada Multilingual",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581834+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-OllieMultilingualNeural",
+    "name": "Ollie Multilingual",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581836+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-SoniaNeural",
+    "name": "Sonia",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581839+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-RyanNeural",
+    "name": "Ryan",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581841+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-LibbyNeural",
+    "name": "Libby",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581844+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-AbbiNeural",
+    "name": "Abbi",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581846+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-AlfieNeural",
+    "name": "Alfie",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581849+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-BellaNeural",
+    "name": "Bella",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581851+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-ElliotNeural",
+    "name": "Elliot",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581854+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-EthanNeural",
+    "name": "Ethan",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581856+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-HollieNeural",
+    "name": "Hollie",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581859+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-MaisieNeural",
+    "name": "Maisie",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581861+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-NoahNeural",
+    "name": "Noah",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581865+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-OliverNeural",
+    "name": "Oliver",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581868+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-OliviaNeural",
+    "name": "Olivia",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581870+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-ThomasNeural",
+    "name": "Thomas",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581872+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-GB-MiaNeural",
+    "name": "Mia",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581875+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-HK-YanNeural",
+    "name": "Yan",
+    "language_codes": [
+      "en-HK"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581877+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-HK-SamNeural",
+    "name": "Sam",
+    "language_codes": [
+      "en-HK"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581880+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IE-EmilyNeural",
+    "name": "Emily",
+    "language_codes": [
+      "en-IE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581882+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IE-ConnorNeural",
+    "name": "Connor",
+    "language_codes": [
+      "en-IE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581885+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-AartiIndicNeural",
+    "name": "Aarti Indic",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581887+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-ArjunIndicNeural",
+    "name": "Arjun Indic",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581889+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-NeerjaIndicNeural",
+    "name": "Neerja Indic",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581892+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-PrabhatIndicNeural",
+    "name": "Prabhat Indic",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581895+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-AaravNeural",
+    "name": "Aarav",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581897+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-AashiNeural",
+    "name": "Aashi",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581900+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-AartiNeural",
+    "name": "Aarti",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581902+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-ArjunNeural",
+    "name": "Arjun",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581905+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-AnanyaNeural",
+    "name": "Ananya",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581907+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-KavyaNeural",
+    "name": "Kavya",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581910+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-KunalNeural",
+    "name": "Kunal",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581912+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-NeerjaNeural",
+    "name": "Neerja",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581915+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-PrabhatNeural",
+    "name": "Prabhat",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581917+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-IN-RehaanNeural",
+    "name": "Rehaan",
+    "language_codes": [
+      "en-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581920+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-KE-AsiliaNeural",
+    "name": "Asilia",
+    "language_codes": [
+      "en-KE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581922+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-KE-ChilembaNeural",
+    "name": "Chilemba",
+    "language_codes": [
+      "en-KE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581925+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-NG-EzinneNeural",
+    "name": "Ezinne",
+    "language_codes": [
+      "en-NG"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581927+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-NG-AbeoNeural",
+    "name": "Abeo",
+    "language_codes": [
+      "en-NG"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581929+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-NZ-MollyNeural",
+    "name": "Molly",
+    "language_codes": [
+      "en-NZ"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581932+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-NZ-MitchellNeural",
+    "name": "Mitchell",
+    "language_codes": [
+      "en-NZ"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581935+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-PH-RosaNeural",
+    "name": "Rosa",
+    "language_codes": [
+      "en-PH"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581937+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-PH-JamesNeural",
+    "name": "James",
+    "language_codes": [
+      "en-PH"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581940+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-SG-LunaNeural",
+    "name": "Luna",
+    "language_codes": [
+      "en-SG"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581942+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-SG-WayneNeural",
+    "name": "Wayne",
+    "language_codes": [
+      "en-SG"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581945+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-TZ-ImaniNeural",
+    "name": "Imani",
+    "language_codes": [
+      "en-TZ"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581947+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-TZ-ElimuNeural",
+    "name": "Elimu",
+    "language_codes": [
+      "en-TZ"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581949+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-AvaMultilingualNeural",
+    "name": "Ava Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581952+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-AndrewMultilingualNeural",
+    "name": "Andrew Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581954+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-AmandaMultilingualNeural",
+    "name": "Amanda Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581957+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-AdamMultilingualNeural",
+    "name": "Adam Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581959+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-EmmaMultilingualNeural",
+    "name": "Emma Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581962+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-PhoebeMultilingualNeural",
+    "name": "Phoebe Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581964+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-AlloyTurboMultilingualNeural",
+    "name": "Alloy Turbo Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581967+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-EchoTurboMultilingualNeural",
+    "name": "Echo Turbo Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581970+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-FableTurboMultilingualNeural",
+    "name": "Fable Turbo Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Neutral",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581972+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-OnyxTurboMultilingualNeural",
+    "name": "Onyx Turbo Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581974+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-NovaTurboMultilingualNeural",
+    "name": "Nova Turbo Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581977+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-ShimmerTurboMultilingualNeural",
+    "name": "Shimmer Turbo Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581979+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-BrianMultilingualNeural",
+    "name": "Brian Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581982+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-AvaNeural",
+    "name": "Ava",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581984+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-AndrewNeural",
+    "name": "Andrew",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581987+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-EmmaNeural",
+    "name": "Emma",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581989+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-BrianNeural",
+    "name": "Brian",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581992+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-JennyNeural",
+    "name": "Jenny",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581994+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-GuyNeural",
+    "name": "Guy",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581996+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-AriaNeural",
+    "name": "Aria",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.581999+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-DavisNeural",
+    "name": "Davis",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582001+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-JaneNeural",
+    "name": "Jane",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582004+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-JasonNeural",
+    "name": "Jason",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582006+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-KaiNeural",
+    "name": "Kai",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582008+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-LunaNeural",
+    "name": "Luna",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582011+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-SaraNeural",
+    "name": "Sara",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582013+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-TonyNeural",
+    "name": "Tony",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582016+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-NancyNeural",
+    "name": "Nancy",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582020+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-CoraMultilingualNeural",
+    "name": "Cora Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582023+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-ChristopherMultilingualNeural",
+    "name": "Christopher Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582028+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-BrandonMultilingualNeural",
+    "name": "Brandon Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582032+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-AmberNeural",
+    "name": "Amber",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582034+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-AnaNeural",
+    "name": "Ana",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582037+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-AshleyNeural",
+    "name": "Ashley",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582039+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-BrandonNeural",
+    "name": "Brandon",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582042+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-ChristopherNeural",
+    "name": "Christopher",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582044+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-CoraNeural",
+    "name": "Cora",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582046+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-DavisMultilingualNeural",
+    "name": "Davis Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582049+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-DerekMultilingualNeural",
+    "name": "Derek Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582051+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-DustinMultilingualNeural",
+    "name": "Dustin Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582054+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-ElizabethNeural",
+    "name": "Elizabeth",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582056+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-EricNeural",
+    "name": "Eric",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582058+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-EvelynMultilingualNeural",
+    "name": "Evelyn Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582061+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-JacobNeural",
+    "name": "Jacob",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582064+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-JennyMultilingualNeural",
+    "name": "Jenny Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582067+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-LewisMultilingualNeural",
+    "name": "Lewis Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582071+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-LolaMultilingualNeural",
+    "name": "Lola Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582075+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-MichelleNeural",
+    "name": "Michelle",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582078+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-MonicaNeural",
+    "name": "Monica",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582081+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-NancyMultilingualNeural",
+    "name": "Nancy Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582083+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-RogerNeural",
+    "name": "Roger",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582086+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-RyanMultilingualNeural",
+    "name": "Ryan Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582088+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-SamuelMultilingualNeural",
+    "name": "Samuel Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582091+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-SerenaMultilingualNeural",
+    "name": "Serena Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582093+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-SteffanMultilingualNeural",
+    "name": "Steffan Multilingual",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582095+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-US-SteffanNeural",
+    "name": "Steffan",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582098+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-ZA-LeahNeural",
+    "name": "Leah",
+    "language_codes": [
+      "en-ZA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582100+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "en-ZA-LukeNeural",
+    "name": "Luke",
+    "language_codes": [
+      "en-ZA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582103+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-AR-ElenaNeural",
+    "name": "Elena",
+    "language_codes": [
+      "es-AR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582105+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-AR-TomasNeural",
+    "name": "Tomas",
+    "language_codes": [
+      "es-AR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582108+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-BO-SofiaNeural",
+    "name": "Sofia",
+    "language_codes": [
+      "es-BO"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582110+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-BO-MarceloNeural",
+    "name": "Marcelo",
+    "language_codes": [
+      "es-BO"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582113+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-CL-CatalinaNeural",
+    "name": "Catalina",
+    "language_codes": [
+      "es-CL"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582115+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-CL-LorenzoNeural",
+    "name": "Lorenzo",
+    "language_codes": [
+      "es-CL"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582118+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-CO-SalomeNeural",
+    "name": "Salome",
+    "language_codes": [
+      "es-CO"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582120+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-CO-GonzaloNeural",
+    "name": "Gonzalo",
+    "language_codes": [
+      "es-CO"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582123+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-CR-MariaNeural",
+    "name": "María",
+    "language_codes": [
+      "es-CR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582125+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-CR-JuanNeural",
+    "name": "Juan",
+    "language_codes": [
+      "es-CR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582127+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-CU-BelkysNeural",
+    "name": "Belkys",
+    "language_codes": [
+      "es-CU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582130+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-CU-ManuelNeural",
+    "name": "Manuel",
+    "language_codes": [
+      "es-CU"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582132+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-DO-RamonaNeural",
+    "name": "Ramona",
+    "language_codes": [
+      "es-DO"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582135+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-DO-EmilioNeural",
+    "name": "Emilio",
+    "language_codes": [
+      "es-DO"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582137+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-EC-AndreaNeural",
+    "name": "Andrea",
+    "language_codes": [
+      "es-EC"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582139+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-EC-LuisNeural",
+    "name": "Luis",
+    "language_codes": [
+      "es-EC"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582142+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-ElviraNeural",
+    "name": "Elvira",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582144+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-AlvaroNeural",
+    "name": "Álvaro",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582147+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-ArabellaMultilingualNeural",
+    "name": "Arabella Multilingual",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582149+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-IsidoraMultilingualNeural",
+    "name": "Isidora Multilingual",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582151+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-TristanMultilingualNeural",
+    "name": "Tristan Multilingual",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582154+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-XimenaMultilingualNeural",
+    "name": "Ximena Multilingual",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582157+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-AbrilNeural",
+    "name": "Abril",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582159+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-ArnauNeural",
+    "name": "Arnau",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582161+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-DarioNeural",
+    "name": "Dario",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582164+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-EliasNeural",
+    "name": "Elias",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582166+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-EstrellaNeural",
+    "name": "Estrella",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582169+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-IreneNeural",
+    "name": "Irene",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582171+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-LaiaNeural",
+    "name": "Laia",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582173+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-LiaNeural",
+    "name": "Lia",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582176+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-NilNeural",
+    "name": "Nil",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582178+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-SaulNeural",
+    "name": "Saul",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582181+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-TeoNeural",
+    "name": "Teo",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582184+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-TrianaNeural",
+    "name": "Triana",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582186+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-VeraNeural",
+    "name": "Vera",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582188+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-ES-XimenaNeural",
+    "name": "Ximena",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582191+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-GQ-TeresaNeural",
+    "name": "Teresa",
+    "language_codes": [
+      "es-GQ"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582193+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-GQ-JavierNeural",
+    "name": "Javier",
+    "language_codes": [
+      "es-GQ"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582196+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-GT-MartaNeural",
+    "name": "Marta",
+    "language_codes": [
+      "es-GT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582198+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-GT-AndresNeural",
+    "name": "Andrés",
+    "language_codes": [
+      "es-GT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582201+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-HN-KarlaNeural",
+    "name": "Karla",
+    "language_codes": [
+      "es-HN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582203+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-HN-CarlosNeural",
+    "name": "Carlos",
+    "language_codes": [
+      "es-HN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582205+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-DaliaNeural",
+    "name": "Dalia",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582208+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-JorgeNeural",
+    "name": "Jorge",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582210+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-DaliaMultilingualNeural",
+    "name": "Dalia Multilingual",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582213+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-JorgeMultilingualNeural",
+    "name": "Jorge Multilingual",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582215+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-BeatrizNeural",
+    "name": "Beatriz",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582217+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-CandelaNeural",
+    "name": "Candela",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582220+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-CarlotaNeural",
+    "name": "Carlota",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582222+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-CecilioNeural",
+    "name": "Cecilio",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582225+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-GerardoNeural",
+    "name": "Gerardo",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582227+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-LarissaNeural",
+    "name": "Larissa",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582229+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-LibertoNeural",
+    "name": "Liberto",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582232+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-LucianoNeural",
+    "name": "Luciano",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582234+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-MarinaNeural",
+    "name": "Marina",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582237+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-NuriaNeural",
+    "name": "Nuria",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582239+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-PelayoNeural",
+    "name": "Pelayo",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582241+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-RenataNeural",
+    "name": "Renata",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582244+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-MX-YagoNeural",
+    "name": "Yago",
+    "language_codes": [
+      "es-MX"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582246+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-NI-YolandaNeural",
+    "name": "Yolanda",
+    "language_codes": [
+      "es-NI"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582249+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-NI-FedericoNeural",
+    "name": "Federico",
+    "language_codes": [
+      "es-NI"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582251+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-PA-MargaritaNeural",
+    "name": "Margarita",
+    "language_codes": [
+      "es-PA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582254+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-PA-RobertoNeural",
+    "name": "Roberto",
+    "language_codes": [
+      "es-PA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582256+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-PE-CamilaNeural",
+    "name": "Camila",
+    "language_codes": [
+      "es-PE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582258+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-PE-AlexNeural",
+    "name": "Alex",
+    "language_codes": [
+      "es-PE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582261+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-PR-KarinaNeural",
+    "name": "Karina",
+    "language_codes": [
+      "es-PR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582263+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-PR-VictorNeural",
+    "name": "Víctor",
+    "language_codes": [
+      "es-PR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582265+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-PY-TaniaNeural",
+    "name": "Tania",
+    "language_codes": [
+      "es-PY"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582268+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-PY-MarioNeural",
+    "name": "Mario",
+    "language_codes": [
+      "es-PY"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582271+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-SV-LorenaNeural",
+    "name": "Lorena",
+    "language_codes": [
+      "es-SV"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582273+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-SV-RodrigoNeural",
+    "name": "Rodrigo",
+    "language_codes": [
+      "es-SV"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582275+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-US-PalomaNeural",
+    "name": "Paloma",
+    "language_codes": [
+      "es-US"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582278+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-US-AlonsoNeural",
+    "name": "Alonso",
+    "language_codes": [
+      "es-US"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582280+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-UY-ValentinaNeural",
+    "name": "Valentina",
+    "language_codes": [
+      "es-UY"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582282+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-UY-MateoNeural",
+    "name": "Mateo",
+    "language_codes": [
+      "es-UY"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582285+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-VE-PaolaNeural",
+    "name": "Paola",
+    "language_codes": [
+      "es-VE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582287+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "es-VE-SebastianNeural",
+    "name": "Sebastián",
+    "language_codes": [
+      "es-VE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582289+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "et-EE-AnuNeural",
+    "name": "Anu",
+    "language_codes": [
+      "et-EE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582292+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "et-EE-KertNeural",
+    "name": "Kert",
+    "language_codes": [
+      "et-EE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582294+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "eu-ES-AinhoaNeural",
+    "name": "Ainhoa",
+    "language_codes": [
+      "eu-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582297+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "eu-ES-AnderNeural",
+    "name": "Ander",
+    "language_codes": [
+      "eu-ES"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582299+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fa-IR-DilaraNeural",
+    "name": "دلارا",
+    "language_codes": [
+      "fa-IR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582302+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fa-IR-FaridNeural",
+    "name": "فرید",
+    "language_codes": [
+      "fa-IR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582304+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fi-FI-SelmaNeural",
+    "name": "Selma",
+    "language_codes": [
+      "fi-FI"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582307+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fi-FI-HarriNeural",
+    "name": "Harri",
+    "language_codes": [
+      "fi-FI"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582309+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fi-FI-NooraNeural",
+    "name": "Noora",
+    "language_codes": [
+      "fi-FI"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582312+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fil-PH-BlessicaNeural",
+    "name": "Blessica",
+    "language_codes": [
+      "fil-PH"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582314+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fil-PH-AngeloNeural",
+    "name": "Angelo",
+    "language_codes": [
+      "fil-PH"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582317+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-BE-CharlineNeural",
+    "name": "Charline",
+    "language_codes": [
+      "fr-BE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582319+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-BE-GerardNeural",
+    "name": "Gerard",
+    "language_codes": [
+      "fr-BE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582321+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-CA-SylvieNeural",
+    "name": "Sylvie",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582324+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-CA-JeanNeural",
+    "name": "Jean",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582326+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-CA-AntoineNeural",
+    "name": "Antoine",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582329+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-CA-ThierryNeural",
+    "name": "Thierry",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582331+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-CH-ArianeNeural",
+    "name": "Ariane",
+    "language_codes": [
+      "fr-CH"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582333+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-CH-FabriceNeural",
+    "name": "Fabrice",
+    "language_codes": [
+      "fr-CH"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582336+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-DeniseNeural",
+    "name": "Denise",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582338+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-HenriNeural",
+    "name": "Henri",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582340+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-VivienneMultilingualNeural",
+    "name": "Vivienne Multilingue",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582343+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-RemyMultilingualNeural",
+    "name": "Rémy Multilingue",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582345+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-LucienMultilingualNeural",
+    "name": "Lucien Multilingual",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582348+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-AlainNeural",
+    "name": "Alain",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582350+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-BrigitteNeural",
+    "name": "Brigitte",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582353+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-CelesteNeural",
+    "name": "Celeste",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582355+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-ClaudeNeural",
+    "name": "Claude",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582358+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-CoralieNeural",
+    "name": "Coralie",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582360+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-EloiseNeural",
+    "name": "Eloise",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582363+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-JacquelineNeural",
+    "name": "Jacqueline",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582365+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-JeromeNeural",
+    "name": "Jerome",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582368+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-JosephineNeural",
+    "name": "Josephine",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582370+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-MauriceNeural",
+    "name": "Maurice",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582373+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-YvesNeural",
+    "name": "Yves",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582375+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "fr-FR-YvetteNeural",
+    "name": "Yvette",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582378+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ga-IE-OrlaNeural",
+    "name": "Orla",
+    "language_codes": [
+      "ga-IE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582380+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ga-IE-ColmNeural",
+    "name": "Colm",
+    "language_codes": [
+      "ga-IE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582382+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "gl-ES-SabelaNeural",
+    "name": "Sabela",
+    "language_codes": [
+      "gl-ES"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582385+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "gl-ES-RoiNeural",
+    "name": "Roi",
+    "language_codes": [
+      "gl-ES"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582387+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "gu-IN-DhwaniNeural",
+    "name": "ધ્વની",
+    "language_codes": [
+      "gu-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582390+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "gu-IN-NiranjanNeural",
+    "name": "નિરંજન",
+    "language_codes": [
+      "gu-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582392+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "he-IL-HilaNeural",
+    "name": "הילה",
+    "language_codes": [
+      "he-IL"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582394+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "he-IL-AvriNeural",
+    "name": "אברי",
+    "language_codes": [
+      "he-IL"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582397+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hi-IN-AaravNeural",
+    "name": "आरव ",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582399+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hi-IN-AnanyaNeural",
+    "name": "अनन्या",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582402+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hi-IN-AartiNeural",
+    "name": "आरती",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582404+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hi-IN-ArjunNeural",
+    "name": "अर्जुन",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582406+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hi-IN-KavyaNeural",
+    "name": "काव्या",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582409+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hi-IN-KunalNeural",
+    "name": "कुनाल ",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582411+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hi-IN-RehaanNeural",
+    "name": "रेहान",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582414+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hi-IN-SwaraNeural",
+    "name": "स्वरा",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582416+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hi-IN-MadhurNeural",
+    "name": "मधुर",
+    "language_codes": [
+      "hi-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582419+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hr-HR-GabrijelaNeural",
+    "name": "Gabrijela",
+    "language_codes": [
+      "hr-HR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582421+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hr-HR-SreckoNeural",
+    "name": "Srećko",
+    "language_codes": [
+      "hr-HR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582423+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hu-HU-NoemiNeural",
+    "name": "Noémi",
+    "language_codes": [
+      "hu-HU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582426+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hu-HU-TamasNeural",
+    "name": "Tamás",
+    "language_codes": [
+      "hu-HU"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582428+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hy-AM-AnahitNeural",
+    "name": "Անահիտ",
+    "language_codes": [
+      "hy-AM"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582431+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "hy-AM-HaykNeural",
+    "name": "Հայկ",
+    "language_codes": [
+      "hy-AM"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582433+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "id-ID-GadisNeural",
+    "name": "Gadis",
+    "language_codes": [
+      "id-ID"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582435+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "id-ID-ArdiNeural",
+    "name": "Ardi",
+    "language_codes": [
+      "id-ID"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582438+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "is-IS-GudrunNeural",
+    "name": "Guðrún",
+    "language_codes": [
+      "is-IS"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582440+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "is-IS-GunnarNeural",
+    "name": "Gunnar",
+    "language_codes": [
+      "is-IS"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582443+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-ElsaNeural",
+    "name": "Elsa",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582445+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-IsabellaNeural",
+    "name": "Isabella",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582447+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-DiegoNeural",
+    "name": "Diego",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582450+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-AlessioMultilingualNeural",
+    "name": "Alessio Multilingual",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582452+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-IsabellaMultilingualNeural",
+    "name": "Isabella Multilingual",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582455+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-GiuseppeMultilingualNeural",
+    "name": "Giuseppe Multilingual",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582457+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-MarcelloMultilingualNeural",
+    "name": "Marcello Multilingual",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582459+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-BenignoNeural",
+    "name": "Benigno",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582462+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-CalimeroNeural",
+    "name": "Calimero",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582464+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-CataldoNeural",
+    "name": "Cataldo",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582466+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-FabiolaNeural",
+    "name": "Fabiola",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582469+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-FiammaNeural",
+    "name": "Fiamma",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582472+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-GianniNeural",
+    "name": "Gianni",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582474+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-GiuseppeNeural",
+    "name": "Giuseppe",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582476+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-ImeldaNeural",
+    "name": "Imelda",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582479+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-IrmaNeural",
+    "name": "Irma",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582481+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-LisandroNeural",
+    "name": "Lisandro",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582484+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-PalmiraNeural",
+    "name": "Palmira",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582486+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-PierinaNeural",
+    "name": "Pierina",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582488+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "it-IT-RinaldoNeural",
+    "name": "Rinaldo",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582491+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "iu-Cans-CA-SiqiniqNeural",
+    "name": "ᓯᕿᓂᖅ",
+    "language_codes": [
+      "iu-Cans-CA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582493+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "iu-Cans-CA-TaqqiqNeural",
+    "name": "ᑕᖅᑭᖅ",
+    "language_codes": [
+      "iu-Cans-CA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582496+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "iu-Latn-CA-SiqiniqNeural",
+    "name": "ᓯᕿᓂᖅ",
+    "language_codes": [
+      "iu-Latn-CA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582499+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "iu-Latn-CA-TaqqiqNeural",
+    "name": "ᑕᖅᑭᖅ",
+    "language_codes": [
+      "iu-Latn-CA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582502+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ja-JP-NanamiNeural",
+    "name": "七海",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582506+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ja-JP-KeitaNeural",
+    "name": "圭太",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582509+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ja-JP-AoiNeural",
+    "name": "碧衣",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582511+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ja-JP-DaichiNeural",
+    "name": "大智",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582514+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ja-JP-MayuNeural",
+    "name": "真夕",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582517+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ja-JP-NaokiNeural",
+    "name": "直紀",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582520+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ja-JP-ShioriNeural",
+    "name": "志織",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582524+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "jv-ID-SitiNeural",
+    "name": "Siti",
+    "language_codes": [
+      "jv-ID"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582526+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "jv-ID-DimasNeural",
+    "name": "Dimas",
+    "language_codes": [
+      "jv-ID"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582529+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ka-GE-EkaNeural",
+    "name": "ეკა",
+    "language_codes": [
+      "ka-GE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582531+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ka-GE-GiorgiNeural",
+    "name": "გიორგი",
+    "language_codes": [
+      "ka-GE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582533+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "kk-KZ-AigulNeural",
+    "name": "Айгүл",
+    "language_codes": [
+      "kk-KZ"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582536+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "kk-KZ-DauletNeural",
+    "name": "Дәулет",
+    "language_codes": [
+      "kk-KZ"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582538+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "km-KH-SreymomNeural",
+    "name": "ស្រីមុំ",
+    "language_codes": [
+      "km-KH"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582541+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "km-KH-PisethNeural",
+    "name": "ពិសិដ្ឋ",
+    "language_codes": [
+      "km-KH"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582543+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "kn-IN-SapnaNeural",
+    "name": "ಸಪ್ನಾ",
+    "language_codes": [
+      "kn-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582545+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "kn-IN-GaganNeural",
+    "name": "ಗಗನ್",
+    "language_codes": [
+      "kn-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582547+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ko-KR-SunHiNeural",
+    "name": "선히",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582550+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ko-KR-InJoonNeural",
+    "name": "인준",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582552+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ko-KR-HyunsuMultilingualNeural",
+    "name": "Hyunsu Multilingual",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582555+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ko-KR-BongJinNeural",
+    "name": "봉진",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582557+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ko-KR-GookMinNeural",
+    "name": "국민",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582560+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ko-KR-HyunsuNeural",
+    "name": "현수",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582562+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ko-KR-JiMinNeural",
+    "name": "지민",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582564+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ko-KR-SeoHyeonNeural",
+    "name": "서현",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582567+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ko-KR-SoonBokNeural",
+    "name": "순복",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582569+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ko-KR-YuJinNeural",
+    "name": "유진",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582571+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "lo-LA-KeomanyNeural",
+    "name": "ແກ້ວມະນີ",
+    "language_codes": [
+      "lo-LA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582574+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "lo-LA-ChanthavongNeural",
+    "name": "ຈັນທະວົງ",
+    "language_codes": [
+      "lo-LA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582576+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "lt-LT-OnaNeural",
+    "name": "Ona",
+    "language_codes": [
+      "lt-LT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582579+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "lt-LT-LeonasNeural",
+    "name": "Leonas",
+    "language_codes": [
+      "lt-LT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582581+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "lv-LV-EveritaNeural",
+    "name": "Everita",
+    "language_codes": [
+      "lv-LV"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582583+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "lv-LV-NilsNeural",
+    "name": "Nils",
+    "language_codes": [
+      "lv-LV"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582586+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "mk-MK-MarijaNeural",
+    "name": "Марија",
+    "language_codes": [
+      "mk-MK"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582588+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "mk-MK-AleksandarNeural",
+    "name": "Александар",
+    "language_codes": [
+      "mk-MK"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582591+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ml-IN-SobhanaNeural",
+    "name": "ശോഭന",
+    "language_codes": [
+      "ml-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582593+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ml-IN-MidhunNeural",
+    "name": "മിഥുൻ",
+    "language_codes": [
+      "ml-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582596+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "mn-MN-YesuiNeural",
+    "name": "Есүй",
+    "language_codes": [
+      "mn-MN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582598+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "mn-MN-BataaNeural",
+    "name": "Батаа",
+    "language_codes": [
+      "mn-MN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582600+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "mr-IN-AarohiNeural",
+    "name": "आरोही",
+    "language_codes": [
+      "mr-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582603+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "mr-IN-ManoharNeural",
+    "name": "मनोहर",
+    "language_codes": [
+      "mr-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582605+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ms-MY-YasminNeural",
+    "name": "Yasmin",
+    "language_codes": [
+      "ms-MY"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582608+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ms-MY-OsmanNeural",
+    "name": "Osman",
+    "language_codes": [
+      "ms-MY"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582610+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "mt-MT-GraceNeural",
+    "name": "Grace",
+    "language_codes": [
+      "mt-MT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582612+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "mt-MT-JosephNeural",
+    "name": "Joseph",
+    "language_codes": [
+      "mt-MT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582615+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "my-MM-NilarNeural",
+    "name": "နီလာ",
+    "language_codes": [
+      "my-MM"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582627+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "my-MM-ThihaNeural",
+    "name": "သီဟ",
+    "language_codes": [
+      "my-MM"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582630+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "nb-NO-PernilleNeural",
+    "name": "Pernille",
+    "language_codes": [
+      "nb-NO"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582633+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "nb-NO-FinnNeural",
+    "name": "Finn",
+    "language_codes": [
+      "nb-NO"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582635+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "nb-NO-IselinNeural",
+    "name": "Iselin",
+    "language_codes": [
+      "nb-NO"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582637+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ne-NP-HemkalaNeural",
+    "name": "हेमकला",
+    "language_codes": [
+      "ne-NP"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582640+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ne-NP-SagarNeural",
+    "name": "सागर",
+    "language_codes": [
+      "ne-NP"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582642+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "nl-BE-DenaNeural",
+    "name": "Dena",
+    "language_codes": [
+      "nl-BE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582644+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "nl-BE-ArnaudNeural",
+    "name": "Arnaud",
+    "language_codes": [
+      "nl-BE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582647+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "nl-NL-FennaNeural",
+    "name": "Fenna",
+    "language_codes": [
+      "nl-NL"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582649+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "nl-NL-MaartenNeural",
+    "name": "Maarten",
+    "language_codes": [
+      "nl-NL"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582652+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "nl-NL-ColetteNeural",
+    "name": "Colette",
+    "language_codes": [
+      "nl-NL"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582654+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "or-IN-SubhasiniNeural",
+    "name": "ସୁଭାସିନୀ",
+    "language_codes": [
+      "or-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582657+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "or-IN-SukantNeural",
+    "name": "ସୁକାନ୍ତ",
+    "language_codes": [
+      "or-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582659+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pa-IN-OjasNeural",
+    "name": "ਓਜਸ",
+    "language_codes": [
+      "pa-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582662+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pa-IN-VaaniNeural",
+    "name": "ਵਾਨੀ",
+    "language_codes": [
+      "pa-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582664+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pl-PL-AgnieszkaNeural",
+    "name": "Agnieszka",
+    "language_codes": [
+      "pl-PL"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582666+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pl-PL-MarekNeural",
+    "name": "Marek",
+    "language_codes": [
+      "pl-PL"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582669+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pl-PL-ZofiaNeural",
+    "name": "Zofia",
+    "language_codes": [
+      "pl-PL"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582671+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ps-AF-LatifaNeural",
+    "name": "لطيفه",
+    "language_codes": [
+      "ps-AF"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582674+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ps-AF-GulNawazNeural",
+    "name": " ګل نواز",
+    "language_codes": [
+      "ps-AF"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582676+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-FranciscaNeural",
+    "name": "Francisca",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582679+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-AntonioNeural",
+    "name": "Antônio",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582681+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-MacerioMultilingualNeural",
+    "name": "Macerio Multilingual",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582683+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-ThalitaMultilingualNeural",
+    "name": "Thalita multilíngue",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582686+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-BrendaNeural",
+    "name": "Brenda",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582688+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-DonatoNeural",
+    "name": "Donato",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582691+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-ElzaNeural",
+    "name": "Elza",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582693+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-FabioNeural",
+    "name": "Fabio",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582695+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-GiovannaNeural",
+    "name": "Giovanna",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582698+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-HumbertoNeural",
+    "name": "Humberto",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582700+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-JulioNeural",
+    "name": "Julio",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582702+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-LeilaNeural",
+    "name": "Leila",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582705+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-LeticiaNeural",
+    "name": "Leticia",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582707+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-ManuelaNeural",
+    "name": "Manuela",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582710+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-NicolauNeural",
+    "name": "Nicolau",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582712+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-ThalitaNeural",
+    "name": "Thalita",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582714+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-ValerioNeural",
+    "name": "Valerio",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582717+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-BR-YaraNeural",
+    "name": "Yara",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582719+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-PT-RaquelNeural",
+    "name": "Raquel",
+    "language_codes": [
+      "pt-PT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582722+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-PT-DuarteNeural",
+    "name": "Duarte",
+    "language_codes": [
+      "pt-PT"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582724+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "pt-PT-FernandaNeural",
+    "name": "Fernanda",
+    "language_codes": [
+      "pt-PT"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582726+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ro-RO-AlinaNeural",
+    "name": "Alina",
+    "language_codes": [
+      "ro-RO"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582729+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ro-RO-EmilNeural",
+    "name": "Emil",
+    "language_codes": [
+      "ro-RO"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582731+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ru-RU-SvetlanaNeural",
+    "name": "Светлана",
+    "language_codes": [
+      "ru-RU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582733+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ru-RU-DmitryNeural",
+    "name": "Дмитрий",
+    "language_codes": [
+      "ru-RU"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582736+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ru-RU-DariyaNeural",
+    "name": "Дария",
+    "language_codes": [
+      "ru-RU"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582739+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "si-LK-ThiliniNeural",
+    "name": "තිළිණි",
+    "language_codes": [
+      "si-LK"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582742+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "si-LK-SameeraNeural",
+    "name": "සමීර",
+    "language_codes": [
+      "si-LK"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582744+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sk-SK-ViktoriaNeural",
+    "name": "Viktória",
+    "language_codes": [
+      "sk-SK"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582746+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sk-SK-LukasNeural",
+    "name": "Lukáš",
+    "language_codes": [
+      "sk-SK"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582749+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sl-SI-PetraNeural",
+    "name": "Petra",
+    "language_codes": [
+      "sl-SI"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582751+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sl-SI-RokNeural",
+    "name": "Rok",
+    "language_codes": [
+      "sl-SI"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582754+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "so-SO-UbaxNeural",
+    "name": "Ubax",
+    "language_codes": [
+      "so-SO"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582756+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "so-SO-MuuseNeural",
+    "name": "Muuse",
+    "language_codes": [
+      "so-SO"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582758+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sq-AL-AnilaNeural",
+    "name": "Anila",
+    "language_codes": [
+      "sq-AL"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582761+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sq-AL-IlirNeural",
+    "name": "Ilir",
+    "language_codes": [
+      "sq-AL"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582763+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sr-Latn-RS-NicholasNeural",
+    "name": "Nicholas",
+    "language_codes": [
+      "sr-Latn-RS"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582765+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sr-Latn-RS-SophieNeural",
+    "name": "Sophie",
+    "language_codes": [
+      "sr-Latn-RS"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582768+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sr-RS-SophieNeural",
+    "name": "Софија",
+    "language_codes": [
+      "sr-RS"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582770+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sr-RS-NicholasNeural",
+    "name": "Никола",
+    "language_codes": [
+      "sr-RS"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582772+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "su-ID-TutiNeural",
+    "name": "Tuti",
+    "language_codes": [
+      "su-ID"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582774+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "su-ID-JajangNeural",
+    "name": "Jajang",
+    "language_codes": [
+      "su-ID"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582777+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sv-SE-SofieNeural",
+    "name": "Sofie",
+    "language_codes": [
+      "sv-SE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582779+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sv-SE-MattiasNeural",
+    "name": "Mattias",
+    "language_codes": [
+      "sv-SE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582782+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sv-SE-HilleviNeural",
+    "name": "Hillevi",
+    "language_codes": [
+      "sv-SE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582784+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sw-KE-ZuriNeural",
+    "name": "Zuri",
+    "language_codes": [
+      "sw-KE"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582787+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sw-KE-RafikiNeural",
+    "name": "Rafiki",
+    "language_codes": [
+      "sw-KE"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582789+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sw-TZ-RehemaNeural",
+    "name": "Rehema",
+    "language_codes": [
+      "sw-TZ"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582791+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "sw-TZ-DaudiNeural",
+    "name": "Daudi",
+    "language_codes": [
+      "sw-TZ"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582794+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ta-IN-PallaviNeural",
+    "name": "பல்லவி",
+    "language_codes": [
+      "ta-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582796+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ta-IN-ValluvarNeural",
+    "name": "வள்ளுவர்",
+    "language_codes": [
+      "ta-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582798+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ta-LK-SaranyaNeural",
+    "name": "சரண்யா",
+    "language_codes": [
+      "ta-LK"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582801+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ta-LK-KumarNeural",
+    "name": "குமார்",
+    "language_codes": [
+      "ta-LK"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582803+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ta-MY-KaniNeural",
+    "name": "கனி",
+    "language_codes": [
+      "ta-MY"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582805+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ta-MY-SuryaNeural",
+    "name": "சூர்யா",
+    "language_codes": [
+      "ta-MY"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582808+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ta-SG-VenbaNeural",
+    "name": "வெண்பா",
+    "language_codes": [
+      "ta-SG"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582810+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ta-SG-AnbuNeural",
+    "name": "அன்பு",
+    "language_codes": [
+      "ta-SG"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582812+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "te-IN-ShrutiNeural",
+    "name": "శ్రుతి",
+    "language_codes": [
+      "te-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582815+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "te-IN-MohanNeural",
+    "name": "మోహన్",
+    "language_codes": [
+      "te-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582817+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "th-TH-PremwadeeNeural",
+    "name": "เปรมวดี",
+    "language_codes": [
+      "th-TH"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582820+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "th-TH-NiwatNeural",
+    "name": "นิวัฒน์",
+    "language_codes": [
+      "th-TH"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582822+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "th-TH-AcharaNeural",
+    "name": "อัจฉรา",
+    "language_codes": [
+      "th-TH"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582824+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "tr-TR-EmelNeural",
+    "name": "Emel",
+    "language_codes": [
+      "tr-TR"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582827+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "tr-TR-AhmetNeural",
+    "name": "Ahmet",
+    "language_codes": [
+      "tr-TR"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582829+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "uk-UA-PolinaNeural",
+    "name": "Поліна",
+    "language_codes": [
+      "uk-UA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582831+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "uk-UA-OstapNeural",
+    "name": "Остап",
+    "language_codes": [
+      "uk-UA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582834+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ur-IN-GulNeural",
+    "name": "گل",
+    "language_codes": [
+      "ur-IN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582836+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ur-IN-SalmanNeural",
+    "name": "سلمان",
+    "language_codes": [
+      "ur-IN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582838+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ur-PK-UzmaNeural",
+    "name": "عظمیٰ",
+    "language_codes": [
+      "ur-PK"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582841+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "ur-PK-AsadNeural",
+    "name": "اسد",
+    "language_codes": [
+      "ur-PK"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582843+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "uz-UZ-MadinaNeural",
+    "name": "Madina",
+    "language_codes": [
+      "uz-UZ"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582845+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "uz-UZ-SardorNeural",
+    "name": "Sardor",
+    "language_codes": [
+      "uz-UZ"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582848+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "vi-VN-HoaiMyNeural",
+    "name": "Hoài My",
+    "language_codes": [
+      "vi-VN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582850+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "vi-VN-NamMinhNeural",
+    "name": "Nam Minh",
+    "language_codes": [
+      "vi-VN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582852+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "wuu-CN-XiaotongNeural",
+    "name": "晓彤",
+    "language_codes": [
+      "wuu-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582855+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "wuu-CN-YunzheNeural",
+    "name": "云哲",
+    "language_codes": [
+      "wuu-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582857+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "yue-CN-XiaoMinNeural",
+    "name": "晓敏",
+    "language_codes": [
+      "yue-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582859+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "yue-CN-YunSongNeural",
+    "name": "云松",
+    "language_codes": [
+      "yue-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582862+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoxiaoNeural",
+    "name": "晓晓",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582864+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunxiNeural",
+    "name": "云希",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582866+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunjianNeural",
+    "name": "云健",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582869+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoyiNeural",
+    "name": "晓伊",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582871+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunyangNeural",
+    "name": "云扬",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582874+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaochenNeural",
+    "name": "晓辰",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582876+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaochenMultilingualNeural",
+    "name": "晓辰 多语言",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582878+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaohanNeural",
+    "name": "晓涵",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582881+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaomengNeural",
+    "name": "晓梦",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582883+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaomoNeural",
+    "name": "晓墨",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582885+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoqiuNeural",
+    "name": "晓秋",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582888+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaorouNeural",
+    "name": "晓柔",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582891+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoruiNeural",
+    "name": "晓睿",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582893+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoshuangMultilingualNeural",
+    "name": "晓双 多语言",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582896+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoshuangNeural",
+    "name": "晓双",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582898+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoxiaoDialectsNeural",
+    "name": "晓晓 方言",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582900+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoxiaoMultilingualNeural",
+    "name": "晓晓 多语言",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582903+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoyanNeural",
+    "name": "晓颜",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582905+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoyouMultilingualNeural",
+    "name": "晓悠 多语言",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582907+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoyouNeural",
+    "name": "晓悠",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582910+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaoyuMultilingualNeural",
+    "name": "晓宇 多语言",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582912+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-XiaozhenNeural",
+    "name": "晓甄",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582914+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunfanMultilingualNeural",
+    "name": "Yunfan Multilingual",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582917+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunfengNeural",
+    "name": "云枫",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582919+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunhaoNeural",
+    "name": "云皓",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582922+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunjieNeural",
+    "name": "云杰",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582924+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunxiaNeural",
+    "name": "云夏",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582926+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunxiaoMultilingualNeural",
+    "name": "Yunxiao Multilingual",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582929+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunyeNeural",
+    "name": "云野",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582931+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunyiMultilingualNeural",
+    "name": "云逸 多语言",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582934+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-YunzeNeural",
+    "name": "云泽",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582936+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-henan-YundengNeural",
+    "name": "云登",
+    "language_codes": [
+      "zh-CN-henan"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582938+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-liaoning-XiaobeiNeural",
+    "name": "晓北",
+    "language_codes": [
+      "zh-CN-liaoning"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582941+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-shaanxi-XiaoniNeural",
+    "name": "晓妮",
+    "language_codes": [
+      "zh-CN-shaanxi"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582943+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-shandong-YunxiangNeural",
+    "name": "云翔",
+    "language_codes": [
+      "zh-CN-shandong"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582945+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-CN-sichuan-YunxiNeural",
+    "name": "云希 四川",
+    "language_codes": [
+      "zh-CN-sichuan"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582948+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-HK-HiuMaanNeural",
+    "name": "曉曼",
+    "language_codes": [
+      "zh-HK"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582950+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-HK-WanLungNeural",
+    "name": "雲龍",
+    "language_codes": [
+      "zh-HK"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582953+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-HK-HiuGaaiNeural",
+    "name": "曉佳",
+    "language_codes": [
+      "zh-HK"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582955+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-TW-HsiaoChenNeural",
+    "name": "曉臻",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582957+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-TW-YunJheNeural",
+    "name": "雲哲",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582960+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zh-TW-HsiaoYuNeural",
+    "name": "曉雨",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582962+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zu-ZA-ThandoNeural",
+    "name": "Thando",
+    "language_codes": [
+      "zu-ZA"
+    ],
+    "gender": "Female",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582964+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  },
+  {
+    "id": "zu-ZA-ThembaNeural",
+    "name": "Themba",
+    "language_codes": [
+      "zu-ZA"
+    ],
+    "gender": "Male",
+    "engine": "Microsoft Azure",
+    "platform": "online",
+    "collected_at": "2026-02-15T05:25:56.582967+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
+  }
+]
