@@ -208,6 +208,7 @@ jobs:
           datasette publish vercel data/voices.db \
             --token $VERCEL_TOKEN \
             --project tts-voice-catalog \
+            --vercel-json .github/vercel.datasette.json \
             --install datasette-vega \
             --title "Global TTS Voice Catalog" \
             --license "CC0-1.0" \
