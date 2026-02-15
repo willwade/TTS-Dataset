@@ -2089,4 +2089,94 @@
     "platform": "macos",
     "collected_at": "2026-02-15T03:37:53.375503+00:00"
   }
+]5503+00:00"
+  },
+  {
+    "id": "com.apple.eloquence.zh-TW.Grandma",
+    "name": "Grandma",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Male",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+  },
+  {
+    "id": "com.apple.eloquence.zh-TW.Grandpa",
+    "name": "Grandpa",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Male",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+  },
+  {
+    "id": "com.apple.eloquence.zh-TW.Sandy",
+    "name": "Sandy",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Male",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+  },
+  {
+    "id": "com.apple.eloquence.zh-TW.Flo",
+    "name": "Flo",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Male",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+  },
+  {
+    "id": "com.apple.eloquence.zh-TW.Eddy",
+    "name": "Eddy",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Male",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+  },
+  {
+    "id": "com.apple.eloquence.zh-TW.Reed",
+    "name": "Reed",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Male",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+  },
+  {
+    "id": "com.apple.voice.compact.zh-TW.Meijia",
+    "name": "Meijia",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Female",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+  },
+  {
+    "id": "com.apple.eloquence.zh-TW.Rocko",
+    "name": "Rocko",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Male",
+    "engine": "AVSynth",
+    "platform": "macos",
+    "collected_at": "2026-02-15T03:37:53.375503+00:00"
+  }
 ]

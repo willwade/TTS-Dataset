@@ -7,8 +7,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762256+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645254+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Danielle",
@@ -18,8 +20,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762283+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645265+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Gregory",
@@ -29,8 +33,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762289+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645269+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Burcu",
@@ -40,8 +46,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762294+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645272+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Jitka",
@@ -51,8 +59,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762298+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645274+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Sabrina",
@@ -62,8 +72,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762301+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645277+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Patrick",
@@ -73,8 +85,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762305+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645279+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Alba",
@@ -84,8 +98,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762309+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645282+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Raul",
@@ -95,8 +111,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762313+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645284+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Joanna",
@@ -106,8 +124,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762317+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645286+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Ruth",
@@ -117,8 +137,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762320+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645289+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Lupe",
@@ -128,8 +150,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762324+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645291+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Jasmine",
@@ -139,8 +163,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762327+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645293+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Jihye",
@@ -150,8 +176,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762330+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645295+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Kevin",
@@ -161,8 +189,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762334+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645298+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Filiz",
@@ -172,8 +202,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762337+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645300+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Elin",
@@ -183,8 +215,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762341+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645302+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Astrid",
@@ -194,8 +228,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762344+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645305+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Tatyana",
@@ -205,8 +241,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762348+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645307+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Maxim",
@@ -216,8 +254,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762352+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645309+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Carmen",
@@ -227,8 +267,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762355+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645312+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Ines",
@@ -238,8 +280,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762359+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645314+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Cristiano",
@@ -249,8 +293,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762362+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645316+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Vitoria",
@@ -260,8 +306,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762365+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645319+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Ricardo",
@@ -271,8 +319,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762368+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645321+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Camila",
@@ -282,8 +332,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762372+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645323+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Maja",
@@ -293,8 +345,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762376+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645326+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Jan",
@@ -304,8 +358,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762380+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645328+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Jacek",
@@ -315,8 +371,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762384+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645330+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Ewa",
@@ -326,8 +384,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762388+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645333+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Ola",
@@ -337,8 +397,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.762392+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645335+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Lisa",
@@ -348,8 +410,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.763971+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645337+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Ruben",
@@ -359,8 +423,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764000+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645339+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Lotte",
@@ -370,8 +436,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764003+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645342+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Laura",
@@ -381,8 +449,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764006+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645344+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Ida",
@@ -392,8 +462,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764009+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645346+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Liv",
@@ -403,8 +475,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764011+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645349+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Seoyeon",
@@ -414,8 +488,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764013+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645351+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Kazuha",
@@ -425,8 +501,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764015+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645353+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Tomoko",
@@ -436,8 +514,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764018+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645355+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Takumi",
@@ -447,8 +527,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764020+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645358+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Mizuki",
@@ -458,8 +540,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764022+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645360+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Bianca",
@@ -469,8 +553,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764024+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645362+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Giorgio",
@@ -480,8 +566,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764026+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645368+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Carla",
@@ -491,8 +579,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764029+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645370+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Karl",
@@ -502,8 +592,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764031+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645372+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Dora",
@@ -513,8 +605,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764033+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645375+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Mathieu",
@@ -524,8 +618,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764035+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645377+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Lea",
@@ -535,8 +631,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764038+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645379+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Celine",
@@ -546,8 +644,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764040+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645382+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Chantal",
@@ -557,8 +657,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764042+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645384+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Gabrielle",
@@ -568,8 +670,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764044+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645386+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Penelope",
@@ -579,8 +683,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764047+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645388+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Miguel",
@@ -590,8 +696,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764049+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645391+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Mia",
@@ -601,8 +709,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764052+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645393+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Lucia",
@@ -612,8 +722,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764055+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645395+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Enrique",
@@ -623,8 +735,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764057+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645398+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Conchita",
@@ -634,8 +748,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764060+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645400+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Geraint",
@@ -645,8 +761,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764062+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645402+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Salli",
@@ -656,8 +774,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764064+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645405+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Matthew",
@@ -667,8 +787,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764066+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645407+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Kimberly",
@@ -678,8 +800,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764068+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645409+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Kendra",
@@ -689,8 +813,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764071+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645411+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Justin",
@@ -700,8 +826,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764073+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645414+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Joey",
@@ -711,8 +839,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764076+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645416+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Ivy",
@@ -722,8 +852,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764080+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645418+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Aria",
@@ -733,8 +865,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764083+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645421+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Ayanda",
@@ -744,8 +878,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764085+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645423+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Raveena",
@@ -755,8 +891,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764087+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645425+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Aditi",
@@ -766,8 +904,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764090+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645427+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Emma",
@@ -777,8 +917,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764092+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645430+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Brian",
@@ -788,8 +930,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764094+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645432+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Amy",
@@ -799,8 +943,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764097+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645434+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Russell",
@@ -810,8 +956,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764099+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645437+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Nicole",
@@ -821,8 +969,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764101+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645439+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Olivia",
@@ -832,8 +982,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764103+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645441+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Vicki",
@@ -843,8 +995,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764105+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645443+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Marlene",
@@ -854,8 +1008,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764112+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645446+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Hans",
@@ -865,8 +1021,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764116+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645448+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Naja",
@@ -876,8 +1034,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764119+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645451+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Mads",
@@ -887,8 +1047,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764121+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645453+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Sofie",
@@ -898,8 +1060,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764124+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645455+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Gwyneth",
@@ -909,8 +1073,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764127+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645458+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Zhiyu",
@@ -920,8 +1086,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764130+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645460+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Zeina",
@@ -931,8 +1099,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764132+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645463+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Hala",
@@ -942,8 +1112,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764135+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645465+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Arlet",
@@ -953,8 +1125,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764138+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645467+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Hannah",
@@ -964,8 +1138,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764149+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645470+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Stephen",
@@ -975,8 +1151,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764152+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645472+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Kajal",
@@ -986,8 +1164,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764154+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645474+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Hiujin",
@@ -997,8 +1177,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764157+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645477+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Suvi",
@@ -1008,8 +1190,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764160+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645479+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Niamh",
@@ -1019,8 +1203,10 @@
     ],
     "gender": "Female",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764162+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645481+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Arthur",
@@ -1030,8 +1216,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764167+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645485+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Daniel",
@@ -1041,8 +1229,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764171+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645487+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Liam",
@@ -1052,8 +1242,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764173+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645492+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Pedro",
@@ -1063,8 +1255,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764176+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645494+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Sergio",
@@ -1074,8 +1268,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764178+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645497+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Andres",
@@ -1085,8 +1281,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764180+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645499+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Remi",
@@ -1096,8 +1294,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764183+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645502+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Adriano",
@@ -1107,8 +1307,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764185+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645504+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Thiago",
@@ -1118,8 +1320,10 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764188+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645506+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   },
   {
     "id": "Zayd",
@@ -1129,7 +1333,9 @@
     ],
     "gender": "Male",
     "engine": "AWS Polly",
-    "platform": "windows",
-    "collected_at": "2026-02-15T03:17:27.764190+00:00"
+    "platform": "online",
+    "collected_at": "2026-02-15T04:38:35.645509+00:00",
+    "source_type": "runtime",
+    "source_name": "py3-tts-wrapper"
   }
 ]
