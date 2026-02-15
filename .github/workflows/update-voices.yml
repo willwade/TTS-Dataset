@@ -41,12 +41,47 @@ jobs:
         if: runner.os == 'macOS'
         run: brew install portaudio espeak-ng
 
+      - name: Make AVSynth SpeechBridge executable (macOS)
+        if: runner.os == 'macOS'
+        shell: bash
+        run: |
+          set -euo pipefail
+          bridge="$(find .venv -type f -path "*/tts_wrapper/engines/avsynth/SpeechBridge" | head -n 1 || true)"
+          if [[ -n "${bridge}" ]]; then
+            chmod +x "${bridge}"
+            echo "Marked executable: ${bridge}"
+          else
+            echo "AVSynth SpeechBridge not found; continuing."
+          fi
+
       - name: Install system dependencies (Windows)
         if: runner.os == 'Windows'
         run: echo "No system dependencies needed for Windows"
 
       - name: Collect voices
         run: uv run python scripts/collect_voices.py
+
+      - name: Collect online voices (Linux)
+        if: runner.os == 'Linux'
+        env:
+          GOOGLE_TTS_CREDENTIALS: ${{ secrets.GOOGLE_TTS_CREDENTIALS || vars.GOOGLE_TTS_CREDENTIALS }}
+          GOOGLE_TTS_CREDENTIALS_JSON: ${{ secrets.GOOGLE_TTS_CREDENTIALS_JSON || vars.GOOGLE_TTS_CREDENTIALS_JSON }}
+          GOOGLE_SA_FILE_B64: ${{ secrets.GOOGLE_SA_FILE_B64 || vars.GOOGLE_SA_FILE_B64 }}
+          AZURE_TTS_KEY: ${{ secrets.AZURE_TTS_KEY || vars.AZURE_TTS_KEY }}
+          AZURE_TTS_REGION: ${{ secrets.AZURE_TTS_REGION || vars.AZURE_TTS_REGION }}
+          AWS_REGION: ${{ secrets.AWS_REGION || vars.AWS_REGION }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID || vars.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY || vars.AWS_SECRET_ACCESS_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY || vars.ELEVENLABS_API_KEY }}
+          WATSON_API_KEY: ${{ secrets.WATSON_API_KEY || vars.WATSON_API_KEY }}
+          WATSON_REGION: ${{ secrets.WATSON_REGION || vars.WATSON_REGION }}
+          WATSON_INSTANCE_ID: ${{ secrets.WATSON_INSTANCE_ID || vars.WATSON_INSTANCE_ID }}
+          WITAI_TOKEN: ${{ secrets.WITAI_TOKEN || vars.WITAI_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || vars.OPENAI_API_KEY }}
+          PLAYHT_API_KEY: ${{ secrets.PLAYHT_API_KEY || vars.PLAYHT_API_KEY }}
+          PLAYHT_USER_ID: ${{ secrets.PLAYHT_USER_ID || vars.PLAYHT_USER_ID }}
+          UPLIFTAI_KEY: ${{ secrets.UPLIFTAI_KEY || vars.UPLIFTAI_KEY }}
+        run: uv run python scripts/collect_voices.py --online
 
       - name: Upload raw data artifact
         uses: actions/upload-artifact@v4
@@ -79,9 +114,10 @@ jobs:
         with:
           path: data/raw
           pattern: voices-*
+          merge-multiple: true
 
       - name: List downloaded files
-        run: ls -la data/raw
+        run: find data/raw -maxdepth 3 -type f -print
 
       - name: Build SQLite database
         run: uv run python scripts/harmonize.py

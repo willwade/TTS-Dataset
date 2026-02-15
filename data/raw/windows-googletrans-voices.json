@@ -1,0 +1,882 @@
+[
+  {
+    "id": "af",
+    "name": "Afrikaans",
+    "language_codes": [
+      "af"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546767+00:00"
+  },
+  {
+    "id": "am",
+    "name": "Amharic",
+    "language_codes": [
+      "am"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546789+00:00"
+  },
+  {
+    "id": "ar",
+    "name": "Arabic",
+    "language_codes": [
+      "ar"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546793+00:00"
+  },
+  {
+    "id": "bg",
+    "name": "Bulgarian",
+    "language_codes": [
+      "bg"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546795+00:00"
+  },
+  {
+    "id": "bn",
+    "name": "Bengali",
+    "language_codes": [
+      "bn"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546798+00:00"
+  },
+  {
+    "id": "bs",
+    "name": "Bosnian",
+    "language_codes": [
+      "bs"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546800+00:00"
+  },
+  {
+    "id": "ca",
+    "name": "Catalan",
+    "language_codes": [
+      "ca"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546803+00:00"
+  },
+  {
+    "id": "cs",
+    "name": "Czech",
+    "language_codes": [
+      "cs"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546805+00:00"
+  },
+  {
+    "id": "cy",
+    "name": "Welsh",
+    "language_codes": [
+      "cy"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546808+00:00"
+  },
+  {
+    "id": "da",
+    "name": "Danish",
+    "language_codes": [
+      "da"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546810+00:00"
+  },
+  {
+    "id": "de",
+    "name": "German",
+    "language_codes": [
+      "de"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546813+00:00"
+  },
+  {
+    "id": "el",
+    "name": "Greek",
+    "language_codes": [
+      "el"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546815+00:00"
+  },
+  {
+    "id": "en-com.au",
+    "name": "English (com.au)",
+    "language_codes": [
+      "en"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546817+00:00"
+  },
+  {
+    "id": "en-co.uk",
+    "name": "English (co.uk)",
+    "language_codes": [
+      "en"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546819+00:00"
+  },
+  {
+    "id": "en-us",
+    "name": "English (us)",
+    "language_codes": [
+      "en"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546821+00:00"
+  },
+  {
+    "id": "en-ca",
+    "name": "English (ca)",
+    "language_codes": [
+      "en"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546823+00:00"
+  },
+  {
+    "id": "en-co.in",
+    "name": "English (co.in)",
+    "language_codes": [
+      "en"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546825+00:00"
+  },
+  {
+    "id": "en-ie",
+    "name": "English (ie)",
+    "language_codes": [
+      "en"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546828+00:00"
+  },
+  {
+    "id": "en-co.za",
+    "name": "English (co.za)",
+    "language_codes": [
+      "en"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546830+00:00"
+  },
+  {
+    "id": "en-com.ng",
+    "name": "English (com.ng)",
+    "language_codes": [
+      "en"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546832+00:00"
+  },
+  {
+    "id": "es-com.mx",
+    "name": "Spanish (com.mx)",
+    "language_codes": [
+      "es"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546834+00:00"
+  },
+  {
+    "id": "es-es",
+    "name": "Spanish (es)",
+    "language_codes": [
+      "es"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546836+00:00"
+  },
+  {
+    "id": "es-us",
+    "name": "Spanish (us)",
+    "language_codes": [
+      "es"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546838+00:00"
+  },
+  {
+    "id": "et",
+    "name": "Estonian",
+    "language_codes": [
+      "et"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546840+00:00"
+  },
+  {
+    "id": "eu",
+    "name": "Basque",
+    "language_codes": [
+      "eu"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546843+00:00"
+  },
+  {
+    "id": "fi",
+    "name": "Finnish",
+    "language_codes": [
+      "fi"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546845+00:00"
+  },
+  {
+    "id": "fr-ca",
+    "name": "French (ca)",
+    "language_codes": [
+      "fr"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546848+00:00"
+  },
+  {
+    "id": "fr-fr",
+    "name": "French (fr)",
+    "language_codes": [
+      "fr"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546850+00:00"
+  },
+  {
+    "id": "fr-CA",
+    "name": "French (Canada)",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546854+00:00"
+  },
+  {
+    "id": "gl",
+    "name": "Galician",
+    "language_codes": [
+      "gl"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546856+00:00"
+  },
+  {
+    "id": "gu",
+    "name": "Gujarati",
+    "language_codes": [
+      "gu"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546859+00:00"
+  },
+  {
+    "id": "ha",
+    "name": "Hausa",
+    "language_codes": [
+      "ha"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546861+00:00"
+  },
+  {
+    "id": "hi",
+    "name": "Hindi",
+    "language_codes": [
+      "hi"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546864+00:00"
+  },
+  {
+    "id": "hr",
+    "name": "Croatian",
+    "language_codes": [
+      "hr"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546866+00:00"
+  },
+  {
+    "id": "hu",
+    "name": "Hungarian",
+    "language_codes": [
+      "hu"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546869+00:00"
+  },
+  {
+    "id": "id",
+    "name": "Indonesian",
+    "language_codes": [
+      "id"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546871+00:00"
+  },
+  {
+    "id": "is",
+    "name": "Icelandic",
+    "language_codes": [
+      "is"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546874+00:00"
+  },
+  {
+    "id": "it",
+    "name": "Italian",
+    "language_codes": [
+      "it"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546876+00:00"
+  },
+  {
+    "id": "iw",
+    "name": "Hebrew",
+    "language_codes": [
+      "he"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546878+00:00"
+  },
+  {
+    "id": "ja",
+    "name": "Japanese",
+    "language_codes": [
+      "ja"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546881+00:00"
+  },
+  {
+    "id": "jw",
+    "name": "Javanese",
+    "language_codes": [
+      "jv"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546884+00:00"
+  },
+  {
+    "id": "km",
+    "name": "Khmer",
+    "language_codes": [
+      "km"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546887+00:00"
+  },
+  {
+    "id": "kn",
+    "name": "Kannada",
+    "language_codes": [
+      "kn"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546889+00:00"
+  },
+  {
+    "id": "ko",
+    "name": "Korean",
+    "language_codes": [
+      "ko"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546891+00:00"
+  },
+  {
+    "id": "la",
+    "name": "Latin",
+    "language_codes": [
+      "la"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546893+00:00"
+  },
+  {
+    "id": "lt",
+    "name": "Lithuanian",
+    "language_codes": [
+      "lt"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546895+00:00"
+  },
+  {
+    "id": "lv",
+    "name": "Latvian",
+    "language_codes": [
+      "lv"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546897+00:00"
+  },
+  {
+    "id": "ml",
+    "name": "Malayalam",
+    "language_codes": [
+      "ml"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546899+00:00"
+  },
+  {
+    "id": "mr",
+    "name": "Marathi",
+    "language_codes": [
+      "mr"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546902+00:00"
+  },
+  {
+    "id": "ms",
+    "name": "Malay",
+    "language_codes": [
+      "ms"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546904+00:00"
+  },
+  {
+    "id": "my",
+    "name": "Myanmar (Burmese)",
+    "language_codes": [
+      "my"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546906+00:00"
+  },
+  {
+    "id": "ne",
+    "name": "Nepali",
+    "language_codes": [
+      "ne"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546908+00:00"
+  },
+  {
+    "id": "nl",
+    "name": "Dutch",
+    "language_codes": [
+      "nl"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546912+00:00"
+  },
+  {
+    "id": "no",
+    "name": "Norwegian",
+    "language_codes": [
+      "no"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546914+00:00"
+  },
+  {
+    "id": "pa",
+    "name": "Punjabi (Gurmukhi)",
+    "language_codes": [
+      "pa"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546917+00:00"
+  },
+  {
+    "id": "pl",
+    "name": "Polish",
+    "language_codes": [
+      "pl"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546919+00:00"
+  },
+  {
+    "id": "pt-com.br",
+    "name": "Portuguese (Brazil) (com.br)",
+    "language_codes": [
+      "pt"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546921+00:00"
+  },
+  {
+    "id": "pt-pt",
+    "name": "Portuguese (Brazil) (pt)",
+    "language_codes": [
+      "pt"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.546924+00:00"
+  },
+  {
+    "id": "pt-PT",
+    "name": "Portuguese (Portugal)",
+    "language_codes": [
+      "pt-PT"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547115+00:00"
+  },
+  {
+    "id": "ro",
+    "name": "Romanian",
+    "language_codes": [
+      "ro"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547121+00:00"
+  },
+  {
+    "id": "ru",
+    "name": "Russian",
+    "language_codes": [
+      "ru"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547123+00:00"
+  },
+  {
+    "id": "si",
+    "name": "Sinhala",
+    "language_codes": [
+      "si"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547126+00:00"
+  },
+  {
+    "id": "sk",
+    "name": "Slovak",
+    "language_codes": [
+      "sk"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547128+00:00"
+  },
+  {
+    "id": "sq",
+    "name": "Albanian",
+    "language_codes": [
+      "sq"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547131+00:00"
+  },
+  {
+    "id": "sr",
+    "name": "Serbian",
+    "language_codes": [
+      "sr"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547133+00:00"
+  },
+  {
+    "id": "su",
+    "name": "Sundanese",
+    "language_codes": [
+      "su"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547137+00:00"
+  },
+  {
+    "id": "sv",
+    "name": "Swedish",
+    "language_codes": [
+      "sv"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547140+00:00"
+  },
+  {
+    "id": "sw",
+    "name": "Swahili",
+    "language_codes": [
+      "sw"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547142+00:00"
+  },
+  {
+    "id": "ta",
+    "name": "Tamil",
+    "language_codes": [
+      "ta"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547144+00:00"
+  },
+  {
+    "id": "te",
+    "name": "Telugu",
+    "language_codes": [
+      "te"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547146+00:00"
+  },
+  {
+    "id": "th",
+    "name": "Thai",
+    "language_codes": [
+      "th"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547148+00:00"
+  },
+  {
+    "id": "tl",
+    "name": "Filipino",
+    "language_codes": [
+      "fil"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547151+00:00"
+  },
+  {
+    "id": "tr",
+    "name": "Turkish",
+    "language_codes": [
+      "tr"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547153+00:00"
+  },
+  {
+    "id": "uk",
+    "name": "Ukrainian",
+    "language_codes": [
+      "uk"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547155+00:00"
+  },
+  {
+    "id": "ur",
+    "name": "Urdu",
+    "language_codes": [
+      "ur"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547157+00:00"
+  },
+  {
+    "id": "vi",
+    "name": "Vietnamese",
+    "language_codes": [
+      "vi"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547159+00:00"
+  },
+  {
+    "id": "yue",
+    "name": "Cantonese",
+    "language_codes": [
+      "yue"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547162+00:00"
+  },
+  {
+    "id": "zh-CN-any",
+    "name": "Chinese (Simplified) (any)",
+    "language_codes": [
+      "zh-CN"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547166+00:00"
+  },
+  {
+    "id": "zh-TW-any",
+    "name": "Chinese (Mandarin/Taiwan) (any)",
+    "language_codes": [
+      "zh-TW"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547169+00:00"
+  },
+  {
+    "id": "zh",
+    "name": "Chinese (Mandarin)",
+    "language_codes": [
+      "zh"
+    ],
+    "gender": "Unknown",
+    "engine": "GoogleTrans",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:22.547172+00:00"
+  }
+]

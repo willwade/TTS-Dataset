@@ -1,0 +1,739 @@
+[
+  {
+    "id": "en-GB_KateVoice",
+    "name": "KateVoice",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987197+00:00"
+  },
+  {
+    "id": "en-US_MichaelExpressive",
+    "name": "MichaelExpressive",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987220+00:00"
+  },
+  {
+    "id": "ko-KR_JinV3Voice",
+    "name": "Jin",
+    "language_codes": [
+      "ko-KR"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987223+00:00"
+  },
+  {
+    "id": "en-US_AllisonExpressive",
+    "name": "AllisonExpressive",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987225+00:00"
+  },
+  {
+    "id": "en-US_AllisonVoice",
+    "name": "AllisonVoice",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987228+00:00"
+  },
+  {
+    "id": "en-GB_GeorgeExpressive",
+    "name": "GeorgeExpressive",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987230+00:00"
+  },
+  {
+    "id": "en-US_MichaelVoice",
+    "name": "MichaelVoice",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987233+00:00"
+  },
+  {
+    "id": "de-DE_BirgitVoice",
+    "name": "BirgitVoice",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987236+00:00"
+  },
+  {
+    "id": "en-US_EmmaExpressive",
+    "name": "EmmaExpressive",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987238+00:00"
+  },
+  {
+    "id": "pt-BR_LucasExpressive",
+    "name": "LucasExpressive",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987240+00:00"
+  },
+  {
+    "id": "en-AU_HeidiExpressive",
+    "name": "HeidiExpressive",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987242+00:00"
+  },
+  {
+    "id": "de-DE_DieterVoice",
+    "name": "DieterVoice",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987245+00:00"
+  },
+  {
+    "id": "fr-FR_ReneeVoice",
+    "name": "ReneeVoice",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987247+00:00"
+  },
+  {
+    "id": "es-LA_DanielaExpressive",
+    "name": "DanielaExpressive",
+    "language_codes": [
+      "es-LA"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987249+00:00"
+  },
+  {
+    "id": "en-US_LisaExpressive",
+    "name": "LisaExpressive",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987251+00:00"
+  },
+  {
+    "id": "en-AU_JackExpressive",
+    "name": "JackExpressive",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987253+00:00"
+  },
+  {
+    "id": "en-US_MichaelV2Voice",
+    "name": "MichaelV2Voice",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987256+00:00"
+  },
+  {
+    "id": "en-CA_HannahNatural",
+    "name": "HannahNatural",
+    "language_codes": [
+      "en-CA"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987258+00:00"
+  },
+  {
+    "id": "en-AU_HeidiNatural",
+    "name": "HeidiNatural",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987260+00:00"
+  },
+  {
+    "id": "de-DE_BirgitV3Voice",
+    "name": "Birgit",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987262+00:00"
+  },
+  {
+    "id": "en-US_KevinV3Voice",
+    "name": "Kevin",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987265+00:00"
+  },
+  {
+    "id": "pt-BR_CamilaNatural",
+    "name": "CamilaNatural",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987267+00:00"
+  },
+  {
+    "id": "en-US_HenryV3Voice",
+    "name": "Henry",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987269+00:00"
+  },
+  {
+    "id": "de-DE_ErikaV3Voice",
+    "name": "Erika",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987270+00:00"
+  },
+  {
+    "id": "en-US_LisaV3Voice",
+    "name": "Lisa",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987272+00:00"
+  },
+  {
+    "id": "es-US_SofiaVoice",
+    "name": "SofiaVoice",
+    "language_codes": [
+      "es-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987275+00:00"
+  },
+  {
+    "id": "it-IT_FrancescaVoice",
+    "name": "FrancescaVoice",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987277+00:00"
+  },
+  {
+    "id": "en-US_EmilyV3Voice",
+    "name": "Emily",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987279+00:00"
+  },
+  {
+    "id": "fr-CA_LouiseV3Voice",
+    "name": "Louise",
+    "language_codes": [
+      "fr-CA"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987281+00:00"
+  },
+  {
+    "id": "en-US_EmmaNatural",
+    "name": "EmmaNatural",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987283+00:00"
+  },
+  {
+    "id": "en-AU_JackNatural",
+    "name": "JackNatural",
+    "language_codes": [
+      "en-AU"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987285+00:00"
+  },
+  {
+    "id": "ja-JP_EmiV3Voice",
+    "name": "Emi",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987287+00:00"
+  },
+  {
+    "id": "pt-BR_LucasNatural",
+    "name": "LucasNatural",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987289+00:00"
+  },
+  {
+    "id": "fr-FR_NicolasV3Voice",
+    "name": "Nicolas",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987290+00:00"
+  },
+  {
+    "id": "en-US_JacksonNatural",
+    "name": "JacksonNatural",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987292+00:00"
+  },
+  {
+    "id": "en-US_AllisonV2Voice",
+    "name": "AllisonV2Voice",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987294+00:00"
+  },
+  {
+    "id": "en-US_LisaVoice",
+    "name": "LisaVoice",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987296+00:00"
+  },
+  {
+    "id": "it-IT_FrancescaV2Voice",
+    "name": "FrancescaV2Voice",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987298+00:00"
+  },
+  {
+    "id": "en-US_EthanNatural",
+    "name": "EthanNatural",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987300+00:00"
+  },
+  {
+    "id": "de-DE_DieterV3Voice",
+    "name": "Dieter",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987302+00:00"
+  },
+  {
+    "id": "fr-FR_ReneeV3Voice",
+    "name": "Renee",
+    "language_codes": [
+      "fr-FR"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987304+00:00"
+  },
+  {
+    "id": "de-DE_DieterV2Voice",
+    "name": "DieterV2Voice",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987306+00:00"
+  },
+  {
+    "id": "ja-JP_EmiVoice",
+    "name": "EmiVoice",
+    "language_codes": [
+      "ja-JP"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987308+00:00"
+  },
+  {
+    "id": "es-ES_LauraV3Voice",
+    "name": "Laura",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987310+00:00"
+  },
+  {
+    "id": "es-ES_EnriqueV3Voice",
+    "name": "Enrique",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987311+00:00"
+  },
+  {
+    "id": "es-LA_SofiaV3Voice",
+    "name": "Sofia",
+    "language_codes": [
+      "es-LA"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987313+00:00"
+  },
+  {
+    "id": "de-DE_BirgitV2Voice",
+    "name": "BirgitV2Voice",
+    "language_codes": [
+      "de-DE"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987315+00:00"
+  },
+  {
+    "id": "en-US_LisaV2Voice",
+    "name": "LisaV2Voice",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987317+00:00"
+  },
+  {
+    "id": "es-LA_SofiaVoice",
+    "name": "SofiaVoice",
+    "language_codes": [
+      "es-LA"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987319+00:00"
+  },
+  {
+    "id": "en-GB_GeorgeNatural",
+    "name": "GeorgeNatural",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987321+00:00"
+  },
+  {
+    "id": "pt-BR_IsabelaV3Voice",
+    "name": "Isabela",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987323+00:00"
+  },
+  {
+    "id": "en-US_AllisonV3Voice",
+    "name": "Allison",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987324+00:00"
+  },
+  {
+    "id": "es-ES_LauraVoice",
+    "name": "LauraVoice",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987327+00:00"
+  },
+  {
+    "id": "en-GB_ChloeNatural",
+    "name": "ChloeNatural",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987328+00:00"
+  },
+  {
+    "id": "it-IT_FrancescaV3Voice",
+    "name": "Francesca",
+    "language_codes": [
+      "it-IT"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987330+00:00"
+  },
+  {
+    "id": "es-ES_EnriqueVoice",
+    "name": "EnriqueVoice",
+    "language_codes": [
+      "es-ES"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987332+00:00"
+  },
+  {
+    "id": "nl-NL_MerelV3Voice",
+    "name": "Merel",
+    "language_codes": [
+      "nl-NL"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987334+00:00"
+  },
+  {
+    "id": "en-US_EllieNatural",
+    "name": "EllieNatural",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987336+00:00"
+  },
+  {
+    "id": "en-GB_KateV3Voice",
+    "name": "Kate",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987338+00:00"
+  },
+  {
+    "id": "en-US_OliviaV3Voice",
+    "name": "Olivia",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987339+00:00"
+  },
+  {
+    "id": "en-GB_CharlotteV3Voice",
+    "name": "Charlotte",
+    "language_codes": [
+      "en-GB"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987341+00:00"
+  },
+  {
+    "id": "en-US_VictoriaNatural",
+    "name": "VictoriaNatural",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987343+00:00"
+  },
+  {
+    "id": "es-LA_DanielaNatural",
+    "name": "DanielaNatural",
+    "language_codes": [
+      "es-LA"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987345+00:00"
+  },
+  {
+    "id": "en-US_MichaelV3Voice",
+    "name": "Michael",
+    "language_codes": [
+      "en-US"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987346+00:00"
+  },
+  {
+    "id": "es-US_SofiaV3Voice",
+    "name": "Sofia",
+    "language_codes": [
+      "es-US"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987348+00:00"
+  },
+  {
+    "id": "es-LA_AlejandroNatural",
+    "name": "AlejandroNatural",
+    "language_codes": [
+      "es-LA"
+    ],
+    "gender": "male",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987351+00:00"
+  },
+  {
+    "id": "pt-BR_IsabelaVoice",
+    "name": "IsabelaVoice",
+    "language_codes": [
+      "pt-BR"
+    ],
+    "gender": "female",
+    "engine": "IBM Watson",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:35.987353+00:00"
+  }
+]

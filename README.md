@@ -50,6 +50,9 @@ uv sync
 # Auto-detect platform and collect voices
 uv run python scripts/collect_voices.py
 
+# Collect online/credentialed engines (plus Sherpa-ONNX) and write per-engine JSON files
+uv run python scripts/collect_voices.py --online
+
 # List available local engines
 uv run python scripts/collect_voices.py --list
 
@@ -82,7 +85,7 @@ Create `.env` from `.env.example` and configure:
 | `WATSON_API_KEY`, `WATSON_REGION` | IBM Watson |
 | `WITAI_TOKEN` | Wit.AI |
 
-Note: the current automated workflow only collects platform engines. UWP is attempted on Windows when available.
+Note: the GitHub Actions workflow collects platform engines on all OSes and additionally runs `--online` on Linux when credentials are configured.
 
 ### Legacy (optional)
 | Variable | Description |

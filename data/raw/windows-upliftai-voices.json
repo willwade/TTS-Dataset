@@ -1,0 +1,112 @@
+[
+  {
+    "id": "v_meklc281",
+    "name": "Info/Education V2",
+    "language_codes": [
+      "ur"
+    ],
+    "gender": "neutral",
+    "engine": "UpliftAI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:36.846260+00:00"
+  },
+  {
+    "id": "v_8eelc901",
+    "name": "Info/Education",
+    "language_codes": [
+      "ur"
+    ],
+    "gender": "neutral",
+    "engine": "UpliftAI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:36.846301+00:00"
+  },
+  {
+    "id": "v_30s70t3a",
+    "name": "Nostalgic News",
+    "language_codes": [
+      "ur"
+    ],
+    "gender": "neutral",
+    "engine": "UpliftAI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:36.846306+00:00"
+  },
+  {
+    "id": "v_yypgzenx",
+    "name": "Dada Jee",
+    "language_codes": [
+      "ur"
+    ],
+    "gender": "male",
+    "engine": "UpliftAI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:36.846309+00:00"
+  },
+  {
+    "id": "v_kwmp7zxt",
+    "name": "Gen Z",
+    "language_codes": [
+      "ur"
+    ],
+    "gender": "neutral",
+    "engine": "UpliftAI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:36.846311+00:00"
+  },
+  {
+    "id": "v_sd0kl3m9",
+    "name": "Female",
+    "language_codes": [
+      "sd"
+    ],
+    "gender": "female",
+    "engine": "UpliftAI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:36.846314+00:00"
+  },
+  {
+    "id": "v_sd6mn4p2",
+    "name": "Male Calm",
+    "language_codes": [
+      "sd"
+    ],
+    "gender": "male",
+    "engine": "UpliftAI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:36.846317+00:00"
+  },
+  {
+    "id": "v_sd9qr7x5",
+    "name": "Male News",
+    "language_codes": [
+      "sd"
+    ],
+    "gender": "male",
+    "engine": "UpliftAI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:36.846319+00:00"
+  },
+  {
+    "id": "v_bl0ab8c4",
+    "name": "Balochi Male",
+    "language_codes": [
+      "bal"
+    ],
+    "gender": "male",
+    "engine": "UpliftAI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:36.846322+00:00"
+  },
+  {
+    "id": "v_bl1de2f7",
+    "name": "Balochi Female",
+    "language_codes": [
+      "bal"
+    ],
+    "gender": "female",
+    "engine": "UpliftAI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:17:36.846324+00:00"
+  }
+]

@@ -84,7 +84,8 @@ def load_json_files(raw_dir: Path) -> List[Dict[str, Any]]:
         print(f"Warning: Raw data directory not found: {raw_dir}")
         return []
 
-    json_files = list(raw_dir.glob("*.json"))
+    # Artifacts downloaded by GitHub Actions may be nested; search recursively.
+    json_files = list(raw_dir.rglob("*.json"))
     print(f"Found {len(json_files)} JSON files in {raw_dir}")
 
     for json_file in json_files:
