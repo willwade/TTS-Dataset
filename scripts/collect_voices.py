@@ -195,6 +195,34 @@ def collect_online_voices() -> Dict[str, List[Dict[str, Any]]]:
     playht_user = os.environ.get("PLAYHT_USER_ID")
     upliftai_key = os.environ.get("UPLIFTAI_KEY")
 
+    # Non-secret diagnostics to explain why engines are/aren't collected.
+    def configured(value: str | None) -> bool:
+        return bool(value and str(value).strip())
+
+    print("Online engine configuration:")
+    print("  Sherpa-ONNX: enabled (local)")
+    print("  GoogleTrans: enabled (local)")
+    print(f"  Google Cloud: {'enabled' if configured(google_credentials) else 'disabled'}")
+    print(
+        "  Microsoft Azure: "
+        f"{'enabled' if configured(azure_key) and configured(azure_region) else 'disabled'} "
+        f"(key={'yes' if configured(azure_key) else 'no'}, "
+        f"region={'yes' if configured(azure_region) else 'no'})"
+    )
+    print(
+        "  AWS Polly: "
+        f"{'enabled' if configured(aws_region) and configured(aws_id) and configured(aws_secret) else 'disabled'}"
+    )
+    print(f"  ElevenLabs: {'enabled' if configured(elevenlabs_key) else 'disabled'}")
+    print(
+        "  IBM Watson: "
+        f"{'enabled' if configured(watson_key) and configured(watson_region) and configured(watson_instance) else 'disabled'}"
+    )
+    print(f"  Wit.ai: {'enabled' if configured(witai_token) else 'disabled'}")
+    print(f"  OpenAI: {'enabled' if configured(openai_key) else 'disabled'}")
+    print(f"  PlayHT: {'enabled' if configured(playht_key) and configured(playht_user) else 'disabled'}")
+    print(f"  UpliftAI: {'enabled' if configured(upliftai_key) else 'disabled'}")
+
     engine_factories: List[tuple[str, Callable[[], Any]]] = [
         ("Sherpa-ONNX", SherpaOnnxClient),
         ("GoogleTrans", GoogleTransClient),
