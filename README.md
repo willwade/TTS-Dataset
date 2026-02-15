@@ -69,6 +69,9 @@ uv run python scripts/harmonize.py
 # Refresh preview reference data (best effort)
 uv run python scripts/fetch_voice_previews.py
 
+# Import WorldAlphabets multi-preview audio index
+uv run python scripts/import_worldalphabets_audio.py --source C:/github/WorldAlphabets/data
+
 # Serve locally with Datasette
 pip install datasette
 datasette serve data/voices.db
@@ -112,9 +115,10 @@ Note: when a fresh collection returns fewer voices than an existing JSON file, t
   "language_codes": ["en-US", "eng"],
   "gender": "Male|Female|Unknown",
   "engine": "SAPI5|UWP|AVSynth|eSpeak|...",
-  "platform": "windows|macos|linux",
+  "platform": "windows|macos|linux|online",
   "collected_at": "2025-02-14T12:00:00Z",
   "preview_audio": "https://...",
+  "preview_audios": [{"url": "https://...", "language_code": "en-US", "source": "worldalphabets"}],
   "quality": "High",
   "styles": ["chat", "newscast"],
   "software": "Vendor runtime/version",
@@ -146,6 +150,7 @@ Note: when a fresh collection returns fewer voices than an existing JSON file, t
 | `geo_region` | TEXT | Enriched: geo region from reference map |
 | `written_script` | TEXT | Enriched: script from geo reference |
 | `preview_audio` | TEXT | Preview audio URL (if known) |
+| `preview_audios` | TEXT | JSON array of preview objects (`url`, `language_code`, `source`) |
 | `quality` | TEXT | Vendor/voice quality label |
 | `styles` | TEXT | JSON array of style tags |
 | `software` | TEXT | Vendor software/runtime tag |
@@ -167,6 +172,7 @@ TTS-Dataset/
 ├── scripts/
 │   ├── collect_voices.py            # Simplified voice collection
 │   ├── fetch_voice_previews.py      # Preview URL refresh (best effort)
+│   ├── import_worldalphabets_audio.py # Import multi-preview audio index
 │   ├── import_legacy_temp_data.py   # Static legacy import helper
 │   └── harmonize.py                # Database build
 ├── tests/                           # Unit tests

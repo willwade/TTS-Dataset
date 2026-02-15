@@ -79,6 +79,84 @@ def load_acapela_preview_list(reference_dir: Path) -> list[dict[str, Any]]:
     return [item for item in data if isinstance(item, dict)]
 
 
+def load_worldalphabets_audio_index(reference_dir: Path) -> list[dict[str, Any]]:
+    index_path = reference_dir / "worldalphabets_audio_index.json"
+    if not index_path.exists():
+        return []
+    data = json.loads(index_path.read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        return []
+    return [item for item in data if isinstance(item, dict)]
+
+
+def normalize_token(value: str) -> str:
+    return "".join(ch for ch in str(value).lower() if ch.isalnum())
+
+
+def normalize_engine_name(engine: str) -> str:
+    value = normalize_token(engine)
+    if "microsoft" in value or "azure" in value:
+        return "microsoft"
+    if "polly" in value:
+        return "polly"
+    if "eleven" in value:
+        return "elevenlabs"
+    if "sherpa" in value:
+        return "sherpaonnx"
+    if "espeak" in value:
+        return "espeak"
+    if "watson" in value:
+        return "watson"
+    if "witai" in value or value.startswith("wit"):
+        return "witai"
+    if "uplift" in value:
+        return "upliftai"
+    if "openai" in value:
+        return "openai"
+    if "googletrans" in value:
+        return "googletrans"
+    if "google" in value:
+        return "google"
+    if "playht" in value:
+        return "playht"
+    return value
+
+
+def canonical_platform(platform: str, engine: str) -> str:
+    raw_engine = normalize_token(engine)
+    local_hints = {
+        "sapi",
+        "uwp",
+        "avsynth",
+        "espeak",
+        "rhvoice",
+        "nuance",
+        "acapela",
+        "anreader",
+        "cereproc",
+    }
+    if any(hint in raw_engine for hint in local_hints):
+        return str(platform).strip().lower() or "unknown"
+
+    engine_name = normalize_engine_name(engine)
+    online_engines = {
+        "google",
+        "googletrans",
+        "microsoft",
+        "polly",
+        "elevenlabs",
+        "watson",
+        "witai",
+        "openai",
+        "playht",
+        "upliftai",
+        "sherpaonnx",
+    }
+    if engine_name in online_engines:
+        return "online"
+    return str(platform).strip().lower() or "unknown"
+
+
 def get_language_info(lang_code: str) -> dict[str, Any]:
     """Enrich language code with metadata from langcodes."""
     result = {"language_name": None, "language_display": None, "country_code": None, "script": None}
@@ -128,7 +206,15 @@ def load_json_files(raw_dir: Path) -> list[dict[str, Any]]:
         try:
             data = json.loads(json_file.read_text(encoding="utf-8"))
             if isinstance(data, list):
-                all_voices.extend([x for x in data if isinstance(x, dict)])
+                for item in data:
+                    if not isinstance(item, dict):
+                        continue
+                    normalized = item.copy()
+                    normalized["platform"] = canonical_platform(
+                        str(item.get("platform", "")),
+                        str(item.get("engine", "")),
+                    )
+                    all_voices.append(normalized)
             else:
                 print(f"Warning: {json_file.name} does not contain a list, skipping")
         except json.JSONDecodeError as e:
@@ -167,6 +253,7 @@ def enrich_voices(
     geo_map: dict[str, dict[str, Any]],
     preview_map: dict[str, str],
     acapela_previews: list[dict[str, Any]],
+    worldalphabets_audio: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
     """Enrich voices with language, geo, and preview metadata."""
     enriched: list[dict[str, Any]] = []
@@ -177,6 +264,12 @@ def enrich_voices(
         lang = str(codes[0]).strip().lower() if isinstance(codes, list) and codes else ""
         if name and lang:
             acapela_by_name_lang[(name, lang)] = item
+    world_by_engine_voice: dict[tuple[str, str], list[dict[str, Any]]] = {}
+    for item in worldalphabets_audio:
+        engine = normalize_engine_name(str(item.get("engine_norm", item.get("engine", ""))))
+        voice_id = str(item.get("voice_id_norm", "")).strip().lower()
+        key = (engine, voice_id)
+        world_by_engine_voice.setdefault(key, []).append(item)
 
     for voice in voices:
         v = voice.copy()
@@ -222,6 +315,47 @@ def enrich_voices(
                     if not v.get("quality"):
                         v["quality"] = match.get("quality")
 
+        # WorldAlphabets multi-preview enrichment
+        engine_norm = normalize_engine_name(str(v.get("engine", "")))
+        voice_norm = normalize_token(str(v.get("id", "")))
+        wa_matches = world_by_engine_voice.get((engine_norm, voice_norm), [])
+        previews: list[dict[str, str]] = []
+        for match in wa_matches:
+            url = str(match.get("url", "")).strip()
+            if not url:
+                continue
+            previews.append(
+                {
+                    "url": url,
+                    "language_code": str(match.get("language_code", "")).strip(),
+                    "source": "worldalphabets",
+                }
+            )
+        # Ensure existing single preview URL remains represented.
+        if v.get("preview_audio"):
+            previews.append(
+                {
+                    "url": str(v.get("preview_audio")),
+                    "language_code": primary_lang,
+                    "source": "existing",
+                }
+            )
+        dedup_preview: list[dict[str, str]] = []
+        seen_urls: set[str] = set()
+        for item in previews:
+            url = item["url"]
+            if url in seen_urls:
+                continue
+            seen_urls.add(url)
+            dedup_preview.append(item)
+        if dedup_preview:
+            v["preview_audios"] = dedup_preview
+            # Keep legacy single URL field for backward compatibility.
+            if not v.get("preview_audio"):
+                v["preview_audio"] = dedup_preview[0]["url"]
+        else:
+            v["preview_audios"] = None
+
         # normalize styles to json text at DB write time
         if "styles" not in v:
             v["styles"] = None
@@ -264,6 +398,7 @@ def create_database(db_path: Path, voices: list[dict[str, Any]]) -> None:
             geo_region TEXT,
             written_script TEXT,
             preview_audio TEXT,
+            preview_audios TEXT,
             quality TEXT,
             styles TEXT,
             software TEXT,
@@ -277,14 +412,18 @@ def create_database(db_path: Path, voices: list[dict[str, Any]]) -> None:
     for voice in voices:
         styles = voice.get("styles")
         styles_json = json.dumps(styles, ensure_ascii=False) if styles is not None else None
+        preview_audios = voice.get("preview_audios")
+        preview_audios_json = (
+            json.dumps(preview_audios, ensure_ascii=False) if preview_audios is not None else None
+        )
         cursor.execute(
             """
             INSERT OR REPLACE INTO voices (
                 voice_key, id, name, language_codes, gender, engine, platform, collected_at,
                 language_name, language_display, country_code, script,
                 latitude, longitude, geo_country, geo_region, written_script,
-                preview_audio, quality, styles, software, age, source_type, source_name
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                preview_audio, preview_audios, quality, styles, software, age, source_type, source_name
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 build_voice_key(voice),
@@ -305,6 +444,7 @@ def create_database(db_path: Path, voices: list[dict[str, Any]]) -> None:
                 voice.get("geo_region"),
                 voice.get("written_script"),
                 voice.get("preview_audio"),
+                preview_audios_json,
                 voice.get("quality"),
                 styles_json,
                 voice.get("software"),
@@ -367,7 +507,8 @@ def main() -> None:
     geo_map = load_geo_data(reference_dir)
     preview_map = load_preview_map(reference_dir)
     acapela_previews = load_acapela_preview_list(reference_dir)
-    voices = enrich_voices(voices, geo_map, preview_map, acapela_previews)
+    worldalphabets_audio = load_worldalphabets_audio_index(reference_dir)
+    voices = enrich_voices(voices, geo_map, preview_map, acapela_previews, worldalphabets_audio)
     print("Enriched with language, geo, and preview metadata")
 
     db_path.parent.mkdir(parents=True, exist_ok=True)

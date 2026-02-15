@@ -177,7 +177,6 @@ def collect_online_voices() -> Dict[str, List[Dict[str, Any]]]:
         WitAiClient,
     )
 
-    platform_name = detect_platform()
     collected: Dict[str, List[Dict[str, Any]]] = {}
 
     google_credentials = _resolve_google_credentials_path()
@@ -233,7 +232,7 @@ def collect_online_voices() -> Dict[str, List[Dict[str, Any]]]:
         try:
             client = factory()
             voices = client.get_voices()
-            normalized = _normalize_voices(voices, engine_name, platform_name)
+            normalized = _normalize_voices(voices, engine_name, "online")
             collected[engine_name] = normalized
             print(f"Collected {len(normalized)} voices from {engine_name}")
         except Exception as e:

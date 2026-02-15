@@ -127,6 +127,12 @@ jobs:
         continue-on-error: true
         run: uv run python scripts/fetch_voice_previews.py
 
+      - name: Import WorldAlphabets audio preview index (best effort)
+        continue-on-error: true
+        run: |
+          git clone --depth 1 https://github.com/willwade/WorldAlphabets.git ../WorldAlphabets
+          uv run python scripts/import_worldalphabets_audio.py --source ../WorldAlphabets/data
+
       - name: Build SQLite database
         run: uv run python scripts/harmonize.py
 
@@ -176,6 +182,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Vercel CLI
+        run: npm install --global vercel@latest
 
       - name: Install deployment dependencies
         run: |
