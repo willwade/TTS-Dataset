@@ -13,8 +13,10 @@ This script:
 from __future__ import annotations
 
 import json
+import re
 import sqlite3
 import sys
+from fnmatch import fnmatchcase
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -24,6 +26,13 @@ try:
 except ImportError:
     print("Error: langcodes not installed.")
     print("Install with: pip install langcodes")
+    sys.exit(1)
+
+try:
+    import yaml
+except ImportError:
+    print("Error: pyyaml not installed.")
+    print("Install with: pip install pyyaml")
     sys.exit(1)
 
 
@@ -124,6 +133,8 @@ def normalize_engine_name(engine: str) -> str:
 
 def canonical_platform(platform: str, engine: str) -> str:
     raw_engine = normalize_token(engine)
+    if raw_engine == "sherpaonnx":
+        return "local"
     local_hints = {
         "sapi",
         "uwp",
@@ -155,6 +166,237 @@ def canonical_platform(platform: str, engine: str) -> str:
     if engine_name in online_engines:
         return "online"
     return str(platform).strip().lower() or "unknown"
+
+
+def load_yaml_file(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    return data if isinstance(data, dict) else {}
+
+
+def load_taxonomy_map(reference_dir: Path) -> dict[str, Any]:
+    path = reference_dir / "voice-taxonomy-map.yaml"
+    data = load_yaml_file(path)
+    return data if data else {}
+
+
+def load_accessibility_solutions(reference_dir: Path) -> dict[str, Any]:
+    path = reference_dir / "accessibility-solutions.yaml"
+    data = load_yaml_file(path)
+    return data if data else {"solutions": []}
+
+
+def normalize_support_level(value: Any) -> str:
+    text = str(value or "").strip().lower()
+    allowed = {"native", "compatible", "possible", "unsupported", "unknown"}
+    return text if text in allowed else "unknown"
+
+
+def normalize_runtime_class(value: Any, runtime: str = "") -> str:
+    text = str(value or "").strip().lower()
+    if text in {"direct", "broker"}:
+        return text
+    runtime_norm = normalize_token(runtime)
+    if runtime_norm in {"speechdispatcher", "browserspeechsynthesiswebspeechapi", "webspeechapi"}:
+        return "broker"
+    return "direct"
+
+
+def normalize_provider_name(value: str) -> str:
+    token = normalize_token(value)
+    provider_map = {
+        "mms": "Meta",
+        "meta": "Meta",
+        "piper": "Piper",
+        "coqui": "Coqui",
+        "kokoro": "Kokoro",
+        "k2fsa": "k2-fsa",
+        "icefall": "k2-fsa",
+        "mimic3": "Mimic3",
+        "melotts": "MeloTTS",
+    }
+    if token in provider_map:
+        return provider_map[token]
+    return str(value or "").strip() or "Unknown"
+
+
+def normalize_engine_family(value: str) -> str:
+    token = normalize_token(value)
+    family_map = {
+        "mms": "mms-tts",
+        "mmstts": "mms-tts",
+        "coqui": "coqui-tts",
+        "piper": "piper",
+        "vits": "vits",
+        "matcha": "matcha",
+        "kokoro": "kokoro",
+    }
+    return family_map.get(token, str(value or "").strip().lower() or "unknown")
+
+
+def as_string_list(value: Any) -> list[str]:
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    if isinstance(value, str) and value.strip():
+        return [value.strip()]
+    return []
+
+
+def _rule_match_engine(rule_engine: Any, engine: str) -> bool:
+    if not rule_engine:
+        return True
+    return normalize_token(str(rule_engine)) == normalize_token(engine)
+
+
+def _rule_match_id_glob(rule_id: Any, voice_id: str) -> bool:
+    if not rule_id:
+        return True
+    return fnmatchcase(str(voice_id).lower(), str(rule_id).lower())
+
+
+def _best_support_level(*levels: str) -> str:
+    rank = {"native": 5, "compatible": 4, "possible": 3, "unknown": 2, "unsupported": 1}
+    normalized = [normalize_support_level(level) for level in levels if level]
+    if not normalized:
+        return "unknown"
+    return max(normalized, key=lambda x: rank.get(x, 0))
+
+
+def apply_voice_taxonomy(voice: dict[str, Any], taxonomy: dict[str, Any]) -> dict[str, Any]:
+    defaults = taxonomy.get("defaults", {})
+    out = {
+        "runtime": str(defaults.get("runtime", "Unknown")),
+        "provider": str(defaults.get("provider", "Unknown")),
+        "engine_family": str(defaults.get("engine_family", "unknown")),
+        "distribution_channel": str(defaults.get("distribution_channel", "online_api")),
+        "capability_tags": as_string_list(defaults.get("capability_tags", [])),
+        "taxonomy_source": str(defaults.get("taxonomy_source", "heuristic")),
+        "taxonomy_confidence": str(defaults.get("taxonomy_confidence", "low")),
+    }
+    voice_key = build_voice_key(voice)
+    voice_id = str(voice.get("id", ""))
+    engine = str(voice.get("engine", ""))
+    voice_name = str(voice.get("name", ""))
+
+    # Preferred Sherpa mapping from runtime metadata when available.
+    if normalize_token(engine) == "sherpaonnx":
+        developer = str(voice.get("developer", "")).strip()
+        model_type = str(voice.get("model_type", "")).strip()
+        if developer:
+            out["provider"] = normalize_provider_name(developer)
+            out["taxonomy_source"] = "heuristic"
+            out["taxonomy_confidence"] = "medium"
+        if model_type:
+            out["engine_family"] = normalize_engine_family(model_type)
+            out["taxonomy_source"] = "heuristic"
+            out["taxonomy_confidence"] = "medium"
+
+    # 1) Exact voice_key
+    for rule in taxonomy.get("voice_key_exact", []):
+        if not isinstance(rule, dict):
+            continue
+        if str(rule.get("voice_key", "")).lower() != voice_key.lower():
+            continue
+        for k in out:
+            if k in rule:
+                out[k] = as_string_list(rule[k]) if k == "capability_tags" else rule[k]
+        return out
+
+    # 2) Engine + ID exact/glob
+    for rule in taxonomy.get("engine_id_exact", []):
+        if not isinstance(rule, dict):
+            continue
+        if not _rule_match_engine(rule.get("engine"), engine):
+            continue
+        if not _rule_match_id_glob(rule.get("id"), voice_id):
+            continue
+        for k in out:
+            if k in rule:
+                out[k] = as_string_list(rule[k]) if k == "capability_tags" else rule[k]
+        return out
+
+    # 3) id_or_name_pattern
+    for rule in taxonomy.get("id_or_name_pattern", []):
+        if not isinstance(rule, dict):
+            continue
+        when = rule.get("when", {})
+        if not isinstance(when, dict):
+            continue
+        if not _rule_match_engine(when.get("engine"), engine):
+            continue
+        id_regex = str(when.get("id_regex", "")).strip()
+        name_regex = str(when.get("name_regex", "")).strip()
+        id_match = bool(id_regex) and bool(re.search(id_regex, voice_id))
+        name_match = bool(name_regex) and bool(re.search(name_regex, voice_name))
+        if not (id_match or name_match):
+            continue
+        updates = rule.get("set", {})
+        if not isinstance(updates, dict):
+            continue
+        for k in out:
+            if k in updates:
+                out[k] = as_string_list(updates[k]) if k == "capability_tags" else updates[k]
+        return out
+
+    # 4) Engine default
+    for rule in taxonomy.get("engine_default", []):
+        if not isinstance(rule, dict):
+            continue
+        if not _rule_match_engine(rule.get("engine"), engine):
+            continue
+        for k in out:
+            if k in rule:
+                out[k] = as_string_list(rule[k]) if k == "capability_tags" else rule[k]
+        return out
+
+    return out
+
+
+def derive_use_case_rows(voice: dict[str, Any], taxonomy: dict[str, Any]) -> list[dict[str, str]]:
+    rows: dict[str, dict[str, str]] = {}
+    runtime = str(voice.get("runtime", ""))
+    tags = set(voice.get("capability_tags", []) if isinstance(voice.get("capability_tags"), list) else [])
+    for profile in taxonomy.get("use_case_profiles", []):
+        if not isinstance(profile, dict):
+            continue
+        if normalize_token(profile.get("runtime")) != normalize_token(runtime):
+            continue
+        use_case = str(profile.get("use_case", "")).strip()
+        if not use_case:
+            continue
+        rows[use_case] = {
+            "use_case_id": use_case,
+            "support_level": normalize_support_level(profile.get("support_level")),
+            "notes": str(profile.get("notes", "")).strip(),
+            "source": "taxonomy_profile",
+        }
+
+    tag_map = {
+        "screenreadercompatible": "screenreader",
+        "aaccompatible": "aac",
+    }
+    for tag in tags:
+        tag_norm = normalize_token(tag)
+        if tag_norm not in tag_map:
+            continue
+        use_case = tag_map[tag_norm]
+        existing = rows.get(use_case)
+        level = "compatible"
+        if existing:
+            existing["support_level"] = _best_support_level(existing["support_level"], level)
+            if not existing.get("notes"):
+                existing["notes"] = "Derived from capability tags"
+            existing["source"] = "taxonomy_profile+tags"
+        else:
+            rows[use_case] = {
+                "use_case_id": use_case,
+                "support_level": level,
+                "notes": "Derived from capability tags",
+                "source": "capability_tags",
+            }
+
+    return list(rows.values())
 
 
 def get_language_info(lang_code: str) -> dict[str, Any]:
@@ -280,6 +522,7 @@ def enrich_voices(
     preview_map: dict[str, str],
     acapela_previews: list[dict[str, Any]],
     worldalphabets_audio: list[dict[str, Any]],
+    taxonomy: dict[str, Any],
 ) -> list[dict[str, Any]]:
     """Enrich voices with language, geo, and preview metadata."""
     enriched: list[dict[str, Any]] = []
@@ -390,18 +633,99 @@ def enrich_voices(
         v["source_type"] = v.get("source_type", "runtime")
         v["source_name"] = v.get("source_name", "py3-tts-wrapper")
 
+        taxonomy_fields = apply_voice_taxonomy(v, taxonomy)
+        v.update(taxonomy_fields)
+        v["use_cases"] = derive_use_case_rows(v, taxonomy)
+
         enriched.append(v)
 
     return enriched
 
 
-def create_database(db_path: Path, voices: list[dict[str, Any]]) -> None:
+def _json_text(value: Any) -> str | None:
+    if value is None:
+        return None
+    return json.dumps(value, ensure_ascii=False)
+
+
+def _derive_solution_voice_matches(
+    voices: list[dict[str, Any]], solutions_payload: dict[str, Any]
+) -> list[dict[str, str]]:
+    out: list[dict[str, str]] = []
+    solutions = solutions_payload.get("solutions", [])
+    if not isinstance(solutions, list):
+        return out
+    for solution in solutions:
+        if not isinstance(solution, dict):
+            continue
+        solution_id = str(solution.get("id", "")).strip()
+        category = str(solution.get("category", "")).strip().lower()
+        if not solution_id:
+            continue
+
+        runtime_rules = solution.get("runtime_support", [])
+        provider_rules = solution.get("provider_sdk_support", [])
+        if not isinstance(runtime_rules, list):
+            runtime_rules = []
+        if not isinstance(provider_rules, list):
+            provider_rules = []
+
+        runtime_map = {
+            normalize_token(item.get("runtime")): normalize_support_level(item.get("support_level"))
+            for item in runtime_rules
+            if isinstance(item, dict) and item.get("runtime")
+        }
+        provider_map = {
+            normalize_token(item.get("provider")): normalize_support_level(item.get("support_level"))
+            for item in provider_rules
+            if isinstance(item, dict) and item.get("provider")
+        }
+
+        for voice in voices:
+            voice_key = build_voice_key(voice)
+            runtime_token = normalize_token(voice.get("runtime"))
+            provider_token = normalize_token(voice.get("provider"))
+            runtime_level = runtime_map.get(runtime_token)
+            provider_level = provider_map.get(provider_token)
+            if not runtime_level and not provider_level:
+                continue
+            support_level = _best_support_level(runtime_level or "", provider_level or "")
+            if support_level in {"unknown", "unsupported"}:
+                continue
+            reason = (
+                "both"
+                if runtime_level and provider_level
+                else "runtime_match"
+                if runtime_level
+                else "provider_match"
+            )
+            out.append(
+                {
+                    "solution_id": solution_id,
+                    "voice_key": voice_key,
+                    "support_level": support_level,
+                    "reason": reason,
+                    "category": category,
+                }
+            )
+    return out
+
+
+def create_database(
+    db_path: Path, voices: list[dict[str, Any]], solutions_payload: dict[str, Any]
+) -> None:
     """Create SQLite database with rich voice metadata + FTS."""
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
     cursor.execute("DROP TABLE IF EXISTS voices")
     cursor.execute("DROP TABLE IF EXISTS voices_fts")
+    cursor.execute("DROP TABLE IF EXISTS voice_use_cases")
+    cursor.execute("DROP TABLE IF EXISTS use_cases")
+    cursor.execute("DROP TABLE IF EXISTS solution_voice_matches")
+    cursor.execute("DROP TABLE IF EXISTS solution_provider_support")
+    cursor.execute("DROP TABLE IF EXISTS solution_runtime_support")
+    cursor.execute("DROP TABLE IF EXISTS solutions")
 
     cursor.execute(
         """
@@ -429,6 +753,17 @@ def create_database(db_path: Path, voices: list[dict[str, Any]]) -> None:
             styles TEXT,
             software TEXT,
             age TEXT,
+            model_type TEXT,
+            developer TEXT,
+            num_speakers INTEGER,
+            sample_rate INTEGER,
+            runtime TEXT,
+            provider TEXT,
+            engine_family TEXT,
+            distribution_channel TEXT,
+            capability_tags TEXT,
+            taxonomy_source TEXT,
+            taxonomy_confidence TEXT,
             source_type TEXT,
             source_name TEXT
         )
@@ -448,8 +783,12 @@ def create_database(db_path: Path, voices: list[dict[str, Any]]) -> None:
                 voice_key, id, name, language_codes, gender, engine, platform, collected_at,
                 language_name, language_display, country_code, script,
                 latitude, longitude, geo_country, geo_region, written_script,
-                preview_audio, preview_audios, quality, styles, software, age, source_type, source_name
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                preview_audio, preview_audios, quality, styles, software, age,
+                model_type, developer, num_speakers, sample_rate,
+                runtime, provider, engine_family, distribution_channel, capability_tags,
+                taxonomy_source, taxonomy_confidence,
+                source_type, source_name
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 build_voice_key(voice),
@@ -475,6 +814,17 @@ def create_database(db_path: Path, voices: list[dict[str, Any]]) -> None:
                 styles_json,
                 voice.get("software"),
                 str(voice.get("age")) if voice.get("age") is not None else None,
+                voice.get("model_type"),
+                voice.get("developer"),
+                int(voice.get("num_speakers")) if voice.get("num_speakers") is not None else None,
+                int(voice.get("sample_rate")) if voice.get("sample_rate") is not None else None,
+                voice.get("runtime"),
+                voice.get("provider"),
+                voice.get("engine_family"),
+                voice.get("distribution_channel"),
+                _json_text(voice.get("capability_tags")),
+                voice.get("taxonomy_source"),
+                voice.get("taxonomy_confidence"),
                 voice.get("source_type"),
                 voice.get("source_name"),
             ),
@@ -498,6 +848,207 @@ def create_database(db_path: Path, voices: list[dict[str, Any]]) -> None:
     cursor.execute("CREATE INDEX idx_voices_engine ON voices(engine)")
     cursor.execute("CREATE INDEX idx_voices_language_display ON voices(language_display)")
     cursor.execute("CREATE INDEX idx_voices_source_type ON voices(source_type)")
+    cursor.execute("CREATE INDEX idx_voices_runtime ON voices(runtime)")
+    cursor.execute("CREATE INDEX idx_voices_provider ON voices(provider)")
+    cursor.execute("CREATE INDEX idx_voices_engine_family ON voices(engine_family)")
+    cursor.execute("CREATE INDEX idx_voices_distribution_channel ON voices(distribution_channel)")
+
+    cursor.execute(
+        """
+        CREATE TABLE use_cases (
+            id TEXT PRIMARY KEY,
+            name TEXT NOT NULL,
+            description TEXT
+        )
+        """
+    )
+    use_case_seed = {
+        "screenreader": ("Screenreader", "Voice usable in screenreader workflows"),
+        "aac": ("AAC", "Voice usable in augmentative communication workflows"),
+    }
+    for use_case_id, (name, description) in use_case_seed.items():
+        cursor.execute(
+            "INSERT OR REPLACE INTO use_cases (id, name, description) VALUES (?, ?, ?)",
+            (use_case_id, name, description),
+        )
+
+    cursor.execute(
+        """
+        CREATE TABLE voice_use_cases (
+            voice_key TEXT NOT NULL,
+            use_case_id TEXT NOT NULL,
+            support_level TEXT NOT NULL CHECK (support_level IN ('native','compatible','possible','unsupported','unknown')),
+            notes TEXT,
+            source TEXT,
+            PRIMARY KEY (voice_key, use_case_id)
+        )
+        """
+    )
+    for voice in voices:
+        voice_key = build_voice_key(voice)
+        use_cases = voice.get("use_cases", [])
+        if not isinstance(use_cases, list):
+            continue
+        for row in use_cases:
+            if not isinstance(row, dict):
+                continue
+            use_case_id = str(row.get("use_case_id", "")).strip().lower()
+            if use_case_id not in use_case_seed:
+                continue
+            cursor.execute(
+                """
+                INSERT OR REPLACE INTO voice_use_cases
+                (voice_key, use_case_id, support_level, notes, source)
+                VALUES (?, ?, ?, ?, ?)
+                """,
+                (
+                    voice_key,
+                    use_case_id,
+                    normalize_support_level(row.get("support_level")),
+                    str(row.get("notes", ""))[:500] or None,
+                    str(row.get("source", ""))[:100] or None,
+                ),
+            )
+
+    cursor.execute(
+        """
+        CREATE TABLE solutions (
+            id TEXT PRIMARY KEY,
+            name TEXT NOT NULL,
+            category TEXT NOT NULL CHECK (category IN ('screenreader','aac')),
+            vendor TEXT,
+            platforms TEXT,
+            links TEXT,
+            source TEXT
+        )
+        """
+    )
+    cursor.execute(
+        """
+        CREATE TABLE solution_runtime_support (
+            solution_id TEXT NOT NULL,
+            runtime TEXT NOT NULL,
+            runtime_class TEXT NOT NULL CHECK (runtime_class IN ('direct','broker')),
+            support_level TEXT NOT NULL CHECK (support_level IN ('native','compatible','possible','unsupported','unknown')),
+            mode TEXT,
+            notes TEXT,
+            PRIMARY KEY (solution_id, runtime)
+        )
+        """
+    )
+    cursor.execute(
+        """
+        CREATE TABLE solution_provider_support (
+            solution_id TEXT NOT NULL,
+            provider TEXT NOT NULL,
+            support_level TEXT NOT NULL CHECK (support_level IN ('native','compatible','possible','unsupported','unknown')),
+            mode TEXT,
+            notes TEXT,
+            PRIMARY KEY (solution_id, provider)
+        )
+        """
+    )
+    cursor.execute(
+        """
+        CREATE TABLE solution_voice_matches (
+            solution_id TEXT NOT NULL,
+            voice_key TEXT NOT NULL,
+            support_level TEXT NOT NULL CHECK (support_level IN ('native','compatible','possible','unsupported','unknown')),
+            reason TEXT NOT NULL,
+            category TEXT NOT NULL,
+            PRIMARY KEY (solution_id, voice_key)
+        )
+        """
+    )
+
+    solutions = solutions_payload.get("solutions", [])
+    if not isinstance(solutions, list):
+        solutions = []
+    for solution in solutions:
+        if not isinstance(solution, dict):
+            continue
+        solution_id = str(solution.get("id", "")).strip()
+        if not solution_id:
+            continue
+        category = str(solution.get("category", "")).strip().lower()
+        if category not in {"screenreader", "aac"}:
+            continue
+        cursor.execute(
+            """
+            INSERT OR REPLACE INTO solutions (id, name, category, vendor, platforms, links, source)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                solution_id,
+                str(solution.get("name", "")).strip() or solution_id,
+                category,
+                str(solution.get("vendor", "")).strip() or None,
+                _json_text(solution.get("platforms", [])),
+                _json_text(solution.get("links", [])),
+                "accessibility-solutions.yaml",
+            ),
+        )
+        runtime_support = solution.get("runtime_support", [])
+        if isinstance(runtime_support, list):
+            for item in runtime_support:
+                if not isinstance(item, dict):
+                    continue
+                runtime = str(item.get("runtime", "")).strip()
+                if not runtime:
+                    continue
+                cursor.execute(
+                    """
+                    INSERT OR REPLACE INTO solution_runtime_support
+                    (solution_id, runtime, runtime_class, support_level, mode, notes)
+                    VALUES (?, ?, ?, ?, ?, ?)
+                    """,
+                    (
+                        solution_id,
+                        runtime,
+                        normalize_runtime_class(item.get("runtime_class"), runtime),
+                        normalize_support_level(item.get("support_level")),
+                        str(item.get("mode", "")).strip() or None,
+                        str(item.get("notes", "")).strip() or None,
+                    ),
+                )
+        provider_support = solution.get("provider_sdk_support", [])
+        if isinstance(provider_support, list):
+            for item in provider_support:
+                if not isinstance(item, dict):
+                    continue
+                provider = str(item.get("provider", "")).strip()
+                if not provider:
+                    continue
+                cursor.execute(
+                    """
+                    INSERT OR REPLACE INTO solution_provider_support
+                    (solution_id, provider, support_level, mode, notes)
+                    VALUES (?, ?, ?, ?, ?)
+                    """,
+                    (
+                        solution_id,
+                        provider,
+                        normalize_support_level(item.get("support_level")),
+                        str(item.get("mode", "")).strip() or None,
+                        str(item.get("notes", "")).strip() or None,
+                    ),
+                )
+
+    for match in _derive_solution_voice_matches(voices, solutions_payload):
+        cursor.execute(
+            """
+            INSERT OR REPLACE INTO solution_voice_matches
+            (solution_id, voice_key, support_level, reason, category)
+            VALUES (?, ?, ?, ?, ?)
+            """,
+            (
+                match["solution_id"],
+                match["voice_key"],
+                match["support_level"],
+                match["reason"],
+                match["category"],
+            ),
+        )
 
     conn.commit()
 
@@ -534,11 +1085,20 @@ def main() -> None:
     preview_map = load_preview_map(reference_dir)
     acapela_previews = load_acapela_preview_list(reference_dir)
     worldalphabets_audio = load_worldalphabets_audio_index(reference_dir)
-    voices = enrich_voices(voices, geo_map, preview_map, acapela_previews, worldalphabets_audio)
-    print("Enriched with language, geo, and preview metadata")
+    taxonomy_map = load_taxonomy_map(reference_dir)
+    accessibility_solutions = load_accessibility_solutions(reference_dir)
+    voices = enrich_voices(
+        voices,
+        geo_map,
+        preview_map,
+        acapela_previews,
+        worldalphabets_audio,
+        taxonomy_map,
+    )
+    print("Enriched with language, geo, preview, and taxonomy metadata")
 
     db_path.parent.mkdir(parents=True, exist_ok=True)
-    create_database(db_path, voices)
+    create_database(db_path, voices, accessibility_solutions)
     print(f"\nDatabase saved to: {db_path}")
     print("\nReady for Datasette deployment!")
 

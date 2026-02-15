@@ -6,6 +6,7 @@ Requires-Python: <3.13,>=3.10
 Description-Content-Type: text/markdown
 Requires-Dist: sqlite-utils
 Requires-Dist: langcodes
+Requires-Dist: pyyaml
 Requires-Dist: py3-tts-wrapper[google,googletrans,microsoft,openai,playht,polly,sherpaonnx,watson,witai]>=0.10.23
 Requires-Dist: py3-tts-wrapper[sapi,uwp]>=0.10.23; sys_platform == "win32"
 Requires-Dist: py3-tts-wrapper[avsynth]>=0.10.23; sys_platform == "darwin"
@@ -40,7 +41,7 @@ py3-tts-wrapper get_voices()
         ↓
 data/raw/{platform}-voices.json
         ↓
-data/reference/*.json (geo + preview maps)
+data/reference/* (geo + preview + taxonomy + accessibility maps)
         ↓
 scripts/harmonize.py (merge + enrich)
         ↓
@@ -88,6 +89,12 @@ uv run python scripts/harmonize.py
 # Refresh preview reference data (best effort)
 uv run python scripts/fetch_voice_previews.py
 
+# Import WorldAlphabets multi-preview audio index
+uv run python scripts/import_worldalphabets_audio.py --source C:/github/WorldAlphabets/data
+
+# Export static site payload
+uv run python scripts/export_site_data.py
+
 # Serve locally with Datasette
 pip install datasette
 datasette serve data/voices.db
@@ -131,17 +138,25 @@ Note: when a fresh collection returns fewer voices than an existing JSON file, t
   "language_codes": ["en-US", "eng"],
   "gender": "Male|Female|Unknown",
   "engine": "SAPI5|UWP|AVSynth|eSpeak|...",
-  "platform": "windows|macos|linux",
+  "platform": "windows|macos|linux|online",
   "collected_at": "2025-02-14T12:00:00Z",
   "preview_audio": "https://...",
+  "preview_audios": [{"url": "https://...", "language_code": "en-US", "source": "worldalphabets"}],
   "quality": "High",
   "styles": ["chat", "newscast"],
   "software": "Vendor runtime/version",
   "age": "Adult",
+  "model_type": "mms|vits|matcha|kokoro",
+  "developer": "Meta|Piper|Coqui|...",
+  "num_speakers": 1,
+  "sample_rate": 16000,
   "source_type": "runtime|static",
   "source_name": "py3-tts-wrapper|static-file-name"
 }
 ```
+
+Note: `model_type`, `developer`, `num_speakers`, and `sample_rate` are optional runtime metadata fields
+(currently most useful for Sherpa-ONNX model-family/provider mapping).
 
 ### SQLite Schema (Datasette)
 
@@ -165,12 +180,32 @@ Note: when a fresh collection returns fewer voices than an existing JSON file, t
 | `geo_region` | TEXT | Enriched: geo region from reference map |
 | `written_script` | TEXT | Enriched: script from geo reference |
 | `preview_audio` | TEXT | Preview audio URL (if known) |
+| `preview_audios` | TEXT | JSON array of preview objects (`url`, `language_code`, `source`) |
 | `quality` | TEXT | Vendor/voice quality label |
 | `styles` | TEXT | JSON array of style tags |
 | `software` | TEXT | Vendor software/runtime tag |
 | `age` | TEXT | Voice age metadata |
+| `model_type` | TEXT | Runtime model type metadata (if available, e.g. Sherpa) |
+| `developer` | TEXT | Runtime developer/provider metadata (if available) |
+| `num_speakers` | INTEGER | Reported model speaker count (if available) |
+| `sample_rate` | INTEGER | Reported model sample rate (if available) |
+| `runtime` | TEXT | Normalized runtime/API layer |
+| `provider` | TEXT | Normalized voice provider/vendor |
+| `engine_family` | TEXT | Normalized model family |
+| `distribution_channel` | TEXT | `platform_local`/`platform_system`/`online_api`/`static_legacy` |
+| `capability_tags` | TEXT | JSON array of normalized capability tags |
+| `taxonomy_source` | TEXT | Taxonomy mapping source (`manual`/`heuristic`) |
+| `taxonomy_confidence` | TEXT | Taxonomy mapping confidence (`high`/`medium`/`low`) |
 | `source_type` | TEXT | `runtime` or `static` |
 | `source_name` | TEXT | Source file/provider descriptor |
+
+Additional relational tables:
+- `use_cases`
+- `voice_use_cases`
+- `solutions`
+- `solution_runtime_support`
+- `solution_provider_support`
+- `solution_voice_matches`
 
 ## Project Structure
 
@@ -181,11 +216,14 @@ TTS-Dataset/
 │       └── update-voices.yml    # Monthly automation
 ├── data/
 │   ├── raw/                        # Collected + static JSON outputs (git-tracked)
-│   ├── reference/                  # Geo + preview enrichment maps
+│   ├── reference/                  # Geo + preview + taxonomy + accessibility reference maps
+│   │   ├── voice-taxonomy-map.yaml
+│   │   └── accessibility-solutions.yaml # Handcrafted screenreader/AAC compatibility matrix
 │   └── voices.db                  # Build artifact (not in git)
 ├── scripts/
 │   ├── collect_voices.py            # Simplified voice collection
 │   ├── fetch_voice_previews.py      # Preview URL refresh (best effort)
+│   ├── import_worldalphabets_audio.py # Import multi-preview audio index
 │   ├── import_legacy_temp_data.py   # Static legacy import helper
 │   └── harmonize.py                # Database build
 ├── tests/                           # Unit tests
@@ -205,3 +243,65 @@ The workflow runs monthly on first day of each month:
 4. **Deploy**: Publish to Datasette on Vercel
 
 Manual trigger available via Actions tab.
+
+## Using Datasette
+
+Live catalog: https://tts-voice-catalog.vercel.app/
+
+Common paths:
+
+- Table browser: `https://tts-voice-catalog.vercel.app/voices`
+- JSON export (objects): `https://tts-voice-catalog.vercel.app/voices.json?_shape=objects`
+- Built-in SQL editor: `https://tts-voice-catalog.vercel.app/-/query`
+
+Example filters:
+
+- Online voices only: `https://tts-voice-catalog.vercel.app/voices.json?_shape=objects&_where=platform='online'`
+- Microsoft Azure voices: `https://tts-voice-catalog.vercel.app/voices.json?_shape=objects&_where=engine='Microsoft Azure'`
+- Arabic-script voices: `https://tts-voice-catalog.vercel.app/voices.json?_shape=objects&_where=script='Arab'`
+
+Example SQL:
+
+```sql
+select engine, count(*) as voices
+from voices
+group by engine
+order by voices desc;
+```
+
+```sql
+select country_code, count(*) as voices
+from voices
+where platform = 'online'
+group by country_code
+order by voices desc
+limit 50;
+```
+
+## Static Site (GitHub Pages)
+
+A separate frontend app lives in `site/` and renders a world voice atlas:
+
+- Bubble world map sized by voice availability
+- Search by voice id, language, country
+- Filter by mode (`online` / `offline`), gender, engine, platform
+
+### Local frontend development
+
+```bash
+# from repo root
+uv run python scripts/export_site_data.py
+
+cd site
+npm install
+npm run sync-data
+npm run dev
+```
+
+### GitHub Pages deployment
+
+Workflow: `.github/workflows/deploy-site-pages.yml`
+
+- Builds `site/`
+- syncs `data/static/voices-site.json` into `site/public/data/`
+- deploys `site/dist` to GitHub Pages

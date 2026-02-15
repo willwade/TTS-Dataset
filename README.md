@@ -21,7 +21,7 @@ py3-tts-wrapper get_voices()
         ↓
 data/raw/{platform}-voices.json
         ↓
-data/reference/*.json (geo + preview maps)
+data/reference/* (geo + preview + taxonomy + accessibility maps)
         ↓
 scripts/harmonize.py (merge + enrich)
         ↓
@@ -126,10 +126,17 @@ Note: when a fresh collection returns fewer voices than an existing JSON file, t
   "styles": ["chat", "newscast"],
   "software": "Vendor runtime/version",
   "age": "Adult",
+  "model_type": "mms|vits|matcha|kokoro",
+  "developer": "Meta|Piper|Coqui|...",
+  "num_speakers": 1,
+  "sample_rate": 16000,
   "source_type": "runtime|static",
   "source_name": "py3-tts-wrapper|static-file-name"
 }
 ```
+
+Note: `model_type`, `developer`, `num_speakers`, and `sample_rate` are optional runtime metadata fields
+(currently most useful for Sherpa-ONNX model-family/provider mapping).
 
 ### SQLite Schema (Datasette)
 
@@ -158,8 +165,27 @@ Note: when a fresh collection returns fewer voices than an existing JSON file, t
 | `styles` | TEXT | JSON array of style tags |
 | `software` | TEXT | Vendor software/runtime tag |
 | `age` | TEXT | Voice age metadata |
+| `model_type` | TEXT | Runtime model type metadata (if available, e.g. Sherpa) |
+| `developer` | TEXT | Runtime developer/provider metadata (if available) |
+| `num_speakers` | INTEGER | Reported model speaker count (if available) |
+| `sample_rate` | INTEGER | Reported model sample rate (if available) |
+| `runtime` | TEXT | Normalized runtime/API layer |
+| `provider` | TEXT | Normalized voice provider/vendor |
+| `engine_family` | TEXT | Normalized model family |
+| `distribution_channel` | TEXT | `platform_local`/`platform_system`/`online_api`/`static_legacy` |
+| `capability_tags` | TEXT | JSON array of normalized capability tags |
+| `taxonomy_source` | TEXT | Taxonomy mapping source (`manual`/`heuristic`) |
+| `taxonomy_confidence` | TEXT | Taxonomy mapping confidence (`high`/`medium`/`low`) |
 | `source_type` | TEXT | `runtime` or `static` |
 | `source_name` | TEXT | Source file/provider descriptor |
+
+Additional relational tables:
+- `use_cases`
+- `voice_use_cases`
+- `solutions`
+- `solution_runtime_support`
+- `solution_provider_support`
+- `solution_voice_matches`
 
 ## Project Structure
 
@@ -170,7 +196,9 @@ TTS-Dataset/
 │       └── update-voices.yml    # Monthly automation
 ├── data/
 │   ├── raw/                        # Collected + static JSON outputs (git-tracked)
-│   ├── reference/                  # Geo + preview enrichment maps
+│   ├── reference/                  # Geo + preview + taxonomy + accessibility reference maps
+│   │   ├── voice-taxonomy-map.yaml
+│   │   └── accessibility-solutions.yaml # Handcrafted screenreader/AAC compatibility matrix
 │   └── voices.db                  # Build artifact (not in git)
 ├── scripts/
 │   ├── collect_voices.py            # Simplified voice collection

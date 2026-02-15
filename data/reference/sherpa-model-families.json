@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-02-15T07:00:35.444255+00:00",
+  "input_file": "data/raw/sherpa-onnx-voices.json",
+  "total_voices": 1143,
+  "families": [
+    {
+      "family": "mms-tts",
+      "provider": "Meta",
+      "count": 1143,
+      "samples": [
+        "mms_abi",
+        "mms_ace",
+        "mms_aca",
+        "mms_acn",
+        "mms_acr",
+        "mms_ach",
+        "mms_acu",
+        "mms_guq",
+        "mms_ade",
+        "mms_adj",
+        "mms_agd",
+        "mms_agx"
+      ]
+    }
+  ],
+  "prefix_counts": {
+    "mms": 1143
+  }
+}

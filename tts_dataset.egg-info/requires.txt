@@ -1,5 +1,6 @@
 sqlite-utils
 langcodes
+pyyaml
 py3-tts-wrapper[google,googletrans,microsoft,openai,playht,polly,sherpaonnx,watson,witai]>=0.10.23
 
 [:sys_platform == "darwin"]

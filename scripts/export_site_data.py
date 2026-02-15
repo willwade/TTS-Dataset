@@ -180,8 +180,35 @@ def build_payload(db_path: Path) -> dict[str, Any]:
             collected_at, language_name, language_display, country_code,
             script, latitude, longitude, geo_country, geo_region,
             written_script, preview_audio, preview_audios, quality,
-            styles, software, age, source_type, source_name
+            styles, software, age, model_type, developer, num_speakers,
+            sample_rate, runtime, provider, engine_family, distribution_channel,
+            capability_tags, taxonomy_source, taxonomy_confidence, source_type, source_name
         FROM voices
+        """
+    ).fetchall()
+    solution_rows = conn.execute(
+        """
+        SELECT solution_id, category, support_level, COUNT(*) AS voice_count
+        FROM solution_voice_matches
+        GROUP BY solution_id, category, support_level
+        """
+    ).fetchall()
+    solution_meta = conn.execute(
+        """
+        SELECT id, name, category, vendor, platforms, links
+        FROM solutions
+        """
+    ).fetchall()
+    solution_runtime_support = conn.execute(
+        """
+        SELECT solution_id, runtime, runtime_class, support_level, mode, notes
+        FROM solution_runtime_support
+        """
+    ).fetchall()
+    solution_provider_support = conn.execute(
+        """
+        SELECT solution_id, provider, support_level, mode, notes
+        FROM solution_provider_support
         """
     ).fetchall()
     conn.close()
@@ -190,6 +217,10 @@ def build_payload(db_path: Path) -> dict[str, Any]:
     platforms = Counter()
     engines = Counter()
     genders = Counter()
+    runtimes = Counter()
+    providers = Counter()
+    engine_families = Counter()
+    distribution_channels = Counter()
     countries: dict[str, dict[str, Any]] = {}
     country_modes: dict[str, Counter[str]] = defaultdict(Counter)
     country_lat_sum: dict[str, float] = defaultdict(float)
@@ -200,6 +231,7 @@ def build_payload(db_path: Path) -> dict[str, Any]:
         language_codes = parse_json_field(row["language_codes"], [])
         styles = parse_json_field(row["styles"], [])
         preview_audios = parse_json_field(row["preview_audios"], [])
+        capability_tags = parse_json_field(row["capability_tags"], [])
 
         platform = (row["platform"] or "unknown").strip().lower()
         mode = mode_from_platform(platform, row["engine"])
@@ -231,6 +263,17 @@ def build_payload(db_path: Path) -> dict[str, Any]:
             "styles": styles,
             "software": row["software"],
             "age": row["age"],
+            "model_type": row["model_type"],
+            "developer": row["developer"],
+            "num_speakers": row["num_speakers"],
+            "sample_rate": row["sample_rate"],
+            "runtime": row["runtime"],
+            "provider": row["provider"],
+            "engine_family": row["engine_family"],
+            "distribution_channel": row["distribution_channel"],
+            "capability_tags": capability_tags,
+            "taxonomy_source": row["taxonomy_source"],
+            "taxonomy_confidence": row["taxonomy_confidence"],
             "source_type": row["source_type"],
             "source_name": row["source_name"],
             "collected_at": row["collected_at"],
@@ -240,6 +283,10 @@ def build_payload(db_path: Path) -> dict[str, Any]:
         platforms[platform] += 1
         engines[row["engine"]] += 1
         genders[voice["gender"]] += 1
+        runtimes[str(row["runtime"] or "Unknown")] += 1
+        providers[str(row["provider"] or "Unknown")] += 1
+        engine_families[str(row["engine_family"] or "unknown")] += 1
+        distribution_channels[str(row["distribution_channel"] or "unknown")] += 1
 
         if country_code not in countries:
             countries[country_code] = {
@@ -369,7 +416,52 @@ def build_payload(db_path: Path) -> dict[str, Any]:
             "platforms": dict(platforms),
             "engines": dict(engines),
             "genders": dict(genders),
+            "runtimes": dict(runtimes),
+            "providers": dict(providers),
+            "engine_families": dict(engine_families),
+            "distribution_channels": dict(distribution_channels),
         },
+        "solutions": [
+            {
+                "id": row["id"],
+                "name": row["name"],
+                "category": row["category"],
+                "vendor": row["vendor"],
+                "platforms": parse_json_field(row["platforms"], []),
+                "links": parse_json_field(row["links"], []),
+            }
+            for row in solution_meta
+        ],
+        "solution_matches": [
+            {
+                "solution_id": row["solution_id"],
+                "category": row["category"],
+                "support_level": row["support_level"],
+                "voice_count": row["voice_count"],
+            }
+            for row in solution_rows
+        ],
+        "solution_runtime_support": [
+            {
+                "solution_id": row["solution_id"],
+                "runtime": row["runtime"],
+                "runtime_class": row["runtime_class"],
+                "support_level": row["support_level"],
+                "mode": row["mode"],
+                "notes": row["notes"],
+            }
+            for row in solution_runtime_support
+        ],
+        "solution_provider_support": [
+            {
+                "solution_id": row["solution_id"],
+                "provider": row["provider"],
+                "support_level": row["support_level"],
+                "mode": row["mode"],
+                "notes": row["notes"],
+            }
+            for row in solution_provider_support
+        ],
         "population_by_country": population_by_country,
         "countries": sorted(countries.values(), key=lambda x: x["count"], reverse=True),
         "voices": voices,

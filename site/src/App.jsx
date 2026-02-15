@@ -14,6 +14,10 @@ function toLower(value) {
   return String(value || "").toLowerCase();
 }
 
+function normalizeToken(value) {
+  return toLower(value).replace(/[^a-z0-9]+/g, "");
+}
+
 function pct(value, total) {
   if (!total) {
     return "0%";
@@ -65,6 +69,33 @@ function previewItems(voice) {
   return [];
 }
 
+function supportScore(level) {
+  const token = toLower(level);
+  if (token === "native") {
+    return 3;
+  }
+  if (token === "compatible") {
+    return 2;
+  }
+  if (token === "possible") {
+    return 1;
+  }
+  return 0;
+}
+
+function supportLabel(score) {
+  if (score >= 3) {
+    return "native";
+  }
+  if (score >= 2) {
+    return "compatible";
+  }
+  if (score >= 1) {
+    return "possible";
+  }
+  return "";
+}
+
 export default function App() {
   const [payload, setPayload] = useState(null);
   const [error, setError] = useState("");
@@ -73,8 +104,12 @@ export default function App() {
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState("all");
   const [gender, setGender] = useState("all");
-  const [engine, setEngine] = useState("all");
   const [platform, setPlatform] = useState("all");
+  const [runtime, setRuntime] = useState("all");
+  const [provider, setProvider] = useState("all");
+  const [engineFamily, setEngineFamily] = useState("all");
+  const [distributionChannel, setDistributionChannel] = useState("all");
+  const [solutionCategory, setSolutionCategory] = useState("all");
 
   useEffect(() => {
     const url = `${import.meta.env.BASE_URL}data/voices-site.json?v=${Date.now()}`;
@@ -118,16 +153,33 @@ export default function App() {
       : referenceLanguagesTotal - referenceLanguagesOfflineCovered,
   );
 
-  const engineOptions = useMemo(() => {
-    return ["all", ...Object.keys(payload?.facets?.engines || {}).sort((a, b) => a.localeCompare(b))];
-  }, [payload]);
-
   const platformOptions = useMemo(() => {
     return ["all", ...Object.keys(payload?.facets?.platforms || {}).sort((a, b) => a.localeCompare(b))];
   }, [payload]);
 
   const genderOptions = useMemo(() => {
     return ["all", ...Object.keys(payload?.facets?.genders || {}).sort((a, b) => a.localeCompare(b))];
+  }, [payload]);
+
+  const runtimeOptions = useMemo(() => {
+    return ["all", ...Object.keys(payload?.facets?.runtimes || {}).sort((a, b) => a.localeCompare(b))];
+  }, [payload]);
+
+  const providerOptions = useMemo(() => {
+    return ["all", ...Object.keys(payload?.facets?.providers || {}).sort((a, b) => a.localeCompare(b))];
+  }, [payload]);
+
+  const engineFamilyOptions = useMemo(() => {
+    return ["all", ...Object.keys(payload?.facets?.engine_families || {}).sort((a, b) => a.localeCompare(b))];
+  }, [payload]);
+
+  const distributionChannelOptions = useMemo(() => {
+    return [
+      "all",
+      ...Object.keys(payload?.facets?.distribution_channels || {}).sort((a, b) =>
+        a.localeCompare(b),
+      ),
+    ];
   }, [payload]);
 
   const filteredVoices = useMemo(() => {
@@ -139,10 +191,19 @@ export default function App() {
       if (gender !== "all" && toLower(voice.gender) !== toLower(gender)) {
         return false;
       }
-      if (engine !== "all" && voice.engine !== engine) {
+      if (platform !== "all" && voice.platform !== platform) {
         return false;
       }
-      if (platform !== "all" && voice.platform !== platform) {
+      if (runtime !== "all" && voice.runtime !== runtime) {
+        return false;
+      }
+      if (provider !== "all" && voice.provider !== provider) {
+        return false;
+      }
+      if (engineFamily !== "all" && voice.engine_family !== engineFamily) {
+        return false;
+      }
+      if (distributionChannel !== "all" && voice.distribution_channel !== distributionChannel) {
         return false;
       }
       if (!q) {
@@ -156,6 +217,10 @@ export default function App() {
         voice.country_name,
         voice.language_name,
         voice.language_display,
+        voice.runtime,
+        voice.provider,
+        voice.engine_family,
+        voice.distribution_channel,
         voice.script,
         voice.written_script,
         ...(voice.language_codes || []),
@@ -170,7 +235,17 @@ export default function App() {
       // "arabic" should also match voices for languages written in Arabic script.
       return isArabicScriptMatch(q, voice);
     });
-  }, [voices, query, mode, gender, engine, platform]);
+  }, [
+    voices,
+    query,
+    mode,
+    gender,
+    platform,
+    runtime,
+    provider,
+    engineFamily,
+    distributionChannel,
+  ]);
 
   const filteredStats = useMemo(() => {
     const online = filteredVoices.filter((v) => v.mode === "online").length;
@@ -245,6 +320,102 @@ export default function App() {
     return mapPoints.reduce((max, point) => Math.max(max, point.count), 0);
   }, [mapPoints]);
 
+  const solutionRows = useMemo(() => {
+    const solutions = Array.isArray(payload?.solutions) ? payload.solutions : [];
+    const runtimeSupport = Array.isArray(payload?.solution_runtime_support)
+      ? payload.solution_runtime_support
+      : [];
+    const providerSupport = Array.isArray(payload?.solution_provider_support)
+      ? payload.solution_provider_support
+      : [];
+
+    const runtimeBySolution = new Map();
+    for (const row of runtimeSupport) {
+      const solutionId = String(row.solution_id || "");
+      if (!solutionId) {
+        continue;
+      }
+      if (!runtimeBySolution.has(solutionId)) {
+        runtimeBySolution.set(solutionId, []);
+      }
+      runtimeBySolution.get(solutionId).push({
+        token: normalizeToken(row.runtime),
+        score: supportScore(row.support_level),
+      });
+    }
+
+    const providerBySolution = new Map();
+    for (const row of providerSupport) {
+      const solutionId = String(row.solution_id || "");
+      if (!solutionId) {
+        continue;
+      }
+      if (!providerBySolution.has(solutionId)) {
+        providerBySolution.set(solutionId, []);
+      }
+      providerBySolution.get(solutionId).push({
+        token: normalizeToken(row.provider),
+        score: supportScore(row.support_level),
+      });
+    }
+
+    const out = [];
+    for (const solution of solutions) {
+      if (!solution?.id) {
+        continue;
+      }
+      if (solutionCategory !== "all" && toLower(solution.category) !== solutionCategory) {
+        continue;
+      }
+      let nativeCount = 0;
+      let compatibleCount = 0;
+      let possibleCount = 0;
+      let total = 0;
+      const runtimeRules = runtimeBySolution.get(solution.id) || [];
+      const providerRules = providerBySolution.get(solution.id) || [];
+
+      for (const voice of filteredVoices) {
+        const runtimeToken = normalizeToken(voice.runtime);
+        const providerToken = normalizeToken(voice.provider);
+        let best = 0;
+        for (const rule of runtimeRules) {
+          if (rule.token && rule.token === runtimeToken) {
+            best = Math.max(best, rule.score);
+          }
+        }
+        for (const rule of providerRules) {
+          if (rule.token && rule.token === providerToken) {
+            best = Math.max(best, rule.score);
+          }
+        }
+        if (!best) {
+          continue;
+        }
+        total += 1;
+        if (best >= 3) {
+          nativeCount += 1;
+        } else if (best >= 2) {
+          compatibleCount += 1;
+        } else {
+          possibleCount += 1;
+        }
+      }
+
+      out.push({
+        ...solution,
+        total,
+        nativeCount,
+        compatibleCount,
+        possibleCount,
+        topSupport: supportLabel(
+          nativeCount ? 3 : compatibleCount ? 2 : possibleCount ? 1 : 0,
+        ),
+      });
+    }
+
+    return out.sort((a, b) => b.total - a.total || a.name.localeCompare(b.name));
+  }, [payload, filteredVoices, solutionCategory]);
+
   if (loading) {
     return <main className="app"><p className="status">Loading voices atlas...</p></main>;
   }
@@ -258,7 +429,7 @@ export default function App() {
         <p className="kicker">TTS Dataset</p>
         <h1>Global Voice Atlas</h1>
         <p className="lede">
-          Explore voices by geography, voice id, language, country, mode, and engine.
+          Explore voices by geography, voice id, language, country, mode, and taxonomy fields.
         </p>
         <p className="coverage-inline">
           Updated {formatTimestamp(generatedAt)}. Speaker coverage: online {pctOrNA(languageSpeakersOnline, languageSpeakersTotal)},
@@ -289,11 +460,20 @@ export default function App() {
         <select value={gender} onChange={(e) => setGender(e.target.value)}>
           {genderOptions.map((item) => <option key={item} value={item}>{item === "all" ? "All genders" : item}</option>)}
         </select>
-        <select value={engine} onChange={(e) => setEngine(e.target.value)}>
-          {engineOptions.map((item) => <option key={item} value={item}>{item === "all" ? "All engines" : item}</option>)}
-        </select>
         <select value={platform} onChange={(e) => setPlatform(e.target.value)}>
           {platformOptions.map((item) => <option key={item} value={item}>{item === "all" ? "All platforms" : item}</option>)}
+        </select>
+        <select value={runtime} onChange={(e) => setRuntime(e.target.value)}>
+          {runtimeOptions.map((item) => <option key={item} value={item}>{item === "all" ? "All runtimes" : item}</option>)}
+        </select>
+        <select value={provider} onChange={(e) => setProvider(e.target.value)}>
+          {providerOptions.map((item) => <option key={item} value={item}>{item === "all" ? "All providers" : item}</option>)}
+        </select>
+        <select value={engineFamily} onChange={(e) => setEngineFamily(e.target.value)}>
+          {engineFamilyOptions.map((item) => <option key={item} value={item}>{item === "all" ? "All engine families" : item}</option>)}
+        </select>
+        <select value={distributionChannel} onChange={(e) => setDistributionChannel(e.target.value)}>
+          {distributionChannelOptions.map((item) => <option key={item} value={item}>{item === "all" ? "All channels" : item}</option>)}
         </select>
       </section>
 
@@ -349,10 +529,13 @@ export default function App() {
               <article key={voice.voice_key} className="voice-card">
                 <h3>{voice.name}</h3>
                 <p className="meta"><code>{voice.id}</code></p>
-                <p className="meta">{voice.engine} · {voice.mode} · {platformLabel}</p>
+                <p className="meta">{voice.mode} · {platformLabel}</p>
+                <p className="meta">Source label: {voice.engine}</p>
                 <p className="meta">{voice.country_name} ({voice.country_code})</p>
                 <p className="meta">{(voice.language_codes || []).join(", ") || "Unknown language"}</p>
                 <p className="meta">Gender: {voice.gender || "Unknown"}</p>
+                <p className="meta">Runtime: {voice.runtime || "Unknown"} · Provider: {voice.provider || "Unknown"}</p>
+                <p className="meta">Family: {voice.engine_family || "unknown"} · Channel: {voice.distribution_channel || "unknown"}</p>
 
                 {previews.length ? (
                   <details className="preview-list">
@@ -374,6 +557,33 @@ export default function App() {
         {filteredVoices.length > MAX_RESULTS ? (
           <p className="status">Showing first {MAX_RESULTS} results. Narrow your filters to see more.</p>
         ) : null}
+      </section>
+
+      <section className="results">
+        <div className="results-header">
+          <h2>Accessibility Solutions</h2>
+          <select value={solutionCategory} onChange={(e) => setSolutionCategory(e.target.value)}>
+            <option value="all">All categories</option>
+            <option value="aac">AAC</option>
+            <option value="screenreader">Screenreader</option>
+          </select>
+        </div>
+        <p className="meta">
+          `possible` is only shown when a voice has a possible-only path; if the same voice also has
+          compatible/native support, it is counted at the stronger level.
+        </p>
+        <div className="voice-grid">
+          {solutionRows.map((solution) => (
+            <article key={solution.id} className="voice-card">
+              <h3>{solution.name}</h3>
+              <p className="meta">{solution.vendor || "Unknown vendor"} · {solution.category}</p>
+              <p className="meta">Matches in current filters: {solution.total.toLocaleString()}</p>
+              <p className="meta">
+                Native {solution.nativeCount.toLocaleString()} · Compatible {solution.compatibleCount.toLocaleString()} · Possible {solution.possibleCount.toLocaleString()}
+              </p>
+            </article>
+          ))}
+        </div>
       </section>
 
       <footer className="footer-note">

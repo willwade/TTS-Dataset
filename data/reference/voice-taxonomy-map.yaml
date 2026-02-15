@@ -1,0 +1,359 @@
+version: 1
+updated_at: "2026-02-15"
+defaults:
+  runtime: Unknown
+  provider: Unknown
+  engine_family: unknown
+  distribution_channel: online_api
+  capability_tags: []
+  taxonomy_source: heuristic
+  taxonomy_confidence: low
+
+# Mapping precedence in code should be:
+# 1) voice_key_exact
+# 2) engine_id_exact
+# 3) id_or_name_pattern
+# 4) engine_default
+
+voice_key_exact: []
+
+engine_id_exact:
+  - engine: "Sherpa-ONNX"
+    id: "mms_*"
+    runtime: "Sherpa-ONNX"
+    provider: "Meta"
+    engine_family: "mms-tts"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+  - engine: "Sherpa-ONNX"
+    id: "piper_*"
+    runtime: "Sherpa-ONNX"
+    provider: "Piper"
+    engine_family: "piper"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+  - engine: "Sherpa-ONNX"
+    id: "coqui_*"
+    runtime: "Sherpa-ONNX"
+    provider: "Coqui"
+    engine_family: "coqui-tts"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+  - engine: "Sherpa-ONNX"
+    id: "vits_*"
+    runtime: "Sherpa-ONNX"
+    provider: "Unknown"
+    engine_family: "vits"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "medium"
+  - engine: "Sherpa-ONNX"
+    id: "kokoro-*"
+    runtime: "Sherpa-ONNX"
+    provider: "Kokoro"
+    engine_family: "kokoro"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+  - engine: "Sherpa-ONNX"
+    id: "icefall-*"
+    runtime: "Sherpa-ONNX"
+    provider: "k2-fsa"
+    engine_family: "matcha"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "medium"
+  - engine: "Sherpa-ONNX"
+    id: "mimic3-*"
+    runtime: "Sherpa-ONNX"
+    provider: "Mimic3"
+    engine_family: "vits"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "medium"
+  - engine: "Sherpa-ONNX"
+    id: "melo-*"
+    runtime: "Sherpa-ONNX"
+    provider: "MeloTTS"
+    engine_family: "vits"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "medium"
+  - engine: "Sherpa-ONNX"
+    id: "zh-*"
+    runtime: "Sherpa-ONNX"
+    provider: "Unknown"
+    engine_family: "vits"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "low"
+  - engine: "Sherpa-ONNX"
+    id: "cantonese-*"
+    runtime: "Sherpa-ONNX"
+    provider: "Unknown"
+    engine_family: "vits"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "low"
+  - engine: "Sherpa-ONNX"
+    id: "ljs-*"
+    runtime: "Sherpa-ONNX"
+    provider: "Unknown"
+    engine_family: "vits"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "low"
+  - engine: "Sherpa-ONNX"
+    id: "tts-*"
+    runtime: "Sherpa-ONNX"
+    provider: "Unknown"
+    engine_family: "unknown"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "low"
+
+id_or_name_pattern:
+  - when:
+      engine: "SAPI5"
+      id_regex: "(?i)(nuance|vocalizer|ava|tom|samantha)"
+    set:
+      provider: "Nuance"
+      engine_family: "unit-selection"
+      taxonomy_source: "heuristic"
+      taxonomy_confidence: "medium"
+
+  - when:
+      engine: "SAPI5"
+      id_regex: "(?i)(acapela|claire|will|heather|antoine)"
+    set:
+      provider: "Acapela"
+      engine_family: "unit-selection"
+      taxonomy_source: "heuristic"
+      taxonomy_confidence: "medium"
+
+  - when:
+      engine: "AVSynth"
+      name_regex: "(?i)(Siri)"
+    set:
+      provider: "Apple"
+      engine_family: "neural"
+      taxonomy_source: "heuristic"
+      taxonomy_confidence: "medium"
+
+engine_default:
+  - engine: "SAPI5"
+    runtime: "SAPI5"
+    provider: "Microsoft"
+    engine_family: "unknown"
+    distribution_channel: "platform_system"
+    capability_tags: ["offline", "screenreader-compatible", "aac-compatible"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "medium"
+
+  - engine: "UWP"
+    runtime: "Windows UWP Speech"
+    provider: "Microsoft"
+    engine_family: "neural"
+    distribution_channel: "platform_system"
+    capability_tags: ["offline", "screenreader-compatible", "aac-compatible"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "medium"
+
+  - engine: "AVSynth"
+    runtime: "AVSynth"
+    provider: "Apple"
+    engine_family: "unknown"
+    distribution_channel: "platform_system"
+    capability_tags: ["offline", "screenreader-compatible", "aac-compatible"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "medium"
+
+  - engine: "eSpeak"
+    runtime: "eSpeak"
+    provider: "eSpeak"
+    engine_family: "formant"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline", "screenreader-compatible", "aac-compatible"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "Sherpa-ONNX"
+    runtime: "Sherpa-ONNX"
+    provider: "Unknown"
+    engine_family: "unknown"
+    distribution_channel: "platform_local"
+    capability_tags: ["offline"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "low"
+
+  - engine: "Microsoft Azure"
+    runtime: "Azure Speech API"
+    provider: "Microsoft"
+    engine_family: "neural"
+    distribution_channel: "online_api"
+    capability_tags: ["cloud-required", "sdk-required"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "AWS Polly"
+    runtime: "AWS Polly API"
+    provider: "Amazon"
+    engine_family: "neural"
+    distribution_channel: "online_api"
+    capability_tags: ["cloud-required", "sdk-required"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "IBM Watson"
+    runtime: "IBM Watson TTS API"
+    provider: "IBM"
+    engine_family: "neural"
+    distribution_channel: "online_api"
+    capability_tags: ["cloud-required", "sdk-required"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "GoogleTrans"
+    runtime: "GoogleTrans API"
+    provider: "Google"
+    engine_family: "neural"
+    distribution_channel: "online_api"
+    capability_tags: ["cloud-required"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "medium"
+
+  - engine: "ElevenLabs"
+    runtime: "ElevenLabs API"
+    provider: "ElevenLabs"
+    engine_family: "neural"
+    distribution_channel: "online_api"
+    capability_tags: ["cloud-required", "sdk-required"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "Wit.ai"
+    runtime: "Wit.ai API"
+    provider: "Meta"
+    engine_family: "neural"
+    distribution_channel: "online_api"
+    capability_tags: ["cloud-required", "sdk-required"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "medium"
+
+  - engine: "UpliftAI"
+    runtime: "UpliftAI API"
+    provider: "UpliftAI"
+    engine_family: "neural"
+    distribution_channel: "online_api"
+    capability_tags: ["cloud-required", "sdk-required"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "medium"
+
+  - engine: "OpenAI"
+    runtime: "OpenAI API"
+    provider: "OpenAI"
+    engine_family: "neural"
+    distribution_channel: "online_api"
+    capability_tags: ["cloud-required", "sdk-required"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "PlayHT"
+    runtime: "PlayHT API"
+    provider: "PlayHT"
+    engine_family: "neural"
+    distribution_channel: "online_api"
+    capability_tags: ["cloud-required", "sdk-required"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "Acapela"
+    runtime: "Acapela SDK"
+    provider: "Acapela"
+    engine_family: "unit-selection"
+    distribution_channel: "static_legacy"
+    capability_tags: ["offline", "aac-compatible"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "Acapela SAPI"
+    runtime: "SAPI5"
+    provider: "Acapela"
+    engine_family: "unit-selection"
+    distribution_channel: "static_legacy"
+    capability_tags: ["offline", "screenreader-compatible", "aac-compatible"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "Nuance"
+    runtime: "SAPI5"
+    provider: "Nuance"
+    engine_family: "unit-selection"
+    distribution_channel: "static_legacy"
+    capability_tags: ["offline", "screenreader-compatible", "aac-compatible"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "Cereproc"
+    runtime: "CereProc SDK"
+    provider: "CereProc"
+    engine_family: "unit-selection"
+    distribution_channel: "static_legacy"
+    capability_tags: ["offline", "aac-compatible"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "Rhvoice SAPI"
+    runtime: "SAPI5"
+    provider: "RHVoice"
+    engine_family: "statistical"
+    distribution_channel: "static_legacy"
+    capability_tags: ["offline", "screenreader-compatible"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "high"
+
+  - engine: "Anreader"
+    runtime: "SAPI5"
+    provider: "AnReader"
+    engine_family: "unknown"
+    distribution_channel: "static_legacy"
+    capability_tags: ["offline", "screenreader-compatible", "aac-compatible"]
+    taxonomy_source: "manual"
+    taxonomy_confidence: "medium"
+
+use_case_profiles:
+  - runtime: "SAPI5"
+    use_case: "screenreader"
+    support_level: "compatible"
+    notes: "Common accessibility runtime on Windows"
+  - runtime: "SAPI5"
+    use_case: "aac"
+    support_level: "compatible"
+    notes: "Widely supported in legacy AAC ecosystems"
+  - runtime: "AVSynth"
+    use_case: "screenreader"
+    support_level: "compatible"
+    notes: "Platform-native macOS speech stack"
+  - runtime: "AVSynth"
+    use_case: "aac"
+    support_level: "compatible"
+    notes: "Common on Apple accessibility workflows"
+  - runtime: "Sherpa-ONNX"
+    use_case: "aac"
+    support_level: "possible"
+    notes: "Offline models, integration-dependent"

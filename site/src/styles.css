@@ -80,9 +80,13 @@ body {
 
 .controls {
   display: grid;
-  grid-template-columns: 2fr repeat(4, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 0.6rem;
   margin-bottom: 0.8rem;
+}
+
+.controls input {
+  grid-column: span 2;
 }
 
 .controls input,
@@ -200,13 +204,21 @@ body {
   }
 
   .controls {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .controls input {
+    grid-column: span 2;
   }
 }
 
 @media (max-width: 560px) {
   .controls {
     grid-template-columns: 1fr;
+  }
+
+  .controls input {
+    grid-column: span 1;
   }
 
   .map {

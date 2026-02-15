@@ -76,6 +76,10 @@ def _normalize_voices(
         "styles",
         "software",
         "age",
+        "model_type",
+        "developer",
+        "num_speakers",
+        "sample_rate",
     ]
     for voice in voices:
         item = {
@@ -103,6 +107,14 @@ def _slugify_engine_name(name: str) -> str:
         .replace("+", "plus")
         .replace("/", "-")
     )
+
+
+def _online_collection_platform(engine_name: str) -> str:
+    """Return legacy platform label for online-collection engines."""
+    token = engine_name.strip().lower().replace(" ", "")
+    if token in {"sherpa-onnx", "sherpaonnx"}:
+        return "local"
+    return "online"
 
 
 def collect_platform_voices() -> List[Dict[str, Any]]:
@@ -260,7 +272,11 @@ def collect_online_voices() -> Dict[str, List[Dict[str, Any]]]:
         try:
             client = factory()
             voices = client.get_voices()
-            normalized = _normalize_voices(voices, engine_name, "online")
+            normalized = _normalize_voices(
+                voices,
+                engine_name,
+                _online_collection_platform(engine_name),
+            )
             collected[engine_name] = normalized
             print(f"Collected {len(normalized)} voices from {engine_name}")
         except Exception as e:

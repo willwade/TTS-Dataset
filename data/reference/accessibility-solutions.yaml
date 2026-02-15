@@ -1,0 +1,225 @@
+version: 1
+updated_at: "2026-02-15"
+notes:
+  - "Handcrafted compatibility matrix for accessibility products."
+  - "Support levels: native, compatible, possible, unsupported, unknown."
+  - "A solution can support runtime interfaces (e.g. SAPI5/AVSynth) and/or official provider SDK integrations."
+  - "Claims should be treated as operational guidance and validated against vendor docs/licenses per release."
+  - "Scope: software solutions (apps/platforms), not every hardware device SKU."
+  - "Browser speech runtimes are broker layers and may route to OS or vendor-specific voices depending on browser/OS."
+  - "runtime_class values: direct (runtime is synthesis endpoint), broker (runtime routes to other engines/providers)."
+
+solutions:
+  - id: grid3
+    name: Grid 3
+    category: aac
+    vendor: Smartbox
+    platforms: [windows, ios]
+    links:
+      - https://thinksmartbox.com/product/grid-3/
+    runtime_support:
+      - runtime: SAPI5
+        support_level: compatible
+        mode: local
+        notes: "Windows runtime support for installed SAPI voices."
+      - runtime: AVSynth
+        support_level: compatible
+        mode: local
+        notes: "iOS/macOS speech stack where applicable."
+    provider_sdk_support:
+      - provider: Acapela
+        support_level: native
+        mode: sdk
+        notes: "Official integrations/voice packs vary by platform and license."
+      - provider: CereProc
+        support_level: native
+        mode: sdk
+        notes: "Official integration available in some Grid deployments."
+      - provider: Nuance
+        support_level: possible
+        mode: sdk
+        notes: "Availability depends on deployment/licensing."
+
+  - id: td-snap
+    name: TD Snap
+    category: aac
+    vendor: Tobii Dynavox
+    platforms: [windows, ios]
+    links:
+      - https://www.tobiidynavox.com/products/software/td-snap/
+    runtime_support:
+      - runtime: SAPI5
+        support_level: compatible
+        mode: local
+        notes: "Uses Windows speech APIs where configured."
+      - runtime: AVSynth
+        support_level: compatible
+        mode: local
+        notes: "Uses Apple speech stack on iOS."
+    provider_sdk_support:
+      - provider: Acapela
+        support_level: native
+        mode: sdk
+        notes: "Official Acapela voices commonly available."
+      - provider: Nuance
+        support_level: possible
+        mode: sdk
+        notes: "Varies by language pack and commercial license."
+
+  - id: coughdrop
+    name: CoughDrop
+    category: aac
+    vendor: CoughDrop
+    platforms: [web, ios, android, windows]
+    links:
+      - https://www.coughdrop.com/
+    runtime_support:
+      - runtime: Browser Speech Synthesis (Web Speech API)
+        runtime_class: broker
+        support_level: compatible
+        mode: hybrid
+        notes: "Broker layer; actual voice inventory depends on browser + OS + vendor implementation."
+    provider_sdk_support: []
+
+  - id: prc-lamp-words-for-life
+    name: LAMP Words For Life
+    category: aac
+    vendor: PRC-Saltillo
+    platforms: [ios]
+    links:
+      - https://www.lampwflapp.com/
+    runtime_support:
+      - runtime: AVSynth
+        support_level: compatible
+        mode: local
+        notes: "Uses iOS speech stack as baseline."
+    provider_sdk_support:
+      - provider: Acapela
+        support_level: possible
+        mode: sdk
+        notes: "Voice availability varies by package."
+
+  - id: nvda
+    name: NVDA
+    category: screenreader
+    vendor: NV Access
+    platforms: [windows]
+    links:
+      - https://www.nvaccess.org/
+    runtime_support:
+      - runtime: SAPI5
+        support_level: compatible
+        mode: local
+        notes: "Supports SAPI5 voices via synthesizer settings."
+      - runtime: eSpeak
+        support_level: native
+        mode: local
+        notes: "eSpeak NG is commonly used by NVDA users."
+    provider_sdk_support: []
+
+  - id: jaws
+    name: JAWS
+    category: screenreader
+    vendor: Freedom Scientific
+    platforms: [windows]
+    links:
+      - https://www.freedomscientific.com/products/software/jaws/
+    runtime_support:
+      - runtime: SAPI5
+        support_level: compatible
+        mode: local
+        notes: "Supports SAPI voices; additional synthesizers may be available."
+      - runtime: Vocalizer SDK
+        support_level: native
+        mode: sdk
+        notes: "Common JAWS voice path in enterprise deployments."
+    provider_sdk_support:
+      - provider: Nuance
+        support_level: native
+        mode: sdk
+        notes: "Vocalizer voices are commonly associated with Nuance."
+
+  - id: voiceover
+    name: VoiceOver
+    category: screenreader
+    vendor: Apple
+    platforms: [macos, ios]
+    links:
+      - https://www.apple.com/accessibility/vision/
+    runtime_support:
+      - runtime: AVSynth
+        support_level: native
+        mode: local
+        notes: "Primary speech path on Apple platforms."
+    provider_sdk_support:
+      - provider: Apple
+        support_level: native
+        mode: local
+        notes: "Bundled Apple voices."
+      - provider: Nuance
+        support_level: possible
+        mode: local
+        notes: "Some Apple premium voices may be based on Nuance technology lineage."
+
+  - id: narrator
+    name: Windows Narrator
+    category: screenreader
+    vendor: Microsoft
+    platforms: [windows]
+    links:
+      - https://support.microsoft.com/windows/complete-guide-to-narrator-ecdbf2f4-8fa0-4906-a631-3c8c1f64bf5a
+    runtime_support:
+      - runtime: SAPI5
+        support_level: compatible
+        mode: local
+        notes: "Broad compatibility through Windows speech stack."
+      - runtime: Azure Speech SDK (Local/Embedded)
+        support_level: possible
+        mode: local
+        notes: "Potential future local neural path depending on platform integration."
+    provider_sdk_support:
+      - provider: Microsoft
+        support_level: native
+        mode: local
+        notes: "Microsoft speech engines are first-party on Windows."
+
+  - id: orca
+    name: Orca
+    category: screenreader
+    vendor: GNOME
+    platforms: [linux]
+    links:
+      - https://help.gnome.org/users/orca/stable/
+    runtime_support:
+      - runtime: Speech Dispatcher
+        runtime_class: broker
+        support_level: native
+        mode: local
+        notes: "Primary broker/runtime path for Orca; routes to configured speech backends."
+      - runtime: eSpeak
+        support_level: compatible
+        mode: local
+        notes: "Common backend via Speech Dispatcher on many Linux setups."
+    provider_sdk_support:
+      - provider: eSpeak
+        support_level: compatible
+        mode: local
+        notes: "Most common backend provider in default Linux accessibility setups."
+
+  - id: talkback
+    name: TalkBack
+    category: screenreader
+    vendor: Google
+    platforms: [android]
+    links:
+      - https://support.google.com/accessibility/android/answer/6283677
+    runtime_support:
+      - runtime: Android TTS
+        support_level: native
+        mode: local
+        notes: "Primary screenreader speech path on Android."
+    provider_sdk_support:
+      - provider: Google
+        support_level: native
+        mode: local
+        notes: "Google TTS voices are standard on many devices."
