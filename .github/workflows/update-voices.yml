@@ -31,6 +31,12 @@ jobs:
       - name: Install project
         run: uv sync
 
+      - name: Reset raw output directory
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force data/raw | Out-Null
+          Get-ChildItem data/raw -Filter *.json -File -ErrorAction SilentlyContinue | Remove-Item -Force
+
       - name: Install system dependencies (Linux)
         if: runner.os == 'Linux'
         run: |
@@ -115,6 +121,9 @@ jobs:
           path: data/raw
           pattern: voices-*
           merge-multiple: true
+
+      - name: Re-import static legacy datasets
+        run: uv run python scripts/import_legacy_temp_data.py
 
       - name: List downloaded files
         run: find data/raw -maxdepth 3 -type f -print
@@ -204,7 +213,10 @@ jobs:
         id: deploy
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        shell: bash
         run: |
+          set -euo pipefail
+          log_file="$(mktemp)"
           datasette publish vercel data/voices.db \
             --token $VERCEL_TOKEN \
             --project tts-voice-catalog \
@@ -212,10 +224,19 @@ jobs:
             --install datasette-vega \
             --title "Global TTS Voice Catalog" \
             --license "CC0-1.0" \
-            --license_url "https://creativecommons.org/publicdomain/zero/1.0/"
+            --license_url "https://creativecommons.org/publicdomain/zero/1.0/" | tee "$log_file"
+
+          deploy_url="$(grep -Eo 'https://[a-zA-Z0-9.-]+\.vercel\.app' "$log_file" | tail -n 1 || true)"
+          if [[ -n "${deploy_url}" ]]; then
+            echo "url=${deploy_url}" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Create deployment summary
         run: |
           echo "### Datasette Deployment" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Deployment URL: ${{ steps.deploy.outputs.url }}" >> $GITHUB_STEP_SUMMARY
+          if [ -n "${{ steps.deploy.outputs.url }}" ]; then
+            echo "Deployment URL: ${{ steps.deploy.outputs.url }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "Deployment URL: (not captured, check deploy step logs)" >> $GITHUB_STEP_SUMMARY
+          fi
