@@ -4,17 +4,20 @@ Harmonize collected voice data into a SQLite database for Datasette.
 
 This script:
 1. Merges all JSON files from data/raw/
-2. Enriches voice data with langcodes metadata
-3. Deduplicates voices by ID
-4. Outputs to data/voices.db with full-text search
+2. Enriches language + geo metadata
+3. Merges preview URLs from reference data
+4. Deduplicates by engine/platform/id
+5. Outputs to data/voices.db with full-text search
 """
+
+from __future__ import annotations
 
 import json
 import sqlite3
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any
 
 try:
     from langcodes import Language
@@ -24,27 +27,69 @@ except ImportError:
     sys.exit(1)
 
 
-def get_language_info(lang_code: str) -> Dict[str, Any]:
-    """
-    Enrich language code with metadata from langcodes library.
+def parse_iso_datetime(value: str | None) -> datetime:
+    if not value:
+        return datetime.min
+    try:
+        return datetime.fromisoformat(value)
+    except Exception:
+        return datetime.min
 
-    Returns dict with language_name, display_name, territory, script.
-    """
+
+def sanitize_lang_code(lang_code: str) -> str:
+    code = str(lang_code).strip().replace("_", "-")
+    # Some legacy sources include control characters or odd punctuation.
+    return "".join(ch for ch in code if ch.isalnum() or ch == "-")
+
+
+def load_geo_data(reference_dir: Path) -> dict[str, dict[str, Any]]:
+    geo_path = reference_dir / "geo-data.json"
+    if not geo_path.exists():
+        return {}
+    data = json.loads(geo_path.read_text(encoding="utf-8"))
+    mapping: dict[str, dict[str, Any]] = {}
+    for item in data:
+        if not isinstance(item, dict):
+            continue
+        language_id = item.get("language_id")
+        if language_id:
+            mapping[str(language_id)] = item
+    return mapping
+
+
+def load_preview_map(reference_dir: Path) -> dict[str, str]:
+    """Load Azure preview URLs keyed by voice name."""
+    preview_path = reference_dir / "azure_voice_previews.json"
+    if not preview_path.exists():
+        return {}
+    data = json.loads(preview_path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        return {}
+    return {str(k): str(v) for k, v in data.items()}
+
+
+def load_acapela_preview_list(reference_dir: Path) -> list[dict[str, Any]]:
+    """Load Acapela preview list from scraper output."""
+    preview_path = reference_dir / "acapela_voice_previews.json"
+    if not preview_path.exists():
+        return []
+    data = json.loads(preview_path.read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        return []
+    return [item for item in data if isinstance(item, dict)]
+
+
+def get_language_info(lang_code: str) -> dict[str, Any]:
+    """Enrich language code with metadata from langcodes."""
     result = {"language_name": None, "language_display": None, "country_code": None, "script": None}
-
     if not lang_code or lang_code == "unknown":
         return result
 
     try:
-        # Handle both BCP 47 tags (en-US) and ISO 639 codes (en)
         lang = Language.get(lang_code)
         if not lang:
-            # Try parsing as locale
             parts = lang_code.split("-")
-            if len(parts) > 1:
-                lang = Language.get(f"{parts[0]}-{parts[1]}")
-            else:
-                lang = Language.get(parts[0])
+            lang = Language.get(f"{parts[0]}-{parts[1]}") if len(parts) > 1 else Language.get(parts[0])
 
         if lang:
             result["language_name"] = (
@@ -52,8 +97,6 @@ def get_language_info(lang_code: str) -> Dict[str, Any]:
             )
             result["language_display"] = lang.display_name()
             result["script"] = lang.script if hasattr(lang, "script") else None
-
-            # Get territory/country code
             if hasattr(lang, "territory") and lang.territory:
                 result["country_code"] = lang.territory
             elif hasattr(lang, "maximize"):
@@ -64,123 +107,147 @@ def get_language_info(lang_code: str) -> Dict[str, Any]:
                     )
                 except Exception:
                     pass
-
     except Exception as e:
         print(f"Warning: Could not get language info for {lang_code}: {e}")
 
     return result
 
 
-def load_json_files(raw_dir: Path) -> List[Dict[str, Any]]:
-    """
-    Load and merge all JSON files from data/raw/.
-
-    Returns a list of voice dictionaries.
-    """
-    all_voices = []
-    raw_dir = Path(raw_dir)
-
+def load_json_files(raw_dir: Path) -> list[dict[str, Any]]:
+    """Load and merge all JSON files from data/raw/ recursively."""
+    all_voices: list[dict[str, Any]] = []
     if not raw_dir.exists():
         print(f"Warning: Raw data directory not found: {raw_dir}")
         return []
 
-    # Artifacts downloaded by GitHub Actions may be nested; search recursively.
     json_files = list(raw_dir.rglob("*.json"))
     print(f"Found {len(json_files)} JSON files in {raw_dir}")
 
     for json_file in json_files:
         print(f"Loading {json_file.name}...")
         try:
-            with open(json_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if isinstance(data, list):
-                    all_voices.extend(data)
-                else:
-                    print(f"Warning: {json_file.name} does not contain a list, skipping")
+            data = json.loads(json_file.read_text(encoding="utf-8"))
+            if isinstance(data, list):
+                all_voices.extend([x for x in data if isinstance(x, dict)])
+            else:
+                print(f"Warning: {json_file.name} does not contain a list, skipping")
         except json.JSONDecodeError as e:
             print(f"Error parsing {json_file.name}: {e}")
-
     return all_voices
 
 
-def deduplicate_voices(voices: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """
-    Deduplicate voices by ID.
+def build_voice_key(voice: dict[str, Any]) -> str:
+    engine = str(voice.get("engine", "")).strip().lower()
+    platform = str(voice.get("platform", "")).strip().lower()
+    voice_id = str(voice.get("id", "")).strip()
+    return f"{engine}::{platform}::{voice_id}"
 
-    When duplicates exist, keeps the most recently collected entry.
-    """
-    seen = {}
-    deduped = []
 
+def deduplicate_voices(voices: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Deduplicate by engine/platform/id and keep newest collected_at."""
+    seen: dict[str, dict[str, Any]] = {}
     for voice in voices:
-        voice_id = voice.get("id")
-        if not voice_id:
+        if not voice.get("id"):
             continue
-
-        if voice_id in seen:
-            # Keep the newer entry based on collected_at
-            existing = seen[voice_id]
-            existing_time = datetime.fromisoformat(existing.get("collected_at", ""))
-            new_time = datetime.fromisoformat(voice.get("collected_at", ""))
-
-            if new_time > existing_time:
-                seen[voice_id] = voice
-        else:
-            seen[voice_id] = voice
-
-    # Convert back to list and sort by platform, name
+        key = build_voice_key(voice)
+        if key not in seen:
+            seen[key] = voice
+            continue
+        if parse_iso_datetime(voice.get("collected_at")) > parse_iso_datetime(
+            seen[key].get("collected_at")
+        ):
+            seen[key] = voice
     deduped = list(seen.values())
-    deduped.sort(key=lambda v: (v.get("platform", ""), v.get("name", "")))
-
+    deduped.sort(key=lambda v: (str(v.get("platform", "")), str(v.get("engine", "")), str(v.get("name", ""))))
     return deduped
 
 
-def enrich_voices(voices: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """
-    Enrich voice data with language metadata from langcodes.
-
-    Adds fields: language_name, language_display, country_code, script
-    """
-    enriched = []
+def enrich_voices(
+    voices: list[dict[str, Any]],
+    geo_map: dict[str, dict[str, Any]],
+    preview_map: dict[str, str],
+    acapela_previews: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Enrich voices with language, geo, and preview metadata."""
+    enriched: list[dict[str, Any]] = []
+    acapela_by_name_lang: dict[tuple[str, str], dict[str, Any]] = {}
+    for item in acapela_previews:
+        name = str(item.get("name", "")).strip().lower()
+        codes = item.get("language_codes", [])
+        lang = str(codes[0]).strip().lower() if isinstance(codes, list) and codes else ""
+        if name and lang:
+            acapela_by_name_lang[(name, lang)] = item
 
     for voice in voices:
-        enriched_voice = voice.copy()
+        v = voice.copy()
+        lang_codes = v.get("language_codes", [])
+        primary_lang = ""
+        if isinstance(lang_codes, list) and lang_codes:
+            primary_lang = sanitize_lang_code(str(lang_codes[0]))
+        elif isinstance(lang_codes, str):
+            primary_lang = sanitize_lang_code(lang_codes)
 
-        # Get primary language code (first in list)
-        lang_codes = voice.get("language_codes", [])
-        if lang_codes:
-            primary_lang = lang_codes[0] if isinstance(lang_codes, list) else lang_codes
-            lang_info = get_language_info(primary_lang)
+        # language metadata
+        lang_info = get_language_info(primary_lang) if primary_lang else {
+            "language_name": None,
+            "language_display": "Unknown",
+            "country_code": None,
+            "script": None,
+        }
+        v.update(lang_info)
 
-            enriched_voice.update(lang_info)
-        else:
-            enriched_voice.update(
-                {
-                    "language_name": None,
-                    "language_display": "Unknown",
-                    "country_code": None,
-                    "script": None,
-                }
-            )
+        # geo metadata
+        geo = geo_map.get(primary_lang, {})
+        if not geo and primary_lang:
+            geo = geo_map.get(primary_lang.replace("-", "_"), {})
+        v["latitude"] = geo.get("latitude")
+        v["longitude"] = geo.get("longitude")
+        v["geo_country"] = geo.get("country")
+        v["geo_region"] = geo.get("region")
+        v["written_script"] = geo.get("written_script")
 
-        enriched.append(enriched_voice)
+        # preview URL mapping (if not already present)
+        if not v.get("preview_audio"):
+            engine = str(v.get("engine", "")).lower()
+            if "microsoft" in engine or "azure" in engine:
+                mapped = preview_map.get(str(v.get("name", "")))
+                if mapped:
+                    v["preview_audio"] = mapped
+            elif "acapela" in engine:
+                key = (str(v.get("name", "")).strip().lower(), primary_lang.strip().lower())
+                match = acapela_by_name_lang.get(key)
+                if match:
+                    if not v.get("preview_audio"):
+                        v["preview_audio"] = match.get("preview_audio")
+                    if not v.get("quality"):
+                        v["quality"] = match.get("quality")
+
+        # normalize styles to json text at DB write time
+        if "styles" not in v:
+            v["styles"] = None
+
+        # provenance
+        v["source_type"] = v.get("source_type", "runtime")
+        v["source_name"] = v.get("source_name", "py3-tts-wrapper")
+
+        enriched.append(v)
 
     return enriched
 
 
-def create_database(db_path: Path, voices: List[Dict[str, Any]]):
-    """
-    Create SQLite database with voices table and full-text search.
-
-    Uses sqlite3 directly for better control.
-    """
+def create_database(db_path: Path, voices: list[dict[str, Any]]) -> None:
+    """Create SQLite database with rich voice metadata + FTS."""
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
-    # Create table with enriched fields
-    cursor.execute("""
-        CREATE TABLE IF NOT EXISTS voices (
-            id TEXT PRIMARY KEY,
+    cursor.execute("DROP TABLE IF EXISTS voices")
+    cursor.execute("DROP TABLE IF EXISTS voices_fts")
+
+    cursor.execute(
+        """
+        CREATE TABLE voices (
+            voice_key TEXT PRIMARY KEY,
+            id TEXT NOT NULL,
             name TEXT NOT NULL,
             language_codes TEXT NOT NULL,
             gender TEXT,
@@ -190,27 +257,40 @@ def create_database(db_path: Path, voices: List[Dict[str, Any]]):
             language_name TEXT,
             language_display TEXT,
             country_code TEXT,
-            script TEXT
+            script TEXT,
+            latitude REAL,
+            longitude REAL,
+            geo_country TEXT,
+            geo_region TEXT,
+            written_script TEXT,
+            preview_audio TEXT,
+            quality TEXT,
+            styles TEXT,
+            software TEXT,
+            age TEXT,
+            source_type TEXT,
+            source_name TEXT
         )
-    """)
+        """
+    )
 
-    # Clear existing data (we rebuild each time)
-    cursor.execute("DELETE FROM voices")
-
-    # Insert all voices
     for voice in voices:
+        styles = voice.get("styles")
+        styles_json = json.dumps(styles, ensure_ascii=False) if styles is not None else None
         cursor.execute(
             """
             INSERT OR REPLACE INTO voices (
-                id, name, language_codes, gender, engine,
-                platform, collected_at, language_name,
-                language_display, country_code, script
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        """,
+                voice_key, id, name, language_codes, gender, engine, platform, collected_at,
+                language_name, language_display, country_code, script,
+                latitude, longitude, geo_country, geo_region, written_script,
+                preview_audio, quality, styles, software, age, source_type, source_name
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
             (
+                build_voice_key(voice),
                 voice.get("id"),
                 voice.get("name"),
-                json.dumps(voice.get("language_codes", [])),
+                json.dumps(voice.get("language_codes", []), ensure_ascii=False),
                 voice.get("gender"),
                 voice.get("engine"),
                 voice.get("platform"),
@@ -219,83 +299,79 @@ def create_database(db_path: Path, voices: List[Dict[str, Any]]):
                 voice.get("language_display"),
                 voice.get("country_code"),
                 voice.get("script"),
+                voice.get("latitude"),
+                voice.get("longitude"),
+                voice.get("geo_country"),
+                voice.get("geo_region"),
+                voice.get("written_script"),
+                voice.get("preview_audio"),
+                voice.get("quality"),
+                styles_json,
+                voice.get("software"),
+                str(voice.get("age")) if voice.get("age") is not None else None,
+                voice.get("source_type"),
+                voice.get("source_name"),
             ),
         )
 
-    # Create FTS table for full-text search
-    cursor.execute("""
-        CREATE VIRTUAL TABLE IF NOT EXISTS voices_fts
-        USING fts5(name, language_name, language_display, engine, platform)
-    """)
-
-    # Populate FTS table
-    cursor.execute("DELETE FROM voices_fts")
-    cursor.execute("""
-        INSERT INTO voices_fts(rowid, name, language_name, language_display, engine, platform)
-        SELECT rowid, name, language_name, language_display, engine, platform
+    cursor.execute(
+        """
+        CREATE VIRTUAL TABLE voices_fts
+        USING fts5(name, language_name, language_display, engine, platform, software, quality)
+        """
+    )
+    cursor.execute(
+        """
+        INSERT INTO voices_fts(rowid, name, language_name, language_display, engine, platform, software, quality)
+        SELECT rowid, name, language_name, language_display, engine, platform, software, quality
         FROM voices
-    """)
+        """
+    )
 
-    # Create index for faster queries
-    cursor.execute("""
-        CREATE INDEX IF NOT EXISTS idx_voices_platform
-        ON voices(platform)
-    """)
-    cursor.execute("""
-        CREATE INDEX IF NOT EXISTS idx_voices_engine
-        ON voices(engine)
-    """)
-    cursor.execute("""
-        CREATE INDEX IF NOT EXISTS idx_voices_language_display
-        ON voices(language_display)
-    """)
+    cursor.execute("CREATE INDEX idx_voices_platform ON voices(platform)")
+    cursor.execute("CREATE INDEX idx_voices_engine ON voices(engine)")
+    cursor.execute("CREATE INDEX idx_voices_language_display ON voices(language_display)")
+    cursor.execute("CREATE INDEX idx_voices_source_type ON voices(source_type)")
 
     conn.commit()
 
-    # Print stats
     cursor.execute("SELECT COUNT(*) FROM voices")
     total = cursor.fetchone()[0]
     cursor.execute("SELECT COUNT(DISTINCT platform) FROM voices")
     platforms = cursor.fetchone()[0]
     cursor.execute("SELECT COUNT(DISTINCT engine) FROM voices")
     engines = cursor.fetchone()[0]
-
     print(f"Database created: {total} voices from {platforms} platforms, {engines} engines")
-
     conn.close()
 
 
-def main():
-    """Main entry point for harmonization."""
-    # Determine paths
+def main() -> None:
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
     raw_dir = project_root / "data" / "raw"
     db_path = project_root / "data" / "voices.db"
+    reference_dir = project_root / "data" / "reference"
 
     print("TTS Voice Harmonization")
     print("=" * 40)
 
-    # Load all JSON files
     voices = load_json_files(raw_dir)
     if not voices:
         print("No voices to process. Exiting.")
         sys.exit(1)
-
     print(f"Loaded {len(voices)} total voices")
 
-    # Deduplicate
     voices = deduplicate_voices(voices)
     print(f"After deduplication: {len(voices)} unique voices")
 
-    # Enrich with language metadata
-    voices = enrich_voices(voices)
-    print("Enriched with language metadata")
+    geo_map = load_geo_data(reference_dir)
+    preview_map = load_preview_map(reference_dir)
+    acapela_previews = load_acapela_preview_list(reference_dir)
+    voices = enrich_voices(voices, geo_map, preview_map, acapela_previews)
+    print("Enriched with language, geo, and preview metadata")
 
-    # Create database
     db_path.parent.mkdir(parents=True, exist_ok=True)
     create_database(db_path, voices)
-
     print(f"\nDatabase saved to: {db_path}")
     print("\nReady for Datasette deployment!")
 

@@ -12,3 +12,6 @@ py3-tts-wrapper[sapi,uwp]>=0.10.23
 pytest
 ruff
 pytest-cov
+requests
+beautifulsoup4
+playwright

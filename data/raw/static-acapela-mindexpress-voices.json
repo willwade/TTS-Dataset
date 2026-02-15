@@ -8,7 +8,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "tyler",
@@ -19,7 +22,10 @@
     "gender": "Male",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "deepa",
@@ -30,7 +36,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "moira",
@@ -41,7 +50,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "rhona",
@@ -52,7 +64,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "lucy",
@@ -63,7 +78,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "rachel",
@@ -74,7 +92,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "sofie",
@@ -85,7 +106,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "zoe",
@@ -96,7 +120,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "louise",
@@ -107,7 +134,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "claudia",
@@ -118,7 +148,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "julia",
@@ -129,7 +162,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "sarah",
@@ -140,7 +176,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "dimitris",
@@ -151,7 +190,10 @@
     "gender": "Male",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "chiara",
@@ -162,7 +204,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "fabiana",
@@ -173,7 +218,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "bente",
@@ -184,7 +232,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "kari",
@@ -195,7 +246,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "ania",
@@ -206,7 +260,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "celia",
@@ -217,7 +274,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "marcia",
@@ -228,7 +288,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "alyona",
@@ -239,7 +302,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "ines",
@@ -250,7 +316,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "maria",
@@ -261,7 +330,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "rosa",
@@ -272,7 +344,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "elin",
@@ -283,7 +358,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "emma",
@@ -294,7 +372,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "ipek",
@@ -305,7 +386,10 @@
     "gender": "Female",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   },
   {
     "id": "dmytro",
@@ -316,6 +400,9 @@
     "gender": "Male",
     "engine": "Acapela",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.372872+00:00"
+    "collected_at": "2026-02-15T03:56:10.789559+00:00",
+    "source_type": "static",
+    "source_name": "acapela-mindexpress.json",
+    "software": "MindExpress"
   }
 ]

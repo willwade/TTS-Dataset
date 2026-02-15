@@ -9,6 +9,8 @@ This project automatically collects platform TTS voice information:
 | Category | Sources | Voices Source |
 |----------|---------|---------------|
 | **Platform Engines** | Windows SAPI5 (+ UWP best-effort), macOS AVSynth + eSpeak, Linux eSpeak | Native/system TTS APIs |
+| **Online Engines (optional)** | Google, Microsoft, Polly, ElevenLabs, Watson, Wit.ai, OpenAI, PlayHT, GoogleTrans, Sherpa-ONNX, UpliftAI | API/SDK voice catalogs |
+| **Static/Legacy Datasets** | Acapela, Nuance, CereProc, RHVoice, ANReader, AVSynth, eSpeak, SAPI snapshots | Curated JSON snapshots |
 
 ## Data Pipeline
 
@@ -18,6 +20,8 @@ GitHub Actions (Monthly)
 py3-tts-wrapper get_voices()
         ↓
 data/raw/{platform}-voices.json
+        ↓
+data/reference/*.json (geo + preview maps)
         ↓
 scripts/harmonize.py (merge + enrich)
         ↓
@@ -62,6 +66,9 @@ uv run python scripts/collect_voices.py --list-all
 # Merge and enrich data, build SQLite database
 uv run python scripts/harmonize.py
 
+# Refresh preview reference data (best effort)
+uv run python scripts/fetch_voice_previews.py
+
 # Serve locally with Datasette
 pip install datasette
 datasette serve data/voices.db
@@ -87,6 +94,8 @@ Create `.env` from `.env.example` and configure:
 
 Note: the GitHub Actions workflow collects platform engines on all OSes and additionally runs `--online` on Linux when credentials are configured.
 
+Note: when a fresh collection returns fewer voices than an existing JSON file, the existing file is kept to avoid data loss from transient runner or API conditions.
+
 ### Legacy (optional)
 | Variable | Description |
 |----------|-------------|
@@ -102,8 +111,16 @@ Note: the GitHub Actions workflow collects platform engines on all OSes and addi
   "name": "Voice Display Name",
   "language_codes": ["en-US", "eng"],
   "gender": "Male|Female|Unknown",
+  "engine": "SAPI5|UWP|AVSynth|eSpeak|...",
   "platform": "windows|macos|linux",
-  "collected_at": "2025-02-14T12:00:00Z"
+  "collected_at": "2025-02-14T12:00:00Z",
+  "preview_audio": "https://...",
+  "quality": "High",
+  "styles": ["chat", "newscast"],
+  "software": "Vendor runtime/version",
+  "age": "Adult",
+  "source_type": "runtime|static",
+  "source_name": "py3-tts-wrapper|static-file-name"
 }
 ```
 
@@ -111,7 +128,8 @@ Note: the GitHub Actions workflow collects platform engines on all OSes and addi
 
 | Column | Type | Description |
 |---------|------|-------------|
-| `id` | TEXT | Primary key (voice identifier) |
+| `voice_key` | TEXT | Primary key (`engine::platform::id`) |
+| `id` | TEXT | Voice identifier |
 | `name` | TEXT | Voice display name |
 | `language_codes` | TEXT | JSON array of locale/ISO codes |
 | `gender` | TEXT | Voice gender (if available) |
@@ -122,6 +140,18 @@ Note: the GitHub Actions workflow collects platform engines on all OSes and addi
 | `language_display` | TEXT | Enriched: Display language name |
 | `country_code` | TEXT | Enriched: ISO 3166-1 alpha-2 |
 | `script` | TEXT | Enriched: ISO 15924 script code |
+| `latitude` | REAL | Enriched: language geolocation latitude |
+| `longitude` | REAL | Enriched: language geolocation longitude |
+| `geo_country` | TEXT | Enriched: geo country from reference map |
+| `geo_region` | TEXT | Enriched: geo region from reference map |
+| `written_script` | TEXT | Enriched: script from geo reference |
+| `preview_audio` | TEXT | Preview audio URL (if known) |
+| `quality` | TEXT | Vendor/voice quality label |
+| `styles` | TEXT | JSON array of style tags |
+| `software` | TEXT | Vendor software/runtime tag |
+| `age` | TEXT | Voice age metadata |
+| `source_type` | TEXT | `runtime` or `static` |
+| `source_name` | TEXT | Source file/provider descriptor |
 
 ## Project Structure
 
@@ -131,10 +161,13 @@ TTS-Dataset/
 │   └── workflows/
 │       └── update-voices.yml    # Monthly automation
 ├── data/
-│   ├── raw/                        # JSON outputs (git-tracked)
+│   ├── raw/                        # Collected + static JSON outputs (git-tracked)
+│   ├── reference/                  # Geo + preview enrichment maps
 │   └── voices.db                  # Build artifact (not in git)
 ├── scripts/
 │   ├── collect_voices.py            # Simplified voice collection
+│   ├── fetch_voice_previews.py      # Preview URL refresh (best effort)
+│   ├── import_legacy_temp_data.py   # Static legacy import helper
 │   └── harmonize.py                # Database build
 ├── tests/                           # Unit tests
 ├── pyproject.toml                   # UV config
@@ -148,7 +181,7 @@ TTS-Dataset/
 The workflow runs monthly on first day of each month:
 
 1. **Collect**: Matrix build on Windows/macOS/Linux runners
-2. **Harmonize**: Merge JSON, enrich with langcodes metadata
+2. **Harmonize**: Merge JSON, enrich with language + geo + preview metadata
 3. **Build**: Create SQLite database with full-text search
 4. **Deploy**: Publish to Datasette on Vercel
 

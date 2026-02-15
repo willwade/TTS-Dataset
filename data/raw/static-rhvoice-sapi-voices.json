@@ -8,7 +8,10 @@
     "gender": "Male",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "nazgul",
@@ -19,7 +22,10 @@
     "gender": "Female",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "kiko",
@@ -30,7 +36,10 @@
     "gender": "Male",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "suze",
@@ -41,7 +50,10 @@
     "gender": "Female",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "aleksandr",
@@ -52,7 +64,10 @@
     "gender": "Male",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "anna",
@@ -63,7 +78,10 @@
     "gender": "Female",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "elena",
@@ -74,7 +92,10 @@
     "gender": "Female",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "irina",
@@ -85,7 +106,10 @@
     "gender": "Female",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "dragana",
@@ -96,7 +120,10 @@
     "gender": "Female",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "talgat",
@@ -107,7 +134,10 @@
     "gender": "Male",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "anatol",
@@ -118,7 +148,10 @@
     "gender": "Male",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "natalia",
@@ -129,7 +162,10 @@
     "gender": "Female",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "sevinch",
@@ -140,7 +176,10 @@
     "gender": "Female",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "islom",
@@ -151,7 +190,10 @@
     "gender": "Male",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   },
   {
     "id": "dil’navoz",
@@ -162,6 +204,9 @@
     "gender": "Female",
     "engine": "Rhvoice SAPI",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.390605+00:00"
+    "collected_at": "2026-02-15T03:56:10.917797+00:00",
+    "source_type": "static",
+    "source_name": "rhvoice-sapi.json",
+    "software": "SAPI"
   }
 ]

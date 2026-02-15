@@ -70,18 +70,29 @@ def _normalize_voices(
     voices: List[Dict[str, Any]], engine_name: str, platform_name: str
 ) -> List[Dict[str, Any]]:
     normalized: List[Dict[str, Any]] = []
+    optional_fields = [
+        "preview_audio",
+        "quality",
+        "styles",
+        "software",
+        "age",
+    ]
     for voice in voices:
-        normalized.append(
-            {
-                "id": voice.get("id", ""),
-                "name": voice.get("name", "Unknown"),
-                "language_codes": voice.get("language_codes", []),
-                "gender": voice.get("gender", "Unknown"),
-                "engine": engine_name,
-                "platform": platform_name,
-                "collected_at": datetime.now(timezone.utc).isoformat(),
-            }
-        )
+        item = {
+            "id": voice.get("id", ""),
+            "name": voice.get("name", "Unknown"),
+            "language_codes": voice.get("language_codes", []),
+            "gender": voice.get("gender", "Unknown"),
+            "engine": engine_name,
+            "platform": platform_name,
+            "collected_at": datetime.now(timezone.utc).isoformat(),
+            "source_type": "runtime",
+            "source_name": "py3-tts-wrapper",
+        }
+        for key in optional_fields:
+            if key in voice and voice.get(key) is not None:
+                item[key] = voice.get(key)
+        normalized.append(item)
     return normalized
 
 

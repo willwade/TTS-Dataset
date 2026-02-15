@@ -8,7 +8,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "laila",
@@ -19,7 +23,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "maged-ml",
@@ -30,7 +38,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "maged",
@@ -41,7 +53,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "tarik",
@@ -52,7 +68,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "miren",
@@ -63,7 +83,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "paya",
@@ -74,7 +98,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "daria",
@@ -85,7 +113,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "jaya",
@@ -96,7 +128,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "jordi",
@@ -107,7 +143,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "montserrat",
@@ -118,7 +158,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "sinji-ml",
@@ -129,7 +173,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "iveta",
@@ -140,7 +188,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "zuzana-ml",
@@ -151,7 +203,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "magnus",
@@ -162,7 +218,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "sara",
@@ -173,7 +233,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "ellen",
@@ -184,7 +248,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "claire-ml",
@@ -200,7 +268,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "xander",
@@ -211,7 +283,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "karen",
@@ -222,7 +298,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "lee",
@@ -233,7 +313,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "lee",
@@ -244,7 +328,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "moira",
@@ -255,7 +343,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "daniel",
@@ -266,7 +358,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "kate",
@@ -277,7 +373,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "malcolm",
@@ -288,7 +388,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "malcolm",
@@ -299,7 +403,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "oliver",
@@ -310,7 +418,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "serena",
@@ -321,7 +433,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "serena",
@@ -332,7 +448,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "stephanie",
@@ -343,7 +463,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "isha-ml",
@@ -354,7 +478,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "rishi-ml",
@@ -365,7 +493,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "sangeeta",
@@ -376,7 +508,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "veena",
@@ -387,7 +523,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "fiona",
@@ -398,7 +538,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "allison",
@@ -409,7 +553,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "ava-ml",
@@ -422,7 +570,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "ava--ml",
@@ -433,7 +585,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "evan",
@@ -444,7 +600,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "evan",
@@ -455,7 +615,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "nathan",
@@ -466,7 +630,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "nathan",
@@ -477,7 +645,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "samantha",
@@ -488,7 +660,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "susan",
@@ -499,7 +675,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "tom",
@@ -510,7 +690,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "zoe-ml",
@@ -521,7 +705,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "zoe-ml",
@@ -532,7 +720,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "tessa",
@@ -543,7 +735,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "dariush",
@@ -554,7 +750,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "onni",
@@ -565,7 +765,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "satu",
@@ -576,7 +780,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "aude",
@@ -587,7 +795,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "amelie-ml",
@@ -598,7 +810,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "amelie-ml",
@@ -609,7 +825,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "chantal",
@@ -620,7 +840,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "nicolas",
@@ -631,7 +855,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "audrey-ml",
@@ -646,7 +874,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "audrey-ml",
@@ -657,7 +889,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "aurelie",
@@ -668,7 +904,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "thomas",
@@ -679,7 +919,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "anna-ml",
@@ -694,7 +938,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "anna-ml",
@@ -705,7 +953,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "markus",
@@ -716,7 +968,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "petra-ml",
@@ -731,7 +987,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "petra-ml",
@@ -742,7 +1002,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "viktor",
@@ -753,7 +1017,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "yannick",
@@ -764,7 +1032,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "carmela",
@@ -775,7 +1047,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "melina",
@@ -786,7 +1062,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "nikos",
@@ -797,7 +1077,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "carmit",
@@ -808,7 +1092,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "kiyara-ml",
@@ -819,7 +1107,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "lekha",
@@ -830,7 +1122,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "neel-ml",
@@ -841,7 +1137,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "lana",
@@ -852,7 +1152,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "mariska",
@@ -863,7 +1167,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "damayanti",
@@ -874,7 +1182,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "alice-ml",
@@ -889,7 +1201,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "federica-ml",
@@ -904,7 +1220,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "luca",
@@ -915,7 +1235,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "paola",
@@ -926,7 +1250,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "ayane",
@@ -937,7 +1265,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "daisuke",
@@ -948,7 +1280,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "ichiro",
@@ -959,7 +1295,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "mizuki",
@@ -970,7 +1310,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "sakura",
@@ -981,7 +1325,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "alpana",
@@ -992,7 +1340,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "sora",
@@ -1003,7 +1355,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "yuna-ml",
@@ -1015,7 +1371,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": ""
   },
   {
     "id": "yuna",
@@ -1026,7 +1386,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "ananya",
@@ -1037,7 +1401,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "amira",
@@ -1048,7 +1416,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "binbin-ml",
@@ -1060,7 +1432,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "lili-ml",
@@ -1072,7 +1448,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "lili-ml-high",
@@ -1084,7 +1464,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral"
   },
   {
     "id": "lisheng-ml",
@@ -1095,7 +1479,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "tiantian-ml",
@@ -1107,7 +1495,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "tingting-ml",
@@ -1118,7 +1510,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "meijia-ml",
@@ -1130,7 +1526,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral"
   },
   {
     "id": "amira",
@@ -1141,7 +1541,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "henrik",
@@ -1152,7 +1556,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "nora",
@@ -1163,7 +1571,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "ewa",
@@ -1174,7 +1586,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "krzysztof",
@@ -1185,7 +1601,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "zosia",
@@ -1196,7 +1616,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "felipe",
@@ -1207,7 +1631,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "fernanda",
@@ -1218,7 +1646,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "luciana",
@@ -1229,7 +1661,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "luciana",
@@ -1240,7 +1676,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "catarina",
@@ -1251,7 +1691,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "joana",
@@ -1262,7 +1706,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "joaquim",
@@ -1273,7 +1721,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "ioana",
@@ -1284,7 +1736,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "katya-ml",
@@ -1296,7 +1752,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "milena",
@@ -1307,7 +1767,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "yuri",
@@ -1318,7 +1782,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "laura",
@@ -1329,7 +1797,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "diego",
@@ -1340,7 +1812,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "isabela",
@@ -1351,7 +1827,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "carlos",
@@ -1362,7 +1842,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "soledad",
@@ -1373,7 +1857,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "ximena",
@@ -1384,7 +1872,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "jorge",
@@ -1395,7 +1887,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "marisol-ml",
@@ -1410,7 +1906,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "marisol-ml-high",
@@ -1421,7 +1921,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "monica-ml",
@@ -1433,7 +1937,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "francisca",
@@ -1444,7 +1952,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "angelica",
@@ -1455,7 +1967,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "javier",
@@ -1466,7 +1982,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "juan",
@@ -1477,7 +1997,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "paulina-ml",
@@ -1490,7 +2014,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "paulina-ml-high",
@@ -1503,7 +2031,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": ""
   },
   {
     "id": "alva",
@@ -1514,7 +2046,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "klara",
@@ -1525,7 +2061,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "oskar",
@@ -1536,7 +2076,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "vani",
@@ -1547,7 +2091,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": ""
   },
   {
     "id": "geeta",
@@ -1558,7 +2106,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "kanya",
@@ -1569,7 +2121,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium-high",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "narisa",
@@ -1580,7 +2136,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "cem-ml",
@@ -1592,7 +2152,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "yelda",
@@ -1603,7 +2167,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "lesya",
@@ -1614,7 +2182,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "empar",
@@ -1625,7 +2197,11 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   },
   {
     "id": "linh",
@@ -1636,6 +2212,10 @@
     "gender": "Female",
     "engine": "Nuance",
     "platform": "windows",
-    "collected_at": "2026-02-15T03:37:53.388599+00:00"
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
   }
 ]
