@@ -803,6 +803,22 @@
     "language_code": "ar-Arab",
     "engine": "sherpaonnx",
     "engine_norm": "sherpaonnx",
+    "voice_id": "mms_uig_script_arabic",
+    "voice_id_norm": "mmsuigscriptarabic",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ar-Arab_sherpaonnx_mms_uig_script_arabic.wav"
+  },
+  {
+    "language_code": "ar-Arab",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_urd_script_arabic",
+    "voice_id_norm": "mmsurdscriptarabic",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ar-Arab_sherpaonnx_mms_urd_script_arabic.wav"
+  },
+  {
+    "language_code": "ar-Arab",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
     "voice_id": "piper_ar_kareem_low",
     "voice_id_norm": "piperarkareemlow",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ar-Arab_sherpaonnx_piper_ar_kareem_low.wav"
@@ -1083,9 +1099,49 @@
     "language_code": "as-Beng",
     "engine": "sherpaonnx",
     "engine_norm": "sherpaonnx",
+    "voice_id": "mms_asa",
+    "voice_id_norm": "mmsasa",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/as-Beng_sherpaonnx_mms_asa.wav"
+  },
+  {
+    "language_code": "as-Beng",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_asg",
+    "voice_id_norm": "mmsasg",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/as-Beng_sherpaonnx_mms_asg.wav"
+  },
+  {
+    "language_code": "as-Beng",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
     "voice_id": "mms_asm",
     "voice_id_norm": "mmsasm",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/as-Beng_sherpaonnx_mms_asm.wav"
+  },
+  {
+    "language_code": "ay-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_ayo",
+    "voice_id_norm": "mmsayo",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ay-Latn_sherpaonnx_mms_ayo.wav"
+  },
+  {
+    "language_code": "ay-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_ayr",
+    "voice_id_norm": "mmsayr",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ay-Latn_sherpaonnx_mms_ayr.wav"
+  },
+  {
+    "language_code": "ay-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_ayz",
+    "voice_id_norm": "mmsayz",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ay-Latn_sherpaonnx_mms_ayz.wav"
   },
   {
     "language_code": "az-Cyrl",
@@ -1112,6 +1168,30 @@
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/az-Cyrl_microsoft_az_az_banuneural.wav"
   },
   {
+    "language_code": "az-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_azb",
+    "voice_id_norm": "mmsazb",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/az-Cyrl_sherpaonnx_mms_azb.wav"
+  },
+  {
+    "language_code": "az-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_azg",
+    "voice_id_norm": "mmsazg",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/az-Cyrl_sherpaonnx_mms_azg.wav"
+  },
+  {
+    "language_code": "az-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_azz",
+    "voice_id_norm": "mmsazz",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/az-Cyrl_sherpaonnx_mms_azz.wav"
+  },
+  {
     "language_code": "az-Latn",
     "engine": "espeak",
     "engine_norm": "espeak",
@@ -1136,6 +1216,30 @@
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/az-Latn_microsoft_az_az_banuneural.wav"
   },
   {
+    "language_code": "az-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_azb",
+    "voice_id_norm": "mmsazb",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/az-Latn_sherpaonnx_mms_azb.wav"
+  },
+  {
+    "language_code": "az-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_azg",
+    "voice_id_norm": "mmsazg",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/az-Latn_sherpaonnx_mms_azg.wav"
+  },
+  {
+    "language_code": "az-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_azz",
+    "voice_id_norm": "mmsazz",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/az-Latn_sherpaonnx_mms_azz.wav"
+  },
+  {
     "language_code": "ba-Cyrl",
     "engine": "espeak",
     "engine_norm": "espeak",
@@ -1150,6 +1254,38 @@
     "voice_id": "mms_bak",
     "voice_id_norm": "mmsbak",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ba-Cyrl_sherpaonnx_mms_bak.wav"
+  },
+  {
+    "language_code": "ba-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bam",
+    "voice_id_norm": "mmsbam",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ba-Cyrl_sherpaonnx_mms_bam.wav"
+  },
+  {
+    "language_code": "ba-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_ban",
+    "voice_id_norm": "mmsban",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ba-Cyrl_sherpaonnx_mms_ban.wav"
+  },
+  {
+    "language_code": "ba-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bao",
+    "voice_id_norm": "mmsbao",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ba-Cyrl_sherpaonnx_mms_bao.wav"
+  },
+  {
+    "language_code": "ba-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bav",
+    "voice_id_norm": "mmsbav",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ba-Cyrl_sherpaonnx_mms_bav.wav"
   },
   {
     "language_code": "ban-Latn",
@@ -1168,12 +1304,92 @@
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-Cyrl_espeak_zle_be.wav"
   },
   {
+    "language_code": "be-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_beh",
+    "voice_id_norm": "mmsbeh",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-Cyrl_sherpaonnx_mms_beh.wav"
+  },
+  {
+    "language_code": "be-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bem",
+    "voice_id_norm": "mmsbem",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-Cyrl_sherpaonnx_mms_bem.wav"
+  },
+  {
+    "language_code": "be-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_ben",
+    "voice_id_norm": "mmsben",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-Cyrl_sherpaonnx_mms_ben.wav"
+  },
+  {
+    "language_code": "be-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bep",
+    "voice_id_norm": "mmsbep",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-Cyrl_sherpaonnx_mms_bep.wav"
+  },
+  {
+    "language_code": "be-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bex",
+    "voice_id_norm": "mmsbex",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-Cyrl_sherpaonnx_mms_bex.wav"
+  },
+  {
     "language_code": "be-x-old",
     "engine": "espeak",
     "engine_norm": "espeak",
     "voice_id": "zle_be",
     "voice_id_norm": "zlebe",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-x-old_espeak_zle_be.wav"
+  },
+  {
+    "language_code": "be-x-old",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_beh",
+    "voice_id_norm": "mmsbeh",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-x-old_sherpaonnx_mms_beh.wav"
+  },
+  {
+    "language_code": "be-x-old",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bem",
+    "voice_id_norm": "mmsbem",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-x-old_sherpaonnx_mms_bem.wav"
+  },
+  {
+    "language_code": "be-x-old",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_ben",
+    "voice_id_norm": "mmsben",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-x-old_sherpaonnx_mms_ben.wav"
+  },
+  {
+    "language_code": "be-x-old",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bep",
+    "voice_id_norm": "mmsbep",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-x-old_sherpaonnx_mms_bep.wav"
+  },
+  {
+    "language_code": "be-x-old",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bex",
+    "voice_id_norm": "mmsbex",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/be-x-old_sherpaonnx_mms_bex.wav"
   },
   {
     "language_code": "bem-Latn",
@@ -1395,6 +1611,54 @@
     "language_code": "bg-Cyrl",
     "engine": "sherpaonnx",
     "engine_norm": "sherpaonnx",
+    "voice_id": "coqui_bg_cv",
+    "voice_id_norm": "coquibgcv",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bg-Cyrl_sherpaonnx_coqui_bg_cv.wav"
+  },
+  {
+    "language_code": "bg-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bgc",
+    "voice_id_norm": "mmsbgc",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bg-Cyrl_sherpaonnx_mms_bgc.wav"
+  },
+  {
+    "language_code": "bg-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bgq",
+    "voice_id_norm": "mmsbgq",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bg-Cyrl_sherpaonnx_mms_bgq.wav"
+  },
+  {
+    "language_code": "bg-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bgr",
+    "voice_id_norm": "mmsbgr",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bg-Cyrl_sherpaonnx_mms_bgr.wav"
+  },
+  {
+    "language_code": "bg-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bgt",
+    "voice_id_norm": "mmsbgt",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bg-Cyrl_sherpaonnx_mms_bgt.wav"
+  },
+  {
+    "language_code": "bg-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bgw",
+    "voice_id_norm": "mmsbgw",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bg-Cyrl_sherpaonnx_mms_bgw.wav"
+  },
+  {
+    "language_code": "bg-Cyrl",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
     "voice_id": "mms_bul",
     "voice_id_norm": "mmsbul",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bg-Cyrl_sherpaonnx_mms_bul.wav"
@@ -1408,12 +1672,76 @@
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bm-Latn_sherpaonnx_mms_bam.wav"
   },
   {
+    "language_code": "bm-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bmq",
+    "voice_id_norm": "mmsbmq",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bm-Latn_sherpaonnx_mms_bmq.wav"
+  },
+  {
+    "language_code": "bm-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bmr",
+    "voice_id_norm": "mmsbmr",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bm-Latn_sherpaonnx_mms_bmr.wav"
+  },
+  {
+    "language_code": "bm-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bmu",
+    "voice_id_norm": "mmsbmu",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bm-Latn_sherpaonnx_mms_bmu.wav"
+  },
+  {
+    "language_code": "bm-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bmv",
+    "voice_id_norm": "mmsbmv",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bm-Latn_sherpaonnx_mms_bmv.wav"
+  },
+  {
     "language_code": "bm-Nkoo",
     "engine": "sherpaonnx",
     "engine_norm": "sherpaonnx",
     "voice_id": "mms_bam",
     "voice_id_norm": "mmsbam",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bm-Nkoo_sherpaonnx_mms_bam.wav"
+  },
+  {
+    "language_code": "bm-Nkoo",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bmq",
+    "voice_id_norm": "mmsbmq",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bm-Nkoo_sherpaonnx_mms_bmq.wav"
+  },
+  {
+    "language_code": "bm-Nkoo",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bmr",
+    "voice_id_norm": "mmsbmr",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bm-Nkoo_sherpaonnx_mms_bmr.wav"
+  },
+  {
+    "language_code": "bm-Nkoo",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bmu",
+    "voice_id_norm": "mmsbmu",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bm-Nkoo_sherpaonnx_mms_bmu.wav"
+  },
+  {
+    "language_code": "bm-Nkoo",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bmv",
+    "voice_id_norm": "mmsbmv",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bm-Nkoo_sherpaonnx_mms_bmv.wav"
   },
   {
     "language_code": "bn-Beng",
@@ -1523,9 +1851,57 @@
     "language_code": "bn-Beng",
     "engine": "sherpaonnx",
     "engine_norm": "sherpaonnx",
+    "voice_id": "coqui_bn_custom_female",
+    "voice_id_norm": "coquibncustomfemale",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bn-Beng_sherpaonnx_coqui_bn_custom_female.wav"
+  },
+  {
+    "language_code": "bn-Beng",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mimic3_bn_multi",
+    "voice_id_norm": "mimic3bnmulti",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bn-Beng_sherpaonnx_mimic3_bn_multi.wav"
+  },
+  {
+    "language_code": "bn-Beng",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
     "voice_id": "mms_ben",
     "voice_id_norm": "mmsben",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bn-Beng_sherpaonnx_mms_ben.wav"
+  },
+  {
+    "language_code": "bn-Beng",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bng",
+    "voice_id_norm": "mmsbng",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bn-Beng_sherpaonnx_mms_bng.wav"
+  },
+  {
+    "language_code": "bn-Beng",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bno",
+    "voice_id_norm": "mmsbno",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bn-Beng_sherpaonnx_mms_bno.wav"
+  },
+  {
+    "language_code": "bn-Beng",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bnp",
+    "voice_id_norm": "mmsbnp",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bn-Beng_sherpaonnx_mms_bnp.wav"
+  },
+  {
+    "language_code": "br-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bru",
+    "voice_id_norm": "mmsbru",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/br-Latn_sherpaonnx_mms_bru.wav"
   },
   {
     "language_code": "bs-Latn",
@@ -1550,6 +1926,30 @@
     "voice_id": "bs_ba_vesnaneural",
     "voice_id_norm": "bsbavesnaneural",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bs-Latn_microsoft_bs_ba_vesnaneural.wav"
+  },
+  {
+    "language_code": "bs-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bsc",
+    "voice_id_norm": "mmsbsc",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bs-Latn_sherpaonnx_mms_bsc.wav"
+  },
+  {
+    "language_code": "bs-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bsq",
+    "voice_id_norm": "mmsbsq",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bs-Latn_sherpaonnx_mms_bsq.wav"
+  },
+  {
+    "language_code": "bs-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_bss",
+    "voice_id_norm": "mmsbss",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/bs-Latn_sherpaonnx_mms_bss.wav"
   },
   {
     "language_code": "ca-Latn",
@@ -1603,9 +2003,81 @@
     "language_code": "ca-Latn",
     "engine": "sherpaonnx",
     "engine_norm": "sherpaonnx",
+    "voice_id": "mms_caa",
+    "voice_id_norm": "mmscaa",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ca-Latn_sherpaonnx_mms_caa.wav"
+  },
+  {
+    "language_code": "ca-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_cab",
+    "voice_id_norm": "mmscab",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ca-Latn_sherpaonnx_mms_cab.wav"
+  },
+  {
+    "language_code": "ca-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_cap",
+    "voice_id_norm": "mmscap",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ca-Latn_sherpaonnx_mms_cap.wav"
+  },
+  {
+    "language_code": "ca-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_car",
+    "voice_id_norm": "mmscar",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ca-Latn_sherpaonnx_mms_car.wav"
+  },
+  {
+    "language_code": "ca-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_cas",
+    "voice_id_norm": "mmscas",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ca-Latn_sherpaonnx_mms_cas.wav"
+  },
+  {
+    "language_code": "ca-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
     "voice_id": "mms_cat",
     "voice_id_norm": "mmscat",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ca-Latn_sherpaonnx_mms_cat.wav"
+  },
+  {
+    "language_code": "ca-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_cax",
+    "voice_id_norm": "mmscax",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ca-Latn_sherpaonnx_mms_cax.wav"
+  },
+  {
+    "language_code": "ca-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_ca_upc_ona_low",
+    "voice_id_norm": "pipercaupconalow",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ca-Latn_sherpaonnx_piper_ca_upc_ona_low.wav"
+  },
+  {
+    "language_code": "ca-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_ca_upc_ona_medium",
+    "voice_id_norm": "pipercaupconamedium",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ca-Latn_sherpaonnx_piper_ca_upc_ona_medium.wav"
+  },
+  {
+    "language_code": "ca-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_ca_upc_pau_low",
+    "voice_id_norm": "pipercaupcpaulow",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ca-Latn_sherpaonnx_piper_ca_upc_pau_low.wav"
   },
   {
     "language_code": "ceb-Latn",
@@ -1614,6 +2086,54 @@
     "voice_id": "mms_ceb",
     "voice_id_norm": "mmsceb",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/ceb-Latn_sherpaonnx_mms_ceb.wav"
+  },
+  {
+    "language_code": "co-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_coe",
+    "voice_id_norm": "mmscoe",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/co-Latn_sherpaonnx_mms_coe.wav"
+  },
+  {
+    "language_code": "co-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_cof",
+    "voice_id_norm": "mmscof",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/co-Latn_sherpaonnx_mms_cof.wav"
+  },
+  {
+    "language_code": "co-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_cok",
+    "voice_id_norm": "mmscok",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/co-Latn_sherpaonnx_mms_cok.wav"
+  },
+  {
+    "language_code": "co-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_con",
+    "voice_id_norm": "mmscon",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/co-Latn_sherpaonnx_mms_con.wav"
+  },
+  {
+    "language_code": "co-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_cot",
+    "voice_id_norm": "mmscot",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/co-Latn_sherpaonnx_mms_cot.wav"
+  },
+  {
+    "language_code": "co-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_cou",
+    "voice_id_norm": "mmscou",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/co-Latn_sherpaonnx_mms_cou.wav"
   },
   {
     "language_code": "cs-Latn",
@@ -1840,6 +2360,46 @@
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cs-Latn_polly_jitka.wav"
   },
   {
+    "language_code": "cs-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "coqui_cs_cv",
+    "voice_id_norm": "coquicscv",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cs-Latn_sherpaonnx_coqui_cs_cv.wav"
+  },
+  {
+    "language_code": "cs-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_csk",
+    "voice_id_norm": "mmscsk",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cs-Latn_sherpaonnx_mms_csk.wav"
+  },
+  {
+    "language_code": "cs-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_cso",
+    "voice_id_norm": "mmscso",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cs-Latn_sherpaonnx_mms_cso.wav"
+  },
+  {
+    "language_code": "cs-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_cs_jirka_low",
+    "voice_id_norm": "pipercsjirkalow",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cs-Latn_sherpaonnx_piper_cs_jirka_low.wav"
+  },
+  {
+    "language_code": "cs-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_cs_jirka_medium",
+    "voice_id_norm": "pipercsjirkamedium",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cs-Latn_sherpaonnx_piper_cs_jirka_medium.wav"
+  },
+  {
     "language_code": "cv-Cyrl",
     "engine": "espeak",
     "engine_norm": "espeak",
@@ -1883,9 +2443,81 @@
     "language_code": "cy-Latn",
     "engine": "sherpaonnx",
     "engine_norm": "sherpaonnx",
+    "voice_id": "mms_azj_script_cyrillic",
+    "voice_id_norm": "mmsazjscriptcyrillic",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cy-Latn_sherpaonnx_mms_azj_script_cyrillic.wav"
+  },
+  {
+    "language_code": "cy-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_cya",
+    "voice_id_norm": "mmscya",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cy-Latn_sherpaonnx_mms_cya.wav"
+  },
+  {
+    "language_code": "cy-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
     "voice_id": "mms_cym",
     "voice_id_norm": "mmscym",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cy-Latn_sherpaonnx_mms_cym.wav"
+  },
+  {
+    "language_code": "cy-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_gag_script_cyrillic",
+    "voice_id_norm": "mmsgagscriptcyrillic",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cy-Latn_sherpaonnx_mms_gag_script_cyrillic.wav"
+  },
+  {
+    "language_code": "cy-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_kmr_script_cyrillic",
+    "voice_id_norm": "mmskmrscriptcyrillic",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cy-Latn_sherpaonnx_mms_kmr_script_cyrillic.wav"
+  },
+  {
+    "language_code": "cy-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_rmc_script_cyrillic",
+    "voice_id_norm": "mmsrmcscriptcyrillic",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cy-Latn_sherpaonnx_mms_rmc_script_cyrillic.wav"
+  },
+  {
+    "language_code": "cy-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_rmy_script_cyrillic",
+    "voice_id_norm": "mmsrmyscriptcyrillic",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cy-Latn_sherpaonnx_mms_rmy_script_cyrillic.wav"
+  },
+  {
+    "language_code": "cy-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_uig_script_cyrillic",
+    "voice_id_norm": "mmsuigscriptcyrillic",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cy-Latn_sherpaonnx_mms_uig_script_cyrillic.wav"
+  },
+  {
+    "language_code": "cy-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_uzb_script_cyrillic",
+    "voice_id_norm": "mmsuzbscriptcyrillic",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cy-Latn_sherpaonnx_mms_uzb_script_cyrillic.wav"
+  },
+  {
+    "language_code": "cy-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_cy_gwryw_gogleddol_mediu",
+    "voice_id_norm": "pipercygwrywgogleddolmediu",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/cy-Latn_sherpaonnx_piper_cy_gwryw_gogleddol_mediu.wav"
   },
   {
     "language_code": "da-Latn",
@@ -2126,6 +2758,46 @@
     "voice_id": "sofie",
     "voice_id_norm": "sofie",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/da-Latn_polly_sofie.wav"
+  },
+  {
+    "language_code": "da-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "coqui_da_cv",
+    "voice_id_norm": "coquidacv",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/da-Latn_sherpaonnx_coqui_da_cv.wav"
+  },
+  {
+    "language_code": "da-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_daa",
+    "voice_id_norm": "mmsdaa",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/da-Latn_sherpaonnx_mms_daa.wav"
+  },
+  {
+    "language_code": "da-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_dah",
+    "voice_id_norm": "mmsdah",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/da-Latn_sherpaonnx_mms_dah.wav"
+  },
+  {
+    "language_code": "da-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_dar",
+    "voice_id_norm": "mmsdar",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/da-Latn_sherpaonnx_mms_dar.wav"
+  },
+  {
+    "language_code": "da-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_da_talesyntese_medium",
+    "voice_id_norm": "piperdatalesyntesemedium",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/da-Latn_sherpaonnx_piper_da_talesyntese_medium.wav"
   },
   {
     "language_code": "de-Latn",
@@ -2547,9 +3219,113 @@
     "language_code": "de-Latn",
     "engine": "sherpaonnx",
     "engine_norm": "sherpaonnx",
+    "voice_id": "coqui_de_css10",
+    "voice_id_norm": "coquidecss10",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_coqui_de_css10.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_ded",
+    "voice_id_norm": "mmsded",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_mms_ded.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_des",
+    "voice_id_norm": "mmsdes",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_mms_des.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
     "voice_id": "mms_deu",
     "voice_id_norm": "mmsdeu",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_mms_deu.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "mms_urd_script_devanagari",
+    "voice_id_norm": "mmsurdscriptdevanagari",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_mms_urd_script_devanagari.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_de_eva_k_low",
+    "voice_id_norm": "piperdeevaklow",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_piper_de_eva_k_low.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_de_karlsson_low",
+    "voice_id_norm": "piperdekarlssonlow",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_piper_de_karlsson_low.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_de_kerstin_low",
+    "voice_id_norm": "piperdekerstinlow",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_piper_de_kerstin_low.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_de_pavoque_low",
+    "voice_id_norm": "piperdepavoquelow",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_piper_de_pavoque_low.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_de_ramona_low",
+    "voice_id_norm": "piperderamonalow",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_piper_de_ramona_low.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_de_thorsten_emotional_me",
+    "voice_id_norm": "piperdethorstenemotionalme",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_piper_de_thorsten_emotional_me.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_de_thorsten_high",
+    "voice_id_norm": "piperdethorstenhigh",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_piper_de_thorsten_high.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_de_thorsten_low",
+    "voice_id_norm": "piperdethorstenlow",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_piper_de_thorsten_low.wav"
+  },
+  {
+    "language_code": "de-Latn",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_de_thorsten_medium",
+    "voice_id_norm": "piperdethorstenmedium",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/de-Latn_sherpaonnx_piper_de_thorsten_medium.wav"
   },
   {
     "language_code": "dv-Thaa",
@@ -2795,9 +3571,25 @@
     "language_code": "el-Grek",
     "engine": "sherpaonnx",
     "engine_norm": "sherpaonnx",
+    "voice_id": "mimic3_el_rapunzelina",
+    "voice_id_norm": "mimic3elrapunzelina",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/el-Grek_sherpaonnx_mimic3_el_rapunzelina.wav"
+  },
+  {
+    "language_code": "el-Grek",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
     "voice_id": "mms_ell",
     "voice_id_norm": "mmsell",
     "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/el-Grek_sherpaonnx_mms_ell.wav"
+  },
+  {
+    "language_code": "el-Grek",
+    "engine": "sherpaonnx",
+    "engine_norm": "sherpaonnx",
+    "voice_id": "piper_el_rapunzelina_low",
+    "voice_id_norm": "piperelrapunzelinalow",
+    "url": "https://raw.githubusercontent.com/willwade/WorldAlphabets/main/data/audio/el-Grek_sherpaonnx_piper_el_rapunzelina_low.wav"
   },
   {
     "language_code": "en-Latn",
