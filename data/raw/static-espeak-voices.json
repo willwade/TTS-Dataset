@@ -1861,4 +1861,80 @@
     "source_name": "espeak.json",
     "age": 0
   }
+]orm": "linux",
+    "collected_at": "2026-02-15T03:56:10.890997+00:00",
+    "source_type": "static",
+    "source_name": "espeak.json",
+    "age": 0
+  },
+  {
+    "id": "aav/vi",
+    "name": "Vietnamese (Northern)",
+    "language_codes": [
+      "vi"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:56:10.890997+00:00",
+    "source_type": "static",
+    "source_name": "espeak.json",
+    "age": 0
+  },
+  {
+    "id": "aav/vi-VN-x-central",
+    "name": "Vietnamese (Central)",
+    "language_codes": [
+      "vi-vn-x-central"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:56:10.890997+00:00",
+    "source_type": "static",
+    "source_name": "espeak.json",
+    "age": 0
+  },
+  {
+    "id": "aav/vi-VN-x-south",
+    "name": "Vietnamese (Southern)",
+    "language_codes": [
+      "vi-vn-x-south"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:56:10.890997+00:00",
+    "source_type": "static",
+    "source_name": "espeak.json",
+    "age": 0
+  },
+  {
+    "id": "sit/yue",
+    "name": "Chinese (Cantonese)",
+    "language_codes": [
+      "yue"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:56:10.890997+00:00",
+    "source_type": "static",
+    "source_name": "espeak.json",
+    "age": 0
+  },
+  {
+    "id": "sit/yue-Latn-jyutping",
+    "name": "Chinese (Cantonese, latin as Jyutping)",
+    "language_codes": [
+      "yue"
+    ],
+    "gender": "Male",
+    "engine": "eSpeak",
+    "platform": "linux",
+    "collected_at": "2026-02-15T03:56:10.890997+00:00",
+    "source_type": "static",
+    "source_name": "espeak.json",
+    "age": 0
+  }
 ]

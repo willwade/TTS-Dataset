@@ -2218,4 +2218,87 @@
     "quality": "xpremium",
     "styles": "Neutral, Lively, Forceful, Apologetic"
   }
+]latform": "windows",
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
+  },
+  {
+    "id": "cem-ml",
+    "name": "Cem-ml",
+    "language_codes": [
+      "tr-TR",
+      "en-GB"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
+  },
+  {
+    "id": "yelda",
+    "name": "Yelda",
+    "language_codes": [
+      "tr-TR"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
+  },
+  {
+    "id": "lesya",
+    "name": "Lesya",
+    "language_codes": [
+      "uk-UA"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
+  },
+  {
+    "id": "empar",
+    "name": "Empar",
+    "language_codes": [
+      "ca-ES-valencia"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
+  },
+  {
+    "id": "linh",
+    "name": "Linh",
+    "language_codes": [
+      "vi-VN"
+    ],
+    "gender": "Female",
+    "engine": "Nuance",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:56:10.912761+00:00",
+    "source_type": "static",
+    "source_name": "nuance-nuance.json",
+    "quality": "xpremium",
+    "styles": "Neutral, Lively, Forceful, Apologetic"
+  }
 ]
