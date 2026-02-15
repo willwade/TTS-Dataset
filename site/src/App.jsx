@@ -110,6 +110,7 @@ export default function App() {
   const [engineFamily, setEngineFamily] = useState("all");
   const [distributionChannel, setDistributionChannel] = useState("all");
   const [solutionCategory, setSolutionCategory] = useState("all");
+  const [solutionVoiceOrigin, setSolutionVoiceOrigin] = useState("all");
 
   useEffect(() => {
     const url = `${import.meta.env.BASE_URL}data/voices-site.json?v=${Date.now()}`;
@@ -341,6 +342,9 @@ export default function App() {
       runtimeBySolution.get(solutionId).push({
         token: normalizeToken(row.runtime),
         score: supportScore(row.support_level),
+        voiceOrigin: String(row.voice_origin || "").trim().toLowerCase(),
+        requiresEnrollment: row.requires_enrollment === true,
+        requiresUserAsset: row.requires_user_asset === true,
       });
     }
 
@@ -356,6 +360,9 @@ export default function App() {
       providerBySolution.get(solutionId).push({
         token: normalizeToken(row.provider),
         score: supportScore(row.support_level),
+        voiceOrigin: String(row.voice_origin || "").trim().toLowerCase(),
+        requiresEnrollment: row.requires_enrollment === true,
+        requiresUserAsset: row.requires_user_asset === true,
       });
     }
 
@@ -373,6 +380,16 @@ export default function App() {
       let total = 0;
       const runtimeRules = runtimeBySolution.get(solution.id) || [];
       const providerRules = providerBySolution.get(solution.id) || [];
+      const voiceOrigins = new Set(
+        [...runtimeRules, ...providerRules]
+          .map((r) => String(r.voiceOrigin || "").trim().toLowerCase())
+          .filter(Boolean),
+      );
+      if (solutionVoiceOrigin !== "all" && !voiceOrigins.has(solutionVoiceOrigin)) {
+        continue;
+      }
+      const requiresEnrollment = [...runtimeRules, ...providerRules].some((r) => r.requiresEnrollment);
+      const requiresUserAsset = [...runtimeRules, ...providerRules].some((r) => r.requiresUserAsset);
 
       for (const voice of filteredVoices) {
         const runtimeToken = normalizeToken(voice.runtime);
@@ -407,6 +424,9 @@ export default function App() {
         nativeCount,
         compatibleCount,
         possibleCount,
+        voiceOrigins: Array.from(voiceOrigins).sort(),
+        requiresEnrollment,
+        requiresUserAsset,
         topSupport: supportLabel(
           nativeCount ? 3 : compatibleCount ? 2 : possibleCount ? 1 : 0,
         ),
@@ -414,7 +434,24 @@ export default function App() {
     }
 
     return out.sort((a, b) => b.total - a.total || a.name.localeCompare(b.name));
-  }, [payload, filteredVoices, solutionCategory]);
+  }, [payload, filteredVoices, solutionCategory, solutionVoiceOrigin]);
+
+  const solutionVoiceOriginOptions = useMemo(() => {
+    const runtimeSupport = Array.isArray(payload?.solution_runtime_support)
+      ? payload.solution_runtime_support
+      : [];
+    const providerSupport = Array.isArray(payload?.solution_provider_support)
+      ? payload.solution_provider_support
+      : [];
+    const origins = new Set();
+    for (const row of [...runtimeSupport, ...providerSupport]) {
+      const origin = String(row?.voice_origin || "").trim().toLowerCase();
+      if (origin) {
+        origins.add(origin);
+      }
+    }
+    return ["all", ...Array.from(origins).sort((a, b) => a.localeCompare(b))];
+  }, [payload]);
 
   if (loading) {
     return <main className="app"><p className="status">Loading voices atlas...</p></main>;
@@ -562,11 +599,20 @@ export default function App() {
       <section className="results">
         <div className="results-header">
           <h2>Accessibility Solutions</h2>
-          <select value={solutionCategory} onChange={(e) => setSolutionCategory(e.target.value)}>
-            <option value="all">All categories</option>
-            <option value="aac">AAC</option>
-            <option value="screenreader">Screenreader</option>
-          </select>
+          <div className="results-controls">
+            <select value={solutionCategory} onChange={(e) => setSolutionCategory(e.target.value)}>
+              <option value="all">All categories</option>
+              <option value="aac">AAC</option>
+              <option value="screenreader">Screenreader</option>
+            </select>
+            <select value={solutionVoiceOrigin} onChange={(e) => setSolutionVoiceOrigin(e.target.value)}>
+              {solutionVoiceOriginOptions.map((item) => (
+                <option key={item} value={item}>
+                  {item === "all" ? "All voice origins" : item}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
         <p className="meta">
           `possible` is only shown when a voice has a possible-only path; if the same voice also has
@@ -581,6 +627,16 @@ export default function App() {
               <p className="meta">
                 Native {solution.nativeCount.toLocaleString()} · Compatible {solution.compatibleCount.toLocaleString()} · Possible {solution.possibleCount.toLocaleString()}
               </p>
+              {solution.voiceOrigins.length ? (
+                <p className="meta">Voice origin: {solution.voiceOrigins.join(", ")}</p>
+              ) : null}
+              {(solution.requiresEnrollment || solution.requiresUserAsset) ? (
+                <p className="meta">
+                  {solution.requiresEnrollment ? "Requires enrollment" : "No enrollment required"}
+                  {" · "}
+                  {solution.requiresUserAsset ? "Requires user voice asset" : "No user asset required"}
+                </p>
+              ) : null}
             </article>
           ))}
         </div>

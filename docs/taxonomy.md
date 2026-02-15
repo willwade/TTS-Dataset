@@ -115,6 +115,10 @@ This file captures:
 - runtime compatibility (`runtime_support`)
 - official provider SDK compatibility (`provider_sdk_support`)
 - runtime class (`runtime_class`: `direct` or `broker`) for each runtime support row
+- voice origin metadata for runtime/provider rows:
+  - `voice_origin`: `builtin|cloned|banked|imported|hybrid|unknown`
+  - `requires_enrollment`: boolean flag for account/setup requirements
+  - `requires_user_asset`: boolean flag for user-provided voice assets (for example voice banking/cloning imports)
 
 Use this as the authoritative source for screenreader/AAC product claims.
 Voice-level derived tags should be generated from this matrix, not hardcoded directly in voice records.

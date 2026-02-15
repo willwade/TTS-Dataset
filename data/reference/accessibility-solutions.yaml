@@ -1,225 +1,874 @@
 version: 1
-updated_at: "2026-02-15"
+updated_at: '2026-02-15'
 notes:
-  - "Handcrafted compatibility matrix for accessibility products."
-  - "Support levels: native, compatible, possible, unsupported, unknown."
-  - "A solution can support runtime interfaces (e.g. SAPI5/AVSynth) and/or official provider SDK integrations."
-  - "Claims should be treated as operational guidance and validated against vendor docs/licenses per release."
-  - "Scope: software solutions (apps/platforms), not every hardware device SKU."
-  - "Browser speech runtimes are broker layers and may route to OS or vendor-specific voices depending on browser/OS."
-  - "runtime_class values: direct (runtime is synthesis endpoint), broker (runtime routes to other engines/providers)."
-
+- Handcrafted compatibility matrix for accessibility products.
+- 'Support levels: native, compatible, possible, unsupported, unknown.'
+- A solution can support runtime interfaces (e.g. SAPI5/AVSynth) and/or official provider SDK integrations.
+- Claims should be treated as operational guidance and validated against vendor docs/licenses per release.
+- 'Scope: software solutions (apps/platforms), not every hardware device SKU.'
+- Browser speech runtimes are broker layers and may route to OS or vendor-specific voices depending on
+  browser/OS.
+- 'runtime_class values: direct (runtime is synthesis endpoint), broker (runtime routes to other engines/providers).'
+- Merge candidate generated from temp/accessibility-solutions.cleaned.yaml
+- Base entries preserved; additive changes only for overlapping solution IDs.
+- Merged additive updates from temp/accessibility-solutions-temp.yaml (no deletions).
 solutions:
-  - id: grid3
-    name: Grid 3
-    category: aac
-    vendor: Smartbox
-    platforms: [windows, ios]
-    links:
-      - https://thinksmartbox.com/product/grid-3/
-    runtime_support:
-      - runtime: SAPI5
-        support_level: compatible
-        mode: local
-        notes: "Windows runtime support for installed SAPI voices."
-      - runtime: AVSynth
-        support_level: compatible
-        mode: local
-        notes: "iOS/macOS speech stack where applicable."
-    provider_sdk_support:
-      - provider: Acapela
-        support_level: native
-        mode: sdk
-        notes: "Official integrations/voice packs vary by platform and license."
-      - provider: CereProc
-        support_level: native
-        mode: sdk
-        notes: "Official integration available in some Grid deployments."
-      - provider: Nuance
-        support_level: possible
-        mode: sdk
-        notes: "Availability depends on deployment/licensing."
-
-  - id: td-snap
-    name: TD Snap
-    category: aac
-    vendor: Tobii Dynavox
-    platforms: [windows, ios]
-    links:
-      - https://www.tobiidynavox.com/products/software/td-snap/
-    runtime_support:
-      - runtime: SAPI5
-        support_level: compatible
-        mode: local
-        notes: "Uses Windows speech APIs where configured."
-      - runtime: AVSynth
-        support_level: compatible
-        mode: local
-        notes: "Uses Apple speech stack on iOS."
-    provider_sdk_support:
-      - provider: Acapela
-        support_level: native
-        mode: sdk
-        notes: "Official Acapela voices commonly available."
-      - provider: Nuance
-        support_level: possible
-        mode: sdk
-        notes: "Varies by language pack and commercial license."
-
-  - id: coughdrop
-    name: CoughDrop
-    category: aac
-    vendor: CoughDrop
-    platforms: [web, ios, android, windows]
-    links:
-      - https://www.coughdrop.com/
-    runtime_support:
-      - runtime: Browser Speech Synthesis (Web Speech API)
-        runtime_class: broker
-        support_level: compatible
-        mode: hybrid
-        notes: "Broker layer; actual voice inventory depends on browser + OS + vendor implementation."
-    provider_sdk_support: []
-
-  - id: prc-lamp-words-for-life
-    name: LAMP Words For Life
-    category: aac
-    vendor: PRC-Saltillo
-    platforms: [ios]
-    links:
-      - https://www.lampwflapp.com/
-    runtime_support:
-      - runtime: AVSynth
-        support_level: compatible
-        mode: local
-        notes: "Uses iOS speech stack as baseline."
-    provider_sdk_support:
-      - provider: Acapela
-        support_level: possible
-        mode: sdk
-        notes: "Voice availability varies by package."
-
-  - id: nvda
-    name: NVDA
-    category: screenreader
-    vendor: NV Access
-    platforms: [windows]
-    links:
-      - https://www.nvaccess.org/
-    runtime_support:
-      - runtime: SAPI5
-        support_level: compatible
-        mode: local
-        notes: "Supports SAPI5 voices via synthesizer settings."
-      - runtime: eSpeak
-        support_level: native
-        mode: local
-        notes: "eSpeak NG is commonly used by NVDA users."
-    provider_sdk_support: []
-
-  - id: jaws
-    name: JAWS
-    category: screenreader
-    vendor: Freedom Scientific
-    platforms: [windows]
-    links:
-      - https://www.freedomscientific.com/products/software/jaws/
-    runtime_support:
-      - runtime: SAPI5
-        support_level: compatible
-        mode: local
-        notes: "Supports SAPI voices; additional synthesizers may be available."
-      - runtime: Vocalizer SDK
-        support_level: native
-        mode: sdk
-        notes: "Common JAWS voice path in enterprise deployments."
-    provider_sdk_support:
-      - provider: Nuance
-        support_level: native
-        mode: sdk
-        notes: "Vocalizer voices are commonly associated with Nuance."
-
-  - id: voiceover
-    name: VoiceOver
-    category: screenreader
-    vendor: Apple
-    platforms: [macos, ios]
-    links:
-      - https://www.apple.com/accessibility/vision/
-    runtime_support:
-      - runtime: AVSynth
-        support_level: native
-        mode: local
-        notes: "Primary speech path on Apple platforms."
-    provider_sdk_support:
-      - provider: Apple
-        support_level: native
-        mode: local
-        notes: "Bundled Apple voices."
-      - provider: Nuance
-        support_level: possible
-        mode: local
-        notes: "Some Apple premium voices may be based on Nuance technology lineage."
-
-  - id: narrator
-    name: Windows Narrator
-    category: screenreader
-    vendor: Microsoft
-    platforms: [windows]
-    links:
-      - https://support.microsoft.com/windows/complete-guide-to-narrator-ecdbf2f4-8fa0-4906-a631-3c8c1f64bf5a
-    runtime_support:
-      - runtime: SAPI5
-        support_level: compatible
-        mode: local
-        notes: "Broad compatibility through Windows speech stack."
-      - runtime: Azure Speech SDK (Local/Embedded)
-        support_level: possible
-        mode: local
-        notes: "Potential future local neural path depending on platform integration."
-    provider_sdk_support:
-      - provider: Microsoft
-        support_level: native
-        mode: local
-        notes: "Microsoft speech engines are first-party on Windows."
-
-  - id: orca
-    name: Orca
-    category: screenreader
-    vendor: GNOME
-    platforms: [linux]
-    links:
-      - https://help.gnome.org/users/orca/stable/
-    runtime_support:
-      - runtime: Speech Dispatcher
-        runtime_class: broker
-        support_level: native
-        mode: local
-        notes: "Primary broker/runtime path for Orca; routes to configured speech backends."
-      - runtime: eSpeak
-        support_level: compatible
-        mode: local
-        notes: "Common backend via Speech Dispatcher on many Linux setups."
-    provider_sdk_support:
-      - provider: eSpeak
-        support_level: compatible
-        mode: local
-        notes: "Most common backend provider in default Linux accessibility setups."
-
-  - id: talkback
-    name: TalkBack
-    category: screenreader
-    vendor: Google
-    platforms: [android]
-    links:
-      - https://support.google.com/accessibility/android/answer/6283677
-    runtime_support:
-      - runtime: Android TTS
-        support_level: native
-        mode: local
-        notes: "Primary screenreader speech path on Android."
-    provider_sdk_support:
-      - provider: Google
-        support_level: native
-        mode: local
-        notes: "Google TTS voices are standard on many devices."
+- id: grid3
+  name: Grid 3
+  category: aac
+  vendor: Smartbox
+  platforms:
+  - windows
+  - ios
+  links:
+  - https://thinksmartbox.com/product/grid-3/
+  runtime_support:
+  - runtime: SAPI5
+    support_level: compatible
+    mode: local
+    notes: Windows runtime support for installed SAPI voices.
+  - runtime: AVSynth
+    support_level: compatible
+    mode: local
+    notes: iOS/macOS speech stack where applicable.
+  provider_sdk_support:
+  - provider: Acapela
+    support_level: native
+    mode: sdk
+    notes: Official integrations/voice packs vary by platform and license.
+  - provider: CereProc
+    support_level: native
+    mode: sdk
+    notes: Official integration available in some Grid deployments.
+  - provider: Nuance
+    support_level: possible
+    mode: sdk
+    notes: Availability depends on deployment/licensing.
+  - provider: ElevenLabs
+    support_level: native
+    mode: sdk
+    notes: Integration added in 2025 provides high-quality AI voices for Windows and iPad users.
+    voice_origin: hybrid
+    requires_enrollment: true
+  - provider: SpeakUnique
+    support_level: native
+    mode: sdk
+    notes: Integration allows users to log into SpeakUnique to import their personalised voices.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: ModelTalker
+    support_level: native
+    mode: sdk
+    notes: Supports ModelTalker voice banking voices via SAPI5.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: The Voice Keeper
+    support_level: native
+    mode: sdk
+    notes: Supports voices from The Voice Keeper voice-banking service.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: Microsoft
+    support_level: compatible
+    mode: local
+    notes: Grid 3 can use built-in Microsoft Windows voices (SAPI5).
+  - provider: CereVoice Me
+    support_level: native
+    mode: sdk
+    notes: "Supports CereProc\u2019s CereVoice Me voice-banking voices via SAPI5."
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+- id: td-snap
+  name: TD Snap
+  category: aac
+  vendor: Tobii Dynavox
+  platforms:
+  - windows
+  - ios
+  links:
+  - https://www.tobiidynavox.com/products/software/td-snap/
+  runtime_support:
+  - runtime: SAPI5
+    support_level: compatible
+    mode: local
+    notes: Uses Windows speech APIs where configured.
+  - runtime: AVSynth
+    support_level: compatible
+    mode: local
+    notes: Uses Apple speech stack on iOS.
+  provider_sdk_support:
+  - provider: Acapela
+    support_level: native
+    mode: sdk
+    notes: Official Acapela voices commonly available.
+  - provider: Nuance
+    support_level: possible
+    mode: sdk
+    notes: Varies by language pack and commercial license.
+  - provider: Microsoft
+    support_level: compatible
+    mode: local
+    notes: On Windows, Snap can use built-in Microsoft voices downloaded through Windows settings.
+  - provider: ModelTalker
+    support_level: native
+    mode: sdk
+    notes: Supports voice-banking voices from ModelTalker.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: The Voice Keeper
+    support_level: native
+    mode: sdk
+    notes: Voices created with The Voice Keeper can be imported and used in Snap.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: my-own-voice
+    support_level: native
+    mode: sdk
+    notes: "Integrates Acapela\u2019s my-own-voice personalised voices."
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+- id: coughdrop
+  name: CoughDrop
+  category: aac
+  vendor: CoughDrop
+  platforms:
+  - web
+  - ios
+  - android
+  - windows
+  links:
+  - https://www.coughdrop.com/
+  runtime_support:
+  - runtime: Browser Speech Synthesis (Web Speech API)
+    runtime_class: broker
+    support_level: compatible
+    mode: hybrid
+    notes: Broker layer; actual voice inventory depends on browser + OS + vendor implementation.
+    voice_origin: hybrid
+  provider_sdk_support: []
+- id: prc-lamp-words-for-life
+  name: LAMP Words For Life
+  category: aac
+  vendor: PRC-Saltillo
+  platforms:
+  - ios
+  links:
+  - https://www.lampwflapp.com/
+  runtime_support:
+  - runtime: AVSynth
+    support_level: compatible
+    mode: local
+    notes: Uses iOS speech stack as baseline.
+  provider_sdk_support:
+  - provider: Acapela
+    support_level: possible
+    mode: sdk
+    notes: Voice availability varies by package.
+  - provider: Almagu
+    support_level: native
+    mode: sdk
+    notes: Inclusive voices by Almagu are bundled with new versions.
+  - provider: Apple
+    support_level: compatible
+    mode: local
+    notes: Uses built-in Apple voices on iOS, including Personal Voice.
+  - provider: Ivona
+    support_level: possible
+    mode: sdk
+    notes: Older versions included Ivona voices (English US only).
+    voice_origin: builtin
+  - provider: VocaliD
+    support_level: possible
+    mode: sdk
+    notes: Support for personalised VocaliD voices via in-app purchase.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: The Voice Keeper
+    support_level: possible
+    mode: sdk
+    notes: Supports personalised voices created using The Voice Keeper.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: my-own-voice
+    support_level: possible
+    mode: sdk
+    notes: "Acapela\u2019s my-own-voice voice banking may be available depending on package."
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+- id: nvda
+  name: NVDA
+  category: screenreader
+  vendor: NV Access
+  platforms:
+  - windows
+  links:
+  - https://www.nvaccess.org/
+  runtime_support:
+  - runtime: SAPI5
+    support_level: compatible
+    mode: local
+    notes: Supports SAPI5 voices via synthesizer settings.
+  - runtime: eSpeak
+    support_level: native
+    mode: local
+    notes: eSpeak NG is commonly used by NVDA users.
+  provider_sdk_support: []
+- id: jaws
+  name: JAWS
+  category: screenreader
+  vendor: Freedom Scientific
+  platforms:
+  - windows
+  links:
+  - https://www.freedomscientific.com/products/software/jaws/
+  runtime_support:
+  - runtime: SAPI5
+    support_level: compatible
+    mode: local
+    notes: Supports SAPI voices; additional synthesizers may be available.
+  - runtime: Vocalizer SDK
+    support_level: native
+    mode: sdk
+    notes: Common JAWS voice path in enterprise deployments.
+  provider_sdk_support:
+  - provider: Nuance
+    support_level: native
+    mode: sdk
+    notes: Vocalizer voices are commonly associated with Nuance.
+- id: voiceover
+  name: VoiceOver
+  category: screenreader
+  vendor: Apple
+  platforms:
+  - macos
+  - ios
+  links:
+  - https://www.apple.com/accessibility/vision/
+  runtime_support:
+  - runtime: AVSynth
+    support_level: native
+    mode: local
+    notes: Primary speech path on Apple platforms.
+  provider_sdk_support:
+  - provider: Apple
+    support_level: native
+    mode: local
+    notes: Bundled Apple voices.
+  - provider: Nuance
+    support_level: possible
+    mode: local
+    notes: Some Apple premium voices may be based on Nuance technology lineage.
+- id: narrator
+  name: Windows Narrator
+  category: screenreader
+  vendor: Microsoft
+  platforms:
+  - windows
+  links:
+  - https://support.microsoft.com/windows/complete-guide-to-narrator-ecdbf2f4-8fa0-4906-a631-3c8c1f64bf5a
+  runtime_support:
+  - runtime: SAPI5
+    support_level: compatible
+    mode: local
+    notes: Broad compatibility through Windows speech stack.
+  - runtime: Azure Speech SDK (Local/Embedded)
+    support_level: possible
+    mode: local
+    notes: Potential future local neural path depending on platform integration.
+  provider_sdk_support:
+  - provider: Microsoft
+    support_level: native
+    mode: local
+    notes: Microsoft speech engines are first-party on Windows.
+- id: orca
+  name: Orca
+  category: screenreader
+  vendor: GNOME
+  platforms:
+  - linux
+  links:
+  - https://help.gnome.org/users/orca/stable/
+  runtime_support:
+  - runtime: Speech Dispatcher
+    runtime_class: broker
+    support_level: native
+    mode: local
+    notes: Primary broker/runtime path for Orca; routes to configured speech backends.
+  - runtime: eSpeak
+    support_level: compatible
+    mode: local
+    notes: Common backend via Speech Dispatcher on many Linux setups.
+  provider_sdk_support:
+  - provider: eSpeak
+    support_level: compatible
+    mode: local
+    notes: Most common backend provider in default Linux accessibility setups.
+- id: talkback
+  name: TalkBack
+  category: screenreader
+  vendor: Google
+  platforms:
+  - android
+  links:
+  - https://support.google.com/accessibility/android/answer/6283677
+  runtime_support:
+  - runtime: Android TTS
+    support_level: native
+    mode: local
+    notes: Primary screenreader speech path on Android.
+  provider_sdk_support:
+  - provider: Google
+    support_level: native
+    mode: local
+    notes: Google TTS voices are standard on many devices.
+- id: avaz
+  name: Avaz AAC
+  category: aac
+  vendor: Avaz Inc.
+  platforms:
+  - ios
+  - android
+  links:
+  - https://www.avazapp.com/
+  - https://apps.apple.com/app/avaz-for-autism-aac-app/id551571355
+  - https://play.google.com/store/apps/details?id=com.avazapp
+  runtime_support:
+  - runtime: AVSynth
+    support_level: native
+    mode: local
+    notes: iOS version uses the Apple speech engine for built-in voices.
+  - runtime: Android TTS
+    support_level: native
+    mode: local
+    notes: Android version uses the device's configured TTS engine (Google, Samsung, etc.).
+  provider_sdk_support:
+  - provider: ReadSpeaker
+    support_level: native
+    mode: sdk
+    notes: Newer versions include premium ReadSpeaker voices alongside system voices.
+  - provider: Apple
+    support_level: native
+    mode: local
+    notes: Uses default Apple voices on iOS.
+  - provider: Google
+    support_level: native
+    mode: local
+    notes: Uses Google's Text-to-Speech voices on Android.
+  - provider: Ivona
+    support_level: possible
+    mode: sdk
+    notes: Some older versions support Ivona voices (English US only).
+    voice_origin: builtin
+  - provider: Acapela
+    support_level: possible
+    mode: local
+    notes: On Android, users may set Acapela as the system TTS engine to use purchased voices.
+- id: communicator5
+  name: Communicator 5
+  category: aac
+  vendor: Tobii Dynavox
+  platforms:
+  - windows
+  links:
+  - https://www.tobiidynavox.com/products/communicator-5
+  runtime_support:
+  - runtime: SAPI5
+    support_level: native
+    mode: local
+    notes: Communicator 5 installs and uses SAPI5 voices for speech synthesis.
+  provider_sdk_support:
+  - provider: Acapela
+    support_level: native
+    mode: sdk
+    notes: Acapela voices are installed with Communicator 5; My-Own-Voice voices are supported via SAPI.
+  - provider: Microsoft
+    support_level: compatible
+    mode: local
+    notes: Windows system voices can be used as SAPI voices.
+  - provider: Nuance
+    support_level: possible
+    mode: sdk
+    notes: Some installations may include Nuance voices via third-party packages.
+  - provider: ModelTalker
+    support_level: native
+    mode: sdk
+    notes: Supports ModelTalker voice-banked voices via SAPI5.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: SpeakUnique
+    support_level: native
+    mode: sdk
+    notes: SpeakUnique voices can be installed as SAPI5 voices for use in Communicator 5.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: The Voice Keeper
+    support_level: native
+    mode: sdk
+    notes: Voices from The Voice Keeper can be installed via SAPI5 and used within Communicator 5.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: ElevenLabs
+    support_level: possible
+    mode: sdk
+    notes: Voice clones created with ElevenLabs may be imported via custom integration.
+    voice_origin: hybrid
+    requires_enrollment: true
+- id: gotalk-now
+  name: GoTalk NOW
+  category: aac
+  vendor: Attainment Company
+  platforms:
+  - ios
+  links:
+  - https://attainmentcompany.com/gotalk-now
+  runtime_support:
+  - runtime: AVSynth
+    support_level: native
+    mode: local
+    notes: GoTalk NOW uses the built-in iOS text-to-speech voices for speech output.
+  provider_sdk_support:
+  - provider: Apple
+    support_level: native
+    mode: local
+    notes: Built-in Apple voices are used by default.
+  - provider: Acapela
+    support_level: possible
+    mode: sdk
+    notes: High-quality male, female and child voices from Acapela are available via in-app purchase.
+- id: predictable
+  name: Predictable
+  category: aac
+  vendor: Therapy Box
+  platforms:
+  - ios
+  - android
+  links:
+  - https://therapy-box.co.uk/predictable
+  - https://apps.apple.com/app/predictable/id404445007
+  - https://play.google.com/store/apps/details?id=com.therapybox.predictable
+  runtime_support:
+  - runtime: AVSynth
+    support_level: native
+    mode: local
+    notes: iOS versions use Apple's speech engine for built-in voices.
+  - runtime: Android TTS
+    support_level: native
+    mode: local
+    notes: Android versions use the device's configured TTS engine (typically Google TTS).
+  provider_sdk_support:
+  - provider: Acapela
+    support_level: native
+    mode: sdk
+    notes: Premium Acapela voices can be installed and used within the app.
+  - provider: ModelTalker
+    support_level: native
+    mode: sdk
+    notes: Predictable integrates with the ModelTalker voice-banking service.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: SpeakUnique
+    support_level: native
+    mode: sdk
+    notes: Integration allows users to import SpeakUnique voice-banked voices.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: The Voice Keeper
+    support_level: native
+    mode: sdk
+    notes: Predictable supports voices from The Voice Keeper voice-banking platform.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: ElevenLabs
+    support_level: native
+    mode: sdk
+    notes: Predictable users can sign into ElevenLabs to access and download voices for offline use.
+    voice_origin: hybrid
+    requires_enrollment: true
+  - provider: Apple
+    support_level: native
+    mode: local
+    notes: Supports built-in iOS voices, including Personal Voice on iOS 17 +.
+  - provider: Google
+    support_level: possible
+    mode: local
+    notes: Android users can use Google TTS voices; documentation emphasises iOS but Android voice options
+      exist.
+- id: proloquo
+  name: Proloquo
+  category: aac
+  vendor: AssistiveWare
+  platforms:
+  - ios
+  - macos
+  links:
+  - https://www.assistiveware.com/products/proloquo
+  - https://apps.apple.com/app/proloquo/id1547128485
+  runtime_support:
+  - runtime: AVSynth
+    support_level: native
+    mode: local
+    notes: The symbol-supported successor to Proloquo2Go uses Apple's speech engine for default voices.
+  provider_sdk_support:
+  - provider: Acapela
+    support_level: native
+    mode: sdk
+    notes: First AAC app to use Acapela Neural Voices; offers 60 + adult and children's voices.
+  - provider: Apple
+    support_level: native
+    mode: local
+    notes: Supports Apple voices and Personal Voice on compatible devices.
+  - provider: my-own-voice
+    support_level: native
+    mode: sdk
+    notes: Supports Acapela's my-own-voice voice banking for personalised voices.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+- id: proloquo2go
+  name: Proloquo2Go
+  category: aac
+  vendor: AssistiveWare
+  platforms:
+  - ios
+  links:
+  - https://www.assistiveware.com/products/proloquo2go
+  - https://apps.apple.com/app/proloquo2go/id308368164
+  runtime_support:
+  - runtime: AVSynth
+    support_level: native
+    mode: local
+    notes: Uses Apple's speech engine for voice output.
+  provider_sdk_support:
+  - provider: Acapela
+    support_level: native
+    mode: sdk
+    notes: Now uses Acapela Neural voices; offers over 100 voices across multiple languages.
+  - provider: Apple
+    support_level: native
+    mode: local
+    notes: Supports Apple voices and Personal Voice on compatible devices.
+  - provider: my-own-voice
+    support_level: native
+    mode: sdk
+    notes: Integrates my-own-voice voice banking to preserve a user's own voice.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+- id: proloquo4text
+  name: Proloquo4Text
+  category: aac
+  vendor: AssistiveWare
+  platforms:
+  - ios
+  - macos
+  links:
+  - https://www.assistiveware.com/products/proloquo4text
+  - https://apps.apple.com/app/proloquo4text/id703455312
+  runtime_support:
+  - runtime: AVSynth
+    support_level: native
+    mode: local
+    notes: Proloquo4Text uses Apple's speech engine on iOS and macOS.
+  provider_sdk_support:
+  - provider: Acapela
+    support_level: native
+    mode: sdk
+    notes: All premium Acapela voices are included at no extra cost.
+  - provider: Apple
+    support_level: native
+    mode: local
+    notes: Supports Apple voices and Personal Voice on compatible devices.
+  - provider: my-own-voice
+    support_level: native
+    mode: sdk
+    notes: Includes my-own-voice voice-banking technology from Acapela.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+- id: speak-for-yourself
+  name: Speak For Yourself
+  category: aac
+  vendor: Speak For Yourself LLC
+  platforms:
+  - ios
+  links:
+  - https://www.speakforyourself.org/
+  - https://apps.apple.com/app/speak-for-yourself/id538599367
+  runtime_support:
+  - runtime: AVSynth
+    support_level: native
+    mode: local
+    notes: Speak For Yourself uses iOS system voices for speech output.
+  provider_sdk_support:
+  - provider: CereProc
+    support_level: native
+    mode: local
+    notes: The app is powered by CereProc's speech system.
+  - provider: Acapela
+    support_level: possible
+    mode: sdk
+    notes: Acapela child and adult voices are available via in-app purchase.
+  - provider: Apple
+    support_level: compatible
+    mode: local
+    notes: Following the introduction of system voices in iOS 7, users can choose Apple voices with adjustable
+      rate and pitch.
+  - provider: Personal Voice
+    support_level: compatible
+    mode: local
+    notes: Devices running iOS 17 + can create and use Apple's Personal Voice within the app.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: VocaliD
+    support_level: possible
+    mode: sdk
+    notes: Support for personalised VocaliD voices is mentioned as a future integration.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+- id: speechassistant
+  name: Speech Assistant AAC
+  category: aac
+  vendor: ASoft
+  platforms:
+  - ios
+  - macos
+  links:
+  - https://www.speechassistant.org/
+  - https://apps.apple.com/app/speech-assistant-aac/id1505800153
+  runtime_support:
+  - runtime: AVSynth
+    support_level: native
+    mode: local
+    notes: Uses high-quality iOS voices for 27 + languages and supports adjustable rate and pitch.
+  provider_sdk_support:
+  - provider: Apple
+    support_level: native
+    mode: local
+    notes: Supports Apple voices and Personal Voice on iOS 17 +.
+  - provider: ElevenLabs
+    support_level: native
+    mode: sdk
+    notes: Users can connect an ElevenLabs account to use their voice models within the app.
+    voice_origin: hybrid
+    requires_enrollment: true
+  - provider: my-own-voice
+    support_level: possible
+    mode: sdk
+    notes: Custom voices such as Acapela my-own-voice can be selected via imported voice files.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+- id: spoken
+  name: Spoken
+  category: aac
+  vendor: Spoken Inc.
+  platforms:
+  - ios
+  - android
+  - macos
+  links:
+  - https://spokenaac.com/
+  - https://apps.apple.com/app/spoken-aac
+  - https://play.google.com/store/apps/details?id=com.spoken.spoken
+  runtime_support:
+  - runtime: AVSynth
+    support_level: native
+    mode: local
+    notes: iOS and macOS versions rely on the Apple speech engine for default system voices.
+  - runtime: Android TTS
+    support_level: native
+    mode: local
+    notes: Android versions use the device's configured TTS engine (e.g., Google TTS, Samsung TTS).
+  provider_sdk_support:
+  - provider: ElevenLabs
+    support_level: native
+    mode: sdk
+    notes: Users can link an ElevenLabs account with API key to use any voices in their library.
+    voice_origin: hybrid
+    requires_enrollment: true
+  - provider: Acapela
+    support_level: possible
+    mode: local
+    notes: On Android, users may set Acapela as the system TTS engine; purchased Acapela voices become
+      available in the app.
+  - provider: Apple
+    support_level: native
+    mode: local
+    notes: Supports built-in Apple voices and Personal Voice on iOS 17 +.
+  - provider: Google
+    support_level: native
+    mode: local
+    notes: Android versions use Google's Text-to-Speech voices when configured by the user.
+- id: td-talk
+  name: TD Talk
+  category: aac
+  vendor: Tobii Dynavox
+  platforms:
+  - windows
+  - ios
+  links:
+  - https://www.tobiidynavox.com/products/td-talk
+  runtime_support:
+  - runtime: SAPI5
+    support_level: compatible
+    mode: local
+    notes: On Windows, TD Talk can use any installed SAPI voices, including Microsoft neural voices.
+  - runtime: AVSynth
+    support_level: compatible
+    mode: local
+    notes: iPad versions use Apple's speech engine for system voices and FaceTime-approved voices.
+  provider_sdk_support:
+  - provider: Acapela
+    support_level: native
+    mode: sdk
+    notes: Includes a library of Acapela voices with periodic updates adding new languages.
+  - provider: Microsoft
+    support_level: native
+    mode: local
+    notes: Supports Microsoft neural voices across many languages on Windows.
+  - provider: ModelTalker
+    support_level: native
+    mode: sdk
+    notes: Integrates with Model Talker voice bank; later versions support generation 3 voices.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: The Voice Keeper
+    support_level: native
+    mode: sdk
+    notes: Supports voice banking through The Voice Keeper platform.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: Apple
+    support_level: compatible
+    mode: local
+    notes: On iPad, only a subset of iPadOS voices may be used for FaceTime and regular speech.
+- id: touchchat
+  name: TouchChat
+  category: aac
+  vendor: PRC-Saltillo
+  platforms:
+  - ios
+  links:
+  - https://touchchatapp.com/
+  - https://touchchatapp.com/voices
+  runtime_support:
+  - runtime: AVSynth
+    support_level: native
+    mode: local
+    notes: Uses the iOS speech engine for text-to-speech output.
+  provider_sdk_support:
+  - provider: Almagu
+    support_level: native
+    mode: sdk
+    notes: Inclusive Voices by Almagu are bundled as default voices.
+  - provider: Acapela
+    support_level: native
+    mode: sdk
+    notes: High-quality Acapela voices are available through in-app purchase.
+  - provider: Apple
+    support_level: compatible
+    mode: local
+    notes: Unlimited Apple voices can be selected on iOS.
+  - provider: Almagu (Inclusive Voices)
+    support_level: native
+    mode: sdk
+    notes: Default Inclusive Voices provide regional and bilingual voice options.
+  - provider: Ivona
+    support_level: possible
+    mode: sdk
+    notes: Older versions included Ivona voices (US English).
+    voice_origin: builtin
+  - provider: The Voice Keeper
+    support_level: possible
+    mode: sdk
+    notes: Supports personalised voices created with The Voice Keeper.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: VocaliD
+    support_level: possible
+    mode: sdk
+    notes: Supports VocaliD personalised voices for select users.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+- id: mindexpress
+  name: Mind Express
+  category: aac
+  vendor: Jabbla
+  platforms:
+  - windows
+  links:
+  - https://www.jabbla.com/software/mind-express/
+  runtime_support:
+  - runtime: SAPI5
+    support_level: native
+    mode: local
+    notes: Mind Express runs on Windows and uses SAPI5 voices for speech output.
+  provider_sdk_support:
+  - provider: Acapela
+    support_level: native
+    mode: sdk
+    notes: Compatible with BrightSpeech (Acapela) voices and other Acapela voices.
+  - provider: Nuance
+    support_level: native
+    mode: sdk
+    notes: Compatible with RealSpeak (Nuance/Vocalizer) voices.
+  - provider: my-own-voice
+    support_level: native
+    mode: sdk
+    notes: "Supports Acapela\u2019s my-own-voice voice banking since Mind Express 4."
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: ModelTalker
+    support_level: compatible
+    mode: sdk
+    notes: Can import ModelTalker voice-banked voices via SAPI5.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: SpeakUnique
+    support_level: compatible
+    mode: sdk
+    notes: Personalised SpeakUnique voices can be installed as SAPI5 voices.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: The Voice Keeper
+    support_level: compatible
+    mode: sdk
+    notes: The Voice Keeper voices can be installed via SAPI5.
+    voice_origin: banked
+    requires_enrollment: true
+    requires_user_asset: true
+  - provider: Microsoft
+    support_level: compatible
+    mode: local
+    notes: Uses any installed Microsoft Windows voices (SAPI5).
+  - provider: ElevenLabs
+    support_level: possible
+    mode: sdk
+    notes: Voice clones created with ElevenLabs may be used via custom integration.
+    voice_origin: hybrid
+    requires_enrollment: true

@@ -201,13 +201,17 @@ def build_payload(db_path: Path) -> dict[str, Any]:
     ).fetchall()
     solution_runtime_support = conn.execute(
         """
-        SELECT solution_id, runtime, runtime_class, support_level, mode, notes
+        SELECT
+            solution_id, runtime, runtime_class, support_level,
+            voice_origin, requires_enrollment, requires_user_asset, mode, notes
         FROM solution_runtime_support
         """
     ).fetchall()
     solution_provider_support = conn.execute(
         """
-        SELECT solution_id, provider, support_level, mode, notes
+        SELECT
+            solution_id, provider, support_level,
+            voice_origin, requires_enrollment, requires_user_asset, mode, notes
         FROM solution_provider_support
         """
     ).fetchall()
@@ -447,6 +451,13 @@ def build_payload(db_path: Path) -> dict[str, Any]:
                 "runtime": row["runtime"],
                 "runtime_class": row["runtime_class"],
                 "support_level": row["support_level"],
+                "voice_origin": row["voice_origin"],
+                "requires_enrollment": bool(row["requires_enrollment"])
+                if row["requires_enrollment"] is not None
+                else None,
+                "requires_user_asset": bool(row["requires_user_asset"])
+                if row["requires_user_asset"] is not None
+                else None,
                 "mode": row["mode"],
                 "notes": row["notes"],
             }
@@ -457,6 +468,13 @@ def build_payload(db_path: Path) -> dict[str, Any]:
                 "solution_id": row["solution_id"],
                 "provider": row["provider"],
                 "support_level": row["support_level"],
+                "voice_origin": row["voice_origin"],
+                "requires_enrollment": bool(row["requires_enrollment"])
+                if row["requires_enrollment"] is not None
+                else None,
+                "requires_user_asset": bool(row["requires_user_asset"])
+                if row["requires_user_asset"] is not None
+                else None,
                 "mode": row["mode"],
                 "notes": row["notes"],
             }

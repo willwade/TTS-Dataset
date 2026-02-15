@@ -123,6 +123,19 @@ body {
   gap: 1rem;
 }
 
+.results-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.results-controls select {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.4rem 0.55rem;
+  font-family: inherit;
+  background: #fff;
+}
+
 .voice-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -224,5 +237,10 @@ body {
   .map {
     height: 46vh;
     min-height: 280px;
+  }
+
+  .results-controls {
+    width: 100%;
+    flex-direction: column;
   }
 }

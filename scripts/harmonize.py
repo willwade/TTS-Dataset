@@ -203,6 +203,27 @@ def normalize_runtime_class(value: Any, runtime: str = "") -> str:
     return "direct"
 
 
+def normalize_voice_origin(value: Any) -> str | None:
+    text = str(value or "").strip().lower()
+    allowed = {"builtin", "cloned", "banked", "imported", "hybrid", "unknown"}
+    if not text:
+        return None
+    return text if text in allowed else "unknown"
+
+
+def normalize_bool_flag(value: Any) -> int | None:
+    if value is None:
+        return None
+    if isinstance(value, bool):
+        return 1 if value else 0
+    text = str(value).strip().lower()
+    if text in {"1", "true", "yes", "y", "on"}:
+        return 1
+    if text in {"0", "false", "no", "n", "off"}:
+        return 0
+    return None
+
+
 def normalize_provider_name(value: str) -> str:
     token = normalize_token(value)
     provider_map = {
@@ -219,6 +240,29 @@ def normalize_provider_name(value: str) -> str:
     if token in provider_map:
         return provider_map[token]
     return str(value or "").strip() or "Unknown"
+
+
+def solution_provider_tokens(value: Any) -> set[str]:
+    """
+    Return provider tokens used for solution compatibility matching.
+
+    Includes canonical aliases for legacy/brand-specific labels so solution
+    rules can match current voice provider taxonomy values.
+    """
+    token = normalize_token(value)
+    if not token:
+        return set()
+    aliases = {
+        # Legacy Polly lineage.
+        "ivona": {"amazon"},
+        # Voice-banking labels that resolve through current provider runtimes.
+        "myownvoice": {"acapela"},
+        "cerevoiceme": {"cereproc"},
+        "personalvoice": {"apple"},
+    }
+    out = {token}
+    out.update(aliases.get(token, set()))
+    return out
 
 
 def normalize_engine_family(value: str) -> str:
@@ -675,11 +719,16 @@ def _derive_solution_voice_matches(
             for item in runtime_rules
             if isinstance(item, dict) and item.get("runtime")
         }
-        provider_map = {
-            normalize_token(item.get("provider")): normalize_support_level(item.get("support_level"))
-            for item in provider_rules
-            if isinstance(item, dict) and item.get("provider")
-        }
+        provider_map: dict[str, str] = {}
+        for item in provider_rules:
+            if not isinstance(item, dict) or not item.get("provider"):
+                continue
+            level = normalize_support_level(item.get("support_level"))
+            for token in solution_provider_tokens(item.get("provider")):
+                if token in provider_map:
+                    provider_map[token] = _best_support_level(provider_map[token], level)
+                else:
+                    provider_map[token] = level
 
         for voice in voices:
             voice_key = build_voice_key(voice)
@@ -930,6 +979,9 @@ def create_database(
             runtime TEXT NOT NULL,
             runtime_class TEXT NOT NULL CHECK (runtime_class IN ('direct','broker')),
             support_level TEXT NOT NULL CHECK (support_level IN ('native','compatible','possible','unsupported','unknown')),
+            voice_origin TEXT CHECK (voice_origin IN ('builtin','cloned','banked','imported','hybrid','unknown')),
+            requires_enrollment INTEGER CHECK (requires_enrollment IN (0,1)),
+            requires_user_asset INTEGER CHECK (requires_user_asset IN (0,1)),
             mode TEXT,
             notes TEXT,
             PRIMARY KEY (solution_id, runtime)
@@ -942,6 +994,9 @@ def create_database(
             solution_id TEXT NOT NULL,
             provider TEXT NOT NULL,
             support_level TEXT NOT NULL CHECK (support_level IN ('native','compatible','possible','unsupported','unknown')),
+            voice_origin TEXT CHECK (voice_origin IN ('builtin','cloned','banked','imported','hybrid','unknown')),
+            requires_enrollment INTEGER CHECK (requires_enrollment IN (0,1)),
+            requires_user_asset INTEGER CHECK (requires_user_asset IN (0,1)),
             mode TEXT,
             notes TEXT,
             PRIMARY KEY (solution_id, provider)
@@ -999,14 +1054,21 @@ def create_database(
                 cursor.execute(
                     """
                     INSERT OR REPLACE INTO solution_runtime_support
-                    (solution_id, runtime, runtime_class, support_level, mode, notes)
-                    VALUES (?, ?, ?, ?, ?, ?)
+                    (
+                        solution_id, runtime, runtime_class, support_level,
+                        voice_origin, requires_enrollment, requires_user_asset,
+                        mode, notes
+                    )
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
                     """,
                     (
                         solution_id,
                         runtime,
                         normalize_runtime_class(item.get("runtime_class"), runtime),
                         normalize_support_level(item.get("support_level")),
+                        normalize_voice_origin(item.get("voice_origin")),
+                        normalize_bool_flag(item.get("requires_enrollment")),
+                        normalize_bool_flag(item.get("requires_user_asset")),
                         str(item.get("mode", "")).strip() or None,
                         str(item.get("notes", "")).strip() or None,
                     ),
@@ -1022,13 +1084,20 @@ def create_database(
                 cursor.execute(
                     """
                     INSERT OR REPLACE INTO solution_provider_support
-                    (solution_id, provider, support_level, mode, notes)
-                    VALUES (?, ?, ?, ?, ?)
+                    (
+                        solution_id, provider, support_level,
+                        voice_origin, requires_enrollment, requires_user_asset,
+                        mode, notes
+                    )
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
                     """,
                     (
                         solution_id,
                         provider,
                         normalize_support_level(item.get("support_level")),
+                        normalize_voice_origin(item.get("voice_origin")),
+                        normalize_bool_flag(item.get("requires_enrollment")),
+                        normalize_bool_flag(item.get("requires_user_asset")),
                         str(item.get("mode", "")).strip() or None,
                         str(item.get("notes", "")).strip() or None,
                     ),
