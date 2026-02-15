@@ -213,17 +213,31 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          log_file="$(mktemp)"
+          build_dir="$(mktemp -d)"
+
+          # Generate Datasette deployment files without calling Vercel.
           datasette publish vercel data/voices.db \
             --token $VERCEL_TOKEN \
             --project tts-voice-catalog \
-            --vercel-json .github/vercel.datasette.json \
             --install datasette-vega \
             --title "Global TTS Voice Catalog" \
             --license "CC0-1.0" \
-            --license_url "https://creativecommons.org/publicdomain/zero/1.0/" 2>&1 | tee "$log_file"
+            --license_url "https://creativecommons.org/publicdomain/zero/1.0/" \
+            --generate-dir "$build_dir"
 
-          deploy_url="$(grep -Eo 'https://[a-zA-Z0-9.-]+\.vercel\.app' "$log_file" | tail -n 1 || true)"
+          # Modern Vercel Python runtime expects handlers under /api.
+          mkdir -p "$build_dir/api"
+          mv "$build_dir/index.py" "$build_dir/api/index.py"
+          cp .github/vercel.datasette.json "$build_dir/vercel.json"
+
+          # Ensure we deploy to the intended Vercel project.
+          vercel link --yes --project tts-voice-catalog --token="$VERCEL_TOKEN" --cwd "$build_dir"
+
+          # For `vercel deploy`, stdout is the deployment URL.
+          deploy_stdout="$(vercel deploy --prod --yes --token="$VERCEL_TOKEN" --cwd "$build_dir")"
+          echo "$deploy_stdout"
+
+          deploy_url="$(echo "$deploy_stdout" | grep -Eo 'https://[a-zA-Z0-9.-]+\.vercel\.app' | tail -n 1 || true)"
           if [[ -n "${deploy_url}" ]]; then
             echo "url=${deploy_url}" >> "$GITHUB_OUTPUT"
           fi
