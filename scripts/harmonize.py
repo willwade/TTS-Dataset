@@ -17,7 +17,6 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 try:
-    import langcodes
     from langcodes import Language
 except ImportError:
     print("Error: langcodes not installed.")
