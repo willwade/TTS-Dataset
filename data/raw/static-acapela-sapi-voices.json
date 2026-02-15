@@ -1814,4 +1814,66 @@
     "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2018/07/non_olav3.2.mp3",
     "quality": "Standard"
   }
+]y": "Premium"
+  },
+  {
+    "id": "emilie-premium",
+    "name": "Emilie",
+    "language_codes": [
+      ""
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:56:10.817715+00:00",
+    "source_type": "static",
+    "source_name": "acapela-sapi.json",
+    "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2021/03/no-emilie-child-premium-acapela.mp3",
+    "quality": "Premium"
+  },
+  {
+    "id": "ida-premium",
+    "name": "Ida",
+    "language_codes": [
+      ""
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:56:10.817715+00:00",
+    "source_type": "static",
+    "source_name": "acapela-sapi.json",
+    "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2021/05/non_ida_HQ_02-transport_01.mp3",
+    "quality": "Premium"
+  },
+  {
+    "id": "kari-standard",
+    "name": "Kari",
+    "language_codes": [
+      ""
+    ],
+    "gender": "Female",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:56:10.817715+00:00",
+    "source_type": "static",
+    "source_name": "acapela-sapi.json",
+    "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2018/07/non_kari5.3.mp3",
+    "quality": "Standard"
+  },
+  {
+    "id": "olav-standard",
+    "name": "Olav",
+    "language_codes": [
+      ""
+    ],
+    "gender": "Male",
+    "engine": "Acapela SAPI",
+    "platform": "windows",
+    "collected_at": "2026-02-15T03:56:10.817715+00:00",
+    "source_type": "static",
+    "source_name": "acapela-sapi.json",
+    "preview_audio": "https://www.acapela-group.com//wp-content/uploads/2018/07/non_olav3.2.mp3",
+    "quality": "Standard"
+  }
 ]
