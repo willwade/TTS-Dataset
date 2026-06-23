@@ -194,8 +194,8 @@ export default function App() {
   const mapWrapRef = useRef(null);
 
   useEffect(() => {
-    const url = `${import.meta.env.BASE_URL}data/voices-site.json?v=${Date.now()}`;
-    fetch(url, { cache: "no-store" })
+    const url = `${import.meta.env.BASE_URL}data/voices-site.json`;
+    fetch(url)
       .then((res) => {
         if (!res.ok) throw new Error(`Failed to load ${url}: ${res.status}`);
         return res.json();
